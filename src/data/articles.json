@@ -1,0 +1,150 @@
+[
+  {
+    "id": "article-rise-of-anime",
+    "title": "The Rise of New Gen Anime: A Global Phenomenon",
+    "subtitle": "How Solo Leveling, Jujutsu Kaisen, and Frieren redrew the global entertainment map.",
+    "category": "anime",
+    "author": "Kenji Sato",
+    "authorAvatar": "https://image.tmdb.org/t/p/w780/SOwDxhGnRccP2lAtssQ7TxCzOe.jpg",
+    "publishDate": "September 18, 2026",
+    "readTime": "6 min read",
+    "coverImage": "https://image.tmdb.org/t/p/w1280/xMNH87maNLt9n2bMDYeI6db5VFm.jpg",
+    "summary": "From niche fan clubs to headlining worldwide box offices and dominating streaming metrics, Japanese animation has evolved into the cornerstone of modern youth culture.",
+    "content": [
+      "Over the past five years, the global anime industry has broken past conventional geographical boundaries. Streaming platforms like Crunchyroll and Netflix have invested hundreds of millions of dollars into direct Japanese studio co-productions, resulting in unprecedented production value and cinematic pacing.",
+      "The massive triumph of 'Solo Leveling' proved that modern webtoons and manhwa hold explosive potential when translated into top-tier sakuga animation. Simultaneously, series like 'Frieren: Beyond Journey's End' proved that fans are hungry not merely for pulse-pounding combat, but for introspective, emotionally mature storytelling.",
+      "As studios like MAPPA, Ufotable, and Madhouse continue to raise the bar for digital compositing and cinematic camera sweeps, the definition of what television animation can achieve has shifted permanently. The fandom is no longer isolated: it is a worldwide cultural juggernaut."
+    ],
+    "tags": [
+      "Anime Industry",
+      "Solo Leveling",
+      "Frieren",
+      "Crunchyroll",
+      "Animation"
+    ],
+    "likes": 2480,
+    "relatedMediaIds": [
+      "solo-leveling",
+      "frieren-beyond-journeys-end",
+      "one-piece"
+    ]
+  },
+  {
+    "id": "article-rpg-games-2026",
+    "title": "Top 10 RPG Games You Shouldn't Miss in 2026",
+    "subtitle": "From Elden Ring's enduring shadow to the next frontiers of open-world fantasy.",
+    "category": "gaming",
+    "author": "Elena Vance",
+    "authorAvatar": "https://image.tmdb.org/t/p/w780/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+    "publishDate": "September 12, 2026",
+    "readTime": "8 min read",
+    "coverImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+    "summary": "Our definitive editorial ranking of the most immersive, mechanically rich role-playing experiences captivating players this year.",
+    "content": [
+      "Role-playing games have entered a golden age of environmental storytelling and emergent player agency. Since FromSoftware redefined open-world design with Elden Ring and its monumental expansion Shadow of the Erdtree, studios worldwide have abandoned repetitive quest markers in favor of organic discovery.",
+      "Whether you are delving into the dark fantasy folklore of Slavic legends or traversing the neon-drenched alleys of Night City in Cyberpunk 2077, modern RPGs deliver deep philosophical quandaries alongside razor-sharp combat systems.",
+      "We break down the ten landmark RPGs of this generation that every enthusiast must experience, examining their combat balancing, voice performances, and community longevity."
+    ],
+    "tags": [
+      "Gaming",
+      "RPG",
+      "Elden Ring",
+      "Cyberpunk 2077",
+      "Game Design"
+    ],
+    "likes": 1820,
+    "relatedMediaIds": [
+      "elden-ring",
+      "cyberpunk-2077"
+    ]
+  },
+  {
+    "id": "article-kpop-global-charts",
+    "title": "K-Pop Groups Dominating Global Charts & Redefining Live Spectacles",
+    "subtitle": "How BTS, BLACKPINK, and NewJeans engineered a sonic revolution.",
+    "category": "k-pop",
+    "author": "Min-seo Park",
+    "authorAvatar": "https://image.tmdb.org/t/p/w780/2rkJWsItvQwNuazcycukByPRBuN.jpg",
+    "publishDate": "September 15, 2026",
+    "readTime": "5 min read",
+    "coverImage": "https://image.tmdb.org/t/p/w1280/86X09HCJo8s83s32H2Frz7G0jMx.jpg",
+    "summary": "Exploring the genre-bending soundscapes, high-concept visual mythologies, and unparalleled fan communities powering South Korea's musical vanguard.",
+    "content": [
+      "K-Pop in 2026 has completely dismantled old western radio gatekeeping. By blending Korean lyricism with international producers spanning London garage, Atlanta trap, and Latin reggaeton, the genre has established itself as the world's most versatile musical playground.",
+      "BTS's generational record of stadium sellouts and United Nations addresses paved the way for groups like BLACKPINK to headline Coachella and NewJeans to claim Billboard 200 crowns with minimalist Y2K beats.",
+      "Beyond the infectious hooks, the secret weapon remains the participatory culture of fandoms like ARMY and BLINK, who translate lyrics, fund philanthropic initiatives, and build community across six continents."
+    ],
+    "tags": [
+      "K-Pop",
+      "BTS",
+      "BLACKPINK",
+      "NewJeans",
+      "Music Culture"
+    ],
+    "likes": 3120,
+    "relatedMediaIds": [
+      "bts-proof",
+      "blackpink-born-pink",
+      "newjeans-get-up"
+    ]
+  },
+  {
+    "id": "article-the-batman-cinematography",
+    "title": "Behind the Shadows: The Masterful Cinematography of The Batman",
+    "subtitle": "Director Matt Reeves and DP Greig Fraser's gritty rain-slicked vision of Gotham City.",
+    "category": "movies",
+    "author": "Julian Sterling",
+    "authorAvatar": "https://image.tmdb.org/t/p/w780/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg",
+    "publishDate": "August 29, 2026",
+    "readTime": "7 min read",
+    "coverImage": "https://image.tmdb.org/t/p/w1280/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+    "summary": "A deep technical dive into anamorphic lenses, amber Sodium-vapor lighting, and the tactile neo-noir atmosphere that sets Matt Reeves' Batman apart.",
+    "content": [
+      "When Matt Reeves announced Robert Pattinson as the Caped Crusader, cinema fans anticipated a darker take—but few predicted the photographic mastery crafted by cinematographer Greig Fraser.",
+      "Shot on custom Arri Alexa LF cameras with detuned anamorphic silicone optics, 'The Batman' treats Gotham not as a backdrop, but as an oppressive living organism of rain, smog, and amber streetlights.",
+      "The opening 10-minute montage set to Nirvana's 'Something in the Way' remains a high-water mark for comic book adaptations, proving that superhero cinema can rival classic film noir."
+    ],
+    "tags": [
+      "Cinema",
+      "The Batman",
+      "Cinematography",
+      "Noir",
+      "DC"
+    ],
+    "likes": 2740,
+    "relatedMediaIds": [
+      "the-batman",
+      "dune-part-two"
+    ]
+  },
+  {
+    "id": "article-comics-renaissance",
+    "title": "The Golden Thread: From Alan Moore's Watchmen to Modern Graphic Masterpieces",
+    "subtitle": "Why comic books remain the most experimental literary medium of the century.",
+    "category": "comics",
+    "author": "Arthur Pendelton",
+    "authorAvatar": "https://image.tmdb.org/t/p/w780/dm5GA0xwJwvPsAU6YBPCfyvvWSb.jpg",
+    "publishDate": "September 02, 2026",
+    "readTime": "6 min read",
+    "coverImage": "https://image.tmdb.org/t/p/w1280/dH7ia3vtkYCa3CBvDnvVjqm9uiQ.jpg",
+    "summary": "Examining the enduring structural genius of the 9-panel grid, decompressed storytelling, and how comic authors challenge sociopolitical dogma.",
+    "content": [
+      "In 1986, the release of Alan Moore and Dave Gibbons' 'Watchmen' dismantled the superhero mythos permanently. By pairing deconstructionist narrative with rigid graphic timing, it established comic books as high literary art.",
+      "Decades later, serialized graphic storytelling continues to pioneer narrative techniques that cinema struggles to replicate: simultaneous timelines within panel gutters, metaphysical typography, and intimate reader-controlled pacing.",
+      "From Neil Gaiman's dreamscapes in 'The Sandman' to Robert Kirkman's brutal cosmic realism in 'Invincible', comics remain the raw bedrock from which Hollywood draws its biggest ideas."
+    ],
+    "tags": [
+      "Comics",
+      "Watchmen",
+      "Sandman",
+      "Graphic Novels",
+      "Literature"
+    ],
+    "likes": 1950,
+    "relatedMediaIds": [
+      "watchmen",
+      "sandman",
+      "batman-the-long-halloween"
+    ]
+  }
+]

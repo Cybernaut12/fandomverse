@@ -1,0 +1,233 @@
+[
+  {
+    "id": "event-anime-expo",
+    "title": "Anime Expo 2026",
+    "category": "anime",
+    "date": "July 2 - 5, 2026",
+    "location": "Los Angeles Convention Center, CA, USA",
+    "description": "North America's largest celebration of Japanese pop culture, featuring exclusive anime premiere screenings, guest voice actors from Tokyo, industry panels, and artist alley.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "115,000+ Fans"
+  },
+  {
+    "id": "event-jump-festa",
+    "title": "Jump Festa 2027 Preview Expo",
+    "category": "anime",
+    "date": "December 19 - 20, 2026",
+    "location": "Makuhari Messe, Chiba, Japan",
+    "description": "Shueisha's annual festival celebrating Shonen Jump franchises, with world-first anime trailers for One Piece, Jujutsu Kaisen, and Bleach.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "140,000+ Fans"
+  },
+  {
+    "id": "event-animejapan",
+    "title": "AnimeJapan Global Summit",
+    "category": "anime",
+    "date": "March 21 - 24, 2026",
+    "location": "Tokyo Big Sight, Odaiba, Tokyo",
+    "description": "The world's foremost anime trade fair and public celebration featuring over 150 production studios, cosplayers, and stage shows.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+    "badge": "Past",
+    "attendeesCount": "150,000+ Fans"
+  },
+  {
+    "id": "event-tgs",
+    "title": "Tokyo Game Show 2026",
+    "category": "gaming",
+    "date": "September 24 - 27, 2026",
+    "location": "Makuhari Messe, Chiba, Japan",
+    "description": "Asia's premier interactive entertainment showcase spotlighting next-gen RPGs, VR hardware, and global playable demos from Capcom, Bandai Namco, and Square Enix.",
+    "bannerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "250,000+ Gamers"
+  },
+  {
+    "id": "event-gamescom",
+    "title": "Gamescom Cologne",
+    "category": "gaming",
+    "date": "August 26 - 30, 2026",
+    "location": "Koelnmesse, Cologne, Germany",
+    "description": "The heart of gaming where hundreds of thousands of gamers test upcoming AAA blockbusters and indie gems across 11 sprawling exhibit halls.",
+    "bannerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+    "badge": "Past",
+    "attendeesCount": "320,000+ Visitors"
+  },
+  {
+    "id": "event-game-awards",
+    "title": "The Game Awards 2026",
+    "category": "gaming",
+    "date": "December 10, 2026",
+    "location": "Peacock Theater, Los Angeles, CA",
+    "description": "The premier annual awards ceremony honoring the best video games of the year alongside world premiere trailers and orchestral game suites.",
+    "bannerImage": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/library_hero.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "Live Broadcast + 7,000 In-Person"
+  },
+  {
+    "id": "event-cannes",
+    "title": "Cannes Film Festival Midnight Screenings",
+    "category": "movies",
+    "date": "May 12 - 23, 2026",
+    "location": "Palais des Festivals, Cannes, France",
+    "description": "The world's most prestigious film festival unveiling blockbuster auteur cinema, genre-bending thrillers, and red-carpet premieres.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "badge": "Past",
+    "attendeesCount": "40,000+ Film Delegates"
+  },
+  {
+    "id": "event-sdcc-movies",
+    "title": "Comic-Con Hall H Movie Showcase",
+    "category": "movies",
+    "date": "July 23 - 26, 2026",
+    "location": "San Diego Convention Center, CA",
+    "description": "The legendary Hall H brings together Hollywood studios, directors, and stars for confidential sneak peeks and unannounced teaser drops.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "135,000+ Attendees"
+  },
+  {
+    "id": "event-venice-film",
+    "title": "Venice International Film Festival",
+    "category": "movies",
+    "date": "September 2 - 12, 2026",
+    "location": "Venice Lido, Italy",
+    "description": "The oldest film festival in the world, celebrating cinematic innovation, world cinema, and glamorous red carpets on the Venetian lagoon.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "badge": "Past",
+    "attendeesCount": "50,000+ Film Enthusiasts"
+  },
+  {
+    "id": "event-series-mania",
+    "title": "Series Mania International Festival",
+    "category": "tv-shows",
+    "date": "March 20 - 27, 2026",
+    "location": "Lille Grand Palais, Lille, France",
+    "description": "Europe's largest TV series festival celebrating prestige episodic television, creator pitch sessions, and worldwide exclusive pilot screenings.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/5cvnxEHT3e39DvT6ARw4GNCFrB0.jpg",
+    "badge": "Past",
+    "attendeesCount": "85,000+ Series Lovers"
+  },
+  {
+    "id": "event-paleyfest",
+    "title": "PaleyFest Television Festival",
+    "category": "tv-shows",
+    "date": "October 16 - 21, 2026",
+    "location": "Dolby Theatre, Hollywood, CA",
+    "description": "Intimate cast panels and preview episodes for leading television series including The Last of Us, Shōgun, and Fallout.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/lY2DhbA7Hy44fAKddr06UrXWWaQ.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "20,000+ TV Fans"
+  },
+  {
+    "id": "event-emmys-fandom",
+    "title": "Primetime Emmy Awards Fan Plaza",
+    "category": "tv-shows",
+    "date": "September 20, 2026",
+    "location": "L.A. LIVE, Los Angeles, CA",
+    "description": "Fan zone surrounding the Emmy Awards honoring television excellence with live red carpet watch parties, replica sets, and cast interviews.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "30,000+ Fans"
+  },
+  {
+    "id": "event-kcon-la",
+    "title": "KCON World Tour Los Angeles",
+    "category": "k-pop",
+    "date": "August 14 - 16, 2026",
+    "location": "Crypto.com Arena & LA Convention Center, CA",
+    "description": "The world's largest Korean pop culture fan convention and concert series featuring M COUNTDOWN live stadium concerts and idol meet-and-greets.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/86X09HCJo8s83s32H2Frz7G0jMx.jpg",
+    "badge": "Past",
+    "attendeesCount": "145,000+ K-Pop Fans"
+  },
+  {
+    "id": "event-mama-awards",
+    "title": "MAMA Awards 2026 (Mnet Asian Music Awards)",
+    "category": "k-pop",
+    "date": "November 27 - 28, 2026",
+    "location": "Tokyo Dome, Tokyo, Japan",
+    "description": "Asia's premier music awards show gathering iconic K-pop groups, dynamic stage collaborations, and world-record light stick displays.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/vpo3qdjgasu2kxHIKkNIXK9hDHM.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "100,000+ Spectators"
+  },
+  {
+    "id": "event-smtown-live",
+    "title": "SMTOWN LIVE Culture Humanity",
+    "category": "k-pop",
+    "date": "October 3 - 4, 2026",
+    "location": "Gocheok Sky Dome, Seoul, South Korea",
+    "description": "Super-label family concert uniting aespa, NCT, RIIZE, and legacy pioneers for an unforgettable multi-hour performance celebration.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/iII2dlyLnW237kTHET1LSLTmut9.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "50,000+ per Night"
+  },
+  {
+    "id": "event-nycc",
+    "title": "New York Comic Con 2026",
+    "category": "comics",
+    "date": "October 8 - 11, 2026",
+    "location": "Javits Center, Manhattan, New York",
+    "description": "The East Coast's premier pop culture convention celebrating comic creators, graphic novel signings, Marvel and DC keynotes, and cosplay competitions.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/dH7ia3vtkYCa3CBvDnvVjqm9uiQ.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "200,000+ Comic Geeks"
+  },
+  {
+    "id": "event-wondercon",
+    "title": "WonderCon Anaheim",
+    "category": "comics",
+    "date": "March 27 - 29, 2026",
+    "location": "Anaheim Convention Center, CA",
+    "description": "Organized by Comic-Con International, WonderCon brings together veteran comic writers, indie illustrators, and film preview panels in Southern California.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/ekdyrBffLhoFWkm5eUVAbIhDVh6.jpg",
+    "badge": "Past",
+    "attendeesCount": "65,000+ Fans"
+  },
+  {
+    "id": "event-angouleme",
+    "title": "Angoulême International Comics Festival",
+    "category": "comics",
+    "date": "January 28 - 31, 2027",
+    "location": "Angoulême, Nouvelle-Aquitaine, France",
+    "description": "The world's second-largest comic festival dedicated to European bande dessinée, graphic literature, and international comic heritage.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/i8taDLjpF8cCbp53N8kOFt1LSkW.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "220,000+ Readers"
+  },
+  {
+    "id": "event-comiket",
+    "title": "Comic Market (Comiket 106)",
+    "category": "manga",
+    "date": "August 15 - 16, 2026",
+    "location": "Tokyo Big Sight, Tokyo, Japan",
+    "description": "The world's largest self-published manga (doujinshi) fair attracting hundreds of thousands of creators, readers, and industry scouts.",
+    "bannerImage": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+    "badge": "Past",
+    "attendeesCount": "260,000+ Otaku"
+  },
+  {
+    "id": "event-manga-barcelona",
+    "title": "Manga Barcelona 32nd Edition",
+    "category": "manga",
+    "date": "December 5 - 8, 2026",
+    "location": "Fira Barcelona Gran Via, Spain",
+    "description": "Southern Europe's definitive manga convention featuring author masterclasses, cosplay summits, Japanese cuisine, and manga prize ceremonies.",
+    "bannerImage": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "160,000+ Attendees"
+  },
+  {
+    "id": "event-lucca-manga",
+    "title": "Lucca Comics & Games Manga Quarter",
+    "category": "manga",
+    "date": "October 28 - November 1, 2026",
+    "location": "Historic Medieval City of Lucca, Tuscany, Italy",
+    "description": "The ancient walled city of Lucca transforms into an enchanting open-air wonderland of comic book stands, manga artist signings, and fantasy exhibitions.",
+    "bannerImage": "https://image.tmdb.org/t/p/w1280/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg",
+    "badge": "Upcoming",
+    "attendeesCount": "300,000+ Visitors"
+  }
+]

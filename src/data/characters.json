@@ -1,0 +1,1018 @@
+[
+  {
+    "id": "char-luffy",
+    "name": "Monkey D. Luffy",
+    "japaneseName": "モンキー・D・ルフィ",
+    "category": "anime",
+    "series": "One Piece",
+    "image": "https://cdn.myanimelist.net/images/characters/9/310307.jpg",
+    "role": "Protagonist",
+    "biography": "Captain of the Straw Hat Pirates, Luffy ate the Gum-Gum Fruit (Hito Hito no Mi, Model: Nika), granting his body rubber properties and liberating laughter to all who suffer.",
+    "traits": [
+      "Fearless",
+      "Loyal",
+      "Insatiable Appetite",
+      "Unbending Will",
+      "Joyboy Reincarnation"
+    ],
+    "powersOrSkills": [
+      "Gear 5 / Nika Sun God",
+      "Conqueror's Haki",
+      "Rubber Body",
+      "Voice of All Things"
+    ],
+    "quotes": [
+      "I'm gonna be the King of the Pirates!",
+      "If you don't take risks, you can't create a future."
+    ],
+    "actorOrVoice": "Mayumi Tanaka (JP) / Colleen Clinkenbeard (EN)"
+  },
+  {
+    "id": "char-gojo",
+    "name": "Satoru Gojo",
+    "japaneseName": "五条 悟",
+    "category": "anime",
+    "series": "Jujutsu Kaisen",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b127691-9zqh1xpIubn7.png",
+    "role": "Supporting",
+    "biography": "The strongest Jujutsu sorcerer alive, bearer of both the Limitless cursed technique and the Six Eyes, serving as a mentor to students at Tokyo Jujutsu High.",
+    "traits": [
+      "Playful",
+      "Arrogant",
+      "Protective Mentor",
+      "Overwhelmingly Powerful"
+    ],
+    "powersOrSkills": [
+      "Domain Expansion: Infinite Void",
+      "Hollow Technique: Purple",
+      "Six Eyes",
+      "Infinity Barrier"
+    ],
+    "quotes": [
+      "Throughout Heaven and Earth, I alone am the honored one.",
+      "Don't worry, I'm the strongest."
+    ],
+    "actorOrVoice": "Yuichi Nakamura (JP) / Kaiji Tang (EN)"
+  },
+  {
+    "id": "char-frieren",
+    "name": "Frieren",
+    "japaneseName": "フリーレン",
+    "category": "anime",
+    "series": "Frieren: Beyond Journey's End",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b176754-PCnpqIOkjhFk.png",
+    "role": "Protagonist",
+    "biography": "An elven mage who traveled for ten years with Hero Himmel's party to defeat the Demon King. Following Himmel's death, she embarks on a pilgrimage to Ende to speak with him once more.",
+    "traits": [
+      "Contemplative",
+      "Patient",
+      "Collector of Folk Magic",
+      "Deadly Slayer of Demons"
+    ],
+    "powersOrSkills": [
+      "Zoltraak (Soul-Tracking Magic)",
+      "Mana Concealment",
+      "Ancient Elven Spells"
+    ],
+    "quotes": [
+      "It was only a ten-year journey... why am I crying?",
+      "Demons are monsters that speak words only to deceive."
+    ],
+    "actorOrVoice": "Atsumi Tanezaki (JP) / Mallorie Rodak (EN)"
+  },
+  {
+    "id": "char-tanjiro",
+    "name": "Tanjiro Kamado",
+    "japaneseName": "竈門 炭治郎",
+    "category": "anime",
+    "series": "Demon Slayer",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b126071-BTNEc1nRIv68.png",
+    "role": "Protagonist",
+    "biography": "A kindhearted boy whose family is slaughtered by Muzan Kibutsuji, setting him on a quest to become a Demon Slayer and turn his demon sister Nezuko human again.",
+    "traits": [
+      "Empathetic",
+      "Resolute",
+      "Keen Sense of Smell",
+      "Hardworking"
+    ],
+    "powersOrSkills": [
+      "Sun Breathing (Hinokami Kagura)",
+      "Water Breathing",
+      "Demon Slayer Mark",
+      "Transparent World"
+    ],
+    "quotes": [
+      "No matter how many people you may lose, you have no choice but to go on living.",
+      "Set your heart ablaze!"
+    ],
+    "actorOrVoice": "Natsuki Hanae (JP) / Zach Aguilar (EN)"
+  },
+  {
+    "id": "char-levi",
+    "name": "Levi Ackerman",
+    "japaneseName": "リヴァイ・アッカーマン",
+    "category": "anime",
+    "series": "Attack on Titan",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b45627-CR68RyZmddGG.png",
+    "role": "Supporting",
+    "biography": "Humanity's Strongest Soldier and captain of the Special Operations Squad in the Survey Corps, known for peerless combat efficiency and a fastidious obsession with cleanliness.",
+    "traits": [
+      "Stoic",
+      "Cleanliness Obsessed",
+      "Fiercely Loyal",
+      "Tactical Genius"
+    ],
+    "powersOrSkills": [
+      "Ackerman Awakening",
+      "Omni-Directional Mobility Gear Mastery",
+      "Dual Blade Whirlwind"
+    ],
+    "quotes": [
+      "Give up on your dreams and die for us.",
+      "The only thing we're allowed to do is believe that we won't regret the choice we made."
+    ],
+    "actorOrVoice": "Hiroshi Kamiya (JP) / Matthew Mercer (EN)"
+  },
+  {
+    "id": "char-malenia",
+    "name": "Malenia, Blade of Miquella",
+    "category": "gaming",
+    "series": "Elden Ring",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "role": "Antagonist",
+    "biography": "Demigod daughter of Queen Marika and Radagon, born afflicted with Scarlet Rot. Known as the undefeated swordstress who fought General Radahn to a standstill.",
+    "traits": [
+      "Unforgiving",
+      "Dedicated Sister",
+      "Unyielding Pride",
+      "Tragic Warrior"
+    ],
+    "powersOrSkills": [
+      "Waterfowl Dance",
+      "Scarlet Aeonia Goddess Transformation",
+      "Prosthetic Katana Mastery"
+    ],
+    "quotes": [
+      "I am Malenia, Blade of Miquella, and I have never known defeat.",
+      "Let your flesh be consumed by the scarlet rot."
+    ],
+    "actorOrVoice": "Pippa Bennett-Warner"
+  },
+  {
+    "id": "char-geralt",
+    "name": "Geralt of Rivia",
+    "category": "gaming",
+    "series": "The Witcher 3: Wild Hunt",
+    "image": "https://image.tmdb.org/t/p/w780/kN3A5oLgtKYAxa9lAkpsIGYKYVo.jpg",
+    "role": "Protagonist",
+    "biography": "A mutated monster hunter known as the White Wolf, traversing the war-torn Northern Kingdoms in search of his adopted ward Ciri before the Wild Hunt catches her.",
+    "traits": [
+      "Cynical",
+      "Compassionate Heart",
+      "Pragmatic",
+      "Dry Humor"
+    ],
+    "powersOrSkills": [
+      "Witcher Signs (Igni, Quen, Aard)",
+      "Master Swordsmanship",
+      "Alchemy & Mutagens"
+    ],
+    "quotes": [
+      "Evil is evil. Lesser, greater, middling, it's all the same.",
+      "Wind's howling."
+    ],
+    "actorOrVoice": "Doug Cockle"
+  },
+  {
+    "id": "char-kratos",
+    "name": "Kratos",
+    "category": "gaming",
+    "series": "God of War Ragnarök",
+    "image": "https://image.tmdb.org/t/p/w780/hxU7NXyTmVe7hbGnKJiLU6r9uQw.jpg",
+    "role": "Protagonist",
+    "biography": "Former Spartan general and God of War who destroyed Mount Olympus, now seeking redemption and raising his son Atreus in the unforgiving Norse realms.",
+    "traits": [
+      "Disciplined Father",
+      "Controlled Fury",
+      "Protective",
+      "Wise"
+    ],
+    "powersOrSkills": [
+      "Leviathan Axe",
+      "Blades of Chaos",
+      "Draupnir Spear",
+      "Spartan Rage"
+    ],
+    "quotes": [
+      "Do not be sorry. Be better.",
+      "Wars are won by those who are willing to sacrifice everything."
+    ],
+    "actorOrVoice": "Christopher Judge"
+  },
+  {
+    "id": "char-jin-sakai",
+    "name": "Jin Sakai",
+    "category": "gaming",
+    "series": "Ghost of Tsushima",
+    "image": "https://image.tmdb.org/t/p/w780/nhJfIy1TH4knV2J8ILDWztz75aI.jpg",
+    "role": "Protagonist",
+    "biography": "A samurai lord who must discard strict samurai code of honor to adopt unconventional guerilla tactics as 'The Ghost' to liberate Tsushima Island from the Mongol invasion.",
+    "traits": [
+      "Honorable",
+      "Adaptive",
+      "Selfless",
+      "Somber Leader"
+    ],
+    "powersOrSkills": [
+      "Ghost Stance",
+      "Heavenly Strike",
+      "Smoke & Kunai Assassination",
+      "Water & Stone Stances"
+    ],
+    "quotes": [
+      "Honor died on the beach.",
+      "I sacrificed everything for my people. I would do it again."
+    ],
+    "actorOrVoice": "Daisuke Tsuji"
+  },
+  {
+    "id": "char-ellie",
+    "name": "Ellie Williams",
+    "category": "gaming",
+    "series": "The Last of Us Part II",
+    "image": "https://image.tmdb.org/t/p/w780/vDbgxc7RYawpB1wK7JDEj62j06H.jpg",
+    "role": "Protagonist",
+    "biography": "The only known immune human to the Cordyceps brain infection, Ellie is driven by deep trauma, love, and a devastating pursuit of vengeance across post-apocalyptic Seattle.",
+    "traits": [
+      "Resilient",
+      "Fierce",
+      "Acoustic Guitarist",
+      "Haunted"
+    ],
+    "powersOrSkills": [
+      "Cordyceps Immunity",
+      "Stealth Warfare",
+      "Switchblade Proficiency",
+      "Survival Crafting"
+    ],
+    "quotes": [
+      "If I ever were to lose you, I'd surely lose myself.",
+      "I have to finish it."
+    ],
+    "actorOrVoice": "Ashley Johnson"
+  },
+  {
+    "id": "char-batman-movie",
+    "name": "Bruce Wayne (The Batman)",
+    "category": "movies",
+    "series": "The Batman",
+    "image": "https://image.tmdb.org/t/p/w780/3qZ09UE7lN6AtorfXFRYpEtSY93.jpg",
+    "role": "Protagonist",
+    "biography": "In his second year of fighting crime in Gotham City, Bruce Wayne stalks the shadows as a nocturnal vigilante seeking to punish criminals until he realizes Gotham needs a beacon of hope.",
+    "traits": [
+      "Brooding",
+      "Relentless Detective",
+      "Traumatized",
+      "Protector of Hope"
+    ],
+    "powersOrSkills": [
+      "Forensic Investigation",
+      "Wing-Suit & Grapple Gun",
+      "Martial Combat",
+      "Armor Plating"
+    ],
+    "quotes": [
+      "I'm vengeance.",
+      "People need hope. To know someone's out there for them."
+    ],
+    "actorOrVoice": "Robert Pattinson"
+  },
+  {
+    "id": "char-paul-atreides",
+    "name": "Paul Atreides",
+    "category": "movies",
+    "series": "Dune: Part Two",
+    "image": "https://image.tmdb.org/t/p/w780/dFxpwRpmzpVfP1zjluH68DeQhyj.jpg",
+    "role": "Protagonist",
+    "biography": "Heir of House Atreides who embraces the ways of the desert Fremen as Usul and Muad'Dib, reluctantly fulfilling a prophecy that threatens to ignite a galaxy-wide holy war.",
+    "traits": [
+      "Visionary",
+      "Burdened Leader",
+      "Calculating",
+      "Reverent"
+    ],
+    "powersOrSkills": [
+      "Prescience / Future Sight",
+      "The Voice (Bene Gesserit)",
+      "Sandworm Riding",
+      "Crysknife Dueling"
+    ],
+    "quotes": [
+      "Lead them to paradise!",
+      "May thy knife chip and shatter."
+    ],
+    "actorOrVoice": "Timothée Chalamet"
+  },
+  {
+    "id": "char-alita",
+    "name": "Alita",
+    "category": "movies",
+    "series": "Alita: Battle Angel",
+    "image": "https://image.tmdb.org/t/p/w780/f8MITeVNUrP9mMiXcPnCEZTIW56.jpg",
+    "role": "Protagonist",
+    "biography": "Rebuilt from a 300-year-old cyborg core found in the Scrapyard, Alita rediscovers Panzer Kunst, an ancient Martian martial art, and rises through the dangerous ranks of Motorball.",
+    "traits": [
+      "Determined",
+      "Compassionate",
+      "Inquisitive",
+      "Deadly Warrior"
+    ],
+    "powersOrSkills": [
+      "Panzer Kunst",
+      "Berserker Body",
+      "Damascus Blade",
+      "Plasma Blast"
+    ],
+    "quotes": [
+      "I do not stand by in the presence of evil.",
+      "I'd rather die than live without you."
+    ],
+    "actorOrVoice": "Rosa Salazar"
+  },
+  {
+    "id": "char-miles-morales",
+    "name": "Miles Morales",
+    "category": "movies",
+    "series": "Spider-Man: Across the Spider-Verse",
+    "image": "https://image.tmdb.org/t/p/w780/ovUKfVOwJ7CadEHaG3NDsfA5xRq.jpg",
+    "role": "Protagonist",
+    "biography": "Brooklyn's teenage Spider-Man who defies the multiversal Spider-Society's doctrine of fatalistic 'canon events' to forge his own destiny and protect his loved ones.",
+    "traits": [
+      "Creative Artist",
+      "Defiant",
+      "Kindhearted",
+      "Loyal Son"
+    ],
+    "powersOrSkills": [
+      "Venom Strike (Bio-Electricity)",
+      "Camouflage Invisibility",
+      "Spider-Sense",
+      "Web-Slinging"
+    ],
+    "quotes": [
+      "Nah, imma do my own thing.",
+      "Everyone tells me how my story is supposed to go."
+    ],
+    "actorOrVoice": "Shameik Moore"
+  },
+  {
+    "id": "char-ellen-ripley",
+    "name": "Ellen Ripley",
+    "category": "movies",
+    "series": "Alien / Aliens",
+    "image": "https://image.tmdb.org/t/p/w780/wTSnfktNBLd6kwQxgvkqYw6vEon.jpg",
+    "role": "Protagonist",
+    "biography": "Warrant officer aboard the commercial freighter Nostromo who becomes humanity's foremost survivor and tactical fighter against the extraterrestrial Xenomorph species.",
+    "traits": [
+      "Unflappable Composure",
+      "Maternal Fierceness",
+      "Resourceful",
+      "True Survivor"
+    ],
+    "powersOrSkills": [
+      "Power Loader Exosuit",
+      "Pulse Rifle / Flamethrower",
+      "Zero-G Evacuation Tactics"
+    ],
+    "quotes": [
+      "Get away from her, you b***h!",
+      "I can't lie to you about your chances, but you have my sympathies."
+    ],
+    "actorOrVoice": "Sigourney Weaver"
+  },
+  {
+    "id": "char-joel",
+    "name": "Joel Miller",
+    "category": "tv-shows",
+    "series": "The Last of Us",
+    "image": "https://image.tmdb.org/t/p/w780/oKcMbVn0NJTNzQt0ClKKvVXkm60.jpg",
+    "role": "Protagonist",
+    "biography": "A grieving father turned ruthless black-market smuggler in Boston QZ whose escort mission across the country with Ellie reawakens his lost capacity to love.",
+    "traits": [
+      "Protective Father",
+      "Hardened Survivor",
+      "Reluctant Hero",
+      "Pragmatic"
+    ],
+    "powersOrSkills": [
+      "Tactical Combat",
+      "Resource Scavenging",
+      "Sharpshooting",
+      "Improvised Weaponry"
+    ],
+    "quotes": [
+      "You keep finding something to fight for.",
+      "I'd do it all over again."
+    ],
+    "actorOrVoice": "Pedro Pascal"
+  },
+  {
+    "id": "char-toranaga",
+    "name": "Lord Yoshii Toranaga",
+    "category": "tv-shows",
+    "series": "Shōgun",
+    "image": "https://image.tmdb.org/t/p/w780/SOwDxhGnRccP2lAtssQ7TxCzOe.jpg",
+    "role": "Protagonist",
+    "biography": "Lord of the Kanto and descendant of the Minowara clan, an unmatched grandmaster of psychological warfare and patience who outmaneuvers rivals to become Shōgun.",
+    "traits": [
+      "Master Strategist",
+      "Patient Falcon Hunter",
+      "Inscrutable",
+      "Visionary Statesman"
+    ],
+    "powersOrSkills": [
+      "Crimson Sky War Doctrine",
+      "Political Maneuvering",
+      "Swordsmanship",
+      "Falconry"
+    ],
+    "quotes": [
+      "Why tell a dead man future plans?",
+      "I do not control the wind; I study it."
+    ],
+    "actorOrVoice": "Hiroyuki Sanada"
+  },
+  {
+    "id": "char-daemon",
+    "name": "Daemon Targaryen",
+    "category": "tv-shows",
+    "series": "House of the Dragon",
+    "image": "https://image.tmdb.org/t/p/w780/wxMdHj4UA6LgIU5MiA7CKySZeVU.jpg",
+    "role": "Supporting",
+    "biography": "The Rogue Prince of Westeros and dragonrider of Caraxes the Blood Wyrm, wielding the Valyrian steel blade Dark Sister in support of Queen Rhaenyra's claim.",
+    "traits": [
+      "Mercurial",
+      "Fierce Dragonrider",
+      "Unpredictable",
+      "Fiercely Ambitious"
+    ],
+    "powersOrSkills": [
+      "Dragon Mastery (Caraxes)",
+      "Dark Sister Valyrian Steel Blade",
+      "Battlefield Command"
+    ],
+    "quotes": [
+      "Dreams didn't make us kings. Dragons did.",
+      "Ten thousand men cannot stand before a dragon."
+    ],
+    "actorOrVoice": "Matt Smith"
+  },
+  {
+    "id": "char-lucy-fallout",
+    "name": "Lucy MacLean",
+    "category": "tv-shows",
+    "series": "Fallout",
+    "image": "https://image.tmdb.org/t/p/w780/jqrYg35GHuMGwGqEVUthqTLQnay.jpg",
+    "role": "Protagonist",
+    "biography": "An idealistic Vault 33 dweller who leaves the subterranean sanctuary into the radiated California wasteland to rescue her abducted father Overseer Hank MacLean.",
+    "traits": [
+      "Cheerfully Optimistic",
+      "Adaptive Resilience",
+      "High Morals",
+      "Resourceful"
+    ],
+    "powersOrSkills": [
+      "Pip-Boy Technical Knowledge",
+      "Vault Repair Skills",
+      "Quick-Draw Pistol Proficiency"
+    ],
+    "quotes": [
+      "Okie Dokie!",
+      "The golden rule: do unto others as you would have them do unto you."
+    ],
+    "actorOrVoice": "Ella Purnell"
+  },
+  {
+    "id": "char-walter-white",
+    "name": "Walter White / Heisenberg",
+    "category": "tv-shows",
+    "series": "Breaking Bad",
+    "image": "https://image.tmdb.org/t/p/w780/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg",
+    "role": "Protagonist",
+    "biography": "A mild-mannered high school chemistry teacher diagnosed with terminal lung cancer who descends into the Albuquerque narcotics underworld to become kingpin Heisenberg.",
+    "traits": [
+      "Brilliant Chemist",
+      "Prideful",
+      "Manipulative",
+      "Relentless"
+    ],
+    "powersOrSkills": [
+      "Organic Chemistry Mastery",
+      "Calculated Deception",
+      "Explosive Synthesis"
+    ],
+    "quotes": [
+      "I am the one who knocks!",
+      "Say my name."
+    ],
+    "actorOrVoice": "Bryan Cranston"
+  },
+  {
+    "id": "char-jungkook",
+    "name": "Jungkook (Jeon Jung-kook)",
+    "category": "k-pop",
+    "series": "BTS",
+    "image": "https://image.tmdb.org/t/p/w780/2O7wrPFZtdfNJ5w6LGlIri3Xd0.jpg",
+    "role": "Idol",
+    "biography": "Main vocalist, lead dancer, and sub-rapper of BTS, known affectionately worldwide as the 'Golden Maknae' for his vocal tone and Billboard Hot 100 #1 solo hits like 'Seven'.",
+    "traits": [
+      "Golden All-Rounder",
+      "Charismatic Performer",
+      "Athletic",
+      "Artistic Visionary"
+    ],
+    "powersOrSkills": [
+      "Vocal Range & Riffing",
+      "Sharp Choreography Execution",
+      "Music Production",
+      "Stage Presence"
+    ],
+    "quotes": [
+      "Effort makes you. You will regret someday if you don't do your best now.",
+      "ARMY is our galaxy."
+    ],
+    "actorOrVoice": "BIGHIT MUSIC / HYBE"
+  },
+  {
+    "id": "char-jennie",
+    "name": "Jennie Kim",
+    "category": "k-pop",
+    "series": "BLACKPINK",
+    "image": "https://image.tmdb.org/t/p/w780/nfd7lswcAPX88TwSRrrFRHEGYX1.jpg",
+    "role": "Idol",
+    "biography": "Main rapper and lead vocalist of BLACKPINK, global fashion icon (Chanel ambassador), and founder of OA (ODD ATELIER), known for fierce stage aura and vocal dynamics.",
+    "traits": [
+      "Trendsetter",
+      "Effortless Swagger",
+      "Dual Cute & Fierce Charm",
+      "Creative Director"
+    ],
+    "powersOrSkills": [
+      "Fast-Flow Rapping",
+      "Soulful Vocals",
+      "High-Fashion Styling",
+      "Commanding Stage Delivery"
+    ],
+    "quotes": [
+      "I'm shining solo.",
+      "Stay true to who you are, no matter the noise."
+    ],
+    "actorOrVoice": "OA / YG Entertainment"
+  },
+  {
+    "id": "char-felix",
+    "name": "Felix (Lee Yong-bok)",
+    "category": "k-pop",
+    "series": "Stray Kids",
+    "image": "https://image.tmdb.org/t/p/w780/oaaGTPRt1UX2onPpNccmObRBhx9.jpg",
+    "role": "Idol",
+    "biography": "Lead dancer and sub-rapper of Stray Kids, internationally famed for his deep cavernous bass vocal tone, freckled visual charm, and intricate dance performance skills.",
+    "traits": [
+      "Deep Bass Voice",
+      "Angelic Personality",
+      "Tae Kwon Do Black Belt",
+      "Baking Enthusiast"
+    ],
+    "powersOrSkills": [
+      "Sub-Bass Vocals & Killing Parts",
+      "Complex Hip-Hop Acrobatics",
+      "Stage Charisma"
+    ],
+    "quotes": [
+      "Cooking like a chef, I'm a 5-star Michelin.",
+      "Stay will always be my safe place."
+    ],
+    "actorOrVoice": "JYP Entertainment"
+  },
+  {
+    "id": "char-karina",
+    "name": "Karina (Yu Ji-min)",
+    "category": "k-pop",
+    "series": "aespa",
+    "image": "https://image.tmdb.org/t/p/w780/2rkJWsItvQwNuazcycukByPRBuN.jpg",
+    "role": "Idol",
+    "biography": "Leader, main dancer, and face of the conceptual meta-universe group aespa, celebrated for AI-like visuals, martial dance precision, and vocal adaptability.",
+    "traits": [
+      "Caring Leader",
+      "Futuristic Visuals",
+      "Infectious Wit",
+      "Vocal Powerhouse"
+    ],
+    "powersOrSkills": [
+      "Precision Choreography",
+      "AI Avatar 'ae' Synk Control",
+      "Vocal Melodies"
+    ],
+    "quotes": [
+      "We are navigating between worlds.",
+      "Never lose the sparkle that makes you special."
+    ],
+    "actorOrVoice": "SM Entertainment"
+  },
+  {
+    "id": "char-hanni",
+    "name": "Hanni (Phạm Ngọc Hân)",
+    "category": "k-pop",
+    "series": "NewJeans",
+    "image": "https://image.tmdb.org/t/p/w780/rh3sDfnI11FbxxEd8mb6ESgQLVR.jpg",
+    "role": "Idol",
+    "biography": "Vietnamese-Australian vocalist and dancer of NewJeans who cowrote global hits 'Hype Boy' and 'OMG', known for sweet vocal timbre and acoustic guitar versatility.",
+    "traits": [
+      "Soulful Singer-Songwriter",
+      "Effervescent Energy",
+      "Multi-lingual",
+      "Expressive Performer"
+    ],
+    "powersOrSkills": [
+      "Acoustic Vocals",
+      "Lyricism & Composition",
+      "Groove Dance Flow"
+    ],
+    "quotes": [
+      "Music is a universal language that heals us.",
+      "I want to share the joy we feel on stage."
+    ],
+    "actorOrVoice": "ADOR / HYBE"
+  },
+  {
+    "id": "char-comic-batman",
+    "name": "Batman (Bruce Wayne)",
+    "category": "comics",
+    "series": "Detective Comics / Batman",
+    "image": "https://image.tmdb.org/t/p/w780/15erh7z92WBiW6z8Xpb8WLaWhbD.jpg",
+    "role": "Protagonist",
+    "biography": "The legendary World's Greatest Detective of DC Comics, forged in tragedy following his parents' murder in Crime Alley, using intellect and human perfection to combat terror.",
+    "traits": [
+      "Master Tactician",
+      "Indomitable Will",
+      "No-Kill Code",
+      "Obsessive Prep-Time"
+    ],
+    "powersOrSkills": [
+      "Genius Intellect",
+      "127 Martial Arts Styles",
+      "Utility Belt Inventions",
+      "Detective Deduction"
+    ],
+    "quotes": [
+      "Criminals are a superstitious and cowardly lot.",
+      "Deep down, Clark is essentially a good person... and deep down, I'm not."
+    ],
+    "actorOrVoice": "Created by Bob Kane & Bill Finger"
+  },
+  {
+    "id": "char-spider-man-peter",
+    "name": "Spider-Man (Peter Parker)",
+    "category": "comics",
+    "series": "The Amazing Spider-Man",
+    "image": "https://image.tmdb.org/t/p/w780/s6PwSvq6gC7PGEjIku69tPbvR8M.jpg",
+    "role": "Protagonist",
+    "biography": "Bitten by a radioactive spider as a Queens high schooler, Peter learned Uncle Ben's lesson that with great power comes great responsibility, balancing everyday troubles with heroism.",
+    "traits": [
+      "Witty Quipster",
+      "Self-Sacrificing",
+      "Science Whiz",
+      "Relatable Everyman"
+    ],
+    "powersOrSkills": [
+      "Spider-Sense",
+      "Wall-Crawling",
+      "Web-Shooters",
+      "Superhuman Strength & Agility"
+    ],
+    "quotes": [
+      "With great power comes great responsibility.",
+      "No matter how many times I get knocked down, I always get back up."
+    ],
+    "actorOrVoice": "Created by Stan Lee & Steve Ditko"
+  },
+  {
+    "id": "char-dream-morpheus",
+    "name": "Dream / Morpheus",
+    "category": "comics",
+    "series": "The Sandman",
+    "image": "https://image.tmdb.org/t/p/w780/dm5GA0xwJwvPsAU6YBPCfyvvWSb.jpg",
+    "role": "Protagonist",
+    "biography": "The Lord of Dreams, Monarch of the Dreaming realm, and one of the seven cosmic Endless who anthropomorphize the fundamental forces of the universe.",
+    "traits": [
+      "Enigmatic",
+      "Regal",
+      "Rigid Sense of Duty",
+      "Tragic Romantic"
+    ],
+    "powersOrSkills": [
+      "Absolute Reality Warping in Dreams",
+      "Omnipresence in Sleep",
+      "Shape-Shifting",
+      "Pouch of Dream Sand"
+    ],
+    "quotes": [
+      "Things need not have happened to be true.",
+      "It is a foolish thing to defy the Lord of Dreams."
+    ],
+    "actorOrVoice": "Created by Neil Gaiman"
+  },
+  {
+    "id": "char-mark-invincible",
+    "name": "Invincible (Mark Grayson)",
+    "category": "comics",
+    "series": "Invincible",
+    "image": "https://image.tmdb.org/t/p/w780/fOMFO2Xx4duzpNgS9Q5ytO44yGb.jpg",
+    "role": "Protagonist",
+    "biography": "Son of Earth's greatest champion Omni-Man, Mark inherits Viltrumite powers and must face the brutal truth of his heritage and save civilizations across the galaxy.",
+    "traits": [
+      "Resilient",
+      "Moral Compass",
+      "Relentless Grit",
+      "Empathetic"
+    ],
+    "powersOrSkills": [
+      "Viltrumite Physiology",
+      "Supersonic Flight",
+      "Interplanetary Survival",
+      "Super Strength"
+    ],
+    "quotes": [
+      "I'll still have you, Dad.",
+      "Being a hero isn't about being invincible; it's about standing back up."
+    ],
+    "actorOrVoice": "Created by Robert Kirkman & Cory Walker"
+  },
+  {
+    "id": "char-wolverine",
+    "name": "Wolverine (Logan)",
+    "category": "comics",
+    "series": "X-Men",
+    "image": "https://image.tmdb.org/t/p/w780/oX6CpXmnXCHLyqsa4NEed1DZAKx.jpg",
+    "role": "Protagonist",
+    "biography": "A mutant born with animal-keen senses, enhanced physical capabilities, and a healing factor, whose skeleton and retractable claws were bonded with indestructible Adamantium.",
+    "traits": [
+      "Gruff Lonewolf",
+      "Deep Loyalty",
+      "Samurai Discipline",
+      "Fierce Protector"
+    ],
+    "powersOrSkills": [
+      "Adamantium Retractable Claws",
+      "Accelerated Healing Factor",
+      "Enhanced Senses",
+      "Berserker Rage"
+    ],
+    "quotes": [
+      "I'm the best there is at what I do, but what I do isn't very nice.",
+      "Nature made me a freak. Man made me a weapon."
+    ],
+    "actorOrVoice": "Created by Len Wein, John Romita Sr. & Herb Trimpe"
+  },
+  {
+    "id": "char-guts",
+    "name": "Guts (The Black Swordsman)",
+    "category": "manga",
+    "series": "Berserk",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b422-XTaiTuvRohsV.png",
+    "role": "Protagonist",
+    "biography": "Born from a corpse and raised by mercenaries, Guts survives the horrors of the Eclipse and battles apostles of the God Hand with his gargantuan sword, the Dragon Slayer.",
+    "traits": [
+      "Indomitable Struggle",
+      "Fierce Protector",
+      "Tragic Soul",
+      "Relentless Will"
+    ],
+    "powersOrSkills": [
+      "Dragon Slayer Greatsword",
+      "Berserker Armor",
+      "Prosthetic Cannon Arm",
+      "Superhuman Endurance"
+    ],
+    "quotes": [
+      "He who fights with monsters must take care lest he thereby become a monster.",
+      "Struggle, challenge, and rise against fate."
+    ],
+    "actorOrVoice": "Kentaro Miura / Hiroaki Iwanaga"
+  },
+  {
+    "id": "char-sung-jin-woo",
+    "name": "Sung Jin-woo",
+    "category": "manga",
+    "series": "Solo Leveling",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b129928-BCEjVaP0AQSw.png",
+    "role": "Protagonist",
+    "biography": "The world's weakest E-rank hunter chosen as the sole Player of the mysterious System, ascending through impossible trials to inherit the throne of the Shadow Monarch Ashborn.",
+    "traits": [
+      "Calculating",
+      "Ruthless to Foes",
+      "Devoted Son & Brother",
+      "Supreme Overlord"
+    ],
+    "powersOrSkills": [
+      "Shadow Extraction ('Arise')",
+      "Monarch's Domain",
+      "Ruler's Authority",
+      "Infinite Shadow Army"
+    ],
+    "quotes": [
+      "Arise.",
+      "The only one who can protect my family is me."
+    ],
+    "actorOrVoice": "Chugong / DUBU (REDICE)"
+  },
+  {
+    "id": "char-thorfinn",
+    "name": "Thorfinn Karlsefni",
+    "category": "manga",
+    "series": "Vinland Saga",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b10138-zOPrka0ddZOR.png",
+    "role": "Protagonist",
+    "biography": "Once a bloodthirsty young warrior bent on revenge against Askeladd, Thorfinn undergoes a profound spiritual transformation during his enslavement into a committed apostle of peace.",
+    "traits": [
+      "Pacifist Pioneer",
+      "Enduring Spirit",
+      "Haunted by Past Murders",
+      "Selfless"
+    ],
+    "powersOrSkills": [
+      "Agile Dual-Dagger Combat (Former)",
+      "Unflinching Physical Endurance",
+      "Agricultural Colonization"
+    ],
+    "quotes": [
+      "A true warrior doesn't need a sword.",
+      "I will create a land where there is no slavery or war."
+    ],
+    "actorOrVoice": "Makoto Yukimura"
+  },
+  {
+    "id": "char-kaneki",
+    "name": "Ken Kaneki",
+    "category": "manga",
+    "series": "Tokyo Ghoul",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b87275-mb13EWZBdbh3.png",
+    "role": "Protagonist",
+    "biography": "A mild literature student transformed into an artificial one-eyed ghoul after an organ transplant, caught between human morals and the monstrous cannibal hunger of ghouls.",
+    "traits": [
+      "Philosophical",
+      "Self-Sacrificial",
+      "Tragic Multi-Persona",
+      "Bridge of Worlds"
+    ],
+    "powersOrSkills": [
+      "Rinkaku Kagune Tentacles",
+      "Kakuja Dragon Form",
+      "High-Speed Regeneration",
+      "Martial Arts"
+    ],
+    "quotes": [
+      "I'm not the protagonist of a novel... I'm a ghoul.",
+      "Why is it that beautiful things are entwined with death?"
+    ],
+    "actorOrVoice": "Sui Ishida / Natsuki Hanae"
+  },
+  {
+    "id": "char-denji",
+    "name": "Denji",
+    "category": "manga",
+    "series": "Chainsaw Man",
+    "image": "https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png",
+    "role": "Protagonist",
+    "biography": "An impoverished boy drowning in yakuza debt who merges with the Chainsaw Devil Pochita to become Chainsaw Man, joining Public Safety Devil Hunters for toast with jam and hugs.",
+    "traits": [
+      "Wildly Unpredictable",
+      "Earnest",
+      "Craves Simple Joys",
+      "Fiercely Protective of Friends"
+    ],
+    "powersOrSkills": [
+      "Chainsaw Protrusion from Limbs & Head",
+      "Immortality via Blood Consumption",
+      "Pochita True Devil Form"
+    ],
+    "quotes": [
+      "Everybody's after my chainsaw heart! What about Denji's heart?!",
+      "If having dreams means this much pain, I'd rather just sleep."
+    ],
+    "actorOrVoice": "Tatsuki Fujimoto / Kikunosuke Toya"
+  },
+  {
+    "id": "char-patrick-jane",
+    "name": "Patrick Jane",
+    "category": "tv-shows",
+    "series": "The Mentalist",
+    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1239.jpg",
+    "role": "Protagonist",
+    "biography": "A consultant with the California Bureau of Investigation (CBI), Jane uses hyper-acute observational skills, mentalism, and cold reading to solve baffling homicides while tracking Red John.",
+    "traits": [
+      "Hyper-Observant",
+      "Charming",
+      "Traumatized",
+      "Unpredictable",
+      "Master Manipulator"
+    ],
+    "powersOrSkills": [
+      "Cold Reading",
+      "Hypnosis & Suggestion",
+      "Micro-Expression Analysis",
+      "Sleight of Hand",
+      "Memory Palace"
+    ],
+    "quotes": [
+      "There is no such thing as psychics... just keen observation and psychology.",
+      "The mind is a wonderful organ. It starts working the moment you get up in the morning, and does not stop until you get into the office."
+    ],
+    "actorOrVoice": "Simon Baker"
+  },
+  {
+    "id": "char-raymond-reddington",
+    "name": "Raymond \"Red\" Reddington",
+    "category": "tv-shows",
+    "series": "The Blacklist",
+    "image": "https://image.tmdb.org/t/p/w780/rweIrveL43TaxUN0akQEaAXL6x0.jpg",
+    "role": "Protagonist",
+    "biography": "Known as the \"Concierge of Crime\", former US Naval Intelligence officer Raymond Reddington turned fugitive now orchestrates the downfall of the world's most clandestine criminals through his personal Blacklist.",
+    "traits": [
+      "Cultured",
+      "Ruthless",
+      "Eloquent",
+      "Intensely Protective",
+      "Hedonistic Strategist"
+    ],
+    "powersOrSkills": [
+      "Global Criminal Intelligence",
+      "Tactical Negotiations",
+      "Linguistic Fluency",
+      "Espionage Countermeasures"
+    ],
+    "quotes": [
+      "Value loyalty above all else.",
+      "There are no second chances in life, except to feel remorse."
+    ],
+    "actorOrVoice": "James Spader"
+  },
+  {
+    "id": "char-lucia-caminos",
+    "name": "Lucia Caminos",
+    "category": "gaming",
+    "series": "Grand Theft Auto VI",
+    "image": "https://image.tmdb.org/t/p/w780/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "role": "Protagonist",
+    "biography": "One half of GTA VI's Bonnie & Clyde-style duo alongside Jason, Lucia operates throughout the neon-drenched streets of Vice City and the swamps of Leonida, balancing ambition, loyalty, and survival.",
+    "traits": [
+      "Fierce",
+      "Calculating",
+      "Loyal",
+      "Fearless Driver",
+      "Heist Specialist"
+    ],
+    "powersOrSkills": [
+      "Precision Marksmanship",
+      "Getaway Driving",
+      "Urban Infiltration",
+      "Hand-to-Hand Combat"
+    ],
+    "quotes": [
+      "Trust? Trust is everything.",
+      "The only way we're gonna get through this is by sticking together."
+    ],
+    "actorOrVoice": "Manni L. Perez"
+  },
+  {
+    "id": "char-izuku-midoriya",
+    "name": "Izuku Midoriya (Deku)",
+    "japaneseName": "緑谷出久",
+    "category": "anime",
+    "series": "My Hero Academia",
+    "image": "https://cdn.myanimelist.net/images/characters/7/299404.jpg",
+    "role": "Protagonist",
+    "biography": "Born Quirkless in a superhuman society, Midoriya inherited the legendary One For All Quirk from the symbol of peace, All Might, devoting every ounce of his soul to saving everyone with a smile.",
+    "traits": [
+      "Selfless",
+      "Strategic Note-Taker",
+      "Indomitable Will",
+      "Empathetic",
+      "Fearless Protector"
+    ],
+    "powersOrSkills": [
+      "One For All (Full Cowl)",
+      "Blackwhip",
+      "Fa Jin",
+      "Gearshift",
+      "Danger Sense",
+      "Float",
+      "Smokescreen"
+    ],
+    "quotes": [
+      "I have to work harder than anyone else to make it! I'll never catch up otherwise!",
+      "A smiling, dependable, cool hero... That's what I wanna be!"
+    ],
+    "actorOrVoice": "Daiki Yamashita (JP) / Justin Briner (EN)"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "clip-one-piece-ost",
+    "title": "Overtaken (Drums of Liberation Epic Remix)",
+    "category": "anime",
+    "type": "ost",
+    "duration": "3:42",
+    "thumbnail": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+    "embedUrl": "https://www.youtube.com/embed/S8_YwFLCh4U",
+    "audioUrl": "https://actions.google.com/sounds/v1/ambiences/carnival_atmosphere.ogg",
+    "description": "The immortal battle fanfare composed by Kohei Tanaka arranged with live orchestral horns and taiko drums.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "Kohei Tanaka & Straw Hat Symphony"
+  },
+  {
+    "id": "clip-batman-trailer",
+    "title": "The Batman – Main Theatrical Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "duration": "2:38",
+    "thumbnail": "https://image.tmdb.org/t/p/w780/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "embedUrl": "https://www.youtube.com/embed/mqqft2x_Aa4",
+    "description": "Witness the shadows of Gotham unravel as Batman faces the enigmatic Riddler.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "Warner Bros. Pictures"
+  },
+  {
+    "id": "clip-elden-ring-podcast",
+    "title": "Lore of the Lands Between: Miquella's True Ambition",
+    "category": "gaming",
+    "type": "podcast",
+    "duration": "42:15",
+    "thumbnail": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    "embedUrl": "https://www.youtube.com/embed/E3Huy2cdih0",
+    "audioUrl": "https://actions.google.com/sounds/v1/science_fiction/alien_hum.ogg",
+    "description": "A deep dive into the hidden runes of the Shadow Realm, St. Trina's nectar, and Marika's ascension.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "VaatiVidya & FandomVerse Lore Masters"
+  },
+  {
+    "id": "clip-shogun-interview",
+    "title": "Hiroyuki Sanada on Samurai Authenticity & Feudal History",
+    "category": "tv-shows",
+    "type": "interview",
+    "duration": "18:20",
+    "thumbnail": "https://image.tmdb.org/t/p/w780/7O4iVfOMQmdCSxhOg1WnzG1AgYT.jpg",
+    "embedUrl": "https://www.youtube.com/embed/yFNAPJ9S4eE",
+    "description": "Lead actor and producer Hiroyuki Sanada shares how he insisted on authentic period armor, speech, and etiquette.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "FX Behind the Screen"
+  },
+  {
+    "id": "clip-kpop-deepdive",
+    "title": "The Genesis of aespa's Kwangya Lore and Meta-Universe",
+    "category": "k-pop",
+    "type": "podcast",
+    "duration": "31:40",
+    "thumbnail": "https://image.tmdb.org/t/p/w780/2rkJWsItvQwNuazcycukByPRBuN.jpg",
+    "embedUrl": "https://www.youtube.com/embed/kXpOEzNZ8hQ",
+    "audioUrl": "https://actions.google.com/sounds/v1/science_fiction/teleport.ogg",
+    "description": "Analyzing how SM Culture Universe merged virtual avatars, Black Mamba villains, and chart-topping hyper-pop.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "Seoul Soundscape Radio"
+  },
+  {
+    "id": "clip-chainsaw-man-reze",
+    "title": "Chainsaw Man: Reze Arc – Official Teaser",
+    "category": "anime",
+    "type": "trailer",
+    "duration": "1:45",
+    "thumbnail": "https://s4.anilist.co/file/anilistcdn/character/large/b130102-FO1VHNnEnLlB.png",
+    "embedUrl": "https://www.youtube.com/embed/V-mugKDQDlg",
+    "description": "MAPPA's upcoming theatrical release following Denji and the mysterious Bomb Devil girl.",
+    "releaseStatus": "upcoming",
+    "authorOrHost": "MAPPA CHANNEL"
+  },
+  {
+    "id": "clip-manga-craft-documentary",
+    "title": "The Art of the Pen: Inside Shueisha's Legendary Manga Editorial",
+    "category": "manga",
+    "type": "fan-video",
+    "duration": "24:10",
+    "thumbnail": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg",
+    "embedUrl": "https://www.youtube.com/embed/ByXuk9QqQkk",
+    "description": "From rough name sketches to printed weekly magazines, how serialized manga is drawn on tight deadlines.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "Tokyo Ink Society"
+  },
+  {
+    "id": "clip-comics-sandbox",
+    "title": "Why Batman: The Long Halloween Defined Modern Gotham Noir",
+    "category": "comics",
+    "type": "fan-video",
+    "duration": "15:55",
+    "thumbnail": "https://image.tmdb.org/t/p/w780/15erh7z92WBiW6z8Xpb8WLaWhbD.jpg",
+    "embedUrl": "https://www.youtube.com/embed/VbT6rZ3Fq_k",
+    "description": "A visual video essay dissecting Tim Sale's heavy shadows and Jeph Loeb's mob family drama.",
+    "releaseStatus": "recently-released",
+    "authorOrHost": "Comic Tropes & FandomVerse"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "gal-anime-1",
+    "category": "anime",
+    "title": "Gear 5 Sun God Nika Awakening",
+    "franchise": "One Piece",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/qD211Hb5XwFxrszzBBe5EUYJerh.jpg",
+    "description": "The peak of Luffy's liberating laughter under the full moon atop Onigashima Castle.",
+    "artistOrStudio": "Toei Animation / Key Animation Team",
+    "likes": 1420
+  },
+  {
+    "id": "gal-anime-2",
+    "category": "anime",
+    "title": "Hollow Purple Dimensional Distortion",
+    "franchise": "Jujutsu Kaisen",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+    "description": "Satoru Gojo merging limitless red and blue cursed energy into imaginary mass.",
+    "artistOrStudio": "MAPPA / Sunghoo Park",
+    "likes": 2180
+  },
+  {
+    "id": "gal-gaming-1",
+    "category": "gaming",
+    "title": "Leyndell, Royal Capital at Twilight",
+    "franchise": "Elden Ring",
+    "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg",
+    "description": "The golden Erdtree casting celestial rays across the petrified dragon Gransax.",
+    "artistOrStudio": "FromSoftware Concept Art Division",
+    "likes": 3200
+  },
+  {
+    "id": "gal-gaming-2",
+    "category": "gaming",
+    "title": "Night City Holographic Skyline",
+    "franchise": "Cyberpunk 2077",
+    "imageUrl": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg",
+    "description": "Arasaka Tower piercing through acid rain clouds as holographic koi glide between skyscrapers.",
+    "artistOrStudio": "CD Projekt RED Art Department",
+    "likes": 1890
+  },
+  {
+    "id": "gal-movies-1",
+    "category": "movies",
+    "title": "Batmobile Roar in Gotham Alley",
+    "franchise": "The Batman",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/5P8SmMzSNYikXpxil6BYzJ16611.jpg",
+    "description": "Jet-turbine backfire illuminating rain streaks as the Batmobile launches into pursuit.",
+    "artistOrStudio": "Warner Bros. / Greig Fraser",
+    "likes": 2400
+  },
+  {
+    "id": "gal-movies-2",
+    "category": "movies",
+    "title": "Worm-Riding Across the Great Southern Erg",
+    "franchise": "Dune: Part Two",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg",
+    "description": "Paul Atreides grappling the crest scales of a titanic grandfather sandworm.",
+    "artistOrStudio": "Legendary / Greig Fraser",
+    "likes": 2750
+  },
+  {
+    "id": "gal-tv-1",
+    "category": "tv-shows",
+    "title": "Crimson Sky Over Osaka Castle",
+    "franchise": "Shōgun",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/bwSmgmd90hCWwqOKQYTEraeOZhJ.jpg",
+    "description": "Toranaga's bannermen standing atop mist-covered ramparts before the clash of eras.",
+    "artistOrStudio": "FX / Justin Marks",
+    "likes": 1540
+  },
+  {
+    "id": "gal-tv-2",
+    "category": "tv-shows",
+    "title": "Neon Piltover & Hexcore Resonator",
+    "franchise": "Arcane",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/5cvnxEHT3e39DvT6ARw4GNCFrB0.jpg",
+    "description": "Viktor observing the unstable rhythmic pulses of arcane magic within the hexcore.",
+    "artistOrStudio": "Fortiche Production",
+    "likes": 3100
+  },
+  {
+    "id": "gal-kpop-1",
+    "category": "k-pop",
+    "title": "Galaxy of Lightsticks at Olympic Stadium",
+    "franchise": "BTS",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/86X09HCJo8s83s32H2Frz7G0jMx.jpg",
+    "description": "Fifty thousand ARMY bombs synced into an iridescent purple ocean during 'Spring Day'.",
+    "artistOrStudio": "BIGHIT MUSIC Concert Photography",
+    "likes": 4890
+  },
+  {
+    "id": "gal-kpop-2",
+    "category": "k-pop",
+    "title": "Pink Venom Stage Pyrotechnics",
+    "franchise": "BLACKPINK",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/vpo3qdjgasu2kxHIKkNIXK9hDHM.jpg",
+    "description": "Jennie, Jisoo, Rosé, and Lisa commanding the Coachella main stage under laser fireworks.",
+    "artistOrStudio": "YG Entertainment / Goldenvoice",
+    "likes": 4210
+  },
+  {
+    "id": "gal-comics-1",
+    "category": "comics",
+    "title": "Rorschach's Journal Beneath New York Rain",
+    "franchise": "Watchmen",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/dH7ia3vtkYCa3CBvDnvVjqm9uiQ.jpg",
+    "description": "A haunting street view of the shifting inkblot mask reflecting the neon glow of 1985 Manhattan.",
+    "artistOrStudio": "Dave Gibbons / John Higgins",
+    "likes": 1670
+  },
+  {
+    "id": "gal-manga-1",
+    "category": "manga",
+    "title": "The Dragonslayer in the Eclipse",
+    "franchise": "Berserk",
+    "imageUrl": "https://image.tmdb.org/t/p/w1280/99Y64VK0KwyRWfaW6VdpDfPKNMo.jpg",
+    "description": "Kentaro Miura's legendary pen-and-ink crosshatching of Guts facing down impossible hordes.",
+    "artistOrStudio": "Kentaro Miura / Studio Gaga",
+    "likes": 3950
+  }
+]
