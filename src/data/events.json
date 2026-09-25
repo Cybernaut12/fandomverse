@@ -1,0 +1,191 @@
+[
+  {
+    "id": "evt-001",
+    "title": "Tokyo Anime Expo 2026",
+    "category": "anime",
+    "date": "2026-10-15",
+    "location": "Tokyo Big Sight, Tokyo, Japan",
+    "description": "The largest anime convention in Asia returns with studio booths, exclusive merchandise, cosplay contests, and premiere screenings of upcoming seasonal titles.",
+    "image": "https://images.pexels.com/photos/36398813/pexels-photo-36398813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-002",
+    "title": "Akihabara Culture Festival",
+    "category": "anime",
+    "date": "2026-11-03",
+    "location": "Akihabara, Tokyo, Japan",
+    "description": "A neighborhood-wide celebration of anime, manga, and gaming culture with street performances, pop-up cafes, and live drawing sessions by guest artists.",
+    "image": "https://images.pexels.com/photos/33249534/pexels-photo-33249534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-003",
+    "title": "Anime Boston Fall Showcase",
+    "category": "anime",
+    "date": "2026-10-22",
+    "location": "Hynes Convention Center, Boston, USA",
+    "description": "A fan-run convention featuring industry guests, panels on animation production, a massive artists' alley, and screenings of fan-submitted AMVs.",
+    "image": "https://images.pexels.com/photos/33327474/pexels-photo-33327474.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-004",
+    "title": "Global Esports Championship Finals",
+    "category": "gaming",
+    "date": "2026-10-08",
+    "location": "Sangam Arena, Seoul, South Korea",
+    "description": "The world's top teams compete across three game titles for a combined prize pool of $5 million. Live broadcast expected to reach 40 million concurrent viewers.",
+    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-005",
+    "title": "Indie Games Showcase 2026",
+    "category": "gaming",
+    "date": "2026-11-12",
+    "location": "Moscone Center, San Francisco, USA",
+    "description": "Over 200 independent game studios exhibit playable demos, with awards for innovation, art direction, and narrative. Open to the public for the first time this year.",
+    "image": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-006",
+    "title": "Retro Gaming Festival",
+    "category": "gaming",
+    "date": "2026-12-01",
+    "location": "Olympia London, London, UK",
+    "description": "A celebration of gaming history with playable vintage hardware, speedrunning tournaments, and panels featuring legendary game designers from the 80s and 90s.",
+    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-007",
+    "title": "International Film Festival 2026",
+    "category": "movies",
+    "date": "2026-09-28",
+    "location": "Grauman's area, Los Angeles, USA",
+    "description": "A ten-day festival showcasing independent and international cinema, with competition categories for narrative features, documentaries, and short films.",
+    "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-008",
+    "title": " Horror Cinema Weekend",
+    "category": "movies",
+    "date": "2026-10-31",
+    "location": "Tiffany Theatre, London, UK",
+    "description": "A 48-hour marathon of horror cinema, from classic Universal monsters to modern psychological thrillers. Costumes encouraged. Midnight screenings included.",
+    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-009",
+    "title": "Cinematography Summit",
+    "category": "movies",
+    "date": "2026-11-18",
+    "location": "Lincoln Center, New York, USA",
+    "description": "An industry gathering focused on the craft of cinematography, with masterclasses from award-winning directors of photography and hands-on equipment demos.",
+    "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-010",
+    "title": "Television Critics Panel Week",
+    "category": "tv-shows",
+    "date": "2026-10-05",
+    "location": "The Beverly Hilton, Los Angeles, USA",
+    "description": "Network and streaming platforms present their upcoming slates to critics, with cast panels, exclusive sneak peeks, and industry networking events.",
+    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-011",
+    "title": "Series Mania Festival",
+    "category": "tv-shows",
+    "date": "2026-11-22",
+    "location": "Grand Rex, Paris, France",
+    "description": "Europe's premier television festival, screening new series from around the world with premieres, creator Q&As, and a competition for best international drama.",
+    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-012",
+    "title": "Streaming Culture Conference",
+    "category": "tv-shows",
+    "date": "2026-12-05",
+    "location": "Austin Convention Center, Austin, USA",
+    "description": "A conference exploring how streaming has reshaped television, with talks on viewing habits, algorithm curation, and the future of episodic storytelling.",
+    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-013",
+    "title": "K-Pop World Festival",
+    "category": "k-pop",
+    "date": "2026-10-29",
+    "location": "Gocheok Sky Dome, Seoul, South Korea",
+    "description": "The annual celebration of K-pop's global reach, featuring performances from top groups, fan team competitions, and a showcase of international cover dance teams.",
+    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-014",
+    "title": "Eclipse World Tour — Seoul",
+    "category": "k-pop",
+    "date": "2026-11-15",
+    "location": "Jamsil Olympic Stadium, Seoul, South Korea",
+    "description": "Eclipse performs their first stadium show in their hometown, closing the Asian leg of their world tour with a specially extended setlist and guest appearances.",
+    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-015",
+    "title": "K-Pop Con Fan Convention",
+    "category": "k-pop",
+    "date": "2026-12-10",
+    "location": "COEX, Seoul, South Korea",
+    "description": "A fan convention with merch booths, photo opportunities, dance workshops, and panels with industry professionals discussing the future of K-pop.",
+    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-016",
+    "title": "Comic Convention NYC",
+    "category": "comics",
+    "date": "2026-10-10",
+    "location": "Javits Center, New York, USA",
+    "description": "One of the largest comic conventions in North America, with publisher booths, artist alley, cosplay contests, and panels featuring top creators from Marvel, DC, and indie publishers.",
+    "image": "https://images.pexels.com/photos/36398813/pexels-photo-36398813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-017",
+    "title": "Indie Comics Fest",
+    "category": "comics",
+    "date": "2026-11-08",
+    "location": "The Brewery, Los Angeles, USA",
+    "description": "A festival dedicated to independent and self-published comics, with exhibitor tables, live drawing sessions, and a printing workshop for aspiring creators.",
+    "image": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-018",
+    "title": "Comic Art Workshop Weekend",
+    "category": "comics",
+    "date": "2026-12-14",
+    "location": "The Drawing Center, New York, USA",
+    "description": "A hands-on weekend workshop led by professional comic artists, covering penciling, inking, coloring, and lettering for creators at all skill levels.",
+    "image": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-019",
+    "title": "Japan Manga Fair",
+    "category": "manga",
+    "date": "2026-10-18",
+    "location": "Makuhari Messe, Chiba, Japan",
+    "description": "A massive industry event where publishers announce new series, creators sign autographs, and fans get first looks at upcoming manga titles and anime adaptations.",
+    "image": "https://images.pexels.com/photos/1098656/pexels-photo-1098656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-020",
+    "title": "Manga Translation Symposium",
+    "category": "manga",
+    "date": "2026-11-25",
+    "location": "International House of Japan, Tokyo, Japan",
+    "description": "A gathering of manga translators and editors discussing the art and challenges of bringing Japanese manga to global audiences across different languages.",
+    "image": "https://images.pexels.com/photos/14924122/pexels-photo-14924122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "id": "evt-021",
+    "title": "Genghki Manga Artist Tribute",
+    "category": "manga",
+    "date": "2026-12-20",
+    "location": "Tokyo National Museum, Tokyo, Japan",
+    "description": "A retrospective exhibition honoring legendary manga artists, with original artwork on display, guided tours, and talks about the history of the medium.",
+    "image": "https://images.pexels.com/photos/8045884/pexels-photo-8045884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  }
+]

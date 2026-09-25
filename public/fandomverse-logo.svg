@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 76" fill="none">
+  <title>FandomVerse</title>
+  <g transform="translate(0 6)">
+    <path d="M32 2.5 53.5 14.9v24.2L32 51.5 10.5 39.1V14.9L32 2.5Z" stroke="#DD8F62" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M22.5 41V27a9.5 9.5 0 0 1 19 0v14" stroke="#FEFEF9" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="m32 18 3.5 8.5L44 30l-8.5 3.5L32 42l-3.5-8.5L20 30l8.5-3.5L32 18Z" fill="#DD8F62"/>
+    <circle cx="32" cy="7.5" r="1.5" fill="#FEFEF9"/>
+    <circle cx="49" cy="17.5" r="1.5" fill="#DD8F62"/>
+    <circle cx="49" cy="36.5" r="1.5" fill="#FEFEF9"/>
+    <circle cx="32" cy="46.5" r="1.5" fill="#DD8F62"/>
+    <circle cx="15" cy="36.5" r="1.5" fill="#FEFEF9"/>
+    <circle cx="15" cy="17.5" r="1.5" fill="#DD8F62"/>
+  </g>
+  <text x="78" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="49" font-weight="700" letter-spacing="0.4">
+    <tspan fill="#FEFEF9">Fandom</tspan><tspan fill="#DD8F62">Verse</tspan>
+  </text>
+</svg>

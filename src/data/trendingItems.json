@@ -1,0 +1,231 @@
+[
+  {
+    "id": "spider-man-brand-new-day",
+    "slug": "spider-man-brand-new-day",
+    "title": "Spider-Man: Brand New Day",
+    "category": "movies",
+    "image": "https://s.movieinsider.com/images/p/964462_m1773880192.jpg",
+    "imageFallbacks": ["https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg"],
+    "excerpt": "Peter Parker faces a new chapter as Spider-Man, working alone in New York after the world has forgotten who he is.",
+    "overview": [
+      "Spider-Man: Brand New Day is a 2026 superhero film directed by Destin Daniel Cretton. It continues Peter Parker's story after Spider-Man: No Way Home and begins a new chapter for the character in the Marvel Cinematic Universe.",
+      "Four years after a spell erased Peter from the memories of everyone who knew him, he protects New York anonymously. As he investigates a powerful threat, his abilities begin to change in unexpected and potentially dangerous ways.",
+      "Tom Holland returns as Peter Parker, alongside Zendaya, Jacob Batalon, Sadie Sink, Jon Bernthal, Michael Mando, and Mark Ruffalo. The film was released in 2026."
+    ],
+    "facts": [
+      { "label": "Director", "value": "Destin Daniel Cretton" },
+      { "label": "Peter Parker", "value": "Tom Holland" },
+      { "label": "Studio", "value": "Marvel Studios, Columbia Pictures, Pascal Pictures" },
+      { "label": "Release", "value": "2026" }
+    ],
+    "wikipedia": "Spider-Man: Brand New Day"
+  },
+  {
+    "id": "resident-evil-2026",
+    "slug": "resident-evil-2026",
+    "title": "Resident Evil",
+    "category": "movies",
+    "image": "https://poster.gsc.com.my/2026/260430_ResidentEvil_big.jpg",
+    "imageFallbacks": [
+      "https://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster--dark-mode.png/0/images/masterrepository/Fandango/245893/RES_Online_1400x2100_TSR_Shadow_IPF-IMAX_01.jpg",
+      "https://cdn.kinocheck.com/i/630ggd2gcn.jpg"
+    ],
+    "excerpt": "A medical courier is caught in a sudden outbreak and must fight to survive in the Resident Evil universe.",
+    "overview": [
+      "Resident Evil is a 2026 horror reboot based on Capcom's video game series. Zach Cregger directed the film and co-wrote it with Shay Hatten.",
+      "The story follows Bryan, a medical courier making a delivery when an outbreak of infected monsters turns the trip into a fight for survival. The film takes place during the events of Resident Evil 2, but follows a new character and perspective.",
+      "Austin Abrams stars as Bryan, with Zach Cherry, Kali Reis, and Paul Walter Hauser in supporting roles. The film was released in September 2026."
+    ],
+    "facts": [
+      { "label": "Director", "value": "Zach Cregger" },
+      { "label": "Lead", "value": "Austin Abrams" },
+      { "label": "Based on", "value": "Capcom's Resident Evil games" },
+      { "label": "Release", "value": "September 18, 2026" }
+    ],
+    "wikipedia": "Resident Evil (2026 film)"
+  },
+  {
+    "id": "the-love-hypothesis",
+    "slug": "the-love-hypothesis-film",
+    "title": "The Love Hypothesis",
+    "category": "movies",
+    "image": "https://image.tmdb.org/t/p/w500/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg",
+    "excerpt": "A PhD student and a professor try a pretend relationship in this adaptation of Ali Hazelwood's romance novel.",
+    "overview": [
+      "The Love Hypothesis is a romantic comedy adapted from Ali Hazelwood's novel. Claire Scanlon directed the film from a screenplay by Sarah Rothschild.",
+      "Lili Reinhart plays Olive Smith, a PhD student who enters a pretend relationship with professor Adam Carlsen, played by Tom Bateman. Jaboukie Young-White also stars as Malcolm.",
+      "The story brings the novel's academic setting and fake-dating premise to the screen. Amazon MGM Studios distributed the film."
+    ],
+    "facts": [
+      { "label": "Director", "value": "Claire Scanlon" },
+      { "label": "Adapted from", "value": "The novel by Ali Hazelwood" },
+      { "label": "Cast", "value": "Lili Reinhart, Tom Bateman, Jaboukie Young-White" },
+      { "label": "Distributor", "value": "Amazon MGM Studios" }
+    ],
+    "wikipedia": "The Love Hypothesis (film)"
+  },
+  {
+    "id": "cyberpunk-edgerunners-2",
+    "slug": "cyberpunk-edgerunners-2",
+    "title": "Cyberpunk: Edgerunners 2",
+    "category": "anime",
+    "image": "https://images.rpgsite.net/image/da49c9a1/172106/original/cyberpunk-edgerunners-2_20260629_art-3.png",
+    "imageFallbacks": [
+      "https://i.cdn29.hu/apix_collect_c/ngg_images/2606/29/cyberpunk_edgerunners_2_netflix_101611_1_original_1520x1520.jpg",
+      "https://tube.hk/_next/image/?q=75&url=https%3A%2F%2Fassets.tube.hk%2Fimages%2Fnews%2Ftv%2Fcyberpunk-edgerunners-2-2026.jpg&w=1920"
+    ],
+    "excerpt": "A standalone follow-up returns to Night City with a new story and a new cast of characters.",
+    "overview": [
+      "Cyberpunk: Edgerunners 2 is a standalone sequel to the 2022 anime Cyberpunk: Edgerunners. It is set in the same Cyberpunk universe, but tells a separate story with a new cast.",
+      "The series is being made by Studio Trigger with CD Projekt Red. Kai Ikarashi is directing, while Bartosz Sztybor is writing and serving as showrunner. The original series followed David Martinez, a young Night City resident who became an outlaw mercenary.",
+      "The sequel was announced for Netflix and is part of the franchise's continuing expansion beyond the Cyberpunk 2077 game."
+    ],
+    "facts": [
+      { "label": "Format", "value": "Standalone anime sequel" },
+      { "label": "Director", "value": "Kai Ikarashi" },
+      { "label": "Showrunner", "value": "Bartosz Sztybor" },
+      { "label": "Platform", "value": "Netflix" }
+    ],
+    "wikipedia": "Cyberpunk: Edgerunners"
+  },
+  {
+    "id": "the-apothecary-diaries-season-3",
+    "slug": "the-apothecary-diaries-season-3",
+    "title": "The Apothecary Diaries — Season 3",
+    "category": "anime",
+    "image": "https://s.animeanime.jp/imgs/p/64XVvff3mD9cFhi_PU1_DqGg_6ytrq_oqaqr/827582.jpg?zoom=spacing",
+    "excerpt": "Maomao's palace mysteries continue in a third season, with a split-cour release planned for 2026 and 2027.",
+    "overview": [
+      "The Apothecary Diaries is a historical mystery series centered on Maomao, a young woman with a deep knowledge of medicine and poisons. After being taken to the imperial palace, she uses her skills to investigate illnesses and unusual events.",
+      "The anime is produced by Toho Animation Studio and OLM. After its first two seasons, a third season and an original film were announced.",
+      "Season three is scheduled to air in two parts, beginning in October 2026 and continuing in April 2027. The original film is scheduled for December 2026."
+    ],
+    "facts": [
+      { "label": "Lead", "value": "Maomao" },
+      { "label": "Studios", "value": "Toho Animation Studio, OLM" },
+      { "label": "Season 3", "value": "October 2026 and April 2027" },
+      { "label": "Original film", "value": "December 2026" }
+    ],
+    "wikipedia": "The Apothecary Diaries"
+  },
+  {
+    "id": "absolute-wonder-woman-24",
+    "slug": "absolute-wonder-woman-24",
+    "title": "Absolute Wonder Woman #24",
+    "category": "comics",
+    "image": "https://www.midtowncomics.com/images/PRODUCT/XL/2575382_xl.jpg",
+    "excerpt": "Kelly Thompson and Hayden Sherman reimagine Diana as an Amazon raised in Hell, in DC's Absolute Universe.",
+    "overview": [
+      "Absolute Wonder Woman is a DC Comics series written by Kelly Thompson and illustrated by Hayden Sherman. It launched in 2024 as part of the Absolute Universe, a separate reimagining of DC's heroes.",
+      "In this version, Diana is raised by Circe in the underworld instead of growing up on Themyscira. The experience shapes her into a formidable warrior who still struggles to balance compassion with the need to fight overwhelming threats.",
+      "Issue #24 was released on September 23, 2026. The series has been recognized for its art and for its fresh take on Wonder Woman's mythology."
+    ],
+    "facts": [
+      { "label": "Publisher", "value": "DC Comics" },
+      { "label": "Writer", "value": "Kelly Thompson" },
+      { "label": "Artist", "value": "Hayden Sherman" },
+      { "label": "Issue #24", "value": "September 23, 2026" }
+    ],
+    "wikipedia": "Absolute Wonder Woman"
+  },
+  {
+    "id": "counter-strike-2",
+    "slug": "counter-strike-2",
+    "title": "Counter-Strike 2",
+    "category": "gaming",
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg",
+    "excerpt": "Valve's tactical shooter pits Terrorists against Counter-Terrorists in objective-based multiplayer rounds.",
+    "overview": [
+      "Counter-Strike 2 is a free-to-play tactical first-person shooter developed and published by Valve. Released in 2023, it replaced Counter-Strike: Global Offensive as the main game in the series.",
+      "Matches center on two teams completing opposing objectives, including bomb planting and defusal or hostage rescue. Players earn money through rounds and use it to buy weapons and equipment.",
+      "The game uses Valve's Source 2 engine and introduced updated maps, new smoke effects, and revised server technology. It continues the Counter-Strike series' focus on precise team play."
+    ],
+    "facts": [
+      { "label": "Developer", "value": "Valve" },
+      { "label": "Genre", "value": "Tactical first-person shooter" },
+      { "label": "Release", "value": "September 27, 2023" },
+      { "label": "Platforms", "value": "Windows, Linux" }
+    ],
+    "wikipedia": "Counter-Strike 2"
+  },
+  {
+    "id": "silo-season-3",
+    "slug": "silo-season-3",
+    "title": "Silo — Season 3",
+    "category": "tv-shows",
+    "image": "https://assts.wnxt.io/tmdb/t/p/w500/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
+    "excerpt": "Juliette's search for answers continues as the story explores the origins of the underground silos.",
+    "overview": [
+      "Silo is a science-fiction drama created by Graham Yost and based on Hugh Howey's novels. It follows a community of 10,000 people living in a vast underground structure under strict rules.",
+      "Rebecca Ferguson stars as Juliette Nichols, an engineer whose search into a death exposes secrets about the silo and its past. The series also stars Rashida Jones, David Oyelowo, Common, and Tim Robbins.",
+      "Apple TV renewed the series for a third and fourth season, with the fourth planned as its conclusion. Season three premiered in July 2026."
+    ],
+    "facts": [
+      { "label": "Creator", "value": "Graham Yost" },
+      { "label": "Based on", "value": "The Silo novels by Hugh Howey" },
+      { "label": "Lead", "value": "Rebecca Ferguson" },
+      { "label": "Season 3", "value": "Premiered July 3, 2026" }
+    ],
+    "wikipedia": "Silo (TV series)"
+  },
+  {
+    "id": "kagurabachi-volume-12",
+    "slug": "kagurabachi",
+    "title": "Kagurabachi",
+    "category": "manga",
+    "image": "https://m.media-amazon.com/images/I/51yoqVx+eML._SL160_.jpg",
+    "excerpt": "Chihiro Rokuhira wields an enchanted blade to pursue the sorcerers who killed his father and stole his swords.",
+    "overview": [
+      "Kagurabachi is a manga written and illustrated by Takeru Hokazono. It has been serialized in Shueisha's Weekly Shōnen Jump since September 2023.",
+      "Chihiro Rokuhira is the son of a master swordsmith who forged six enchanted blades. After a group of sorcerers murders his father and steals the swords, Chihiro takes up a secret seventh blade called Enten and pursues them.",
+      "The action series grew quickly in popularity on Manga Plus, won the print category of the 2024 Next Manga Award, and has an anime adaptation announced for 2027."
+    ],
+    "facts": [
+      { "label": "Creator", "value": "Takeru Hokazono" },
+      { "label": "Publisher", "value": "Shueisha" },
+      { "label": "Magazine", "value": "Weekly Shōnen Jump" },
+      { "label": "Anime", "value": "Announced for April 2027" }
+    ],
+    "wikipedia": "Kagurabachi"
+  },
+  {
+    "id": "jisoo-click",
+    "slug": "jisoo-click",
+    "title": "JISOO — CLICK",
+    "category": "k-pop",
+    "image": "https://oppastore.com/cdn/shop/files/LP_80418256-4dcc-4889-bf43-26ebd478a92b.jpg?v=1787663603",
+    "excerpt": "JISOO's solo release topped a September 2026 weekly K-pop chart, adding to her work as a singer and BLACKPINK member.",
+    "overview": [
+      "Jisoo is a South Korean singer and actor, and a member of BLACKPINK. Her solo releases include the extended play Amortage and songs such as Flower and Earthquake.",
+      "In September 2026, CLICK appeared at the top of a weekly K-pop chart. Jisoo's music combines her solo work with releases and performances as part of BLACKPINK.",
+      "This card is part of FandomVerse's cross-category weekly mix, bringing music releases alongside films, comics, anime, games, and manga."
+    ],
+    "facts": [
+      { "label": "Artist", "value": "JISOO" },
+      { "label": "Known for", "value": "Solo music and BLACKPINK" },
+      { "label": "Category", "value": "K-pop" },
+      { "label": "Chart note", "value": "Weekly chart leader, September 2026" }
+    ],
+    "wikipedia": "Jisoo"
+  },
+  {
+    "id": "toy-story-5",
+    "slug": "toy-story-5",
+    "title": "Toy Story 5",
+    "category": "movies",
+    "image": "https://cdn.teater.co/imgs/toy-story-5-2026_600_880.webp",
+    "excerpt": "Woody, Buzz, and Jessie face a new challenge when Bonnie becomes absorbed by a high-tech tablet toy.",
+    "overview": [
+      "Toy Story 5 is Pixar's fifth main film in the Toy Story series, directed by Andrew Stanton and written by Stanton and Kenna Harris. It follows Toy Story 4 and brings back many of the franchise's voice cast.",
+      "Jessie leads Bonnie's toys, with Buzz as her second-in-command. Their place in Bonnie's life is challenged when she becomes fascinated by Lilypad, a frog-shaped tablet device.",
+      "The film was released in June 2026. Tom Hanks, Tim Allen, Joan Cusack, and other returning cast members reprise their roles, with new performers joining the story."
+    ],
+    "facts": [
+      { "label": "Director", "value": "Andrew Stanton" },
+      { "label": "Studio", "value": "Pixar Animation Studios" },
+      { "label": "Returning voices", "value": "Tom Hanks, Tim Allen, Joan Cusack" },
+      { "label": "Release", "value": "June 19, 2026" }
+    ],
+    "wikipedia": "Toy Story 5"
+  }
+]

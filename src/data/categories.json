@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "anime",
+    "name": "Anime",
+    "tagline": "Animated worlds from Japan",
+    "description": "From shonen battles to slice-of-life warmth — dive into the series, characters, and studios shaping anime culture.",
+    "accentColor": "#e63946",
+    "accentColorLight": "#ff5a68",
+    "accentColorDark": "#b32832",
+    "image": "https://images.pexels.com/photos/31002082/pexels-photo-31002082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "Sparkles"
+  },
+  {
+    "slug": "gaming",
+    "name": "Gaming",
+    "tagline": "Play, compete, explore",
+    "description": "Everything from indie gems to AAA blockbusters — reviews, trailers, character lore, and the culture around play.",
+    "accentColor": "#00d97e",
+    "accentColorLight": "#3eff9a",
+    "accentColorDark": "#00a85f",
+    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "Gamepad2"
+  },
+  {
+    "slug": "movies",
+    "name": "Movies",
+    "tagline": "Stories on the big screen",
+    "description": "Blockbusters, indie films, franchises, and hidden gems — trailers, spotlights, and conversations about cinema.",
+    "accentColor": "#c9a227",
+    "accentColorLight": "#e8bf3e",
+    "accentColorDark": "#a08016",
+    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "Film"
+  },
+  {
+    "slug": "tv-shows",
+    "name": "TV Shows",
+    "tagline": "Episodic obsessions",
+    "description": "From prestige drama to comfort rewatches — discover series, seasons, and the characters we live with week by week.",
+    "accentColor": "#e76f51",
+    "accentColorLight": "#ff8f70",
+    "accentColorDark": "#bd5740",
+    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "Tv"
+  },
+  {
+    "slug": "k-pop",
+    "name": "K-Pop",
+    "tagline": "Music that moves the world",
+    "description": "Groups, comebacks, choreography, and fan culture — the heartbeat of Korean pop music and its global community.",
+    "accentColor": "#e94c89",
+    "accentColorLight": "#ff70a8",
+    "accentColorDark": "#c1306e",
+    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "Music"
+  },
+  {
+    "slug": "comics",
+    "name": "Comics",
+    "tagline": "Panels and power",
+    "description": "Superheroes, indie titles, graphic novels, and the artists behind them — the world of Western and indie comics.",
+    "accentColor": "#e8a87c",
+    "accentColorLight": "#f5c9ad",
+    "accentColorDark": "#bd6038",
+    "image": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "BookOpen"
+  },
+  {
+    "slug": "manga",
+    "name": "Manga",
+    "tagline": "Ink and imagination",
+    "description": "From weekly shonen chapters to seinen masterpieces — the stories, creators, and artistry of Japanese comics.",
+    "accentColor": "#78716c",
+    "accentColorLight": "#a8a29e",
+    "accentColorDark": "#57534e",
+    "image": "https://images.pexels.com/photos/1707581/pexels-photo-1707581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "icon": "PenTool"
+  }
+]

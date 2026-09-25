@@ -1,0 +1,272 @@
+[
+  {
+    "id": "med-001",
+    "title": "Blade of Dawn — Season 2 Official Trailer",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/31002082/pexels-photo-31002082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "2:34",
+    "description": "The first full trailer for the highly anticipated second season, revealing new characters and a darker storyline."
+  },
+  {
+    "id": "med-002",
+    "title": "Studio Interview: The Making of Skybound Chronicles",
+    "category": "anime",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/36942551/pexels-photo-36942551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "18:42",
+    "description": "A sit-down with the director and lead animator discussing the production process and creative decisions."
+  },
+  {
+    "id": "med-003",
+    "title": "Anime Music Podcast — Episode 47",
+    "category": "anime",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "52:10",
+    "description": "A deep dive into the evolution of anime soundtracks, featuring clips and commentary from music critics."
+  },
+  {
+    "id": "med-004",
+    "title": "Phantom Academy Opening Theme — Audio",
+    "category": "anime",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "4:12",
+    "description": "The full opening theme from Phantom Academy, composed and performed by the artist known as Nightwave."
+  },
+  {
+    "id": "med-005",
+    "title": "Starfall Protocol — Gameplay Reveal",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "4:58",
+    "description": "Fifteen minutes of uncut gameplay from the upcoming space exploration RPG, showing combat and dialogue systems."
+  },
+  {
+    "id": "med-006",
+    "title": "Developer Diary: Building Hollow Trail",
+    "category": "gaming",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "24:15",
+    "description": "The lead designer walks through the game's survival mechanics and shares stories from development."
+  },
+  {
+    "id": "med-007",
+    "title": "Gaming Culture Podcast — The Indie Revolution",
+    "category": "gaming",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "1:08:30",
+    "description": "A discussion about how indie games are reshaping the industry, with guest appearances from three indie developers."
+  },
+  {
+    "id": "med-008",
+    "title": "Crown of Ashes — Soundtrack Preview",
+    "category": "gaming",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/5713095/pexels-photo-5713095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "3:45",
+    "description": "A preview of three tracks from the dark fantasy RPG's orchestral score, recorded with a live ensemble."
+  },
+  {
+    "id": "med-009",
+    "title": "The House on Meridian Hill — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "2:18",
+    "description": "The first trailer for the adventure film starring Eleanor Vance, promising a globe-spanning treasure hunt."
+  },
+  {
+    "id": "med-010",
+    "title": "Director's Commentary: After the Rain",
+    "category": "movies",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "31:20",
+    "description": "The director discusses the film's jazz-inflected score, the casting process, and the decision to shoot on film."
+  },
+  {
+    "id": "med-011",
+    "title": "Cinema Podcast — The Mid-Budget Revival",
+    "category": "movies",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "47:55",
+    "description": "Film critics discuss the return of the mid-budget movie and what it means for the future of theatrical cinema."
+  },
+  {
+    "id": "med-012",
+    "title": "Song of the Dust — Theme Song (Audio)",
+    "category": "movies",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/11449473/pexels-photo-11449473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "5:22",
+    "description": "The haunting main theme from the post-apocalyptic drama, performed with acoustic guitar and vocals."
+  },
+  {
+    "id": "med-013",
+    "title": "The 12th Precinct — Season 4 Teaser",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "1:32",
+    "description": "A brief teaser for the new season of the acclaimed police drama, introducing a major new character."
+  },
+  {
+    "id": "med-014",
+    "title": "Cast Interview: The Hollow University",
+    "category": "tv-shows",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "22:08",
+    "description": "The ensemble cast discusses their characters, on-set dynamics, and what to expect in the second season."
+  },
+  {
+    "id": "med-015",
+    "title": "TV Talk Podcast — The Limited Series Boom",
+    "category": "tv-shows",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "55:40",
+    "description": "An analysis of why limited series are becoming the dominant format for prestige television."
+  },
+  {
+    "id": "med-016",
+    "title": "Long Way Home — Theme (Audio)",
+    "category": "tv-shows",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/6892712/pexels-photo-6892712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "3:18",
+    "description": "The acoustic theme song from the road-trip drama, written and performed by the show's music supervisor."
+  },
+  {
+    "id": "med-017",
+    "title": "Eclipse — Comeback Trailer \"Midnight\"",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "1:15",
+    "description": "A cinematic comeback trailer teasing Eclipse's new album, featuring ethereal visuals and a haunting vocal snippet."
+  },
+  {
+    "id": "med-018",
+    "title": "Interview: Wildflower on Their Second Album",
+    "category": "k-pop",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "16:30",
+    "description": "The members of Wildflower discuss their creative process, musical growth, and the pressure of following a hit debut."
+  },
+  {
+    "id": "med-019",
+    "title": "K-Pop Fan Podcast — Choreography Breakdown",
+    "category": "k-pop",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/9708579/pexels-photo-9708579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "41:12",
+    "description": "A professional choreographer breaks down the year's most iconic K-pop dance routines, move by move."
+  },
+  {
+    "id": "med-020",
+    "title": "Northern Lights — Lead Single (Audio)",
+    "category": "k-pop",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/10933702/pexels-photo-10933702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "3:28",
+    "description": "The lead single from Northern Lights' new EP, blending traditional Korean instruments with modern hip-hop production."
+  },
+  {
+    "id": "med-021",
+    "title": "Guardline — Motion Comic Trailer",
+    "category": "comics",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "1:48",
+    "description": "A motion comic trailer for the new Guardline arc, with voice acting, sound effects, and animated panels."
+  },
+  {
+    "id": "med-022",
+    "title": "Artist Interview: The Fracture",
+    "category": "comics",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "28:45",
+    "description": "The artist and writer of The Fracture discuss their creative partnership and the series' multiverse concept."
+  },
+  {
+    "id": "med-023",
+    "title": "Comics Craft Podcast — Lettering Special",
+    "category": "comics",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "38:50",
+    "description": "A deep dive into the art of comic lettering with three professional letterers sharing their process and tips."
+  },
+  {
+    "id": "med-024",
+    "title": "Iron Coast — Audio Drama Episode 1",
+    "category": "comics",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/5569970/pexels-photo-5569970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "22:00",
+    "description": "An audio drama adaptation of the noir comic series, with full cast narration and original sound design."
+  },
+  {
+    "id": "med-025",
+    "title": "Ronin's Path — Anime Adaptation Announcement",
+    "category": "manga",
+    "type": "trailer",
+    "thumbnail": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "0:58",
+    "description": "A brief announcement trailer confirming the anime adaptation of the popular samurai manga, with a first look at character designs."
+  },
+  {
+    "id": "med-026",
+    "title": "Mangaka Interview: The Tea Shop on Cherry Lane",
+    "category": "manga",
+    "type": "interview",
+    "thumbnail": "https://images.pexels.com/photos/15100360/pexels-photo-15100360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "19:33",
+    "description": "The creator discusses their slice-of-life manga, their inspirations, and the challenge of drawing food that makes readers hungry."
+  },
+  {
+    "id": "med-027",
+    "title": "Manga Podcast — Weekly vs Monthly Serialization",
+    "category": "manga",
+    "type": "podcast",
+    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "44:18",
+    "description": "A discussion about how publication schedules shape manga storytelling, with examples from popular series."
+  },
+  {
+    "id": "med-028",
+    "title": "Shadow Boxer — Theme Composition (Audio)",
+    "category": "manga",
+    "type": "audio",
+    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "2:54",
+    "description": "A fan-composed theme for the boxing manga, blending taiko drums with modern electronic production."
+  },
+  {
+    "id": "med-029",
+    "title": "Fan Animation: Blade of Dawn Fight Scene",
+    "category": "anime",
+    "type": "fan-content",
+    "thumbnail": "https://images.pexels.com/photos/13773555/pexels-photo-13773555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "1:22",
+    "description": "A fan-made animation recreating the famous duel from Blade of Dawn in a stunning hand-drawn style."
+  },
+  {
+    "id": "med-030",
+    "title": "Fan Film: Iron Coast — The Night Shift",
+    "category": "comics",
+    "type": "fan-content",
+    "thumbnail": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "duration": "8:15",
+    "description": "A short fan film bringing the noir world of Iron Coast to life, shot in black and white on the streets of Chicago."
+  }
+]

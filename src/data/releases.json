@@ -1,0 +1,191 @@
+[
+  {
+    "id": "rel-001",
+    "title": "Blade of Dawn — Season 2",
+    "category": "anime",
+    "date": "2026-10-12",
+    "image": "https://images.pexels.com/photos/31312675/pexels-photo-31312675.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "TV Series"
+  },
+  {
+    "id": "rel-002",
+    "title": "Phantom Academy — Film Adaptation",
+    "category": "anime",
+    "date": "2026-11-20",
+    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Film"
+  },
+  {
+    "id": "rel-003",
+    "title": "Iron City Saga — New Arc",
+    "category": "anime",
+    "date": "2026-12-01",
+    "image": "https://images.pexels.com/photos/16075337/pexels-photo-16075337.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "TV Series"
+  },
+  {
+    "id": "rel-004",
+    "title": "Starfall Protocol",
+    "category": "gaming",
+    "date": "2026-10-25",
+    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "RPG"
+  },
+  {
+    "id": "rel-005",
+    "title": "Crown of Ashes — DLC: The Hollow King",
+    "category": "gaming",
+    "date": "2026-11-15",
+    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "DLC"
+  },
+  {
+    "id": "rel-006",
+    "title": "Neon Reverie 2",
+    "category": "gaming",
+    "date": "2027-01-10",
+    "image": "https://images.pexels.com/photos/7689080/pexels-photo-7689080.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "rumored",
+    "type": "Action"
+  },
+  {
+    "id": "rel-007",
+    "title": "The House on Meridian Hill",
+    "category": "movies",
+    "date": "2026-10-03",
+    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Theatrical"
+  },
+  {
+    "id": "rel-008",
+    "title": "After the Rain",
+    "category": "movies",
+    "date": "2026-11-08",
+    "image": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Theatrical"
+  },
+  {
+    "id": "rel-009",
+    "title": "The Last Signal",
+    "category": "movies",
+    "date": "2026-12-19",
+    "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "Streaming"
+  },
+  {
+    "id": "rel-010",
+    "title": "The 12th Precinct — Season 4",
+    "category": "tv-shows",
+    "date": "2026-10-14",
+    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Series"
+  },
+  {
+    "id": "rel-011",
+    "title": "The Hollow University — Season 2",
+    "category": "tv-shows",
+    "date": "2026-11-28",
+    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "Series"
+  },
+  {
+    "id": "rel-012",
+    "title": "District 7 — Limited Series Finale",
+    "category": "tv-shows",
+    "date": "2026-12-08",
+    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Limited Series"
+  },
+  {
+    "id": "rel-013",
+    "title": "Eclipse — Midnight (Full Album)",
+    "category": "k-pop",
+    "date": "2026-10-07",
+    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Album"
+  },
+  {
+    "id": "rel-014",
+    "title": "Wildflower — Single \"Bloom\"",
+    "category": "k-pop",
+    "date": "2026-10-30",
+    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Single"
+  },
+  {
+    "id": "rel-015",
+    "title": "Northern Lights — Mini Album",
+    "category": "k-pop",
+    "date": "2026-11-22",
+    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "EP"
+  },
+  {
+    "id": "rel-016",
+    "title": "Guardline — Vol. 5: Sentinel Down",
+    "category": "comics",
+    "date": "2026-10-20",
+    "image": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Graphic Novel"
+  },
+  {
+    "id": "rel-017",
+    "title": "The Fracture — Issue #24",
+    "category": "comics",
+    "date": "2026-11-05",
+    "image": "https://images.pexels.com/photos/8811520/pexels-photo-8811520.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Single Issue"
+  },
+  {
+    "id": "rel-018",
+    "title": "Iron Coast — Collected Edition",
+    "category": "comics",
+    "date": "2026-12-12",
+    "image": "https://images.pexels.com/photos/6654172/pexels-photo-6654172.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "Trade Paperback"
+  },
+  {
+    "id": "rel-019",
+    "title": "Ronin's Path — Volume 28",
+    "category": "manga",
+    "date": "2026-10-18",
+    "image": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Tankobon"
+  },
+  {
+    "id": "rel-020",
+    "title": "The Tea Shop on Cherry Lane — Volume 6",
+    "category": "manga",
+    "date": "2026-11-11",
+    "image": "https://images.pexels.com/photos/1098656/pexels-photo-1098656.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "confirmed",
+    "type": "Tankobon"
+  },
+  {
+    "id": "rel-021",
+    "title": "Shadow Boxer — Final Volume",
+    "category": "manga",
+    "date": "2026-12-15",
+    "image": "https://images.pexels.com/photos/1707581/pexels-photo-1707581.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "status": "upcoming",
+    "type": "Tankobon"
+  }
+]

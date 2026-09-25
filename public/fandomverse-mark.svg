@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>FandomVerse</title>
+  <path d="M32 4.5 53.5 16.9v24.2L32 53.5 10.5 41.1V16.9L32 4.5Z" stroke="#DD8F62" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M22.5 43V29a9.5 9.5 0 0 1 19 0v14" stroke="#FEFEF9" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="m32 20 3.5 8.5L44 32l-8.5 3.5L32 44l-3.5-8.5L20 32l8.5-3.5L32 20Z" fill="#DD8F62"/>
+  <circle cx="32" cy="9.5" r="1.5" fill="#FEFEF9"/>
+  <circle cx="49" cy="19.5" r="1.5" fill="#DD8F62"/>
+  <circle cx="49" cy="38.5" r="1.5" fill="#FEFEF9"/>
+  <circle cx="32" cy="48.5" r="1.5" fill="#DD8F62"/>
+  <circle cx="15" cy="38.5" r="1.5" fill="#FEFEF9"/>
+  <circle cx="15" cy="19.5" r="1.5" fill="#DD8F62"/>
+</svg>
