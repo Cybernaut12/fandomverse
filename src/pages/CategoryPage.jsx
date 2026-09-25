@@ -24,12 +24,37 @@ const typeIcons = {
 export function CategoryPage() {
     const { slug } = useParams();
     const cat = slug ? getCategory(slug) : undefined;
-  const articles = cat ? getArticlesByCategory(cat.slug) : [];
-  const chars = cat ? getCharactersByCategory(cat.slug) : [];
-  const evts = cat ? getEventsByCategory(cat.slug) : [];
-  const media = cat ? getMediaByCategory(cat.slug) : [];
-  const merch = cat ? getMerchByCategory(cat.slug) : [];
-  const rels = cat ? getReleasesByCategory(cat.slug) : [];
+  const [contentTypeFilter, setContentTypeFilter] = useState('all');
+  const [contentTagFilter, setContentTagFilter] = useState('all');
+  const [contentSort, setContentSort] = useState('featured');
+  const sourceArticles = cat ? getArticlesByCategory(cat.slug) : [];
+  const sourceChars = cat ? getCharactersByCategory(cat.slug) : [];
+  const sourceEvents = cat ? getEventsByCategory(cat.slug) : [];
+  const sourceMedia = cat ? getMediaByCategory(cat.slug) : [];
+  const sourceMerch = cat ? getMerchByCategory(cat.slug) : [];
+  const sourceReleases = cat ? getReleasesByCategory(cat.slug) : [];
+  const allContent = [
+    ...sourceArticles.map((item) => ({ item, kind: 'articles' })),
+    ...sourceChars.map((item) => ({ item, kind: 'characters' })),
+    ...sourceMedia.map((item) => ({ item, kind: 'media' })),
+    ...sourceEvents.map((item) => ({ item, kind: 'events' })),
+    ...sourceReleases.map((item) => ({ item, kind: 'releases' })),
+    ...sourceMerch.map((item) => ({ item, kind: 'merchandise' })),
+  ];
+  const availableTags = [...new Set(allContent.flatMap(({ item }) => [
+    ...(Array.isArray(item.tags) ? item.tags : []),
+    ...(Array.isArray(item.traits) ? item.traits : []),
+    item.type,
+    item.status,
+  ]).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  const filterContent = (items, kind) => filterAndSortCategoryItems(items, kind, contentTagFilter, contentSort);
+  const articles = filterContent(sourceArticles, 'articles');
+  const chars = filterContent(sourceChars, 'characters');
+  const evts = filterContent(sourceEvents, 'events');
+  const media = filterContent(sourceMedia, 'media');
+  const merch = filterContent(sourceMerch, 'merchandise');
+  const rels = filterContent(sourceReleases, 'releases');
+  const showContentType = (kind) => contentTypeFilter === 'all' || contentTypeFilter === kind;
   const galleryImages = useMemo(() => {
     const imgs = [];
     articles.forEach((a) => imgs.push({ url: a.image, alt: a.title }));
@@ -75,8 +100,45 @@ export function CategoryPage() {
         </div>
       </section>
 
+      {/* Category-wide content filters */}
+      <section className="container-wide fv-pt-5" aria-label="Filter category content">
+        <div className="d-flex flex-wrap align-items-end gap-3 fv-bg-ink-800 rounded-3 border fv-border-ink-600 fv-p-3 fv-md-p-4">
+          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
+            <label htmlFor="category-content-type" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Content type</label>
+            <select id="category-content-type" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentTypeFilter} onChange={(event) => setContentTypeFilter(event.target.value)}>
+              <option value="all">All content</option>
+              <option value="articles">Articles</option>
+              <option value="characters">Characters</option>
+              <option value="media">Videos &amp; audio</option>
+              <option value="gallery">Image gallery</option>
+              <option value="events">Events</option>
+              <option value="releases">Upcoming releases</option>
+              <option value="merchandise">Merchandise</option>
+            </select>
+          </div>
+          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
+            <label htmlFor="category-content-tag" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Topic or tag</label>
+            <select id="category-content-tag" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentTagFilter} onChange={(event) => setContentTagFilter(event.target.value)}>
+              <option value="all">All topics</option>
+              {availableTags.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
+            </select>
+          </div>
+          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
+            <label htmlFor="category-content-sort" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Sort by</label>
+            <select id="category-content-sort" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentSort} onChange={(event) => setContentSort(event.target.value)}>
+              <option value="featured">Featured first</option>
+              <option value="newest">Newest</option>
+              <option value="alphabetical">Alphabetical</option>
+            </select>
+          </div>
+          {(contentTypeFilter !== 'all' || contentTagFilter !== 'all' || contentSort !== 'featured') && (
+            <button type="button" className="btn btn-sm btn-outline-light" onClick={() => { setContentTypeFilter('all'); setContentTagFilter('all'); setContentSort('featured'); }}>Reset</button>
+          )}
+        </div>
+      </section>
+
       {/* Featured Article */}
-      {articles.length > 0 && (<section className="section-padding">
+      {showContentType('articles') && articles.length > 0 && (<section className="section-padding">
           <div className="container-wide">
             <SectionHeader title="Latest Articles" link={`/category/${cat.slug}`} linkLabel=""/>
             <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-3 fv-gap-4">
@@ -98,7 +160,7 @@ export function CategoryPage() {
         </section>)}
 
       {/* Characters */}
-      {chars.length > 0 && (<section className="section-padding fv-bg-ink-800">
+      {showContentType('characters') && chars.length > 0 && (<section className="section-padding fv-bg-ink-800">
           <div className="container-wide">
             <SectionHeader title="Characters" subtitle={`Faces from the world of ${cat.name}`}/>
             <div className="fv-grid fv-grid-cols-2 fv-md-grid-cols-3 fv-lg-grid-cols-5 fv-gap-3 fv-md-gap-4">
@@ -115,13 +177,13 @@ export function CategoryPage() {
         </section>)}
 
       {/* Media */}
-      {media.length > 0 && (<MediaCategorySection media={media} cat={cat}/>)}
+      {showContentType('media') && media.length > 0 && (<MediaCategorySection media={media} cat={cat}/>)}
 
       {/* Gallery */}
-      {galleryImages.length > 0 && (<GalleryCategorySection images={galleryImages} cat={cat}/>)}
+      {(contentTypeFilter === 'all' || contentTypeFilter === 'gallery') && galleryImages.length > 0 && (<GalleryCategorySection images={galleryImages} cat={cat}/>)}
 
       {/* Events */}
-      {evts.length > 0 && (<section className="section-padding">
+      {showContentType('events') && evts.length > 0 && (<section className="section-padding">
           <div className="container-wide">
             <SectionHeader title="Events" subtitle={`Gatherings and happenings in ${cat.name}`}/>
             <div className="fv-space-y-3">
@@ -152,7 +214,7 @@ export function CategoryPage() {
         </section>)}
 
       {/* Releases */}
-      {rels.length > 0 && (<section className="section-padding fv-bg-ink-800">
+      {showContentType('releases') && rels.length > 0 && (<section className="section-padding fv-bg-ink-800">
           <div className="container-wide">
             <SectionHeader title="Upcoming Releases" subtitle={`What's next in ${cat.name}`}/>
             <div className="fv-grid fv-grid-cols-2 fv-sm-grid-cols-3 fv-lg-grid-cols-5 fv-gap-3">
@@ -181,8 +243,25 @@ export function CategoryPage() {
         </section>)}
 
       {/* Merchandise */}
-      {merch.length > 0 && (<MerchCategorySection merch={merch} cat={cat}/>)}
+      {showContentType('merchandise') && merch.length > 0 && (<MerchCategorySection merch={merch} cat={cat}/>)}
     </div>);
+}
+function filterAndSortCategoryItems(items, kind, tag, sort) {
+  const tagged = tag === 'all' ? items : items.filter((item) => {
+    const facets = [
+      ...(Array.isArray(item.tags) ? item.tags : []),
+      ...(Array.isArray(item.traits) ? item.traits : []),
+      item.type,
+      item.status,
+    ].filter(Boolean).map((value) => String(value).toLowerCase());
+    return facets.includes(tag.toLowerCase());
+  });
+  return [...tagged].sort((a, b) => {
+    if (sort === 'alphabetical') return (a.title || a.name || '').localeCompare(b.title || b.name || '');
+    if (sort === 'newest') return new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime();
+    if (kind === 'articles' && a.featured !== b.featured) return a.featured ? -1 : 1;
+    return (a.title || a.name || '').localeCompare(b.title || b.name || '');
+  });
 }
 // Sub-components for media and gallery sections
 function MediaCategorySection({ media, cat }) {
