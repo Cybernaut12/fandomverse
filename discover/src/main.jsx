@@ -1053,7 +1053,10 @@ function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <a className="logo" href="#" onClick={e=>{e.preventDefault();reset();}}>FANDOM</a>
+        <a className="logo" href="#" onClick={e=>{e.preventDefault();reset();}} style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+          <img src="/logo.png" alt="Logo" style={{ width: '28px', height: '28px', objectFit: 'contain' }} />
+          <span>FANDOM<span style={{ color: '#e8a87c' }}>VERSE</span></span>
+        </a>
         <nav className="top-nav">
           {['Home','Discover','Movies','TV','Anime','Manga','Games','Community'].map(i=>(
             <button key={i} className={i==='Discover'?'active':''}>{i}</button>

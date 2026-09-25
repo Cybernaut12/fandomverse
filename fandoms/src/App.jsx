@@ -243,9 +243,9 @@ const TopBar = () => {
   const nav = ['Home', 'Explore', 'Events', 'Trailers', 'Library', 'Community'];
   return (
     <header className="topbar">
-      <div className="topbar-logo">
-        <span className="logo-mark">F</span>
-        <span className="logo-text">FANDOMVERSE</span>
+      <div className="topbar-logo" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+        <img src="/logo.png" alt="FandomVerse Logo" style={{ width: '32px', height: '32px', objectFit: 'contain' }} />
+        <span className="logo-text">FANDOM<span style={{ color: '#e8a87c' }}>VERSE</span></span>
       </div>
       <nav className="topbar-nav">
         {nav.map(n => (

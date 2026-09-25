@@ -1,3 +1,7 @@
+:root {
+  --accent: #e8a87c;
+}
+
 /* FandomVerse theme and component styles. Layout utilities use Bootstrap 5. */
 *,:after,:before {
   --fv-translate-x:0;

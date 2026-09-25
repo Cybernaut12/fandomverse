@@ -1,0 +1,252 @@
+[
+  {
+    "id": "watchmen",
+    "title": "Watchmen",
+    "platformOrStudio": "DC Comics / Alan Moore & Dave Gibbons"
+  },
+  {
+    "id": "sandman",
+    "title": "The Sandman: Preludes & Nocturnes",
+    "platformOrStudio": "DC Vertigo / Neil Gaiman"
+  },
+  {
+    "id": "batman-the-long-halloween",
+    "title": "Batman: The Long Halloween",
+    "platformOrStudio": "DC Comics / Jeph Loeb & Tim Sale"
+  },
+  {
+    "id": "batman-year-one",
+    "title": "Batman: Year One",
+    "platformOrStudio": "DC Comics / Frank Miller & David Mazzucchelli"
+  },
+  {
+    "id": "batman-the-dark-knight-returns",
+    "title": "The Dark Knight Returns",
+    "platformOrStudio": "DC Comics / Frank Miller"
+  },
+  {
+    "id": "batman-the-killing-joke",
+    "title": "Batman: The Killing Joke",
+    "platformOrStudio": "DC Comics / Alan Moore & Brian Bolland"
+  },
+  {
+    "id": "all-star-superman",
+    "title": "All-Star Superman",
+    "platformOrStudio": "DC Comics / Grant Morrison & Frank Quitely"
+  },
+  {
+    "id": "kingdom-come-dc",
+    "title": "Kingdom Come",
+    "platformOrStudio": "DC Comics / Mark Waid & Alex Ross"
+  },
+  {
+    "id": "saga-comic",
+    "title": "Saga: Volume 1",
+    "platformOrStudio": "Image Comics / Brian K. Vaughan & Fiona Staples"
+  },
+  {
+    "id": "invincible-comic",
+    "title": "Invincible: Ultimate Collection",
+    "platformOrStudio": "Image Comics / Skybound / Robert Kirkman"
+  },
+  {
+    "id": "civil-war-marvel",
+    "title": "Civil War (Marvel)",
+    "platformOrStudio": "Marvel Comics / Mark Millar & Steve McNiven"
+  },
+  {
+    "id": "daredevil-born-again",
+    "title": "Daredevil: Born Again",
+    "platformOrStudio": "Marvel Comics / Frank Miller & David Mazzucchelli"
+  },
+  {
+    "id": "house-of-x-powers-of-x",
+    "title": "House of X / Powers of X",
+    "platformOrStudio": "Marvel Comics / Jonathan Hickman & Pepe Larraz"
+  },
+  {
+    "id": "superman-for-all-seasons",
+    "title": "Superman: For All Seasons",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "superman-red-son",
+    "title": "Superman: Red Son",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "dc-the-new-frontier",
+    "title": "DC: The New Frontier",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "crisis-on-infinite-earths",
+    "title": "Crisis on Infinite Earths",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "flashpoint-dc",
+    "title": "Flashpoint",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "green-lantern-sinestro-corps-war",
+    "title": "Green Lantern: The Sinestro Corps War",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "injustice-gods-among-us",
+    "title": "Injustice: Gods Among Us",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "marvels-busiek-ross",
+    "title": "Marvels",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "infinity-gauntlet",
+    "title": "The Infinity Gauntlet",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "spider-man-blue",
+    "title": "Spider-Man: Blue",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "spider-man-kravens-last-hunt",
+    "title": "Spider-Man: Kraven's Last Hunt",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "ultimate-spider-man-2024",
+    "title": "Ultimate Spider-Man (2024)",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "daredevil-the-man-without-fear",
+    "title": "Daredevil: The Man Without Fear",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "x-men-days-of-future-past",
+    "title": "X-Men: Days of Future Past",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "x-men-dark-phoenix-saga",
+    "title": "X-Men: The Dark Phoenix Saga",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "old-man-logan",
+    "title": "Wolverine: Old Man Logan",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "secret-wars-2015",
+    "title": "Secret Wars (2015)",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "thor-god-of-thunder-godbutcher",
+    "title": "Thor: God of Thunder - The God Butcher",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "immortal-hulk",
+    "title": "The Immortal Hulk",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "the-vision-tom-king",
+    "title": "The Vision",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "moon-knight-from-the-dead",
+    "title": "Moon Knight: From the Dead",
+    "platformOrStudio": "Marvel Comics"
+  },
+  {
+    "id": "the-walking-dead-comic",
+    "title": "The Walking Dead: Compendium One",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "spawn-comic",
+    "title": "Spawn: Origins Collection",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "hellboy-seed-of-destruction",
+    "title": "Hellboy: Seed of Destruction",
+    "platformOrStudio": "Dark Horse Comics"
+  },
+  {
+    "id": "preacher-comic",
+    "title": "Preacher: Book One",
+    "platformOrStudio": "Vertigo / DC"
+  },
+  {
+    "id": "y-the-last-man",
+    "title": "Y: The Last Man",
+    "platformOrStudio": "Vertigo / DC"
+  },
+  {
+    "id": "transmetropolitan",
+    "title": "Transmetropolitan: Back on the Street",
+    "platformOrStudio": "Vertigo / DC"
+  },
+  {
+    "id": "v-for-vendetta-comic",
+    "title": "V for Vendetta",
+    "platformOrStudio": "Vertigo / DC"
+  },
+  {
+    "id": "fables-comic",
+    "title": "Fables: Legends in Exile",
+    "platformOrStudio": "Vertigo / DC"
+  },
+  {
+    "id": "locke-and-key-comic",
+    "title": "Locke & Key: Welcome to Lovecraft",
+    "platformOrStudio": "IDW Publishing"
+  },
+  {
+    "id": "sin-city-comic",
+    "title": "Sin City: The Hard Goodbye",
+    "platformOrStudio": "Dark Horse Comics"
+  },
+  {
+    "id": "chew-comic",
+    "title": "Chew: Taster's Choice",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "east-of-west",
+    "title": "East of West: The Promise",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "monstress-comic",
+    "title": "Monstress: Awakening",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "the-department-of-truth",
+    "title": "The Department of Truth: The End of the World",
+    "platformOrStudio": "Image Comics"
+  },
+  {
+    "id": "batman-court-of-owls",
+    "title": "Batman: The Court of Owls",
+    "platformOrStudio": "DC Comics"
+  },
+  {
+    "id": "batman-hush",
+    "title": "Batman: Hush",
+    "platformOrStudio": "DC Comics"
+  }
+]
