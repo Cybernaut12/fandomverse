@@ -1,84 +1,84 @@
 {
-  "welcomeMessage": "👋 Greetings, Traveler of the Multiverse! I am **FandomBot**, your interactive AI guide across Anime, Gaming, Movies, TV Shows, K-Pop, Comics, and Manga. How can I help you explore today?",
+  "welcomeMessage": "⚡ Hey! I'm **FandomBot**.\nAsk me for anime & game recs, September releases, lore, or site shortcuts!",
   "defaultQuickReplies": [
-    "🔥 Recommend an Anime",
-    "🎮 Top RPG Games",
-    "📅 September 2026 Releases",
-    "🏴‍☠️ Tell me about One Piece",
-    "🛍️ Official Merchandise",
-    "🔖 How to use Bookmarks?"
+    "🔥 Top Anime",
+    "🎮 Best RPGs",
+    "📅 Sept Drops",
+    "🏴‍☠️ One Piece",
+    "🛍️ Merch Shop",
+    "🔖 Bookmarks"
   ],
   "intents": [
     {
       "id": "recommend-anime",
-      "triggers": ["recommend anime", "best anime", "what anime to watch", "suggest anime", "anime recommendation"],
-      "response": "Here are top-tier anime tailored to your taste:\n- ⚡ **Solo Leveling** for pulse-pounding dungeon crawler sakuga action!\n- 🧝‍♀️ **Frieren: Beyond Journey's End** if you desire profound, contemplative fantasy.\n- ⚽ **Blue Lock** for high-stakes psychological sports competition.\n- 🤖 **Pluto** for mature neo-noir sci-fi detective storytelling.",
-      "quickReplies": ["Tell me about One Piece", "View Anime Hub", "Explore Hidden Gems"],
+      "triggers": ["recommend anime", "best anime", "what anime to watch", "suggest anime", "anime recommendation", "top anime"],
+      "response": "🔥 **Must-Watch Anime:**\n• **Solo Leveling** — S-Rank hunter action\n• **Frieren** — Masterpiece fantasy journey\n• **Blue Lock** — High-stakes striker duel\n• **Dandadan** — Wild supernatural sakuga",
+      "quickReplies": ["🏴‍☠️ One Piece", "Anime Hub", "📅 Sept Drops"],
       "suggestedAction": { "label": "Explore Anime Hub", "route": "category", "targetId": "anime" }
     },
     {
       "id": "recommend-gaming",
-      "triggers": ["recommend game", "best game", "rpg games", "what game to play", "elden ring", "cyberpunk"],
-      "response": "In our gaming hall of fame:\n- ⚔️ **Elden Ring** is the undisputed dark-fantasy masterpiece with 100+ hours of untamed exploration.\n- 🦾 **Cyberpunk 2077: Phantom Liberty** offers peerless first-person narrative in a neon dystopia.\n- 🎮 **Hades II** launches this September 2026 with mesmerizing rogue-like combat!",
-      "quickReplies": ["View Gaming Hub", "September 2026 Releases", "Malenia Character Profile"],
+      "triggers": ["recommend game", "best game", "rpg games", "what game to play", "elden ring", "cyberpunk", "best rpgs"],
+      "response": "🎮 **Top Gaming Picks:**\n• **Elden Ring** — Dark fantasy GOTY\n• **Cyberpunk 2077** — Neon Night City thriller\n• **Hades II** — Divine rogue-like combat",
+      "quickReplies": ["Gaming Hub", "📅 Sept Drops", "Malenia Profile"],
       "suggestedAction": { "label": "Explore Gaming Hub", "route": "category", "targetId": "gaming" }
     },
     {
       "id": "one-piece-lore",
       "triggers": ["one piece", "luffy", "straw hat", "grand line", "oda"],
-      "response": "🏴‍☠️ **One Piece** is Eiichiro Oda's magnum opus! Spanning over 1,120 chapters and rated 9.0 by 1.2M members.\nKey sagas include **East Blue**, **Alabasta**, **Enies Lobby**, **Marineford**, and the climactic **Wano Country** arc.\nLuffy has recently unlocked **Gear 5: Sun God Nika**!",
-      "quickReplies": ["Open One Piece Detail", "Read Chapter Progress", "View Manga Hub"],
-      "suggestedAction": { "label": "Open One Piece Detail Page", "route": "media", "targetId": "one-piece" }
+      "response": "🏴‍☠️ **One Piece**\n1,120+ chapters of legendary world-building.\n✨ *Peak highlight:* Luffy's **Gear 5 (Sun God Nika)**!",
+      "quickReplies": ["Open One Piece", "Manga Hub", "🔥 Top Anime"],
+      "suggestedAction": { "label": "Open One Piece Detail", "route": "media", "targetId": "one-piece" }
     },
     {
       "id": "batman-lore",
       "triggers": ["batman", "the batman", "bruce wayne", "pattinson", "gotham"],
-      "response": "🦇 **The Batman (2022)** directed by Matt Reeves features Robert Pattinson in a gritty neo-noir detective thriller scored by Michael Giacchino. It boasts an 8.4 rating and ranks #42 in the Top 250 on FandomVerse!",
-      "quickReplies": ["Open The Batman Detail", "Watch Batman Trailer", "Explore Movies Hub"],
-      "suggestedAction": { "label": "Open The Batman Detail Page", "route": "media", "targetId": "the-batman" }
+      "response": "🦇 **The Batman (2022)**\nRobert Pattinson in Matt Reeves' gritty detective noir.\n⭐ **8.4 / 10** on FandomVerse.",
+      "quickReplies": ["Batman Details", "Movies Hub", "🎮 Best RPGs"],
+      "suggestedAction": { "label": "Open The Batman Detail", "route": "media", "targetId": "the-batman" }
     },
     {
       "id": "september-releases",
-      "triggers": ["september", "releases", "calendar", "upcoming", "what is coming out", "schedule"],
-      "response": "📅 **Upcoming in September 2026 on FandomVerse:**\n- **Sept 1**: Ahsoka Season 2 (Disney+)\n- **Sept 4**: Kaiju No. 8 Ep 12 (Crunchyroll)\n- **Sept 8**: Hades II Full Launch (Steam)\n- **Sept 11**: The Penguin S1 (HBO Max)\n- **Sept 18**: Spy x Family S3 (Crunchyroll)\n- **Sept 28**: Chainsaw Man: Reze Arc Movie (Theaters)",
-      "quickReplies": ["Open Release Calendar", "Set Release Reminder", "View Trending This Week"],
+      "triggers": ["september", "releases", "calendar", "upcoming", "what is coming out", "schedule", "sept drops"],
+      "response": "📅 **Upcoming Drops (Sept 2026):**\n• **Sept 8** — Hades II (Full Launch)\n• **Sept 11** — The Penguin S1\n• **Sept 18** — Spy x Family S3\n• **Sept 28** — Chainsaw Man Movie",
+      "quickReplies": ["Release Calendar", "🔥 Top Anime", "Gaming Hub"],
       "suggestedAction": { "label": "Open Release Calendar", "route": "calendar" }
     },
     {
       "id": "merchandise-help",
-      "triggers": ["merchandise", "shop", "buy", "store", "t-shirt", "figures", "hoodie", "cart"],
-      "response": "🛍️ Our **Merchandise Showcase** features officially licensed collectibles, hoodies, figures, and replicas! You can add products to your temporary cart to calculate total billing. Note: Checkout & payment are simulated demos per project specs.",
-      "quickReplies": ["Go to Merch Store", "View Cart", "Straw Hat Hoodie"],
-      "suggestedAction": { "label": "Browse Merchandise Store", "route": "merchandise" }
+      "triggers": ["merchandise", "shop", "buy", "store", "t-shirt", "figures", "hoodie", "cart", "merch shop"],
+      "response": "🛍️ **Official Merch Showcase**\nHoodies, figures, and collectibles with real-time cart tracking!",
+      "quickReplies": ["Browse Merch", "🏴‍☠️ One Piece", "🔥 Top Anime"],
+      "suggestedAction": { "label": "Browse Merch Store", "route": "merchandise" }
     },
     {
       "id": "collection-tracking",
       "triggers": ["collection", "track", "progress", "my list", "reading", "watching", "how to track"],
-      "response": "📊 Use **My Collection** and **My Progress** to track your entertainment journey across Movies, Shows, Anime, Manga, and Games! Update your current chapter, episode, or played hours with a single click.",
-      "quickReplies": ["View My Collection", "View My Progress", "Community Reviews"],
+      "response": "📊 **My Collection**\nTrack episodes, chapters, and playtime with instant 1-click updates.",
+      "quickReplies": ["My Collection", "🔖 Bookmarks", "🔥 Top Anime"],
       "suggestedAction": { "label": "Go to My Collection", "route": "collection" }
     },
     {
       "id": "bookmarks-system",
       "triggers": ["bookmark", "favorites", "save", "export", "notes"],
-      "response": "🔖 **Bookmarking System**: Click the bookmark ribbon on any media card or character profile! Bookmarks persist in your browser's LocalStorage. You can also write temporary personal notes (SessionStorage) and export your formatted list!",
-      "quickReplies": ["Open Bookmarks Modal", "Export Bookmarks", "Trending Titles"],
+      "response": "🔖 **Bookmarks**\nClick the ribbon icon on any title to save it locally and export anytime.",
+      "quickReplies": ["Open Bookmarks", "Trending Titles", "🎮 Best RPGs"],
       "suggestedAction": { "label": "Open Bookmarks", "route": "bookmarks" }
     },
     {
       "id": "kpop-info",
       "triggers": ["kpop", "k-pop", "bts", "blackpink", "newjeans", "stray kids", "aespa"],
-      "response": "✨ The **K-Pop Hub** celebrates global superstars like **BTS**, **BLACKPINK**, **NewJeans**, **aespa**, and **Stray Kids**! Explore idol profiles, upcoming stadium tour dates, live stage galleries, and concert lightsticks.",
-      "quickReplies": ["Open K-Pop Hub", "Jungkook Profile", "Jennie Profile"],
+      "response": "✨ **K-Pop Hub**\nIdol spotlights on BTS, BLACKPINK, NewJeans, & aespa — tour dates, lightsticks & galleries!",
+      "quickReplies": ["K-Pop Hub", "Browse Merch", "📅 Sept Drops"],
       "suggestedAction": { "label": "Explore K-Pop Hub", "route": "category", "targetId": "k-pop" }
     },
     {
       "id": "contact-team",
       "triggers": ["contact", "support", "team", "email", "address", "map", "gps"],
-      "response": "📍 You can reach out to our team through the **Contact Us** page, which includes team directory information and an interactive GPS Google Map locator.",
-      "quickReplies": ["Go to Contact Page", "About FandomVerse", "Who built this?"],
-      "suggestedAction": { "label": "Visit Contact Us Page", "route": "contact" }
+      "response": "📍 **Contact Us**\nMeet the team and view our interactive headquarters map.",
+      "quickReplies": ["Contact Page", "About Us", "📅 Sept Drops"],
+      "suggestedAction": { "label": "Visit Contact Page", "route": "contact" }
     }
   ],
-  "fallbackResponse": "I understand you're curious about fandoms! You can ask me to recommend anime or games, summarize One Piece or The Batman, check the September 2026 release calendar, or guide you through bookmarking and collection tracking. What shall we look up?"
+  "fallbackResponse": "💡 Ask me for anime/game recs, September releases, lore summaries, or site shortcuts!"
 }

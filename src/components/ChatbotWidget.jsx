@@ -1,196 +1,563 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Send, Sparkles, RotateCcw, ArrowRight } from 'lucide-react';
+import { X, Send, Sparkles, RotateCcw, ArrowRight, Bot, Zap } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import chatbotKnowledge from '../data/chatbotKnowledge.json';
-export const ChatbotWidget = () => {
-    const { isChatbotOpen, setIsChatbotOpen, navigateToCategory, navigateToMedia, setIsBookmarksModalOpen, setCurrentView, currentPlayingTrack } = useApp();
-    const [messages, setMessages] = useState([
-        {
-            id: 'welcome-1',
-            sender: 'bot',
-            text: chatbotKnowledge.welcomeMessage,
-            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-            quickReplies: chatbotKnowledge.defaultQuickReplies
-        }
-    ]);
-    const [input, setInput] = useState('');
-    const [isTyping, setIsTyping] = useState(false);
-    const messagesEndRef = useRef(null);
-    const scrollToBottom = () => {
-        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-    };
-    useEffect(() => {
-        if (isChatbotOpen) {
-            scrollToBottom();
-        }
-    }, [messages, isChatbotOpen, isTyping]);
-    const findBestResponse = (query) => {
-        const q = query.toLowerCase();
-        for (const intent of chatbotKnowledge.intents) {
-            if (intent.triggers.some(trigger => q.includes(trigger.toLowerCase()))) {
-                return {
-                    response: intent.response,
-                    quickReplies: intent.quickReplies,
-                    suggestedAction: intent.suggestedAction
-                };
-            }
-        }
-        return {
-            response: chatbotKnowledge.fallbackResponse,
-            quickReplies: [
-                "🔥 Recommend an Anime",
-                "🎮 Top RPG Games",
-                "📅 September 2026 Releases",
-                "🏴‍☠️ Tell me about One Piece"
-            ],
-            suggestedAction: undefined
-        };
-    };
-    const handleSendMessage = (textToSend) => {
-        const text = textToSend || input.trim();
-        if (!text)
-            return;
-        const userMsg = {
-            id: `usr-${Date.now()}`,
-            sender: 'user',
-            text,
-            time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
-        };
-        setMessages(prev => [...prev, userMsg]);
-        setInput('');
-        setIsTyping(true);
-        // Realistic typing delay
-        setTimeout(() => {
-            const match = findBestResponse(text);
-            const botMsg = {
-                id: `bot-${Date.now()}`,
-                sender: 'bot',
-                text: match.response,
-                time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-                quickReplies: match.quickReplies,
-                suggestedAction: match.suggestedAction
-            };
-            setMessages(prev => [...prev, botMsg]);
-            setIsTyping(false);
-        }, 500);
-    };
-    const handleActionClick = (action) => {
-        if (action.route === 'category' && action.targetId) {
-            navigateToCategory(action.targetId);
-        }
-        else if (action.route === 'media' && action.targetId) {
-            navigateToMedia(action.targetId);
-        }
-        else if (action.route === 'bookmarks') {
-            setIsBookmarksModalOpen(true);
-        }
-        else {
-            setCurrentView(action.route);
-        }
-    };
-    const resetChat = () => {
-        setMessages([
-            {
-                id: `msg-${Date.now()}`,
-                sender: 'bot',
-                text: chatbotKnowledge.welcomeMessage,
-                time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
-                quickReplies: chatbotKnowledge.defaultQuickReplies
-            }
-        ]);
-    };
-    // Bottom offset dynamically adjusts if audio player bar is open
-    const bottomOffsetClass = currentPlayingTrack
-        ? 'bottom-24 sm:bottom-28'
-        : 'bottom-6 sm:bottom-8';
-    return (<div className={`fixed right-4 sm:right-6 z-40 select-none transition-all duration-300 ${bottomOffsetClass}`} style={{ isolation: 'isolate' }}>
-      
-      {/* Floating Launcher Button (Theme from the pull: warm copper #e8a87c) */}
-      {!isChatbotOpen && (<button onClick={() => setIsChatbotOpen(true)} className="group relative flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#e8a87c] hover:bg-[#f0b992] text-[#0a0a0f] shadow-2xl shadow-[#e8a87c]/30 hover:shadow-[#e8a87c]/50 hover:scale-105 active:scale-95 transition-all duration-300 border border-white/20" aria-label="Open FandomVerse AI Assistant">
-          <div className="relative flex items-center justify-center">
-            <Sparkles className="w-5 h-5 transition-transform group-hover:rotate-12"/>
-            <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-500 border border-[#0a0a0f] rounded-full"/>
-          </div>
-          <span className="font-heading font-bold text-xs tracking-wide pr-1 hidden sm:inline">
-            FandomBot
-          </span>
-        </button>)}
 
-      {/* Floating Chat Window (Theme from the pull) */}
-      {isChatbotOpen && (<div className="w-[94vw] sm:w-[380px] h-[540px] max-h-[82vh] rounded-3xl bg-[#0e1017] border border-[#e8a87c]/30 shadow-2xl shadow-black/80 flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200">
-          
+// Helper to render bold, italic, and bulleted text without external markdown packages
+const renderFormattedText = (text) => {
+  if (!text) return null;
+  const lines = text.split('\n');
+  return lines.map((line, lineIdx) => {
+    // Split by **bold** or *italic*
+    const parts = line.split(/(\*\*.*?\*\*|\*.*?\*)/g);
+    const parsedLine = parts.map((part, pIdx) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return (
+          <strong key={pIdx} style={{ color: '#ffffff', fontWeight: 700 }}>
+            {part.slice(2, -2)}
+          </strong>
+        );
+      }
+      if (part.startsWith('*') && part.endsWith('*')) {
+        return (
+          <em key={pIdx} style={{ color: '#e2e8f0', fontStyle: 'italic' }}>
+            {part.slice(1, -1)}
+          </em>
+        );
+      }
+      return part;
+    });
+
+    const isBullet = line.trim().startsWith('•') || line.trim().startsWith('-');
+    return (
+      <div 
+        key={lineIdx} 
+        style={{ 
+          paddingTop: isBullet ? '2px' : '1px',
+          paddingBottom: isBullet ? '2px' : '1px',
+          paddingLeft: isBullet ? '4px' : '0' 
+        }}
+      >
+        {parsedLine}
+      </div>
+    );
+  });
+};
+
+export const ChatbotWidget = () => {
+  const {
+    isChatbotOpen,
+    setIsChatbotOpen,
+    navigateToCategory,
+    navigateToMedia,
+    setIsBookmarksModalOpen,
+    setCurrentView,
+    currentPlayingTrack
+  } = useApp();
+
+  const [messages, setMessages] = useState([
+    {
+      id: 'welcome-1',
+      sender: 'bot',
+      text: chatbotKnowledge.welcomeMessage,
+      time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      quickReplies: chatbotKnowledge.defaultQuickReplies
+    }
+  ]);
+  const [input, setInput] = useState('');
+  const [isTyping, setIsTyping] = useState(false);
+  const messagesEndRef = useRef(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  useEffect(() => {
+    if (isChatbotOpen) {
+      scrollToBottom();
+    }
+  }, [messages, isChatbotOpen, isTyping]);
+
+  const findBestResponse = (query) => {
+    const q = query.toLowerCase();
+    for (const intent of chatbotKnowledge.intents) {
+      if (intent.triggers.some(trigger => q.includes(trigger.toLowerCase()))) {
+        return {
+          response: intent.response,
+          quickReplies: intent.quickReplies,
+          suggestedAction: intent.suggestedAction
+        };
+      }
+    }
+    return {
+      response: chatbotKnowledge.fallbackResponse,
+      quickReplies: [
+        "🔥 Top Anime",
+        "🎮 Best RPGs",
+        "📅 Sept Drops",
+        "🏴‍☠️ One Piece"
+      ],
+      suggestedAction: undefined
+    };
+  };
+
+  const handleSendMessage = (textToSend) => {
+    const text = textToSend || input.trim();
+    if (!text) return;
+
+    const userMsg = {
+      id: `usr-${Date.now()}`,
+      sender: 'user',
+      text,
+      time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+    };
+
+    setMessages(prev => [...prev, userMsg]);
+    setInput('');
+    setIsTyping(true);
+
+    setTimeout(() => {
+      const match = findBestResponse(text);
+      const botMsg = {
+        id: `bot-${Date.now()}`,
+        sender: 'bot',
+        text: match.response,
+        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        quickReplies: match.quickReplies,
+        suggestedAction: match.suggestedAction
+      };
+      setMessages(prev => [...prev, botMsg]);
+      setIsTyping(false);
+    }, 450);
+  };
+
+  const handleActionClick = (action) => {
+    if (action.route === 'category' && action.targetId) {
+      navigateToCategory(action.targetId);
+    } else if (action.route === 'media' && action.targetId) {
+      navigateToMedia(action.targetId);
+    } else if (action.route === 'bookmarks') {
+      setIsBookmarksModalOpen(true);
+    } else {
+      setCurrentView(action.route);
+    }
+  };
+
+  const resetChat = () => {
+    setMessages([
+      {
+        id: `msg-${Date.now()}`,
+        sender: 'bot',
+        text: chatbotKnowledge.welcomeMessage,
+        time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+        quickReplies: chatbotKnowledge.defaultQuickReplies
+      }
+    ]);
+  };
+
+  const bottomPosition = currentPlayingTrack ? '112px' : '28px';
+
+  return (
+    <div
+      style={{
+        position: 'fixed',
+        right: '20px',
+        bottom: bottomPosition,
+        zIndex: 1050,
+        isolation: 'isolate',
+        transition: 'bottom 0.3s ease'
+      }}
+    >
+      {/* Floating Modern AI Launcher (Glowing Orb + Sleek Pill) */}
+      {!isChatbotOpen && (
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+          <div
+            onClick={() => setIsChatbotOpen(true)}
+            className="bot-launcher-pill d-none d-sm-flex"
+            style={{ textDecoration: 'none' }}
+          >
+            <span style={{ fontSize: '12px', fontWeight: 700, color: '#ffffff', letterSpacing: '0.02em' }}>
+              Chat with AI
+            </span>
+            <span
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '4px',
+                padding: '2px 7px',
+                borderRadius: '9999px',
+                background: 'rgba(16, 185, 129, 0.15)',
+                border: '1px solid rgba(16, 185, 129, 0.4)',
+                color: '#34d399',
+                fontSize: '10px',
+                fontWeight: 700
+              }}
+            >
+              <span
+                style={{
+                  width: '5px',
+                  height: '5px',
+                  borderRadius: '50%',
+                  backgroundColor: '#10b981',
+                  boxShadow: '0 0 6px #10b981'
+                }}
+              />
+              ONLINE
+            </span>
+          </div>
+
+          <button
+            onClick={() => setIsChatbotOpen(true)}
+            className="bot-launcher-btn"
+            aria-label="Open FandomBot AI Assistant"
+            title="Open FandomBot"
+          >
+            <div className="bot-launcher-ring" />
+            <Bot size={26} strokeWidth={2.2} />
+          </button>
+        </div>
+      )}
+
+      {/* Floating Fluid Glass Chat Window (Deep Curved Silhouette, Non-Boxy) */}
+      {isChatbotOpen && (
+        <div className="bot-window">
           {/* Header */}
-          <div className="p-4 border-b border-white/10 bg-[#141622] flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <div className="w-9 h-9 rounded-2xl bg-[#e8a87c] flex items-center justify-center shadow-md shadow-[#e8a87c]/20">
-                <Sparkles className="w-5 h-5 text-[#0a0a0f]"/>
+          <div className="bot-header">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <div
+                style={{
+                  position: 'relative',
+                  width: '38px',
+                  height: '38px',
+                  borderRadius: '50%',
+                  background: 'linear-gradient(135deg, #e8a87c 0%, #c47c4c 100%)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  boxShadow: '0 4px 14px rgba(232, 168, 124, 0.35)',
+                  flexShrink: 0
+                }}
+              >
+                <Bot size={20} color="#0a0b12" strokeWidth={2.2} />
+                <span
+                  style={{
+                    position: 'absolute',
+                    bottom: '-1px',
+                    right: '-1px',
+                    width: '10px',
+                    height: '10px',
+                    borderRadius: '50%',
+                    backgroundColor: '#10b981',
+                    border: '2px solid #141624',
+                    boxShadow: '0 0 8px #10b981'
+                  }}
+                />
               </div>
+
               <div>
-                <h3 className="text-xs font-black text-white flex items-center space-x-1.5 font-heading">
-                  <span>FandomVerse Guide</span>
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 inline-block"/>
-                </h3>
-                <p className="text-[10px] text-slate-400">Ask about anime, games, lore & releases</p>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                  <h3 style={{ fontSize: '13px', fontWeight: 800, color: '#ffffff', margin: 0, letterSpacing: '0.02em' }}>
+                    FandomBot
+                  </h3>
+                  <span
+                    style={{
+                      fontSize: '9.5px',
+                      fontWeight: 800,
+                      padding: '1px 6px',
+                      borderRadius: '9999px',
+                      background: 'rgba(232, 168, 124, 0.18)',
+                      border: '1px solid rgba(232, 168, 124, 0.35)',
+                      color: '#e8a87c',
+                      letterSpacing: '0.04em'
+                    }}
+                  >
+                    AI GUIDE
+                  </span>
+                </div>
+                <p style={{ fontSize: '10.5px', color: '#94a3b8', margin: '2px 0 0 0' }}>
+                  Anime, gaming, releases & lore
+                </p>
               </div>
             </div>
 
-            <div className="flex items-center space-x-1">
-              <button onClick={resetChat} className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition-colors" title="Reset Conversation" aria-label="Reset conversation">
-                <RotateCcw className="w-3.5 h-3.5"/>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <button
+                onClick={resetChat}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.05)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                  color: '#94a3b8',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = '#ffffff';
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.12)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = '#94a3b8';
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+                }}
+                title="Reset Conversation"
+                aria-label="Reset conversation"
+              >
+                <RotateCcw size={14} />
               </button>
-              <button onClick={() => setIsChatbotOpen(false)} className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition-colors" title="Close Chat" aria-label="Close chat">
-                <X className="w-4 h-4"/>
+
+              <button
+                onClick={() => setIsChatbotOpen(false)}
+                style={{
+                  width: '30px',
+                  height: '30px',
+                  borderRadius: '50%',
+                  background: 'rgba(255, 255, 255, 0.05)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                  color: '#94a3b8',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s ease'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = '#ffffff';
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.12)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = '#94a3b8';
+                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.05)';
+                }}
+                title="Close Chat"
+                aria-label="Close chat"
+              >
+                <X size={15} />
               </button>
             </div>
           </div>
 
           {/* Messages Feed */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-3.5 text-xs scrollbar-thin">
-            {messages.map(msg => (<div key={msg.id} className={`flex flex-col ${msg.sender === 'user' ? 'items-end' : 'items-start'}`}>
-                <div className={`max-w-[85%] rounded-2xl p-3 leading-relaxed whitespace-pre-line text-xs ${msg.sender === 'user'
-                    ? 'bg-[#e8a87c] text-[#0a0a0f] font-semibold rounded-br-none shadow-md shadow-[#e8a87c]/15'
-                    : 'bg-white/[0.06] border border-white/10 text-slate-200 rounded-bl-none'}`}>
-                  {msg.text}
+          <div
+            style={{
+              flex: 1,
+              overflowY: 'auto',
+              padding: '16px',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '14px'
+            }}
+          >
+            {messages.map((msg) => (
+              <div
+                key={msg.id}
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: msg.sender === 'user' ? 'flex-end' : 'flex-start'
+                }}
+              >
+                {/* Bot Message Row (Avatar + Bubble) */}
+                {msg.sender === 'bot' ? (
+                  <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', maxWidth: '88%' }}>
+                    <div
+                      style={{
+                        width: '26px',
+                        height: '26px',
+                        borderRadius: '50%',
+                        background: 'rgba(232, 168, 124, 0.15)',
+                        border: '1px solid rgba(232, 168, 124, 0.3)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0,
+                        marginTop: '2px'
+                      }}
+                    >
+                      <Sparkles size={13} color="#e8a87c" />
+                    </div>
 
-                  {/* Action Link Button if provided */}
-                  {msg.suggestedAction && (<button onClick={() => handleActionClick(msg.suggestedAction)} className="mt-2.5 w-full py-2 px-3 rounded-xl bg-[#e8a87c]/15 hover:bg-[#e8a87c]/25 text-[#e8a87c] border border-[#e8a87c]/30 text-[11px] font-bold flex items-center justify-between group transition-all">
-                      <span>{msg.suggestedAction.label}</span>
-                      <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1"/>
-                    </button>)}
+                    <div style={{ flex: 1 }}>
+                      <div className="bot-bubble">
+                        {renderFormattedText(msg.text)}
+
+                        {/* Interactive Action Card Pill */}
+                        {msg.suggestedAction && (
+                          <div
+                            onClick={() => handleActionClick(msg.suggestedAction)}
+                            className="bot-action-card"
+                          >
+                            <span>{msg.suggestedAction.label}</span>
+                            <ArrowRight size={14} style={{ color: '#e8a87c' }} />
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Quick Reply Chips */}
+                      {msg.quickReplies && msg.quickReplies.length > 0 && (
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '8px' }}>
+                          {msg.quickReplies.map((chip, idx) => (
+                            <button
+                              key={idx}
+                              onClick={() => handleSendMessage(chip)}
+                              className="bot-quick-chip"
+                            >
+                              {chip}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+
+                      <span
+                        style={{
+                          fontSize: '9.5px',
+                          color: '#64748b',
+                          marginTop: '4px',
+                          display: 'block',
+                          paddingLeft: '2px',
+                          fontFamily: 'monospace'
+                        }}
+                      >
+                        {msg.time}
+                      </span>
+                    </div>
+                  </div>
+                ) : (
+                  /* User Message Bubble */
+                  <div style={{ maxWidth: '82%' }}>
+                    <div className="user-bubble">
+                      {msg.text}
+                    </div>
+                    <span
+                      style={{
+                        fontSize: '9.5px',
+                        color: '#64748b',
+                        marginTop: '4px',
+                        display: 'block',
+                        textAlign: 'right',
+                        fontFamily: 'monospace'
+                      }}
+                    >
+                      {msg.time}
+                    </span>
+                  </div>
+                )}
+              </div>
+            ))}
+
+            {/* Typing Indicator */}
+            {isTyping && (
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <div
+                  style={{
+                    width: '26px',
+                    height: '26px',
+                    borderRadius: '50%',
+                    background: 'rgba(232, 168, 124, 0.15)',
+                    border: '1px solid rgba(232, 168, 124, 0.3)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0
+                  }}
+                >
+                  <Sparkles size={13} color="#e8a87c" />
                 </div>
-
-                {/* Quick Reply Chips */}
-                {msg.quickReplies && msg.quickReplies.length > 0 && (<div className="flex flex-wrap gap-1.5 mt-2">
-                    {msg.quickReplies.map((chip, idx) => (<button key={idx} onClick={() => handleSendMessage(chip)} className="px-2.5 py-1 rounded-full bg-white/5 hover:bg-[#e8a87c]/15 text-[11px] text-slate-300 hover:text-[#e8a87c] border border-white/10 hover:border-[#e8a87c]/30 transition-colors">
-                        {chip}
-                      </button>))}
-                  </div>)}
-
-                <span className="text-[9px] text-slate-400 mt-1 font-mono">{msg.time}</span>
-              </div>))}
-
-            {isTyping && (<div className="flex items-center space-x-1.5 text-slate-400 p-2 bg-white/5 rounded-xl w-16">
-                <span className="w-1.5 h-1.5 rounded-full bg-[#e8a87c] animate-bounce" style={{ animationDelay: '0ms' }}/>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#e8a87c] animate-bounce" style={{ animationDelay: '150ms' }}/>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#e8a87c] animate-bounce" style={{ animationDelay: '300ms' }}/>
-              </div>)}
-            <div ref={messagesEndRef}/>
+                <div
+                  style={{
+                    padding: '8px 12px',
+                    borderRadius: '16px 16px 16px 4px',
+                    background: 'rgba(255, 255, 255, 0.05)',
+                    border: '1px solid rgba(255, 255, 255, 0.08)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '5px'
+                  }}
+                >
+                  <span
+                    style={{
+                      width: '6px',
+                      height: '6px',
+                      borderRadius: '50%',
+                      backgroundColor: '#e8a87c',
+                      animation: 'animate-bounce 1s infinite',
+                      animationDelay: '0ms'
+                    }}
+                  />
+                  <span
+                    style={{
+                      width: '6px',
+                      height: '6px',
+                      borderRadius: '50%',
+                      backgroundColor: '#e8a87c',
+                      animation: 'animate-bounce 1s infinite',
+                      animationDelay: '150ms'
+                    }}
+                  />
+                  <span
+                    style={{
+                      width: '6px',
+                      height: '6px',
+                      borderRadius: '50%',
+                      backgroundColor: '#e8a87c',
+                      animation: 'animate-bounce 1s infinite',
+                      animationDelay: '300ms'
+                    }}
+                  />
+                </div>
+              </div>
+            )}
+            <div ref={messagesEndRef} />
           </div>
 
-          {/* Chat Input */}
-          <div className="p-3 border-t border-white/10 bg-[#141622]">
-            <form onSubmit={(e) => {
+          {/* Chat Input Capsule */}
+          <div
+            style={{
+              padding: '12px 14px',
+              borderTop: '1px solid rgba(255, 255, 255, 0.06)',
+              background: 'linear-gradient(180deg, rgba(18, 20, 31, 0.8) 0%, rgba(13, 15, 23, 0.95) 100%)'
+            }}
+          >
+            <form
+              onSubmit={(e) => {
                 e.preventDefault();
                 handleSendMessage();
-            }} className="flex items-center space-x-2">
-              <input type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Ask about anime, games, releases..." className="flex-1 px-3 py-2 rounded-xl bg-white/5 border border-white/10 text-xs text-white placeholder-slate-400 focus:outline-none focus:border-[#e8a87c]"/>
-              <button type="submit" disabled={!input.trim()} className="p-2.5 rounded-xl bg-[#e8a87c] hover:bg-[#f0b992] disabled:opacity-40 text-[#0a0a0f] font-bold transition-all shadow-md shadow-[#e8a87c]/20" aria-label="Send message">
-                <Send className="w-4 h-4"/>
+              }}
+              className="bot-input-capsule"
+            >
+              <input
+                type="text"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                placeholder="Ask about anime, games, releases..."
+                style={{
+                  flex: 1,
+                  background: 'transparent',
+                  border: 'none',
+                  outline: 'none',
+                  fontSize: '12.5px',
+                  color: '#ffffff',
+                  padding: '6px 0'
+                }}
+              />
+              <button
+                type="submit"
+                disabled={!input.trim()}
+                className="bot-send-btn"
+                aria-label="Send message"
+              >
+                <Send size={15} />
               </button>
             </form>
           </div>
-
-        </div>)}
-
-    </div>);
+        </div>
+      )}
+    </div>
+  );
 };
+
+export default ChatbotWidget;
