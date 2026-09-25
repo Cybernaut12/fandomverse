@@ -96,8 +96,8 @@ export const HomeView = () => {
             quality: '4K IMAX',
             year: 2024,
             status: 'Theatrical Hit',
-            thumbnail: 'https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg',
-            coverImage: 'https://image.tmdb.org/t/p/w780/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg',
+            thumbnail: '/images/dune-banner.jpg',
+            coverImage: '/images/dune-cover.jpg',
             embedUrl: 'https://www.youtube.com/embed/Way9Dexny3w',
             synopsis: 'Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.',
             tagline: 'Long live the fighters.'
@@ -130,8 +130,8 @@ export const HomeView = () => {
             quality: '1080p HD',
             year: 2024,
             status: 'Season 2 Arise',
-            thumbnail: 'https://image.tmdb.org/t/p/w1280/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg',
-            coverImage: 'https://cdn.myanimelist.net/images/anime/1066/141019l.jpg',
+            thumbnail: '/images/solo-leveling-banner.jpg',
+            coverImage: '/images/solo-leveling-cover.jpg',
             embedUrl: 'https://www.youtube.com/embed/916OD9A32xU',
             synopsis: 'When an E-rank hunter known as the weakest hunter of all mankind awakens with a mysterious player system, he alone begins leveling up without limit.',
             tagline: 'Arise.'

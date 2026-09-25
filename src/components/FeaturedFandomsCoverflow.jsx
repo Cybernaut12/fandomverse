@@ -12,8 +12,8 @@ export const FeaturedFandomsCoverflow = () => {
             category: 'movies',
             categoryLabel: 'Cinema',
             description: 'Paul Atreides unites with Chani and the Fremen while seeking vengeance against the conspirators who destroyed his family in a vast galactic holy war.',
-            image: 'https://image.tmdb.org/t/p/w1280/eZ239CUp1d6OryZEBPnO2n87gMG.jpg',
-            fallbackImage: 'https://image.tmdb.org/t/p/w780/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg',
+            image: '/images/dune-cover.jpg',
+            fallbackImage: '/images/dune-banner.jpg',
             stats: {
                 label1: 'Format',
                 val1: 'IMAX 70mm',
@@ -32,8 +32,8 @@ export const FeaturedFandomsCoverflow = () => {
             category: 'gaming',
             categoryLabel: 'Gaming',
             description: 'Guided by Empyrean Miquella, Tarnished step into the Land of Shadow to unravel the dark history of Queen Marika and conquer colossal demi-gods.',
-            image: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg',
-            fallbackImage: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg',
+            image: '/images/elden-ring-banner.jpg',
+            fallbackImage: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg',
             stats: {
                 label1: 'Scope',
                 val1: '80+ Hrs',
@@ -72,8 +72,8 @@ export const FeaturedFandomsCoverflow = () => {
             category: 'gaming',
             categoryLabel: 'Gaming',
             description: 'Infiltrate the walled lawless enclave of Dogtown in a high-stakes spy thriller alongside FIA agent Solomon Reed and songstress Songbird.',
-            image: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/library_hero.jpg',
-            fallbackImage: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg',
+            image: '/images/cyberpunk-banner.jpg',
+            fallbackImage: 'https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg',
             stats: {
                 label1: 'Campaign',
                 val1: 'Phantom Lib.',
@@ -92,8 +92,8 @@ export const FeaturedFandomsCoverflow = () => {
             category: 'manga',
             categoryLabel: 'Anime / Webtoon',
             description: 'Weakest E-rank hunter Sung Jinwoo awakens a mysterious quest system that grants him the unique ability to level up infinitely and summon the Shadow Army.',
-            image: 'https://image.tmdb.org/t/p/w1280/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg',
-            fallbackImage: 'https://cdn.myanimelist.net/images/anime/1066/141019l.jpg',
+            image: '/images/solo-leveling-cover.jpg',
+            fallbackImage: '/images/solo-leveling-banner.jpg',
             stats: {
                 label1: 'Hunter Rank',
                 val1: 'Shadow Monarch',

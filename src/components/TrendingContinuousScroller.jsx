@@ -87,7 +87,7 @@ export const TrendingContinuousScroller = () => {
           <div className="flex space-x-4" style={{
             display: 'flex',
             width: 'max-content',
-            animation: 'marqueeScroll 90s linear infinite',
+            animation: 'marqueeScroll 180s linear infinite',
             animationPlayState: isPaused ? 'paused' : 'running'
         }}>
             {duplicatedList.map((item, index) => {
