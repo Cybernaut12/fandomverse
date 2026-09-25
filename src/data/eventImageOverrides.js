@@ -1,0 +1,25 @@
+const fromReferenceEvents = (photoId) => `https://images.unsplash.com/${photoId}?auto=format&fit=crop&w=1600&q=85`;
+
+export const eventImageOverrides = {
+  'evt-001': fromReferenceEvents('photo-1607604276583-eef5d076aa5f'),
+  'evt-002': fromReferenceEvents('photo-1517457373958-b7bdd4587205'),
+  'evt-003': fromReferenceEvents('photo-1540575467063-178a50c2df87'),
+  'evt-004': fromReferenceEvents('photo-1511512578047-dfb367046420'),
+  'evt-005': fromReferenceEvents('photo-1493711662062-fa541adb3fc8'),
+  'evt-006': fromReferenceEvents('photo-1511512578047-dfb367046420'),
+  'evt-007': fromReferenceEvents('photo-1500530855697-b586d89ba3ee'),
+  'evt-008': fromReferenceEvents('photo-1500530855697-b586d89ba3ee'),
+  'evt-009': fromReferenceEvents('photo-1500530855697-b586d89ba3ee'),
+  'evt-010': fromReferenceEvents('photo-1611162617474-5b21e879e113'),
+  'evt-011': fromReferenceEvents('photo-1611162617474-5b21e879e113'),
+  'evt-012': fromReferenceEvents('photo-1578632767115-351597cf2477'),
+  'evt-013': fromReferenceEvents('photo-1501386761578-eac5c94b800a'),
+  'evt-014': fromReferenceEvents('photo-1470229722913-7c0e2dbbafd3'),
+  'evt-015': fromReferenceEvents('photo-1540575467063-178a50c2df87'),
+  'evt-016': fromReferenceEvents('photo-1540575467063-178a50c2df87'),
+  'evt-017': fromReferenceEvents('photo-1511578314322-379afb476865'),
+  'evt-018': fromReferenceEvents('photo-1517457373958-b7bdd4587205'),
+  'evt-019': fromReferenceEvents('photo-1607604276583-eef5d076aa5f'),
+  'evt-020': fromReferenceEvents('photo-1578632767115-351597cf2477'),
+  'evt-021': fromReferenceEvents('photo-1607604276583-eef5d076aa5f'),
+};
