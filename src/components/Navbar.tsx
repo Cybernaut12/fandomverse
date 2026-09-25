@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import { useApp, type AppView } from '../context/AppContext';
 import type { CategoryType } from '../types';
+import { Logo } from './Logo';
 
 export const Navbar: React.FC = () => {
   const { 
@@ -79,20 +80,8 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => handleNavClick('home')}>
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 via-indigo-500 to-cyan-400 p-[1.5px] shadow-lg shadow-purple-500/20">
-              <div className="w-full h-full bg-[#0d0f17] rounded-[10px] flex items-center justify-center">
-                <Sparkles className="w-4 h-4 text-cyan-400 animate-pulse" />
-              </div>
-            </div>
-            <div>
-              <span className="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent font-heading">
-                FandomVerse
-              </span>
-              <span className="hidden sm:inline-block ml-2 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 border border-purple-500/30">
-                2.0
-              </span>
-            </div>
+          <div className="cursor-pointer" onClick={() => handleNavClick('home')}>
+            <Logo size="md" useImage={true} />
           </div>
 
           {/* Desktop Navigation Links */}

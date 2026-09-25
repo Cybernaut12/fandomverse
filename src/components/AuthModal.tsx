@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Sparkles, User, Lock, Mail, Globe, Check } from 'lucide-react';
 import { useApp } from '../context/AppContext';
+import { Logo } from './Logo';
 
 export const AuthModal: React.FC = () => {
   const { isAuthModalOpen, setIsAuthModalOpen, currentUser, setCurrentUser, userProfile } = useApp();
@@ -55,10 +56,8 @@ export const AuthModal: React.FC = () => {
 
         {/* Modal Header */}
         <div className="text-center space-y-2">
-          <div className="w-12 h-12 mx-auto rounded-2xl bg-gradient-to-tr from-purple-600 to-cyan-400 p-[1.5px] shadow-lg shadow-purple-500/20">
-            <div className="w-full h-full bg-[#0d0f17] rounded-[14px] flex items-center justify-center">
-              <Sparkles className="w-6 h-6 text-cyan-400" />
-            </div>
+          <div className="flex justify-center pb-1">
+            <Logo size="lg" showWordmark={false} useImage={true} />
           </div>
           <h2 className="text-xl font-bold text-white font-heading">
             {tab === 'login' ? 'Welcome to FandomVerse' : 'Create Fan Account'}

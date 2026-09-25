@@ -2,6 +2,7 @@ import React from 'react';
 import { Sparkles, Heart, Shield, Globe, Award, ExternalLink, Share2, MessageCircle } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import type { CategoryType } from '../types';
+import { Logo } from './Logo';
 
 export const Footer: React.FC = () => {
   const { setCurrentView, navigateToCategory } = useApp();
@@ -26,15 +27,8 @@ export const Footer: React.FC = () => {
           
           {/* Col 1: Brand Info */}
           <div className="lg:col-span-2 space-y-4">
-            <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setCurrentView('home')}>
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-purple-600 to-cyan-400 p-[1px]">
-                <div className="w-full h-full bg-[#0d0f17] rounded-[7px] flex items-center justify-center">
-                  <Sparkles className="w-4 h-4 text-cyan-400" />
-                </div>
-              </div>
-              <span className="text-xl font-bold tracking-tight text-white font-heading">
-                FandomVerse
-              </span>
+            <div className="cursor-pointer" onClick={() => setCurrentView('home')}>
+              <Logo size="md" useImage={true} showBadge={false} />
             </div>
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
               The next-generation unified portal for fandom enthusiasts worldwide. 
