@@ -6,7 +6,7 @@ import { events } from '@/data/events';
 import { mediaItems } from '@/data/media';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { Lightbox } from '@/components/Lightbox';
-// Build a curated set of gallery images from our content
+
 function buildGalleryImages() {
     const imgs = [];
     categories.forEach((cat) => imgs.push({ url: cat.image, alt: `${cat.name} category image` }));
