@@ -16,7 +16,7 @@ export function Header({ onSearchOpen }) {
     useEffect(() => {
         setMobileOpen(false);
         setExploreOpen(false);
-    }, [location.pathname]);
+    }, [location.pathname, location.hash]);
     const exploreLinks = [
       { label: 'Movies', path: '/category/movies' },
       { label: 'Anime', path: '/category/anime' },
@@ -57,7 +57,7 @@ export function Header({ onSearchOpen }) {
                 </div>)}
               </div>
               <Link to="/articles" className={navLinkClass(isActive('/articles'))}>Articles<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/articles') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
-              <Link to="/#events" className={navLinkClass(location.hash === '#events')}>Events<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${location.hash === '#events' ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
+              <Link to="/events" className={navLinkClass(isActive('/events'))}>Events<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/events') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
               <Link to="/about" className={navLinkClass(isActive('/about'))}>Community<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/about') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
             </nav>
 
@@ -98,7 +98,7 @@ export function Header({ onSearchOpen }) {
               {exploreLinks.map((link) => (<Link key={link.path} to={link.path} className="fv-px-4 fv-py-2 fv-heading-font fv-text-paper-200 fv-hover-text-brand-400">{link.label}</Link>))}
             </div>)}
             <Link to="/articles" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/articles') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Articles</Link>
-            <Link to="/#events" className="fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-text-paper-200 fv-hover-text-paper-50">Events</Link>
+            <Link to="/events" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/events') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Events</Link>
             <Link to="/about" className="fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-text-paper-200 fv-hover-text-paper-50">Community</Link>
             <div className="fv-h-px fv-bg-ink-600 fv-my-2"/>
             <button type="button" onClick={() => { setMobileOpen(false); openCart(); }} className="w-100 text-start border-0 fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-bg-transparent fv-text-paper-200 fv-hover-text-paper-50">

@@ -5,6 +5,7 @@ import { categories } from '@/data/categories';
 import { CategoryBadge } from '@/components/ui/CategoryBadge';
 import { SectionHeader } from '@/components/ui/SectionHeader';
 import { BookmarkButton } from '@/components/ui/BookmarkButton';
+import { MediaPlayButton } from '@/components/media/MediaPlayback';
 const typeIcons = {
     trailer: <Play className="fv-w-4 fv-h-4"/>,
     interview: <Users className="fv-w-4 fv-h-4"/>,
@@ -64,12 +65,8 @@ function MediaCard({ item, large }) {
       <img src={item.thumbnail} alt={item.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
       <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent"/>
 
-      {/* Play overlay */}
-      <div className="position-absolute fv-inset-0 d-flex align-items-center justify-content-center fv-opacity-0 fv-group-hover-opacity-100 fv-transition-opacity fv-duration-300">
-        <div className="fv-w-14 fv-h-14 rounded-pill fv-bg-brand-500-90 d-flex align-items-center justify-content-center fv-backdrop-blur-sm">
-          {typeIcons[item.type]}
-        </div>
-      </div>
+      <MediaPlayButton item={item}/>
+
 
       {/* Duration badge */}
       <span className="position-absolute fv-top-3 fv-right-3 fv-bg-ink-900-80 fv-backdrop-blur-sm fv-text-paper-100 fv-text-xs fv-px-2 fv-py-0-5 fv-rounded fv-heading-font" style={{ top: '3.25rem' }}>

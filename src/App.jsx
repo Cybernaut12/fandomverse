@@ -15,6 +15,7 @@ import { TrendingDetailPage } from '@/pages/TrendingDetailPage';
 import { TrendingPage } from '@/pages/TrendingPage';
 import { CharacterDetailPage } from '@/pages/CharacterDetailPage';
 import { EventDetailPage } from '@/pages/EventDetailPage';
+import { EventsPage } from '@/pages/EventsPage';
 import { BookmarksPage } from '@/pages/BookmarksPage';
 import { AboutPage } from '@/pages/AboutPage';
 import { ContactPage } from '@/pages/ContactPage';
@@ -64,6 +65,7 @@ function AppRoutes() {
           <Route path="/trending" element={<TrendingPage />}/>
           <Route path="/trending/:slug" element={<TrendingDetailPage />}/>
           <Route path="/character/:id" element={<CharacterDetailPage />}/>
+          <Route path="/events" element={<EventsPage />}/>
           <Route path="/event/:id" element={<EventDetailPage />}/>
           <Route path="/bookmarks" element={<BookmarksPage />}/>
           <Route path="/about" element={<AboutPage />}/>

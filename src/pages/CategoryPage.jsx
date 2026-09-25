@@ -14,6 +14,8 @@ import { useCart } from '@/context/CartContext';
 import { useState as useStateReact } from 'react';
 import { MerchandiseDetailsDialog } from '@/components/MerchandiseDetailsDialog';
 import { BookmarkButton } from '@/components/ui/BookmarkButton';
+import { MediaPlayButton } from '@/components/media/MediaPlayback';
+import './CategoryPage.css';
 const typeIcons = {
     trailer: <Play className="fv-w-4 fv-h-4"/>,
     interview: <Users className="fv-w-4 fv-h-4"/>,
@@ -100,47 +102,48 @@ export function CategoryPage() {
         </div>
       </section>
 
-      {/* Category-wide content filters */}
-      <section className="container-wide fv-pt-5" aria-label="Filter category content">
-        <div className="d-flex flex-wrap align-items-end gap-3 fv-bg-ink-800 rounded-3 border fv-border-ink-600 fv-p-3 fv-md-p-4">
-          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
-            <label htmlFor="category-content-type" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Content type</label>
-            <select id="category-content-type" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentTypeFilter} onChange={(event) => setContentTypeFilter(event.target.value)}>
-              <option value="all">All content</option>
-              <option value="articles">Articles</option>
-              <option value="characters">Characters</option>
-              <option value="media">Videos &amp; audio</option>
-              <option value="gallery">Image gallery</option>
-              <option value="events">Events</option>
-              <option value="releases">Upcoming releases</option>
-              <option value="merchandise">Merchandise</option>
-            </select>
+      {/* Latest Articles heading and category-wide content filters */}
+      <section className="section-padding">
+        <div className="container-wide">
+          <div className="category-latest-toolbar">
+            <h2 className="fv-display-font fv-text-4xl fv-md-text-5xl fv-lg-text-6xl fv-text-paper-50 fv-tracking-wide fv-leading-none">
+              Latest Articles
+            </h2>
+            <div className="category-content-controls" role="group" aria-label="Filter category content">
+              <div className="category-content-control-group">
+                <label htmlFor="category-content-type" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Content type</label>
+                <select id="category-content-type" className="form-select form-select-sm bg-dark text-light border-secondary category-content-control" value={contentTypeFilter} onChange={(event) => setContentTypeFilter(event.target.value)}>
+                  <option value="all">All content</option>
+                  <option value="articles">Articles</option>
+                  <option value="characters">Characters</option>
+                  <option value="media">Videos &amp; audio</option>
+                  <option value="gallery">Image gallery</option>
+                  <option value="events">Events</option>
+                  <option value="releases">Upcoming releases</option>
+                  <option value="merchandise">Merchandise</option>
+                </select>
+              </div>
+              <div className="category-content-control-group">
+                <label htmlFor="category-content-tag" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Topic or tag</label>
+                <select id="category-content-tag" className="form-select form-select-sm bg-dark text-light border-secondary category-content-control" value={contentTagFilter} onChange={(event) => setContentTagFilter(event.target.value)}>
+                  <option value="all">All topics</option>
+                  {availableTags.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
+                </select>
+              </div>
+              <div className="category-content-control-group">
+                <label htmlFor="category-content-sort" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Sort by</label>
+                <select id="category-content-sort" className="form-select form-select-sm bg-dark text-light border-secondary category-content-control" value={contentSort} onChange={(event) => setContentSort(event.target.value)}>
+                  <option value="featured">Featured first</option>
+                  <option value="newest">Newest</option>
+                  <option value="alphabetical">Alphabetical</option>
+                </select>
+              </div>
+              {(contentTypeFilter !== 'all' || contentTagFilter !== 'all' || contentSort !== 'featured') && (
+                <button type="button" className="btn btn-sm btn-outline-light" onClick={() => { setContentTypeFilter('all'); setContentTagFilter('all'); setContentSort('featured'); }}>Reset</button>
+              )}
+            </div>
           </div>
-          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
-            <label htmlFor="category-content-tag" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Topic or tag</label>
-            <select id="category-content-tag" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentTagFilter} onChange={(event) => setContentTagFilter(event.target.value)}>
-              <option value="all">All topics</option>
-              {availableTags.map((tag) => <option key={tag} value={tag}>{tag}</option>)}
-            </select>
-          </div>
-          <div className="flex-grow-1" style={{ minWidth: '170px' }}>
-            <label htmlFor="category-content-sort" className="form-label fv-text-xs fv-heading-font fv-text-paper-300">Sort by</label>
-            <select id="category-content-sort" className="form-select form-select-sm bg-dark text-light border-secondary" value={contentSort} onChange={(event) => setContentSort(event.target.value)}>
-              <option value="featured">Featured first</option>
-              <option value="newest">Newest</option>
-              <option value="alphabetical">Alphabetical</option>
-            </select>
-          </div>
-          {(contentTypeFilter !== 'all' || contentTagFilter !== 'all' || contentSort !== 'featured') && (
-            <button type="button" className="btn btn-sm btn-outline-light" onClick={() => { setContentTypeFilter('all'); setContentTagFilter('all'); setContentSort('featured'); }}>Reset</button>
-          )}
-        </div>
-      </section>
-
-      {/* Featured Article */}
-      {showContentType('articles') && articles.length > 0 && (<section className="section-padding">
-          <div className="container-wide">
-            <SectionHeader title="Latest Articles" link={`/category/${cat.slug}`} linkLabel=""/>
+          {showContentType('articles') && articles.length > 0 && (
             <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-3 fv-gap-4">
               {articles.map((article, i) => (<Link key={article.id} to={`/article/${article.slug}`} className={`fv-group position-relative rounded-4 overflow-hidden ${i === 0 ? 'fv-md-col-span-2 fv-aspect-16-10' : 'fv-aspect-16-10'}`}>
                   <img src={article.image} alt={article.title} className="position-absolute fv-inset-0 w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
@@ -156,9 +159,9 @@ export function CategoryPage() {
                   </div>
                 </Link>))}
             </div>
-          </div>
-        </section>)}
-
+          )}
+        </div>
+      </section>
       {/* Characters */}
       {showContentType('characters') && chars.length > 0 && (<section className="section-padding fv-bg-ink-800">
           <div className="container-wide">
@@ -280,9 +283,8 @@ function MediaCategorySection({ media, cat }) {
           {filtered.map((item) => (<div key={item.id} className="fv-group position-relative rounded-4 overflow-hidden fv-aspect-video fv-cursor-pointer">
               <img src={item.thumbnail} alt={item.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
               <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent"/>
-              <div className="position-absolute fv-inset-0 d-flex align-items-center justify-content-center fv-opacity-0 fv-group-hover-opacity-100 fv-transition-opacity">
-                <div className="fv-w-12 fv-h-12 rounded-pill fv-bg-brand-500-90 d-flex align-items-center justify-content-center">{typeIcons[item.type]}</div>
-              </div>
+              <MediaPlayButton item={item}/>
+
               <span className="position-absolute fv-top-3 fv-right-3 fv-bg-ink-900-80 fv-text-paper-100 fv-text-xs fv-px-2 fv-py-0-5 fv-rounded fv-heading-font" style={{ top: '3.25rem' }}>{item.duration}</span>
               <BookmarkButton id={item.id} type="media" title={item.title} category={item.category} image={item.thumbnail} url="/#trailers" compact />
               <span className="position-absolute fv-top-3 fv-left-3 fv-bg-ink-900-80 fv-text-paper-100 fv-text-xs fv-px-2 fv-py-0-5 fv-rounded fv-heading-font text-capitalize d-flex align-items-center fv-gap-1">
@@ -362,3 +364,4 @@ function MerchCategorySection({ merch, cat }) {
       />
     </section>);
 }
+
