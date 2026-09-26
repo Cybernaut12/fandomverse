@@ -20,7 +20,7 @@ export function ReleasesSection() {
             const d = new Date(release.date);
             return (<div key={release.id} className="fv-group position-relative rounded-3 overflow-hidden fv-bg-ink-700 border fv-border-ink-600 fv-hover-border-ink-500 fv-transition-all">
                 <div className="position-relative fv-aspect-3-4 overflow-hidden">
-                  <img src={release.image} alt={release.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
+                  <img src={release.image} alt={release.title} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
                   <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent"/>
 
                   {/* Date badge */}

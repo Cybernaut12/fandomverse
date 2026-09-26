@@ -146,7 +146,7 @@ export function CategoryPage() {
           {showContentType('articles') && articles.length > 0 && (
             <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-3 fv-gap-4">
               {articles.map((article, i) => (<Link key={article.id} to={`/article/${article.slug}`} className={`fv-group position-relative rounded-4 overflow-hidden ${i === 0 ? 'fv-md-col-span-2 fv-aspect-16-10' : 'fv-aspect-16-10'}`}>
-                  <img src={article.image} alt={article.title} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="position-absolute fv-inset-0 w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
+                  <img src={article.image} alt={article.title} className="position-absolute fv-inset-0 w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
                   <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-40 fv-to-transparent"/>
                   <div className="position-absolute fv-bottom-0 fv-p-5">
                     <span className="fv-text-xs fv-heading-font fv-uppercase fv-tracking-wider fv-mb-2 d-block" style={{ color: cat.accentColor }}>
@@ -168,7 +168,7 @@ export function CategoryPage() {
             <SectionHeader title="Characters" subtitle={`Faces from the world of ${cat.name}`}/>
             <div className="fv-grid fv-grid-cols-2 fv-md-grid-cols-3 fv-lg-grid-cols-5 fv-gap-3 fv-md-gap-4">
               {chars.map((char) => (<Link key={char.id} to={`/character/${char.id}`} className="fv-group position-relative rounded-4 overflow-hidden fv-aspect-3-4">
-                  <img src={char.image} alt={char.altText} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
+                  <img src={char.image} alt={char.altText} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
                   <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-20 fv-to-transparent"/>
                   <div className="position-absolute fv-bottom-0 fv-p-3">
                     <h3 className="fv-display-font fv-text-lg fv-text-paper-50 fv-tracking-wide fv-leading-tight">{char.name}</h3>
@@ -225,7 +225,7 @@ export function CategoryPage() {
                 const d = new Date(rel.date);
                 return (<div key={rel.id} className="fv-group position-relative rounded-3 overflow-hidden fv-bg-ink-700 border fv-border-ink-600">
                     <div className="position-relative fv-aspect-3-4 overflow-hidden">
-                      <img src={rel.image} alt={rel.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
+                      <img src={rel.image} alt={rel.title} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
                       <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent"/>
                       <div className="position-absolute fv-top-2 fv-left-2 fv-bg-ink-900-80 fv-backdrop-blur-sm rounded-2 fv-px-2 fv-py-1 text-center">
                         <p className="fv-display-font fv-text-lg fv-leading-none" style={{ color: cat.accentColor }}>{d.getDate().toString().padStart(2, '0')}</p>

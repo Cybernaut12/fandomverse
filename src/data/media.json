@@ -72,6 +72,16 @@
     "description": "A preview of three tracks from the dark fantasy RPG's orchestral score, recorded with a live ensemble."
   },
   {
+    "id": "med-alita-battle-angel",
+    "title": "Alita: Battle Angel — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "/images/movies/alita-trailer.jpg",
+    "youtubeId": "w7pYhpJaJW8",
+    "duration": "2:35",
+    "description": "Set centuries in the future, the abandoned cyborg Alita is found in the scrapyard of Iron City by Dr. Ido. Produced by James Cameron and directed by Robert Rodriguez."
+  },
+  {
     "id": "med-009",
     "title": "Dune: Part Two — Official Main Trailer",
     "category": "movies",

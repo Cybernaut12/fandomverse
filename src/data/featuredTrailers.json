@@ -1,5 +1,17 @@
 [
   {
+    "id": "app-trailer-alita",
+    "title": "Alita: Battle Angel — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "/images/movies/alita-trailer.jpg",
+    "youtubeId": "w7pYhpJaJW8",
+    "duration": "2:35",
+    "source": "20th Century Fox",
+    "release": "February 14, 2019",
+    "description": "From visionary filmmakers James Cameron and Robert Rodriguez comes an epic adventure of hope and empowerment."
+  },
+  {
     "id": "app-trailer-dune-2",
     "title": "Dune: Part Two — Official Trailer",
     "category": "movies",

@@ -58,7 +58,7 @@
     "title": "The Batman Part II",
     "category": "movies",
     "date": "2026-10-02",
-    "image": "https://image.tmdb.org/t/p/w800/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "image": "/images/movies/the-batman-part-2.jpg",
     "status": "confirmed",
     "type": "Theatrical / IMAX"
   },
@@ -67,17 +67,17 @@
     "title": "Spider-Man: Brand New Day",
     "category": "movies",
     "date": "2026-07-24",
-    "image": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg",
+    "image": "/images/movies/spider-man-bnd.jpg",
     "status": "confirmed",
-    "type": "Theatrical / IMAX"
+    "type": "Theatrical / IMAX 3D"
   },
   {
     "id": "rel-009",
     "title": "Avatar: Fire and Ash",
     "category": "movies",
     "date": "2025-12-19",
-    "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
+    "image": "/images/movies/avatar-fire-and-ash.jpg",
+    "status": "confirmed",
     "type": "Theatrical / 3D HFR"
   },
   {
@@ -85,9 +85,18 @@
     "title": "Avengers: Doomsday",
     "category": "movies",
     "date": "2026-05-01",
-    "image": "https://image.tmdb.org/t/p/w800/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
-    "status": "upcoming",
+    "image": "/images/movies/avengers-doomsday.jpg",
+    "status": "confirmed",
     "type": "Theatrical / IMAX"
+  },
+  {
+    "id": "rel-009c",
+    "title": "Dune: Messiah",
+    "category": "movies",
+    "date": "2026-12-18",
+    "image": "/images/movies/dune-messiah.jpg",
+    "status": "upcoming",
+    "type": "Theatrical / IMAX 70mm"
   },
   {
     "id": "rel-010",
