@@ -1,0 +1,110 @@
+[
+  {
+    "id": "app-trailer-arcane-s2",
+    "title": "Arcane — Season 2 Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/vP4fMvKz3-s/maxresdefault.jpg",
+    "youtubeId": "vP4fMvKz3-s",
+    "duration": "2:34",
+    "source": "Netflix",
+    "release": "November 2, 2024",
+    "description": "The official trailer for Arcane season two, from the League of Legends universe."
+  },
+  {
+    "id": "app-trailer-dune-prophecy",
+    "title": "Dune: Prophecy — Official Teaser",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/FyK0B6RZo0Q/maxresdefault.jpg",
+    "youtubeId": "FyK0B6RZo0Q",
+    "duration": "1:58",
+    "source": "Max",
+    "release": "November 17, 2024",
+    "description": "The official teaser for the Dune prequel series."
+  },
+  {
+    "id": "app-trailer-frieren-s2",
+    "title": "Frieren: Beyond Journey’s End — Season 2 Announcement",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/W0mVCx7XkY4/maxresdefault.jpg",
+    "youtubeId": "W0mVCx7XkY4",
+    "duration": "1:22",
+    "source": "Crunchyroll",
+    "release": "January 2025",
+    "description": "The announcement trailer for the next season of Frieren: Beyond Journey’s End."
+  },
+  {
+    "id": "app-trailer-dune-2",
+    "title": "Dune: Part Two — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+    "youtubeId": "Way9Dexny3w",
+    "duration": "3:12",
+    "source": "Warner Bros.",
+    "release": "March 1, 2024",
+    "description": "The official trailer for Denis Villeneuve’s Dune: Part Two."
+  },
+  {
+    "id": "app-trailer-spider-verse",
+    "title": "Spider-Man: Across the Spider-Verse — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg",
+    "youtubeId": "cqGjhVJWtEg",
+    "duration": "2:46",
+    "source": "Sony Pictures",
+    "release": "June 2, 2023",
+    "description": "The official trailer for the animated Spider-Man feature."
+  },
+  {
+    "id": "app-trailer-aot-final",
+    "title": "Attack on Titan — The Final Chapters Trailer",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/SlNpRThS9t8/maxresdefault.jpg",
+    "youtubeId": "SlNpRThS9t8",
+    "duration": "2:05",
+    "source": "Crunchyroll",
+    "release": "November 4, 2023",
+    "description": "The trailer for the concluding chapters of Attack on Titan."
+  },
+  {
+    "id": "app-trailer-vinland-s2",
+    "title": "Vinland Saga — Season 2 Official Trailer",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/i0m2aO0nYPg/maxresdefault.jpg",
+    "youtubeId": "i0m2aO0nYPg",
+    "duration": "2:18",
+    "source": "Netflix",
+    "release": "January 9, 2023",
+    "description": "The official trailer for Vinland Saga season two."
+  },
+  {
+    "id": "app-trailer-gta-6",
+    "title": "Grand Theft Auto VI — Trailer 1",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/QdBZY2fkU-0/maxresdefault.jpg",
+    "youtubeId": "QdBZY2fkU-0",
+    "duration": "1:31",
+    "source": "Rockstar Games",
+    "release": "2025",
+    "description": "The first official trailer for Grand Theft Auto VI."
+  },
+  {
+    "id": "app-trailer-elden-ring",
+    "title": "Elden Ring: Shadow of the Erdtree — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/qLZenOn7WUo/maxresdefault.jpg",
+    "youtubeId": "qLZenOn7WUo",
+    "duration": "3:05",
+    "source": "FromSoftware",
+    "release": "June 21, 2024",
+    "description": "The official trailer for the Elden Ring: Shadow of the Erdtree expansion."
+  }
+]

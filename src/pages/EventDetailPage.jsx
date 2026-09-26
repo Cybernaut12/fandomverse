@@ -5,6 +5,7 @@ import { getCategory } from '@/data/categories';
 import { getArticlesByCategory } from '@/data/articles';
 import { CategoryBadge } from '@/components/ui/CategoryBadge';
 import { BookmarkButton } from '@/components/ui/BookmarkButton';
+import { EventMediaSection } from '@/components/event/EventMediaSection';
 export function EventDetailPage() {
     const { id } = useParams();
     const event = id ? getEventById(id) : undefined;
@@ -73,6 +74,9 @@ export function EventDetailPage() {
           </p>
         </div>
       </section>
+
+      {/* Playable videos and audio */}
+      <EventMediaSection key={event.id} event={event}/>
 
       {/* Related Events */}
       {related.length > 0 && (<section className="fv-py-12 fv-bg-ink-800 border-top fv-border-ink-600">
