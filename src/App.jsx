@@ -1,8 +1,9 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+﻿import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { CartProvider } from '@/context/CartContext';
 import { BookmarkProvider } from '@/context/BookmarkContext';
 import { Header } from '@/components/Header';
+import { BackButton } from '@/components/ui/BackButton';
 import { Footer } from '@/components/Footer';
 import { Chatbot } from '@/components/Chatbot';
 import { CartDrawer } from '@/components/CartDrawer';
@@ -54,6 +55,7 @@ function AppRoutes() {
     return (<>
       <ScrollToTop />
       <Header onSearchOpen={() => setSearchOpen(true)}/>
+      <BackButton />
       <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)}/>
       <CartDrawer />
       <main>
@@ -88,3 +90,4 @@ export default function App() {
       </CartProvider>
     </BrowserRouter>);
 }
+
