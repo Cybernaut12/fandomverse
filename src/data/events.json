@@ -1,5 +1,14 @@
 [
   {
+    "id": "evt-game-001",
+    "title": "Night City Wire: Live Event",
+    "category": "gaming",
+    "date": "2026-12-10",
+    "location": "Online / Twitch",
+    "description": "CD Projekt Red hosts a massive showcase detailing the future of the Cyberpunk franchise.",
+    "image": "/images/gaming/cyberpunk-banner.jpg"
+  },
+  {
     "id": "evt-tv-001",
     "title": "San Diego Comic-Con: Hall H TV Panels",
     "category": "tv-shows",
@@ -43,33 +52,6 @@
     "location": "Grand Prince Hotel New Takanawa, Tokyo, Japan",
     "description": "The annual global celebration of excellence in anime, recognizing best animation, director, score, and Anime of the Year with live orchestra performances.",
     "image": "/images/anime/frieren-banner.jpg"
-  },
-  {
-    "id": "evt-004",
-    "title": "Global Esports Championship Finals",
-    "category": "gaming",
-    "date": "2026-10-08",
-    "location": "Sangam Arena, Seoul, South Korea",
-    "description": "The world's top teams compete across three game titles for a combined prize pool of $5 million. Live broadcast expected to reach 40 million concurrent viewers.",
-    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-005",
-    "title": "Indie Games Showcase 2026",
-    "category": "gaming",
-    "date": "2026-11-12",
-    "location": "Moscone Center, San Francisco, USA",
-    "description": "Over 200 independent game studios exhibit playable demos, with awards for innovation, art direction, and narrative. Open to the public for the first time this year.",
-    "image": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-006",
-    "title": "Retro Gaming Festival",
-    "category": "gaming",
-    "date": "2026-12-01",
-    "location": "Olympia London, London, UK",
-    "description": "A celebration of gaming history with playable vintage hardware, speedrunning tournaments, and panels featuring legendary game designers from the 80s and 90s.",
-    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "evt-007",

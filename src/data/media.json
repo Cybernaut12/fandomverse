@@ -1,5 +1,45 @@
 [
   {
+    "id": "med-game-001",
+    "title": "Cyberpunk: Edgerunners — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/cyberpunk-banner.jpg",
+    "youtubeId": "JtqIalvlzv0",
+    "duration": "2:13",
+    "description": "Welcome to Night City. David Martinez risks it all to become an edgerunner in this explosive anime from Studio Trigger."
+  },
+  {
+    "id": "med-game-002",
+    "title": "The Witcher — Season 1 Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/witcher-banner.jpg",
+    "youtubeId": "ndl1W4ltcmg",
+    "duration": "2:20",
+    "description": "Henry Cavill stars as Geralt of Rivia in the epic adaptation of the beloved fantasy franchise."
+  },
+  {
+    "id": "med-game-003",
+    "title": "Fallout — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/fallout-banner.jpg",
+    "youtubeId": "V-mugKDQRug",
+    "duration": "3:18",
+    "description": "Welcome to the Wasteland. Based on the legendary video game franchise, Amazon's Fallout series brings the apocalypse to life."
+  },
+  {
+    "id": "med-game-004",
+    "title": "Arcane — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/arcane-banner.jpg",
+    "youtubeId": "fXmAurh012s",
+    "duration": "2:28",
+    "description": "Every legend has a beginning. Discover the origins of two iconic League champions in the stunning series Arcane."
+  },
+  {
     "id": "med-tv-001",
     "title": "The Last of Us — Season 2 Official Teaser",
     "category": "tv-shows",
@@ -108,42 +148,6 @@
     "duration": "3:58",
     "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
     "description": "The electrifying Shibuya Incident opening theme song performed by Japanese rock band King Gnu."
-  },
-  {
-    "id": "med-005",
-    "title": "Starfall Protocol — Gameplay Reveal",
-    "category": "gaming",
-    "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "4:58",
-    "description": "Fifteen minutes of uncut gameplay from the upcoming space exploration RPG, showing combat and dialogue systems."
-  },
-  {
-    "id": "med-006",
-    "title": "Developer Diary: Building Hollow Trail",
-    "category": "gaming",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "24:15",
-    "description": "The lead designer walks through the game's survival mechanics and shares stories from development."
-  },
-  {
-    "id": "med-007",
-    "title": "Gaming Culture Podcast — The Indie Revolution",
-    "category": "gaming",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:08:30",
-    "description": "A discussion about how indie games are reshaping the industry, with guest appearances from three indie developers."
-  },
-  {
-    "id": "med-008",
-    "title": "Crown of Ashes — Soundtrack Preview",
-    "category": "gaming",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/5713095/pexels-photo-5713095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:45",
-    "description": "A preview of three tracks from the dark fantasy RPG's orchestral score, recorded with a live ensemble."
   },
   {
     "id": "med-alita-battle-angel",

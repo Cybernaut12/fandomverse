@@ -1,5 +1,25 @@
 [
   {
+    "id": "mch-game-001",
+    "name": "David Martinez Edgerunner Jacket",
+    "category": "gaming",
+    "type": "apparel",
+    "price": 120,
+    "priceRange": "$100–$150",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "description": "A high-quality replica of David's iconic yellow EMT jacket from Cyberpunk: Edgerunners with reflective strips."
+  },
+  {
+    "id": "mch-game-002",
+    "name": "Witcher Wolf School Medallion",
+    "category": "gaming",
+    "type": "accessory",
+    "price": 45,
+    "priceRange": "$40–$50",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "description": "Sterling silver replica of Geralt's Wolf School medallion, complete with heavy chain."
+  },
+  {
     "id": "mch-tv-001",
     "name": "The Last of Us — Fireflies Pendant Replica",
     "category": "tv-shows",
@@ -78,46 +98,6 @@
     "priceRange": "$15–$22",
     "image": "/images/merch/mha-all-might-duck-figure.png",
     "description": "TUBBZ limited-edition cosplaying duck figurine of the Symbol of Peace, packaged in a collector's mini-bathtub display."
-  },
-  {
-    "id": "mch-005",
-    "name": "Starfall Protocol — Commander Hoodie",
-    "category": "gaming",
-    "type": "hoodie",
-    "price": 55,
-    "priceRange": "$50–$60",
-    "image": "https://images.pexels.com/photos/39569366/pexels-photo-39569366.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A heavyweight fleece hoodie with the Starfall Protocol mission patch embroidered on the chest. Unisex sizing."
-  },
-  {
-    "id": "mch-006",
-    "name": "Neon Reverie — Echo Collectible",
-    "category": "gaming",
-    "type": "collectible",
-    "price": 35,
-    "priceRange": "$30–$40",
-    "image": "https://images.pexels.com/photos/9367709/pexels-photo-9367709.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A limited-edition translucent collectible figure of Echo with a light-up LED base. Numbered to 2,000 units."
-  },
-  {
-    "id": "mch-007",
-    "name": "Hollow Trail — Survival Tee",
-    "category": "gaming",
-    "type": "t-shirt",
-    "price": 26,
-    "priceRange": "$24–$28",
-    "image": "https://images.pexels.com/photos/8217483/pexels-photo-8217483.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A heather gray t-shirt with the Hollow Trail survival guide print on the back. Made from recycled cotton blend."
-  },
-  {
-    "id": "mch-008",
-    "name": "Crown of Ashes — Keychain Set",
-    "category": "gaming",
-    "type": "accessory",
-    "price": 14,
-    "priceRange": "$12–$16",
-    "image": "https://images.pexels.com/photos/5795420/pexels-photo-5795420.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A set of three metal keychains featuring the shattered blade reforged in different styles from the game."
   },
   {
     "id": "mch-009",

@@ -1,5 +1,70 @@
 [
   {
+    "id": "gal-game-001",
+    "title": "Night City Horizon",
+    "category": "gaming",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "tags": [
+      "cyberpunk",
+      "edgerunners",
+      "scenery"
+    ]
+  },
+  {
+    "id": "gal-game-002",
+    "title": "Geralt's Stand",
+    "category": "gaming",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "tags": [
+      "witcher",
+      "geralt",
+      "fantasy"
+    ]
+  },
+  {
+    "id": "gal-game-003",
+    "title": "Wasteland Wanderers",
+    "category": "gaming",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "tags": [
+      "fallout",
+      "post-apocalyptic"
+    ]
+  },
+  {
+    "id": "gal-game-004",
+    "title": "Piltover vs Zaun",
+    "category": "gaming",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "tags": [
+      "arcane",
+      "league",
+      "animation"
+    ]
+  },
+  {
+    "id": "gal-game-005",
+    "title": "The Spartan",
+    "category": "gaming",
+    "image": "/images/gaming/halo-banner.jpg",
+    "tags": [
+      "halo",
+      "master-chief",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "gal-game-006",
+    "title": "Belmont's Legacy",
+    "category": "gaming",
+    "image": "/images/gaming/castlevania-banner.jpg",
+    "tags": [
+      "castlevania",
+      "vampires",
+      "anime"
+    ]
+  },
+  {
     "id": "gal-tv-001",
     "title": "Joel and Ellie in the Ruins",
     "category": "tv-shows",

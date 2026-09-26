@@ -1,5 +1,23 @@
 [
   {
+    "id": "rel-game-001",
+    "title": "Arcane — Season 2",
+    "category": "gaming",
+    "date": "2024-11-09",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Series"
+  },
+  {
+    "id": "rel-game-002",
+    "title": "Fallout — Season 2",
+    "category": "gaming",
+    "date": "2025-08-15",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "status": "confirmed",
+    "type": "Prime Video"
+  },
+  {
     "id": "rel-tv-001",
     "title": "The Last of Us — Season 2",
     "category": "tv-shows",
@@ -88,33 +106,6 @@
     "image": "/images/anime/one-piece-banner.jpg",
     "status": "confirmed",
     "type": "TV Series"
-  },
-  {
-    "id": "rel-004",
-    "title": "Starfall Protocol",
-    "category": "gaming",
-    "date": "2026-10-25",
-    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "RPG"
-  },
-  {
-    "id": "rel-005",
-    "title": "Crown of Ashes — DLC: The Hollow King",
-    "category": "gaming",
-    "date": "2026-11-15",
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "DLC"
-  },
-  {
-    "id": "rel-006",
-    "title": "Neon Reverie 2",
-    "category": "gaming",
-    "date": "2027-01-10",
-    "image": "https://images.pexels.com/photos/7689080/pexels-photo-7689080.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "rumored",
-    "type": "Action"
   },
   {
     "id": "rel-007",

@@ -1,5 +1,134 @@
 [
   {
+    "id": "art-game-001",
+    "title": "Night City's Redemption: The Comeback of Cyberpunk 2077",
+    "slug": "cyberpunk-2077-comeback-edgerunners",
+    "category": "gaming",
+    "excerpt": "How CD Projekt Red fixed their ambitious RPG and how the anime Edgerunners brought players back to Night City.",
+    "body": [
+      "When Cyberpunk 2077 launched, it was plagued by performance issues and unfulfilled promises.",
+      "However, over several years, CD Projekt Red quietly patched the game, culminating in the massive Update 2.0 and the incredible Phantom Liberty expansion.",
+      "Coupled with the emotional gut-punch of Studio Trigger's Cyberpunk: Edgerunners, Night City finally became the thriving, dangerous metropolis fans always dreamed of.",
+      "It stands as one of the greatest redemption arcs in modern gaming history."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "tags": [
+      "cyberpunk-2077",
+      "cdpr",
+      "edgerunners",
+      "rpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-game-002",
+    "title": "The Continent's Lore: Why The Witcher 3 Remains the Gold Standard",
+    "slug": "witcher-3-gold-standard",
+    "category": "gaming",
+    "excerpt": "A decade later, we look at how Geralt's journey defined open-world storytelling and side-quest design.",
+    "body": [
+      "The Witcher 3: Wild Hunt didn't just set a bar for RPGs; it fundamentally changed how we view side content in video games.",
+      "From the tragic tale of the Bloody Baron to a simple monster contract that turns into a moral dilemma, the writing remains unparalleled.",
+      "With a successful live-action adaptation and next-gen updates keeping it fresh, Geralt's search for Ciri continues to draw in new players."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "tags": [
+      "the-witcher",
+      "geralt",
+      "rpg",
+      "open-world"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-game-003",
+    "title": "Wasteland Survival Guide: The Enduring Appeal of Fallout",
+    "slug": "fallout-wasteland-appeal",
+    "category": "gaming",
+    "excerpt": "From isometric RPGs to a blockbuster TV series, exploring the retro-futuristic charm of the Fallout universe.",
+    "body": [
+      "War. War never changes. This iconic phrase has anchored the Fallout franchise since 1997.",
+      "The delicate balance of 1950s Americana, biting anti-capitalist satire, and bleak post-apocalyptic survival makes the Wasteland endlessly compelling.",
+      "With the smash-hit TV adaptation introducing millions to Vault-Tec's horrors, the series is experiencing a massive renaissance."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "tags": [
+      "fallout",
+      "bethesda",
+      "rpg",
+      "post-apocalyptic"
+    ]
+  },
+  {
+    "id": "art-game-004",
+    "title": "Animation Masterpiece: How Arcane Elevated League of Legends",
+    "slug": "arcane-league-of-legends-lore",
+    "category": "gaming",
+    "excerpt": "Riot Games and Fortiche Production delivered an emotional powerhouse that transcended its MOBA origins.",
+    "body": [
+      "Video game adaptations are famously tricky, but Arcane didn't just succeed—it set a new standard for animation.",
+      "By focusing on the tragic sibling dynamic between Vi and Jinx, the show made the massive, complex lore of Runeterra deeply intimate.",
+      "With stunning art direction and a gripping narrative, it appealed even to viewers who had never played a single match on Summoner's Rift."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "tags": [
+      "arcane",
+      "league-of-legends",
+      "animation",
+      "riot-games"
+    ]
+  },
+  {
+    "id": "art-game-005",
+    "title": "Discovering Hope: Master Chief and the Legacy of Halo",
+    "slug": "halo-master-chief-legacy",
+    "category": "gaming",
+    "excerpt": "Looking back at the Spartan who defined the Xbox ecosystem and revolutionized console shooters.",
+    "body": [
+      "When John-117 stepped out of his cryo-pod in 2001, he changed the gaming landscape forever.",
+      "Halo's blend of sweeping orchestral music, sandbox combat, and a compelling sci-fi universe created a phenomenon.",
+      "Despite the ups and downs of the franchise and its recent TV adaptation, the silhouette of the Master Chief remains a universal symbol of gaming."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/gaming/halo-banner.jpg",
+    "tags": [
+      "halo",
+      "master-chief",
+      "xbox",
+      "fps"
+    ]
+  },
+  {
+    "id": "art-game-006",
+    "title": "Whip and Cross: Castlevania's Gothic Resurgence",
+    "slug": "castlevania-gothic-resurgence",
+    "category": "gaming",
+    "excerpt": "How a Netflix animated series breathed new life into Konami's legendary vampire-hunting franchise.",
+    "body": [
+      "For years, the Castlevania franchise lay dormant. Then, a dark, mature animated series arrived on Netflix.",
+      "Following Trevor Belmont, Sypha Belnades, and Alucard as they face Dracula's wrath, the show perfectly captured the gothic horror tone of the games.",
+      "Its success proved there was a massive hunger for mature, faithful video game adaptations, paving the way for the current golden age we are in today."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/gaming/castlevania-banner.jpg",
+    "tags": [
+      "castlevania",
+      "konami",
+      "vampires",
+      "animation"
+    ]
+  },
+  {
     "id": "art-tv-001",
     "title": "The Emotional Toll of Cordyceps: Why The Last of Us Succeeded",
     "slug": "the-last-of-us-hbo-adaptation-success",
@@ -277,70 +406,6 @@
       "gear-5",
       "toei-animation",
       "shonen"
-    ]
-  },
-  {
-    "id": "art-004",
-    "title": "The Indie Game That Took Six Years and Broke Every Rule",
-    "slug": "indie-game-six-years-broke-rules",
-    "category": "gaming",
-    "excerpt": "A one-person studio shipped a game that critics are calling the best of the decade. The story behind it is even wilder.",
-    "body": [
-      "When the first trailer dropped in 2020, it looked like a student project — rough textures, stiff animations, a UI that seemed placeholder. The developer, working alone from a small apartment, posted it to a forum with the note: \"Work in progress. Feedback welcome.\"",
-      "Six years later, that work in progress is a Game of the Year contender. The final product bears only a passing resemblance to that early trailer, but the DNA is the same: a world that reacts to the player in ways no other game does, systems layered on systems until the whole thing feels less like a game and more like a place.",
-      "What makes the story remarkable isn't just the solo development — it's the willingness to throw out conventions that every tutorial and every veteran developer would tell you are essential. There's no map. There's no quest log. There's no fast travel. The game trusts the player to find their own way, and rewards curiosity over efficiency.",
-      "In an industry increasingly dominated by live-service models and formulaic open worlds, the game's success feels like a quiet rebellion. It proves that there's still room for a single, uncompromising vision — even if it takes six years to deliver."
-    ],
-    "author": "Jordan Lee",
-    "date": "2026-09-18",
-    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "indie",
-      "development",
-      "game-of-the-year"
-    ],
-    "featured": true
-  },
-  {
-    "id": "art-005",
-    "title": "How Speedrunners Are Keeping a 20-Year-Old Game Alive",
-    "slug": "speedrunners-keeping-old-game-alive",
-    "category": "gaming",
-    "excerpt": "The community around one classic title has discovered more glitches in the last two years than in the previous eighteen. We talked to the runners pushing the limits.",
-    "body": [
-      "There's a particular moment in any speedrun where the game stops looking like what the developers made and starts looking like something else entirely. A character clips through a wall. A cutscene skips by holding the right buttons during a loading screen. A boss dies in two seconds because of a memory manipulation trick discovered last Tuesday.",
-      "For the community around this twenty-year-old classic, those moments are the whole point. What started as a small group trading tips on a forum has grown into a organized scene with regular tournaments, documented strats, and a wiki that runs to thousands of pages.",
-      "The pace of discovery has actually accelerated in recent years, thanks to better tools for analysis and a growing community of runners who bring fresh eyes to old problems. \"We found more skips in 2025 than in the entire first decade,\" one runner told us. \"The game is still giving us new things to find.\"",
-      "It's a testament to how games can live beyond their release — not through remasters or re-releases, but through the communities that refuse to stop exploring them."
-    ],
-    "author": "Alex Rivera",
-    "date": "2026-09-02",
-    "image": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "speedrun",
-      "retro",
-      "community"
-    ]
-  },
-  {
-    "id": "art-006",
-    "title": "The Best Gaming Soundtracks You Probably Missed",
-    "slug": "best-gaming-soundtracks-missed",
-    "category": "gaming",
-    "excerpt": "Beyond the big-budget orchestral scores, there's a wave of game music that deserves your attention.",
-    "body": [
-      "Everyone knows the iconic themes — the sweeping orchestral scores that play during award ceremonies and end-of-year lists. But some of the most memorable game music of the past year came from games you might not have played.",
-      "There's the puzzle game whose entire score is performed on a single prepared piano, with every track corresponding to a game mechanic. There's the RPG that uses a live jazz quintet for its battle themes, shifting to solo cello for its most emotional scenes. And there's the indie platformer whose chiptune soundtrack was composed on original Game Boy hardware.",
-      "What connects these scores isn't genre or budget — it's intentionality. Each composer made a deliberate choice about what their game should sound like, and that choice shapes the experience as much as any visual or mechanic.",
-      "If you've been sleeping on game music beyond the headline titles, this is your wake-up call. The medium is producing some of the most adventurous composition happening anywhere right now."
-    ],
-    "author": "Sam Chen",
-    "date": "2026-08-14",
-    "image": "https://images.pexels.com/photos/5713095/pexels-photo-5713095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "music",
-      "soundtrack",
-      "indie"
     ]
   },
   {

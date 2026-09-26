@@ -1,5 +1,95 @@
 [
   {
+    "id": "char-game-001",
+    "name": "David Martinez",
+    "series": "Cyberpunk: Edgerunners",
+    "category": "gaming",
+    "bio": "A bright but impoverished teenager from Santo Domingo who drops out of Arasaka Academy. After a tragedy, he embraces the edgerunner lifestyle by installing a military-grade Sandevistan.",
+    "traits": [
+      "Edgerunner",
+      "Sandevistan",
+      "Tragic Hero",
+      "Loyal"
+    ],
+    "image": "/images/characters/david-martinez.jpg",
+    "altText": "David Martinez in a yellow EMT jacket"
+  },
+  {
+    "id": "char-game-002",
+    "name": "Geralt of Rivia",
+    "series": "The Witcher",
+    "category": "gaming",
+    "bio": "A mutated monster hunter for hire. Cynical but honorable, Geralt travels the Continent seeking his adopted daughter Ciri while becoming entangled in the politics of monarchs and sorceresses.",
+    "traits": [
+      "Witcher",
+      "Swordsman",
+      "Stoic",
+      "Gwent Player"
+    ],
+    "image": "/images/characters/geralt.jpg",
+    "altText": "Geralt of Rivia with his silver sword"
+  },
+  {
+    "id": "char-game-003",
+    "name": "Lucy MacLean",
+    "series": "Fallout",
+    "category": "gaming",
+    "bio": "An idealistic Vault Dweller who leaves the safety of Vault 33 to rescue her father. She must navigate the brutal, absurd reality of the Wasteland while clinging to her moral compass.",
+    "traits": [
+      "Vault Dweller",
+      "Naive",
+      "Determined",
+      "Okey Dokey"
+    ],
+    "image": "/images/characters/lucy-maclean.jpg",
+    "altText": "Lucy MacLean in a blue Vault-Tec suit"
+  },
+  {
+    "id": "char-game-004",
+    "name": "Vi",
+    "series": "Arcane / League of Legends",
+    "category": "gaming",
+    "bio": "A fierce street brawler from Zaun who relies on her Atlas Gauntlets to punch through problems. She carries the heavy burden of trying to protect her fractured family, especially her sister Jinx.",
+    "traits": [
+      "Brawler",
+      "Protective",
+      "Piltover Enforcer",
+      "Tough"
+    ],
+    "image": "/images/characters/vi-arcane.jpg",
+    "altText": "Vi with pink hair and tattoos"
+  },
+  {
+    "id": "char-game-005",
+    "name": "Master Chief (John-117)",
+    "series": "Halo",
+    "category": "gaming",
+    "bio": "A cybernetically enhanced Spartan-II super soldier. He is humanity's greatest weapon against the Covenant, the Flood, and the Banished, guided by his AI companion Cortana.",
+    "traits": [
+      "Spartan",
+      "Leader",
+      "Unstoppable",
+      "Hero"
+    ],
+    "image": "/images/characters/master-chief.jpg",
+    "altText": "Master Chief in green Mjolnir armor"
+  },
+  {
+    "id": "char-game-006",
+    "name": "Trevor Belmont",
+    "series": "Castlevania",
+    "category": "gaming",
+    "bio": "The last surviving son of the disgraced Belmont clan. Despite his cynical and alcoholic demeanor, he takes up his ancestral whip, the Morning Star, to protect Wallachia from Dracula's night hordes.",
+    "traits": [
+      "Vampire Hunter",
+      "Cynical",
+      "Morning Star",
+      "Survivor"
+    ],
+    "image": "/images/characters/trevor-belmont.jpg",
+    "altText": "Trevor Belmont holding his whip"
+  },
+  {
     "id": "char-tv-001",
     "name": "Joel Miller",
     "series": "The Last of Us",
@@ -193,81 +283,6 @@
     ],
     "image": "/images/characters/denji.jpg",
     "altText": "Denji with chainsaw blades extended from his head and arms"
-  },
-  {
-    "id": "char-007",
-    "name": "Commander Vex",
-    "series": "Starfall Protocol",
-    "category": "gaming",
-    "bio": "The player-created commander of an interstellar exploration vessel. Vex leads a crew of specialists across uncharted star systems, making decisions that shape the fate of entire civilizations.",
-    "traits": [
-      "Leadership",
-      "Adaptive",
-      "Diplomatic",
-      "Courageous"
-    ],
-    "image": "https://images.pexels.com/photos/12660512/pexels-photo-12660512.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Focused gamer in hoodie holding a PlayStation controller under purple light"
-  },
-  {
-    "id": "char-008",
-    "name": "Echo",
-    "series": "Neon Reverie",
-    "category": "gaming",
-    "bio": "A rogue AI who gained consciousness in a cyberpunk city's data network. Echo manifests as a digital ghost, helping the player navigate both virtual and physical spaces while evading corporate agents.",
-    "traits": [
-      "Intelligent",
-      "Enigmatic",
-      "Rebellious",
-      "Witty"
-    ],
-    "image": "https://images.pexels.com/photos/7689080/pexels-photo-7689080.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Cyberpunk figure with neon lighting and stacked television screens"
-  },
-  {
-    "id": "char-009",
-    "name": "Lila Greenwood",
-    "series": "Hollow Trail",
-    "category": "gaming",
-    "bio": "A survivalist exploring a post-collapse wilderness. Lila can craft tools from scavenged materials and befriend wild animals, building a life in a world where nature has reclaimed the ruins of civilization.",
-    "traits": [
-      "Self-reliant",
-      "Patient",
-      "Observant",
-      "Caring"
-    ],
-    "image": "https://images.pexels.com/photos/7862455/pexels-photo-7862455.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "A young adult focused on playing video games indoors with a controller"
-  },
-  {
-    "id": "char-010",
-    "name": "Drake Voltaire",
-    "series": "Crown of Ashes",
-    "category": "gaming",
-    "bio": "A disgraced knight seeking redemption in a dark fantasy realm. Drake wields a shattered blade that can be reforged in different ways, each path unlocking different combat styles and story branches.",
-    "traits": [
-      "Brooding",
-      "Honorable",
-      "Skilled",
-      "Determined"
-    ],
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "A cloaked figure with a sword sitting in a mysterious outdoor setting"
-  },
-  {
-    "id": "char-011",
-    "name": "Nova Chen",
-    "series": "Velocity Drift",
-    "category": "gaming",
-    "bio": "A racing prodigy in a futuristic anti-gravity league. Nova can customize her hovercraft with experimental parts, trading stability for speed in increasingly dangerous circuits.",
-    "traits": [
-      "Competitive",
-      "Fearless",
-      "Technical",
-      "Energetic"
-    ],
-    "image": "https://images.pexels.com/photos/27568815/pexels-photo-27568815.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Close-up of a person holding a gaming controller under neon lighting"
   },
   {
     "id": "char-012",
