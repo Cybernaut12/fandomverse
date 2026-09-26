@@ -11,7 +11,10 @@
       "Lyricist",
       "Art Lover"
     ],
-    "image": "/images/characters/rm.jpg",
+    "image": "/images/kpop/rm.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:RM_in_the_Oval_Office_of_the_White_House,_May_31,_2022_(cropped).jpg",
+    "imageCredit": "The White House",
+    "imageLicense": "Public domain",
     "altText": "RM (Kim Nam-joon) of BTS"
   },
   {
@@ -25,7 +28,10 @@
       "Rapper",
       "Global Ambassador"
     ],
-    "image": "/images/characters/lisa.jpg",
+    "image": "/images/kpop/lisa.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:20240314_Lisa_Manoban_12_(cropped).jpg",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 3.0",
     "altText": "Lisa of BLACKPINK"
   },
   {
@@ -39,7 +45,10 @@
       "Dancer",
       "Sunshine"
     ],
-    "image": "/images/characters/felix.jpg",
+    "image": "/images/kpop/felix.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Felix_of_Stray_Kids_at_a_Louis_Vuitton_event,_August_22,_2025.png",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 4.0",
     "altText": "Felix of Stray Kids"
   },
   {
@@ -53,7 +62,10 @@
       "Lead Vocalist",
       "Pop Icon"
     ],
-    "image": "/images/characters/nayeon.jpg",
+    "image": "/images/kpop/nayeon.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Im_Nayeon_(2).jpg",
+    "imageCredit": "d4cgrapher",
+    "imageLicense": "CC BY 4.0",
     "altText": "Nayeon of TWICE"
   },
   {
@@ -67,7 +79,10 @@
       "Dancer",
       "Trendy"
     ],
-    "image": "/images/characters/hanni.jpg",
+    "image": "/images/kpop/hanni.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:20230905_Hanni_(NewJeans).jpg",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 3.0",
     "altText": "Hanni of NewJeans"
   },
   {
@@ -81,7 +96,10 @@
       "Visual",
       "Hip-Hop Team"
     ],
-    "image": "/images/characters/mingyu.jpg",
+    "image": "/images/kpop/mingyu.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:240328_Mingyu.jpg",
+    "imageCredit": "SEVENTEEN",
+    "imageLicense": "CC BY 3.0",
     "altText": "Mingyu of SEVENTEEN"
   },
   {
