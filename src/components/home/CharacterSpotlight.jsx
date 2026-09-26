@@ -26,7 +26,7 @@ export function CharacterSpotlight() {
             const cat = categories.find((c) => c.slug === char.category);
             const isFirst = i === 0;
             return (<Link key={char.id} to={`/character/${char.id}`} className={`fv-group position-relative rounded-4 overflow-hidden ${isFirst ? 'fv-col-span-2 fv-row-span-2 fv-aspect-square' : 'fv-aspect-3-4'}`}>
-                <img src={char.image} alt={char.altText} className="w-100 h-100 object-fit-cover fv-transition-all fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
+                <img src={char.image} alt={char.altText} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="w-100 h-100 object-fit-cover fv-transition-all fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
                 <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-20 fv-to-transparent fv-transition-opacity fv-duration-300 fv-group-hover-from-ink-900-90"/>
                 {cat && (<div className="position-absolute fv-top-3 fv-left-3 fv-w-2 fv-h-2 rounded-pill fv-transition-transform fv-group-hover-scale-150" style={{ backgroundColor: cat.accentColor }}/>)}
                 <div className="position-absolute fv-bottom-0 fv-left-0 fv-right-0 fv-p-3 fv-md-p-4">

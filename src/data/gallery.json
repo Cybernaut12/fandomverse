@@ -5,27 +5,27 @@
     "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "url": "/images/characters/miles-morales.jpg",
     "alt": "Spider-Man: Across the Spider-Verse — Theatrical Poster",
     "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "url": "/images/characters/bruce-wayne.jpg",
     "alt": "The Batman — Silhouette Red/Black Poster",
     "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/ptpr0kGAckfWYmEsRBUTJ1vmUM.jpg",
+    "url": "/images/movies/oppenheimer-poster.jpg",
     "alt": "Oppenheimer — 70mm Large Format Key Art",
     "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "url": "/images/characters/deadpool.jpg",
     "alt": "Deadpool & Wolverine — Best Friends Teaser Poster",
     "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "url": "/images/movies/gladiator-2-banner.jpg",
     "alt": "Gladiator II — Colosseum Arena Teaser",
     "kind": "Movies"
   },
@@ -55,8 +55,8 @@
     "kind": "TV Shows"
   },
   {
-    "url": "https://pics.filmaffinity.com/the_last_of_us_season_2-822546434-large.jpg",
-    "alt": "The Last of Us season 2 — TV series poster",
+    "url": "https://image.tmdb.org/t/p/w780/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+    "alt": "Arcane season 2 — TV series poster",
     "kind": "TV Shows"
   }
 ]

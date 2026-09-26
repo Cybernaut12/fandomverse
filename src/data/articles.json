@@ -166,7 +166,7 @@
     ],
     "author": "Elena Rossi",
     "date": "2026-08-28",
-    "image": "https://image.tmdb.org/t/p/w1280/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "image": "/images/characters/miles-morales.jpg",
     "tags": [
       "spider-verse",
       "animation",
@@ -190,7 +190,7 @@
     ],
     "author": "David Park",
     "date": "2026-08-05",
-    "image": "https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+    "image": "/images/characters/bruce-wayne.jpg",
     "tags": [
       "the-batman",
       "dc",
@@ -213,7 +213,7 @@
     ],
     "author": "Sarah Lin",
     "date": "2026-07-18",
-    "image": "https://image.tmdb.org/t/p/w1280/nb3xI8XI3Es4vm99ghiA5Arr1tX.jpg",
+    "image": "/images/movies/oppenheimer-banner.jpg",
     "tags": [
       "oppenheimer",
       "christopher-nolan",
@@ -236,7 +236,7 @@
     ],
     "author": "Julian Thorne",
     "date": "2026-09-02",
-    "image": "https://image.tmdb.org/t/p/w1280/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "image": "/images/movies/gladiator-2-banner.jpg",
     "tags": [
       "gladiator",
       "ridley-scott",
