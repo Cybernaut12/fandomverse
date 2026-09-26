@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+﻿import { useState, useMemo, useEffect, useRef } from 'react';
 import './App.css';
 
 /* ============================================================
@@ -36,7 +36,7 @@ const IconVol = () => (
 );
 
 /* ============================================================
-   AUDIO BEDS — free ambient loops (SoundHelix demos)
+   AUDIO BEDS â€” free ambient loops (SoundHelix demos)
    ============================================================ */
 const AUDIO_BEDS = {
   convention:   'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3',
@@ -69,40 +69,40 @@ const u = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1600
 const yt = (id) => `https://img.youtube.com/vi/${id}/maxresdefault.jpg`;
 
 const EVENTS = [
-  { id:'sdcc-2024', category:'Convention', title:'Comic-Con International 2024', date:'July 22 – 25, 2024', status:'past', location:'San Diego Convention Center, CA', description:'The biggest pop-culture gathering on the West Coast — panels, cosplay, exclusives, and surprise announcements from every major studio.', image: u('photo-1540575467063-178a50c2df87') },
-  { id:'ax-2024', category:'Convention', title:'Anime Expo 2024', date:'July 4 – 7, 2024', status:'past', location:'Los Angeles Convention Center, CA', description:"North America's largest anime convention — premieres, industry panels, concerts, and a sprawling exhibit hall.", image: u('photo-1607604276583-eef5d076aa5f') },
-  { id:'gamescom-2024', category:'Convention', title:'Gamescom 2024', date:'August 21 – 25, 2024', status:'past', location:'Koelnmesse, Cologne, Germany', description:'The world’s largest gaming event — hands-on demos, esports, and reveals from every major studio.', image: u('photo-1511512578047-dfb367046420') },
-  { id:'tgs-2024', category:'Convention', title:'Tokyo Game Show 2024', date:'September 26 – 29, 2024', status:'upcoming', location:'Makuhari Messe, Chiba, Japan', description:'Japan’s flagship gaming expo — world premieres, developer talks, and stage events.', image: u('photo-1493711662062-fa541adb3fc8') },
-  { id:'arcane-s2', category:'Premiere', title:'Arcane — Season 2 Premiere', date:'November 2, 2024', status:'upcoming', location:'Netflix (Global Streaming)', description:'The long-awaited return of the animated series set in the League of Legends universe.', image: u('photo-1611162617474-5b21e879e113') },
-  { id:'dune-prophecy', category:'Premiere', title:'Dune: Prophecy — Series Debut', date:'November 17, 2024', status:'upcoming', location:'Max (Global Streaming)', description:'A prequel series set 10,000 years before the rise of Paul Atreides.', image: u('photo-1500530855697-b586d89ba3ee') },
-  { id:'frieren-s2', category:'Premiere', title:'Frieren: Beyond Journey’s End — S2', date:'January 2025', status:'upcoming', location:'Crunchyroll (Global Streaming)', description:'The acclaimed fantasy anime continues its quiet, devastating journey.', image: u('photo-1578632767115-351597cf2477') },
+  { id:'sdcc-2024', category:'Convention', title:'Comic-Con International 2024', date:'July 22 â€“ 25, 2024', status:'past', location:'San Diego Convention Center, CA', description:'The biggest pop-culture gathering on the West Coast â€” panels, cosplay, exclusives, and surprise announcements from every major studio.', image: u('photo-1540575467063-178a50c2df87') },
+  { id:'ax-2024', category:'Convention', title:'Anime Expo 2024', date:'July 4 â€“ 7, 2024', status:'past', location:'Los Angeles Convention Center, CA', description:"North America's largest anime convention â€” premieres, industry panels, concerts, and a sprawling exhibit hall.", image: u('photo-1607604276583-eef5d076aa5f') },
+  { id:'gamescom-2024', category:'Convention', title:'Gamescom 2024', date:'August 21 â€“ 25, 2024', status:'past', location:'Koelnmesse, Cologne, Germany', description:'The worldâ€™s largest gaming event â€” hands-on demos, esports, and reveals from every major studio.', image: u('photo-1511512578047-dfb367046420') },
+  { id:'tgs-2024', category:'Convention', title:'Tokyo Game Show 2024', date:'September 26 â€“ 29, 2024', status:'upcoming', location:'Makuhari Messe, Chiba, Japan', description:'Japanâ€™s flagship gaming expo â€” world premieres, developer talks, and stage events.', image: u('photo-1493711662062-fa541adb3fc8') },
+  { id:'arcane-s2', category:'Premiere', title:'Arcane â€” Season 2 Premiere', date:'November 2, 2024', status:'upcoming', location:'Netflix (Global Streaming)', description:'The long-awaited return of the animated series set in the League of Legends universe.', image: u('photo-1611162617474-5b21e879e113') },
+  { id:'dune-prophecy', category:'Premiere', title:'Dune: Prophecy â€” Series Debut', date:'November 17, 2024', status:'upcoming', location:'Max (Global Streaming)', description:'A prequel series set 10,000 years before the rise of Paul Atreides.', image: u('photo-1500530855697-b586d89ba3ee') },
+  { id:'frieren-s2', category:'Premiere', title:'Frieren: Beyond Journeyâ€™s End â€” S2', date:'January 2025', status:'upcoming', location:'Crunchyroll (Global Streaming)', description:'The acclaimed fantasy anime continues its quiet, devastating journey.', image: u('photo-1578632767115-351597cf2477') },
   { id:'spider-verse-party', category:'Watch Party', title:'Spider-Verse Community Rewatch', date:'Every Friday, 8PM ET', status:'live', location:'Fandomverse Discord + Sync Stream', description:'Join thousands of fans for a synced rewatch of Across the Spider-Verse with live commentary.', image: u('photo-1635805737707-575885ab0820') },
   { id:'vinland-party', category:'Watch Party', title:'Vinland Saga S2 Watch Party', date:'October 20, 2024', status:'upcoming', location:'Online (Community Hub)', description:'Two episodes a week, spoiler-safe zones, and weekly discussion threads.', image: u('photo-1518709268805-4e9042af9f23') },
   { id:'aot-finale', category:'Watch Party', title:'Attack on Titan Finale Marathon', date:'December 1, 2024', status:'upcoming', location:'Online (Community Hub)', description:'The complete final season, back-to-back, with a live fan Q&A after the credits roll.', image: u('photo-1541562232579-512a21360020') },
-  { id:'la-anime-meetup', category:'Meetup', title:'LA Anime Fans Monthly Meetup', date:'Last Saturday of every month', status:'upcoming', location:'Little Tokyo, Los Angeles, CA', description:'Casual monthly gathering — bring a friend, trade merch, and talk seasonal anime over boba.', image: u('photo-1517457373958-b7bdd4587205') },
+  { id:'la-anime-meetup', category:'Meetup', title:'LA Anime Fans Monthly Meetup', date:'Last Saturday of every month', status:'upcoming', location:'Little Tokyo, Los Angeles, CA', description:'Casual monthly gathering â€” bring a friend, trade merch, and talk seasonal anime over boba.', image: u('photo-1517457373958-b7bdd4587205') },
   { id:'nyc-fandom', category:'Meetup', title:'NYC Fandom Trivia Night', date:'November 8, 2024', status:'upcoming', location:'Brooklyn Game Lab, NY', description:'Teams of four, five rounds, and questions spanning anime, games, and sci-fi cinema.', image: u('photo-1511578314322-379afb476865') },
   { id:'london-cosplay', category:'Meetup', title:'London Cosplay Picnic', date:'September 14, 2024', status:'past', location:'Hyde Park, London, UK', description:'A relaxed afternoon of cosplay photography, snacks, and new friendships.', image: u('photo-1533174072545-7a4b6ad7a6c3') },
-  { id:'joe-hisaishi', category:'Concert', title:'Joe Hisaishi — Symphonic Ghibli', date:'October 4, 2024', status:'past', location:'Royal Albert Hall, London', description:'The legendary composer performs his Studio Ghibli scores with a full orchestra.', image: u('photo-1501386761578-eac5c94b800a') },
+  { id:'joe-hisaishi', category:'Concert', title:'Joe Hisaishi â€” Symphonic Ghibli', date:'October 4, 2024', status:'past', location:'Royal Albert Hall, London', description:'The legendary composer performs his Studio Ghibli scores with a full orchestra.', image: u('photo-1501386761578-eac5c94b800a') },
   { id:'hiroyuki-sawano', category:'Concert', title:'Hiroyuki Sawano Live', date:'December 12, 2024', status:'upcoming', location:'Tokyo International Forum, Japan', description:'A live performance of scores from Attack on Titan, 86, and more.', image: u('photo-1470229722913-7c0e2dbbafd3') },
-  { id:'anime-symphony-nyc', category:'Concert', title:'Anime Symphony — NYC', date:'November 22, 2024', status:'upcoming', location:'Carnegie Hall, New York', description:'A night of orchestral anime themes spanning four decades.', image: u('photo-1519677100203-a0e668c92439') }
+  { id:'anime-symphony-nyc', category:'Concert', title:'Anime Symphony â€” NYC', date:'November 22, 2024', status:'upcoming', location:'Carnegie Hall, New York', description:'A night of orchestral anime themes spanning four decades.', image: u('photo-1519677100203-a0e668c92439') }
 ];
 
 const TRAILERS = [
-  { id:'arcane-s2-trailer', title:'Arcane — Season 2 Official Trailer', category:'Anime', status:'upcoming', release:'November 2, 2024', duration:'2:34', youtubeId:'vP4fMvKz3-s', source:'Netflix', thumb: yt('vP4fMvKz3-s') },
-  { id:'dune-prophecy-trailer', title:'Dune: Prophecy — Official Teaser', category:'Sci-Fi', status:'upcoming', release:'November 17, 2024', duration:'1:58', youtubeId:'FyK0B6RZo0Q', source:'Max', thumb: yt('FyK0B6RZo0Q') },
-  { id:'frieren-s2-trailer', title:'Frieren S2 — Announcement Trailer', category:'Anime', status:'upcoming', release:'January 2025', duration:'1:22', youtubeId:'W0mVCx7XkY4', source:'Crunchyroll', thumb: yt('W0mVCx7XkY4') },
-  { id:'dune-2-trailer', title:'Dune: Part Two — Official Trailer', category:'Sci-Fi', status:'recent', release:'March 1, 2024', duration:'3:12', youtubeId:'Way9Dexny3w', source:'Warner Bros.', thumb: yt('Way9Dexny3w') },
-  { id:'spider-verse-trailer', title:'Across the Spider-Verse — Trailer', category:'Animation', status:'recent', release:'June 2, 2023', duration:'2:46', youtubeId:'cqGjhVJWtEg', source:'Sony Pictures', thumb: yt('cqGjhVJWtEg') },
-  { id:'aot-final-trailer', title:'Attack on Titan — Final Chapters Trailer', category:'Anime', status:'recent', release:'November 4, 2023', duration:'2:05', youtubeId:'SlNpRThS9t8', source:'Crunchyroll', thumb: yt('SlNpRThS9t8') },
-  { id:'vinland-s2-trailer', title:'Vinland Saga S2 — Official Trailer', category:'Anime', status:'recent', release:'January 9, 2023', duration:'2:18', youtubeId:'i0m2aO0nYPg', source:'Netflix', thumb: yt('i0m2aO0nYPg') },
-  { id:'gta-6-trailer', title:'Grand Theft Auto VI — Trailer 1', category:'Games', status:'upcoming', release:'2025', duration:'1:31', youtubeId:'QdBZY2fkU-0', source:'Rockstar Games', thumb: yt('QdBZY2fkU-0') },
+  { id:'spider-man-bnd-trailer', title:'Spider-Man: Brand New Day — Official Trailer', category:'Movies', status:'recent', release:'July 31, 2026', duration:'2:34', youtubeId:'tLeBDumanoc', source:'Marvel Entertainment', thumb:yt('tLeBDumanoc'), description:'Peter Parker fights crime in a world that has forgotten him. As old friends move on, a change in Peter may become the only way to stop a new threat to the city.' },
+  { id:'dune-prophecy-trailer', title:'Dune: Prophecy â€” Official Teaser', category:'Sci-Fi', status:'upcoming', release:'November 17, 2024', duration:'1:58', youtubeId:'FyK0B6RZo0Q', source:'Max', thumb: yt('FyK0B6RZo0Q') },
+  { id:'frieren-s2-trailer', title:'Frieren S2 â€” Announcement Trailer', category:'Anime', status:'upcoming', release:'January 2025', duration:'1:22', youtubeId:'W0mVCx7XkY4', source:'Crunchyroll', thumb: yt('W0mVCx7XkY4') },
+  { id:'dune-2-trailer', title:'Dune: Part Two â€” Official Trailer', category:'Sci-Fi', status:'recent', release:'March 1, 2024', duration:'3:12', youtubeId:'Way9Dexny3w', source:'Warner Bros.', thumb: yt('Way9Dexny3w') },
+  { id:'spider-verse-trailer', title:'Across the Spider-Verse â€” Trailer', category:'Animation', status:'recent', release:'June 2, 2023', duration:'2:46', youtubeId:'cqGjhVJWtEg', source:'Sony Pictures', thumb: yt('cqGjhVJWtEg') },
+  { id:'aot-final-trailer', title:'Attack on Titan â€” Final Chapters Trailer', category:'Anime', status:'recent', release:'November 4, 2023', duration:'2:05', youtubeId:'SlNpRThS9t8', source:'Crunchyroll', thumb: yt('SlNpRThS9t8') },
+  { id:'vinland-s2-trailer', title:'Vinland Saga S2 â€” Official Trailer', category:'Anime', status:'recent', release:'January 9, 2023', duration:'2:18', youtubeId:'i0m2aO0nYPg', source:'Netflix', thumb: yt('i0m2aO0nYPg') },
+  { id:'gta-6-trailer', title:'Grand Theft Auto VI â€” Trailer 1', category:'Games', status:'upcoming', release:'2025', duration:'1:31', youtubeId:'QdBZY2fkU-0', source:'Rockstar Games', thumb: yt('QdBZY2fkU-0') },
   { id:'elden-dlc-trailer', title:'Elden Ring: Shadow of the Erdtree', category:'Games', status:'recent', release:'June 21, 2024', duration:'3:05', youtubeId:'qLZenOn7WUo', source:'FromSoftware', thumb: yt('qLZenOn7WUo') }
 ];
 
 const HERO_SLIDES = [
   { id:'sdcc', tag:'Featured Event', title:'Comic-Con International returns this July', sub:'Four days of panels, cosplay, and exclusives at the San Diego Convention Center.', image: u('photo-1540575467063-178a50c2df87'), cta:'Get Tickets', ghost:'Listen to theme' },
-  { id:'arcane', tag:'Premiere — Nov 2', title:'Arcane returns for its final season', sub:'The League of Legends story concludes on Netflix.', image: u('photo-1611162617474-5b21e879e113'), cta:'Set Reminder', ghost:'Play trailer audio' },
-  { id:'hisaishi', tag:'Concert — Oct 4', title:'Joe Hisaishi performs at the Royal Albert Hall', sub:'A full orchestral night of Studio Ghibli scores.', image: u('photo-1501386761578-eac5c94b800a'), cta:'Book Seats', ghost:'Preview the score' }
+  { id:'arcane', tag:'Premiere â€” Nov 2', title:'Arcane returns for its final season', sub:'The League of Legends story concludes on Netflix.', image: u('photo-1611162617474-5b21e879e113'), cta:'Set Reminder', ghost:'Play trailer audio' },
+  { id:'hisaishi', tag:'Concert â€” Oct 4', title:'Joe Hisaishi performs at the Royal Albert Hall', sub:'A full orchestral night of Studio Ghibli scores.', image: u('photo-1501386761578-eac5c94b800a'), cta:'Book Seats', ghost:'Preview the score' }
 ];
 
 const LIVE_NOW = [
@@ -113,12 +113,12 @@ const LIVE_NOW = [
 ];
 
 const TRENDING = [
-  { id:'t1', rank:1, title:'Arcane S2 Premiere', sub:'Netflix · Nov 2', image: u('photo-1611162617474-5b21e879e113') },
-  { id:'t2', rank:2, title:'Comic-Con 2024', sub:'San Diego · Jul 22', image: u('photo-1540575467063-178a50c2df87') },
-  { id:'t3', rank:3, title:'Dune: Prophecy', sub:'Max · Nov 17', image: u('photo-1500530855697-b586d89ba3ee') },
-  { id:'t4', rank:4, title:'Anime Symphony NYC', sub:'Carnegie Hall · Nov 22', image: u('photo-1519677100203-a0e668c92439') },
+  { id:'t1', rank:1, title:'Arcane S2 Premiere', sub:'Netflix Â· Nov 2', image: u('photo-1611162617474-5b21e879e113') },
+  { id:'t2', rank:2, title:'Comic-Con 2024', sub:'San Diego Â· Jul 22', image: u('photo-1540575467063-178a50c2df87') },
+  { id:'t3', rank:3, title:'Dune: Prophecy', sub:'Max Â· Nov 17', image: u('photo-1500530855697-b586d89ba3ee') },
+  { id:'t4', rank:4, title:'Anime Symphony NYC', sub:'Carnegie Hall Â· Nov 22', image: u('photo-1519677100203-a0e668c92439') },
   { id:'t5', rank:5, title:'Sawano Live in Tokyo', sub:'Dec 12', image: u('photo-1470229722913-7c0e2dbbafd3') },
-  { id:'t6', rank:6, title:'Frieren S2', sub:'Crunchyroll · Jan 2025', image: u('photo-1578632767115-351597cf2477') }
+  { id:'t6', rank:6, title:'Frieren S2', sub:'Crunchyroll Â· Jan 2025', image: u('photo-1578632767115-351597cf2477') }
 ];
 
 const WEEK = [
@@ -138,11 +138,11 @@ const WEEK = [
 ];
 
 const CATEGORIES = [
-  { id:'c1', icon:'⚔', label:'Conventions', sub:'120+ this year', image: u('photo-1540575467063-178a50c2df87') },
-  { id:'c2', icon:'✦', label:'Premieres', sub:'New every week', image: u('photo-1611162617474-5b21e879e113') },
-  { id:'c3', icon:'◉', label:'Watch Parties', sub:'Thousands watching', image: u('photo-1635805737707-575885ab0820') },
-  { id:'c4', icon:'☺', label:'Meetups', sub:'Local & online', image: u('photo-1517457373958-b7bdd4587205') },
-  { id:'c5', icon:'♪', label:'Concerts', sub:'Orchestral & live', image: u('photo-1501386761578-eac5c94b800a') }
+  { id:'c1', icon:'âš”', label:'Conventions', sub:'120+ this year', image: u('photo-1540575467063-178a50c2df87') },
+  { id:'c2', icon:'âœ¦', label:'Premieres', sub:'New every week', image: u('photo-1611162617474-5b21e879e113') },
+  { id:'c3', icon:'â—‰', label:'Watch Parties', sub:'Thousands watching', image: u('photo-1635805737707-575885ab0820') },
+  { id:'c4', icon:'â˜º', label:'Meetups', sub:'Local & online', image: u('photo-1517457373958-b7bdd4587205') },
+  { id:'c5', icon:'â™ª', label:'Concerts', sub:'Orchestral & live', image: u('photo-1501386761578-eac5c94b800a') }
 ];
 
 const VENUES = [
@@ -175,7 +175,7 @@ const categoryClass = (cat) => {
 const statusLabel = (s) => s === 'past' ? 'Past' : s === 'live' ? 'Live Now' : 'Upcoming';
 
 /* ============================================================
-   AUDIO HOOK — single instance playback
+   AUDIO HOOK â€” single instance playback
    ============================================================ */
 function useAudio() {
   const audioRef = useRef(null);
@@ -208,7 +208,7 @@ function useAudio() {
 }
 
 /* ============================================================
-   AUDIO BUTTON — small reusable
+   AUDIO BUTTON â€” small reusable
    ============================================================ */
 const AudioButton = ({ id, src, label, playing, onToggle, size = 'md' }) => (
   <button
@@ -261,7 +261,7 @@ const TopBar = () => {
 };
 
 /* ============================================================
-   HERO CAROUSEL — with ambient audio
+   HERO CAROUSEL â€” with ambient audio
    ============================================================ */
 const HeroCarousel = () => {
   const [idx, setIdx] = useState(0);
@@ -283,7 +283,7 @@ const HeroCarousel = () => {
         <h2>{s.title}</h2>
         <p>{s.sub}</p>
         <div className="actions">
-          <button className="btn-solid">{s.cta} →</button>
+          <button className="btn-solid">{s.cta} â†’</button>
           <button className="btn-ghost">{s.ghost}</button>
         </div>
       </div>
@@ -298,7 +298,7 @@ const HeroCarousel = () => {
 };
 
 /* ============================================================
-   LIVE NOW — audio + visual
+   LIVE NOW â€” audio + visual
    ============================================================ */
 const LiveNowStrip = () => (
   <div className="live-strip">
@@ -307,7 +307,7 @@ const LiveNowStrip = () => (
         <div className="thumb"><img src={l.image} alt={l.title} /></div>
         <div className="meta">
           <strong>{l.title}</strong>
-          <span>{l.host} · {l.viewers}</span>
+          <span>{l.host} Â· {l.viewers}</span>
         </div>
         <span className="live-badge small"><span className="live-dot" />Live</span>
       </div>
@@ -316,7 +316,7 @@ const LiveNowStrip = () => (
 );
 
 /* ============================================================
-   TRENDING — editorial rows with audio
+   TRENDING â€” editorial rows with audio
    ============================================================ */
 const TrendingRow = () => (
   <div className="trend-list">
@@ -336,7 +336,7 @@ const TrendingRow = () => (
 );
 
 /* ============================================================
-   FUN CALENDAR — with per-day ambience
+   FUN CALENDAR â€” with per-day ambience
    ============================================================ */
 const FunCalendar = () => {
   const [month, setMonth] = useState('October 2024');
@@ -347,7 +347,7 @@ const FunCalendar = () => {
         <h3 className="cal-month">{month}</h3>
         <button className="cal-nav" aria-label="Next month"><IconChevR /></button>
         <span className="cal-today-pill">
-          <span className="cal-today-dot" />Today · Fri, Oct 11
+          <span className="cal-today-dot" />Today Â· Fri, Oct 11
         </span>
       </div>
 
@@ -387,7 +387,7 @@ const FunCalendar = () => {
 };
 
 /* ============================================================
-   BENTO FEATURE — hero has audio
+   BENTO FEATURE â€” hero has audio
    ============================================================ */
 const BentoFeature = () => {
   const [hero, ...rest] = EVENTS.filter(e => e.status === 'upcoming').slice(0, 5);
@@ -406,7 +406,7 @@ const BentoFeature = () => {
             <span><IconPin />{hero.location}</span>
           </div>
           <div className="bento-actions">
-            <button className="btn-solid small">View details →</button>
+            <button className="btn-solid small">View details â†’</button>
           </div>
         </div>
       </article>
@@ -426,7 +426,7 @@ const BentoFeature = () => {
 };
 
 /* ============================================================
-   EDITORIAL SPOTLIGHT — with podcast-style player
+   EDITORIAL SPOTLIGHT â€” with podcast-style player
    ============================================================ */
 const EditorialSpotlight = ({ audio }) => (
   <div className="editorial-split">
@@ -438,7 +438,7 @@ const EditorialSpotlight = ({ audio }) => (
       </div>
     </div>
     <div className="editorial-body">
-      <span className="eyebrow">Artist spotlight · Audio feature</span>
+      <span className="eyebrow">Artist spotlight Â· Audio feature</span>
       <h2>Hiroyuki Sawano and the sound of Attack on Titan</h2>
       <p>
         Revisit the emotional beats, colossal percussion, and unforgettable themes that made the series feel larger than life. Listen to the full artist feature below.
@@ -453,7 +453,7 @@ const EditorialSpotlight = ({ audio }) => (
           size="lg"
         />
         <div className="player-info">
-          <span className="player-label">Artist feature · 45 min</span>
+          <span className="player-label">Artist feature Â· 45 min</span>
           <Equalizer active={audio.isPlaying('editorial')} />
         </div>
       </div>
@@ -462,13 +462,13 @@ const EditorialSpotlight = ({ audio }) => (
         <li><span className="dot" />Sawano's score, dissected</li>
         <li><span className="dot" />The music behind the final season</li>
       </ul>
-      <button className="btn-solid">Read the full feature →</button>
+      <button className="btn-solid">Read the full feature â†’</button>
     </div>
   </div>
 );
 
 /* ============================================================
-   EVENT LIST — rows with audio previews
+   EVENT LIST â€” rows with audio previews
    ============================================================ */
 const EventList = ({ onOpen }) => {
   const upcoming = EVENTS.filter(e => e.status === 'upcoming').slice(0, 6);
@@ -496,7 +496,7 @@ const EventList = ({ onOpen }) => {
 };
 
 /* ============================================================
-   EVENT CARD — small, with mini audio
+   EVENT CARD â€” small, with mini audio
    ============================================================ */
 const EventCard = ({ e, onOpen }) => (
   <div className="event-card" onClick={() => onOpen(e)}>
@@ -518,25 +518,25 @@ const EventCard = ({ e, onOpen }) => (
 );
 
 /* ============================================================
-   TRAILERS — audio previews
+   TRAILERS â€” audio previews
    ============================================================ */
 const TrailerFeature = ({ t, onOpen }) => (
   <div className="trailer-feature">
     <div className="trailer-feature-thumb" onClick={() => onOpen(t)}>
       <img src={t.thumb} alt={t.title} />
       <div className="trailer-feature-overlay" />
-      <div className="play-btn big"><span className="circle">▶</span></div>
+      <div className="play-btn big"><span className="circle">â–¶</span></div>
       <span className="trailer-duration big">{t.duration}</span>
       <span className={'trailer-status ' + t.status}>
         {t.status === 'upcoming' ? 'Upcoming' : 'Recently Released'}
       </span>
     </div>
     <div className="trailer-feature-body">
-      <span className="eyebrow">{t.source} · {t.release}</span>
+      <span className="eyebrow">{t.source} Â· {t.release}</span>
       <h3>{t.title}</h3>
       <p>Watch the trailer and explore the latest stories from your favorite fandoms.</p>
       <div className="trailer-feature-actions">
-        <button className="btn-solid small" onClick={() => onOpen(t)}>▶ Watch trailer</button>
+        <button className="btn-solid small" onClick={() => onOpen(t)}>â–¶ Watch trailer</button>
       </div>
     </div>
   </div>
@@ -552,18 +552,18 @@ const TrailerCard = ({ t, onOpen }) => (
       <span className={'trailer-status ' + t.status}>
         {t.status === 'upcoming' ? 'Upcoming' : 'Recently Released'}
       </span>
-      <div className="play-btn"><span className="circle">▶</span></div>
+      <div className="play-btn"><span className="circle">â–¶</span></div>
       <span className="trailer-duration">{t.duration}</span>
     </div>
     <div className="trailer-body">
       <h3>{t.title}</h3>
-      <span className="sub">{t.source}<span className="dot">·</span>{t.release}</span>
+      <span className="sub">{t.source}<span className="dot">Â·</span>{t.release}</span>
     </div>
   </div>
 );
 
 /* ============================================================
-   PODCAST STRIP — new audio section
+   PODCAST STRIP â€” new audio section
    ============================================================ */
 const PodcastStrip = ({ audio }) => (
   <div className="podcast-list">
@@ -572,7 +572,7 @@ const PodcastStrip = ({ audio }) => (
         <span className="podcast-num">{String(i + 1).padStart(2, '0')}</span>
         <div className="podcast-info">
           <h4>{p.title}</h4>
-          <span className="podcast-meta">{p.host} · {p.duration} · {p.plays} plays</span>
+          <span className="podcast-meta">{p.host} Â· {p.duration} Â· {p.plays} plays</span>
         </div>
         <span className="podcast-tag">{p.tag}</span>
         <AudioButton
@@ -631,7 +631,7 @@ const EventModal = ({ e, onClose }) => {
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal" onClick={(ev) => ev.stopPropagation()}>
         <div className="modal-hero" style={{ backgroundImage: `url(${e.image})` }}>
-          <button className="modal-close" onClick={onClose}>×</button>
+          <button className="modal-close" onClick={onClose}>Ã—</button>
         </div>
         <div className="modal-body">
           <span className={'cat ' + categoryClass(e.category)}>
@@ -646,7 +646,7 @@ const EventModal = ({ e, onClose }) => {
           </div>
           <p className="modal-desc">{e.description}</p>
           <div className="modal-actions">
-            <button className="btn-solid">Get Tickets →</button>
+            <button className="btn-solid">Get Tickets â†’</button>
             <button className="btn-ghost">+ Add to Calendar</button>
           </div>
         </div>
@@ -662,7 +662,7 @@ const TrailerModal = ({ t, onClose }) => {
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal" onClick={(ev) => ev.stopPropagation()} style={{ width: 'min(960px, 100%)' }}>
         <div style={{ position: 'relative', aspectRatio: '16/9', background: '#000' }}>
-          <button className="modal-close" onClick={onClose}>×</button>
+          <button className="modal-close" onClick={onClose}>Ã—</button>
           <iframe src={url} title={t.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -671,7 +671,7 @@ const TrailerModal = ({ t, onClose }) => {
         <div className="modal-body" style={{ paddingTop: 20 }}>
           <h2>{t.title}</h2>
           <div className="modal-meta" style={{ border: 0, padding: 0, margin: 0 }}>
-            <div className="row">{t.source} · {t.release} · {t.duration}</div>
+            <div className="row">{t.source} Â· {t.release} Â· {t.duration}</div>
           </div>
         </div>
       </div>
@@ -719,7 +719,7 @@ export default function App() {
           <div className="events-page">
             <header className="events-head">
               <h1>Events &amp; Trailers</h1>
-              <p>Everything happening across your fandoms — conventions, premieres, watch parties, meetups, and concerts. Explore the artists and sounds behind the stories you love.</p>
+              <p>Everything happening across your fandoms â€” conventions, premieres, watch parties, meetups, and concerts. Explore the artists and sounds behind the stories you love.</p>
             </header>
 
             <HeroCarousel />
@@ -730,7 +730,7 @@ export default function App() {
                   <h2>Live Right Now</h2>
                   <span className="count">{LIVE_NOW.length} streams</span>
                 </div>
-                <button className="see-all">See all →</button>
+                <button className="see-all">See all â†’</button>
               </div>
               <LiveNowStrip />
             </section>
@@ -739,9 +739,9 @@ export default function App() {
               <div className="section-head">
                 <div className="section-head-left">
                   <h2>This Week at a Glance</h2>
-                  <span className="count">Oct 7 – 13 · tap ▶ per day</span>
+                  <span className="count">Oct 7 â€“ 13 Â· tap â–¶ per day</span>
                 </div>
-                <button className="see-all">Full calendar →</button>
+                <button className="see-all">Full calendar â†’</button>
               </div>
               <FunCalendar />
             </section>
@@ -752,7 +752,7 @@ export default function App() {
                   <h2>Featured This Season</h2>
                   <span className="count">Hand-picked</span>
                 </div>
-                <button className="see-all">See all →</button>
+                <button className="see-all">See all â†’</button>
               </div>
               <BentoFeature />
             </section>
@@ -763,7 +763,7 @@ export default function App() {
                   <h2>Event Highlights</h2>
                   <span className="count">{filteredEvents.length} events</span>
                 </div>
-                <button className="see-all">See all →</button>
+                <button className="see-all">See all â†’</button>
               </div>
 
               <div className="filter-bar">
@@ -800,7 +800,7 @@ export default function App() {
                   <h2>Trailers</h2>
                   <span className="count">{filteredTrailers.length} trailers</span>
                 </div>
-                <button className="see-all">See all →</button>
+                <button className="see-all">See all â†’</button>
               </div>
 
               <div className="filter-bar">
@@ -835,7 +835,7 @@ export default function App() {
                   <h2>Artist Soundtrack Sessions</h2>
                   <span className="count">{PODCAST_EPISODES.length} episodes</span>
                 </div>
-                <button className="see-all">All episodes →</button>
+                <button className="see-all">All episodes â†’</button>
               </div>
               <PodcastStrip audio={audio} />
             </section>
@@ -845,7 +845,7 @@ export default function App() {
                 <div className="section-head-left">
                   <h2>Browse by Category</h2>
                 </div>
-                <button className="see-all">All categories →</button>
+                <button className="see-all">All categories â†’</button>
               </div>
               <CategoriesGrid />
             </section>
@@ -856,7 +856,7 @@ export default function App() {
                   <h2>Venues We Love</h2>
                   <span className="count">{VENUES.length} venues</span>
                 </div>
-                <button className="see-all">See all →</button>
+                <button className="see-all">See all â†’</button>
               </div>
               <VenuesGrid />
             </section>
