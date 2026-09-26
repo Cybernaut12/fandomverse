@@ -1,5 +1,23 @@
 [
   {
+    "id": "evt-tv-001",
+    "title": "San Diego Comic-Con: Hall H TV Panels",
+    "category": "tv-shows",
+    "date": "2026-07-25",
+    "location": "San Diego Convention Center, CA",
+    "description": "Massive exclusive reveals and cast panels for upcoming seasons of The Boys, House of the Dragon, and more.",
+    "image": "/images/tv/the-boys-banner.jpg"
+  },
+  {
+    "id": "evt-tv-002",
+    "title": "Stranger Things: The Upside Down Experience",
+    "category": "tv-shows",
+    "date": "2026-10-15",
+    "location": "Los Angeles, CA",
+    "description": "An immersive, walk-through experience exploring iconic sets from Hawkins and the Upside Down ahead of the final season.",
+    "image": "/images/tv/stranger-things-banner.jpg"
+  },
+  {
     "id": "evt-001",
     "title": "AnimeJapan 2026",
     "category": "anime",
@@ -79,33 +97,6 @@
     "location": "BFI IMAX London & Lincoln Square NYC",
     "description": "Special one-week-only 15-perf 70mm screenings of Dune: Part Two, Oppenheimer, and Interstellar on the world's largest screens with cinematographer Q&As.",
     "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-010",
-    "title": "Television Critics Panel Week",
-    "category": "tv-shows",
-    "date": "2026-10-05",
-    "location": "The Beverly Hilton, Los Angeles, USA",
-    "description": "Network and streaming platforms present their upcoming slates to critics, with cast panels, exclusive sneak peeks, and industry networking events.",
-    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-011",
-    "title": "Series Mania Festival",
-    "category": "tv-shows",
-    "date": "2026-11-22",
-    "location": "Grand Rex, Paris, France",
-    "description": "Europe's premier television festival, screening new series from around the world with premieres, creator Q&As, and a competition for best international drama.",
-    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-012",
-    "title": "Streaming Culture Conference",
-    "category": "tv-shows",
-    "date": "2026-12-05",
-    "location": "Austin Convention Center, Austin, USA",
-    "description": "A conference exploring how streaming has reshaped television, with talks on viewing habits, algorithm curation, and the future of episodic storytelling.",
-    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "evt-013",

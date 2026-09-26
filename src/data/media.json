@@ -1,5 +1,45 @@
 [
   {
+    "id": "med-tv-001",
+    "title": "The Last of Us — Season 2 Official Teaser",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/the-last-of-us-banner.jpg",
+    "youtubeId": "uLtkt8BonwM",
+    "duration": "2:04",
+    "description": "Joel and Ellie face the consequences of the hospital in Salt Lake City as a new threat emerges in Jackson."
+  },
+  {
+    "id": "med-tv-002",
+    "title": "House of the Dragon — Season 2 Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/house-of-the-dragon-banner.jpg",
+    "youtubeId": "fNwwt25mheo",
+    "duration": "2:31",
+    "description": "The Dance of the Dragons begins. Team Black and Team Green prepare to burn the realm for the Iron Throne."
+  },
+  {
+    "id": "med-tv-003",
+    "title": "Severance — Season 2 Date Announcement",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/severance-banner.jpg",
+    "youtubeId": "xK_X_GZfXkQ",
+    "duration": "1:45",
+    "description": "Your innie has been awake. Return to Lumon Industries for the highly anticipated second season."
+  },
+  {
+    "id": "med-tv-004",
+    "title": "The Boys — Season 4 Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/the-boys-banner.jpg",
+    "youtubeId": "EzFXHvNko9w",
+    "duration": "2:18",
+    "description": "The world is on the brink. Victoria Neuman is closer to the Oval Office, and Homelander is consolidating his power."
+  },
+  {
     "id": "med-jjk-shibuya-trailer",
     "title": "Jujutsu Kaisen — Shibuya Incident Official Trailer",
     "category": "anime",
@@ -38,16 +78,6 @@
     "youtubeId": "q15CRdE5Bv0",
     "duration": "1:52",
     "description": "Denji encounters the mysterious bomb hybrid Reze in the upcoming theatrical feature adaptation from MAPPA."
-  },
-  {
-    "id": "med-one-piece-egghead-trailer",
-    "title": "One Piece — Egghead Arc & Future Island Climax Trailer",
-    "category": "anime",
-    "type": "trailer",
-    "thumbnail": "/images/anime/one-piece-banner.jpg",
-    "youtubeId": "l_98K4_6UQ0",
-    "duration": "1:48",
-    "description": "Dr. Vegapunk's futuristic island reveals the world's deepest secrets as the Five Elders mobilize an unprecedented Buster Call."
   },
   {
     "id": "med-jjk-audio-specialz",
@@ -164,42 +194,6 @@
     "youtubeId": "73_1biulkYk",
     "duration": "2:38",
     "description": "Marvel Studios presents their most unexpected team-up as Wade Wilson pulls a reluctant Wolverine into the multiverse."
-  },
-  {
-    "id": "med-013",
-    "title": "The 12th Precinct — Season 4 Teaser",
-    "category": "tv-shows",
-    "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:32",
-    "description": "A brief teaser for the new season of the acclaimed police drama, introducing a major new character."
-  },
-  {
-    "id": "med-014",
-    "title": "Cast Interview: The Hollow University",
-    "category": "tv-shows",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "22:08",
-    "description": "The ensemble cast discusses their characters, on-set dynamics, and what to expect in the second season."
-  },
-  {
-    "id": "med-015",
-    "title": "TV Talk Podcast — The Limited Series Boom",
-    "category": "tv-shows",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "55:40",
-    "description": "An analysis of why limited series are becoming the dominant format for prestige television."
-  },
-  {
-    "id": "med-016",
-    "title": "Long Way Home — Theme (Audio)",
-    "category": "tv-shows",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/6892712/pexels-photo-6892712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:18",
-    "description": "The acoustic theme song from the road-trip drama, written and performed by the show's music supervisor."
   },
   {
     "id": "med-017",

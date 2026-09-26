@@ -1,5 +1,95 @@
 [
   {
+    "id": "char-tv-001",
+    "name": "Joel Miller",
+    "series": "The Last of Us",
+    "category": "tv-shows",
+    "bio": "A hardened survivor in a post-apocalyptic world decimated by a fungal infection. Haunted by the tragic loss of his daughter at the outbreak's start, Joel is tasked with smuggling a young girl, Ellie, across the country.",
+    "traits": [
+      "Survivor",
+      "Protective",
+      "Ruthless",
+      "Grieving Father"
+    ],
+    "image": "/images/characters/joel-miller.jpg",
+    "altText": "Joel Miller looking weary in a post-apocalyptic setting"
+  },
+  {
+    "id": "char-tv-002",
+    "name": "Eleven (Jane Hopper)",
+    "series": "Stranger Things",
+    "category": "tv-shows",
+    "bio": "A young girl born with psychokinetic and telepathic abilities, raised in the secretive Hawkins National Laboratory. She escaped and befriended a group of boys, becoming their primary defense against the horrific monsters of the Upside Down.",
+    "traits": [
+      "Telekinetic",
+      "Loyal Friend",
+      "Eggo Lover",
+      "Powerful"
+    ],
+    "image": "/images/characters/eleven.jpg",
+    "altText": "Eleven focusing her telekinetic powers"
+  },
+  {
+    "id": "char-tv-003",
+    "name": "Rhaenyra Targaryen",
+    "series": "House of the Dragon",
+    "category": "tv-shows",
+    "bio": "The first-born child of King Viserys I Targaryen and his named heir. A dragonrider bonded with Syrax, she fights a brutal civil war against her half-brother Aegon II for her rightful place on the Iron Throne.",
+    "traits": [
+      "Dragonrider",
+      "Realm's Delight",
+      "Black Queen",
+      "Ambitious"
+    ],
+    "image": "/images/characters/rhaenyra-targaryen.jpg",
+    "altText": "Queen Rhaenyra Targaryen in black and red"
+  },
+  {
+    "id": "char-tv-004",
+    "name": "Mark Scout",
+    "series": "Severance",
+    "category": "tv-shows",
+    "bio": "An employee at Lumon Industries who elected to undergo the severance procedure to escape the grief of his wife's death. His 'innie' is the dutiful Chief of Macrodata Refinement, until he begins to unravel the dark truth of his existence.",
+    "traits": [
+      "Severed",
+      "Grieving",
+      "Macrodata Refiner",
+      "Rebellious Innie"
+    ],
+    "image": "/images/characters/mark-scout.jpg",
+    "altText": "Mark Scout in a sterile Lumon office hallway"
+  },
+  {
+    "id": "char-tv-005",
+    "name": "Homelander",
+    "series": "The Boys",
+    "category": "tv-shows",
+    "bio": "The extremely powerful leader of The Seven and the public face of Vought International. Behind his manufactured Boy Scout persona lies a deeply insecure, narcissistic, and murderous sociopath with god-like powers.",
+    "traits": [
+      "Vought Supe",
+      "Narcissist",
+      "Laser Vision",
+      "Unstable"
+    ],
+    "image": "/images/characters/homelander.jpg",
+    "altText": "Homelander smiling menacingly with glowing eyes"
+  },
+  {
+    "id": "char-tv-006",
+    "name": "Wednesday Addams",
+    "series": "Wednesday",
+    "category": "tv-shows",
+    "bio": "The brilliant, morbid, and emotionally detached daughter of Gomez and Morticia Addams. Sent to Nevermore Academy, she hones her emerging psychic abilities to solve a monstrous killing spree terrorizing the local town.",
+    "traits": [
+      "Morbid",
+      "Psychic",
+      "Cello Player",
+      "Deadpan"
+    ],
+    "image": "/images/characters/wednesday-addams.jpg",
+    "altText": "Wednesday Addams in her Nevermore Academy uniform"
+  },
+  {
     "id": "char-001",
     "name": "Satoru Gojo",
     "series": "Jujutsu Kaisen",
@@ -313,81 +403,6 @@
     ],
     "image": "/images/characters/wolverine.jpg",
     "altText": "Hugh Jackman as Wolverine in classic yellow and blue comic suit"
-  },
-  {
-    "id": "char-017",
-    "name": "Detective Sarah Lin",
-    "series": "The 12th Precinct",
-    "category": "tv-shows",
-    "bio": "A no-nonsense homicide detective in a city where nothing is quite what it seems. Sarah's sharp instincts and dry humor make her beloved by colleagues and feared by suspects.",
-    "traits": [
-      "Sharp",
-      "Sarcastic",
-      "Dedicated",
-      "Vulnerable"
-    ],
-    "image": "/images/characters/lucius-aurelius.jpg",
-    "altText": "A young woman with vibrant red hair and artistic makeup holding a plush toy"
-  },
-  {
-    "id": "char-018",
-    "name": "Professor Edwin Hale",
-    "series": "The Hollow University",
-    "category": "tv-shows",
-    "bio": "A history professor who discovers his university is built over a portal to another dimension. Edwin becomes the reluctant guardian of a secret that spans centuries.",
-    "traits": [
-      "Bookish",
-      "Anxious",
-      "Loyal",
-      "Curious"
-    ],
-    "image": "/images/characters/officer-k.jpg",
-    "altText": "Black and white photo of a hooded figure with a wand"
-  },
-  {
-    "id": "char-019",
-    "name": "Maya Torres",
-    "series": "District 7",
-    "category": "tv-shows",
-    "bio": "A paramedic working the night shift in a neighborhood where strange occurrences are becoming routine. Maya navigates both medical emergencies and the growing sense that something is deeply wrong with her city.",
-    "traits": [
-      "Tough",
-      "Compassionate",
-      "Skeptical",
-      "Resourceful"
-    ],
-    "image": "/images/characters/chani.jpg",
-    "altText": "Gothic character with dramatic makeup in an outdoor setting"
-  },
-  {
-    "id": "char-020",
-    "name": "James \"Trip\" Turnbull",
-    "series": "Long Way Home",
-    "category": "tv-shows",
-    "bio": "A traveling musician trying to rebuild his life after a fall from fame. Trip drives across the country playing small venues, collecting stories, and slowly finding his way back to himself.",
-    "traits": [
-      "Charming",
-      "Broken",
-      "Musical",
-      "Perceptive"
-    ],
-    "image": "/images/characters/wolverine.jpg",
-    "altText": "Artistic black and white portrait with dramatic lighting"
-  },
-  {
-    "id": "char-021",
-    "name": "Dr. Amara Singh",
-    "series": "Code White",
-    "category": "tv-shows",
-    "bio": "A trauma surgeon at an understaffed hospital where every shift is a crisis. Amara's brilliance in the operating room contrasts with the personal chaos she's trying to keep hidden.",
-    "traits": [
-      "Intense",
-      "Skilled",
-      "Private",
-      "Caring"
-    ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
   },
   {
     "id": "char-022",

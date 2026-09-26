@@ -1,5 +1,35 @@
 [
   {
+    "id": "mch-tv-001",
+    "name": "The Last of Us — Fireflies Pendant Replica",
+    "category": "tv-shows",
+    "type": "collectible",
+    "price": 35,
+    "priceRange": "$30–$40",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "description": "A meticulously crafted replica of the iconic Firefly pendant, cast in aged metal with a rugged leather cord."
+  },
+  {
+    "id": "mch-tv-002",
+    "name": "Severance — Lumon Industries Welcome Kit",
+    "category": "tv-shows",
+    "type": "collectible",
+    "price": 45,
+    "priceRange": "$40–$50",
+    "image": "/images/tv/severance-banner.jpg",
+    "description": "Includes a Lumon tote bag, Kier Eagan handbook, Macrodata Refinement finger traps, and a blue employee lanyard."
+  },
+  {
+    "id": "mch-tv-003",
+    "name": "House of the Dragon — Syrax Dragon Scale Pin",
+    "category": "tv-shows",
+    "type": "accessory",
+    "price": 18,
+    "priceRange": "$15–$25",
+    "image": "/images/characters/rhaenyra-targaryen.jpg",
+    "description": "Premium enamel pin modeled after the golden scales of Rhaenyra's dragon, Syrax. Official HBO merchandise."
+  },
+  {
     "id": "mch-001",
     "name": "One Piece — Straw Hat Crew Heavyweight Hoodie",
     "category": "anime",
@@ -128,46 +158,6 @@
     "priceRange": "$60–$75",
     "image": "https://images.pexels.com/photos/381651/pexels-photo-381651.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
     "description": "Numbered museum-grade display containing an authentic 70mm physical film cell from Christopher Nolan's Trinity sequence."
-  },
-  {
-    "id": "mch-013",
-    "name": "The 12th Precinct — Badge Replica",
-    "category": "tv-shows",
-    "type": "collectible",
-    "price": 25,
-    "priceRange": "$22–$28",
-    "image": "https://images.pexels.com/photos/5795416/pexels-photo-5795416.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A screen-accurate metal replica of the detective badge from the show, presented in a display case with stand."
-  },
-  {
-    "id": "mch-014",
-    "name": "The Hollow University — Logo Hoodie",
-    "category": "tv-shows",
-    "type": "hoodie",
-    "price": 52,
-    "priceRange": "$48–$55",
-    "image": "https://images.pexels.com/photos/7319172/pexels-photo-7319172.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A charcoal hoodie with the Hollow University crest in gold embroidery. Heavyweight cotton blend for cold evenings."
-  },
-  {
-    "id": "mch-015",
-    "name": "Long Way Home — Guitar Pick Necklace",
-    "category": "tv-shows",
-    "type": "accessory",
-    "price": 16,
-    "priceRange": "$14–$18",
-    "image": "https://images.pexels.com/photos/8217291/pexels-photo-8217291.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A necklace featuring a guitar pick pendant inspired by Trip's signature pick from the show. Stainless steel chain."
-  },
-  {
-    "id": "mch-016",
-    "name": "District 7 — Plush Companion",
-    "category": "tv-shows",
-    "type": "plushie",
-    "price": 24,
-    "priceRange": "$22–$26",
-    "image": "https://images.pexels.com/photos/9119278/pexels-photo-9119278.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A plush version of the mysterious cat that appears in every episode of District 7. Approximately 15cm tall."
   },
   {
     "id": "mch-017",

@@ -7,7 +7,7 @@
     "accentColor": "#e63946",
     "accentColorLight": "#ff5a68",
     "accentColorDark": "#b32832",
-    "image": "/images/anime/jjk-banner.jpg",
+    "image": "https://images.pexels.com/photos/31002082/pexels-photo-31002082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "icon": "Sparkles"
   },
   {
@@ -29,7 +29,7 @@
     "accentColor": "#c9a227",
     "accentColorLight": "#e8bf3e",
     "accentColorDark": "#a08016",
-    "image": "/images/dune-cover.jpg",
+    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "icon": "Film"
   },
   {

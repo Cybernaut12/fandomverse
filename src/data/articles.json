@@ -1,5 +1,145 @@
 [
   {
+    "id": "art-tv-001",
+    "title": "The Emotional Toll of Cordyceps: Why The Last of Us Succeeded",
+    "slug": "the-last-of-us-hbo-adaptation-success",
+    "category": "tv-shows",
+    "excerpt": "How Craig Mazin and Neil Druckmann broke the video game adaptation curse by focusing on love, loss, and profound human connection.",
+    "body": [
+      "When HBO announced an adaptation of Naughty Dog's masterpiece The Last of Us, fans were cautiously optimistic. The history of video game adaptations was fraught with disappointment.",
+      "However, showrunners Craig Mazin (Chernobyl) and Neil Druckmann (creator of the game) recognized that the core of the story wasn't the infected or the apocalyptic setting, but the relationship between Joel and Ellie.",
+      "The standout episode 'Long, Long Time', featuring Nick Offerman and Murray Bartlett, expanded on a minor game element to create a beautiful, heartbreaking hour of television that encapsulated the show's theme of finding purpose in the end of the world.",
+      "With Season 2 approaching to tackle the controversial and emotionally devastating events of Part II, The Last of Us has cemented itself as prestige television."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "tags": [
+      "the-last-of-us",
+      "hbo",
+      "adaptation",
+      "pedro-pascal",
+      "bella-ramsey"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-tv-002",
+    "title": "Entering the Upside Down: The Phenomenon of Stranger Things",
+    "slug": "stranger-things-cultural-phenomenon",
+    "category": "tv-shows",
+    "excerpt": "As the Duffer Brothers prepare for the final season, we look back at how an 80s nostalgia trip became a defining show of the streaming era.",
+    "body": [
+      "Stranger Things began as a quiet summer release on Netflix in 2016, blending Spielberg-esque childhood adventure with Stephen King's small-town horror.",
+      "Through four seasons, the world of Hawkins has expanded exponentially. The introduction of Vecna in Season 4 elevated the stakes, while the viral resurgence of Kate Bush's 'Running Up That Hill' demonstrated the show's massive cultural grip.",
+      "The cast has grown up before our eyes, shifting the tone from Amblin innocence to teen slasher dread.",
+      "The upcoming fifth and final season promises an epic conclusion as Eleven and the Hawkins crew make their last stand against the Upside Down."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/tv/stranger-things-banner.jpg",
+    "tags": [
+      "stranger-things",
+      "netflix",
+      "80s-nostalgia",
+      "sci-fi",
+      "horror"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-tv-003",
+    "title": "Fire and Blood: Reclaiming the Throne with House of the Dragon",
+    "slug": "house-of-the-dragon-reclaiming-throne",
+    "category": "tv-shows",
+    "excerpt": "HBO's Game of Thrones prequel managed the impossible: winning back a fractured fandom with political intrigue and phenomenal dragon design.",
+    "body": [
+      "Following the divisive finale of Game of Thrones, the prospect of returning to Westeros was met with skepticism. House of the Dragon, focusing on the Targaryen civil war known as the Dance of the Dragons, quickly dispelled those doubts.",
+      "By narrowing its focus to a single, deeply dysfunctional family, the show reclaimed the intimate political backstabbing that made early Game of Thrones so compelling.",
+      "Emma D'Arcy and Olivia Cooke deliver powerhouse performances as former friends turned bitter rivals, while Matt Smith's volatile Daemon Targaryen is a magnetic presence.",
+      "With the dragons now taking to the skies in open war, the series has proven that the Song of Ice and Fire universe still has plenty of fire left."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/tv/house-of-the-dragon-banner.jpg",
+    "tags": [
+      "house-of-the-dragon",
+      "hbo",
+      "fantasy",
+      "targaryen",
+      "game-of-thrones"
+    ]
+  },
+  {
+    "id": "art-tv-004",
+    "title": "The Architecture of Alienation: The Genius of Severance",
+    "slug": "severance-apple-tv-genius",
+    "category": "tv-shows",
+    "excerpt": "Dan Erickson and Ben Stiller's workplace thriller is a hauntingly precise exploration of corporate culture and fragmented identity.",
+    "body": [
+      "Severance takes the concept of work-life balance to a literal, terrifying extreme. Employees at Lumon Industries undergo a procedure that severs their memories, creating an 'innie' who only works and an 'outie' who never experiences the office.",
+      "The show's production design is aggressively liminal—windowless white corridors, bizarrely archaic computers, and a pervading sense of controlled madness.",
+      "Adam Scott anchors the series with a dual performance of quiet desperation and awakening rebellion. The Season 1 finale is widely regarded as one of the most tense, masterfully paced hours of television in recent memory.",
+      "As fans eagerly await Season 2, Severance remains the crown jewel of Apple TV+'s sci-fi lineup."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/tv/severance-banner.jpg",
+    "tags": [
+      "severance",
+      "apple-tv",
+      "sci-fi",
+      "workplace",
+      "thriller"
+    ]
+  },
+  {
+    "id": "art-tv-005",
+    "title": "Satire with Teeth: The Unrelenting Brutality of The Boys",
+    "slug": "the-boys-superhero-satire",
+    "category": "tv-shows",
+    "excerpt": "Amazon's adaptation of Garth Ennis's comic continues to skewer celebrity worship, corporate power, and modern politics.",
+    "body": [
+      "In a media landscape saturated with earnest superheroes, The Boys acts as a venomous antidote. It asks a simple question: what if superheroes were actually entitled, corporate-sponsored sociopaths?",
+      "Antony Starr's Homelander is a terrifying villain for the modern age, wrapping narcissism and cruelty in a smiling, patriotic package.",
+      "Showrunner Eric Kripke consistently finds new ways to push boundaries with shocking gore and biting social commentary, making the show both wildly entertaining and deeply uncomfortable.",
+      "As the series builds toward its chaotic climax, The Boys proves that the superhero genre still has room for vicious, hilarious deconstruction."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/tv/the-boys-banner.jpg",
+    "tags": [
+      "the-boys",
+      "amazon",
+      "satire",
+      "superheroes",
+      "dark-comedy"
+    ]
+  },
+  {
+    "id": "art-tv-006",
+    "title": "Gothic Rebirth: Jenna Ortega's Captivating Wednesday",
+    "slug": "wednesday-netflix-gothic-rebirth",
+    "category": "tv-shows",
+    "excerpt": "Tim Burton and Jenna Ortega breathed new life into the Addams Family franchise with a murder mystery at Nevermore Academy.",
+    "body": [
+      "Wednesday Addams has been an iconic character for decades, but Jenna Ortega's deadpan, fiercely independent interpretation redefined her for a new generation.",
+      "The series blends macabre humor with a supernatural boarding school mystery, elevated by Tim Burton's signature visual style in his television directorial debut.",
+      "From the viral cello covers to the instantly iconic dance scene (choreographed by Ortega herself), the show became a massive cultural phenomenon.",
+      "As Season 2 moves production to Ireland and promises more horror elements, Wednesday remains one of Netflix's biggest global hits."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/tv/wednesday-banner.jpg",
+    "tags": [
+      "wednesday",
+      "netflix",
+      "addams-family",
+      "gothic",
+      "jenna-ortega"
+    ]
+  },
+  {
     "id": "art-001",
     "title": "MAPPA's Shonen Revolution: The Kinetic Brilliance of Jujutsu Kaisen",
     "slug": "mappa-jujutsu-kaisen-kinetic-animation",
@@ -341,69 +481,6 @@
       "tom-holland",
       "marvel",
       "blockbuster"
-    ]
-  },
-  {
-    "id": "art-010",
-    "title": "The Golden Age of Limited Series",
-    "slug": "golden-age-limited-series",
-    "category": "tv-shows",
-    "excerpt": "The one-season story is becoming the dominant form of prestige television — and it's changing how writers think about structure.",
-    "body": [
-      "For a decade, the default ambition of any serious TV show was to run as long as possible. Five seasons, seven seasons, ten — the thinking was that longevity equaled significance. But the limited series has quietly overtaken the multi-season drama as the form where the best writing is happening.",
-      "The reasons are practical as much as creative. Audiences are more willing to commit to a story with a clear endpoint. Platforms like the marketing hook of a self-contained event. And writers, freed from the need to sustain a premise indefinitely, can build stories with actual shape — beginning, middle, end.",
-      "The best limited series this year feel like novels. Six to eight episodes, each one essential, no filler, no wheel-spinning. The form demands discipline: every scene has to earn its place because there's no next season to compensate for a weak episode.",
-      "It's also attracting talent that wouldn't have touched television a decade ago. Film directors, literary writers, theater actors — the limited series has become the prestige format, the place where you can tell a complete story with the resources and reach of television."
-    ],
-    "author": "Rachel Green",
-    "date": "2026-09-10",
-    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "limited-series",
-      "prestige-tv",
-      "writing"
-    ]
-  },
-  {
-    "id": "art-011",
-    "title": "How Streaming Changed the Way We Rewatch",
-    "slug": "streaming-changed-rewatching",
-    "category": "tv-shows",
-    "excerpt": "The comfort rewatch is now a defining viewing habit. What does it tell us about how audiences relate to television?",
-    "body": [
-      "There was a time when rewatching a show meant catching reruns in syndication, episodes out of order, edited for time. Streaming changed that. Now, the entire series is always there — and audiences are using that access in ways the industry didn't predict.",
-      "The comfort rewatch — returning to a familiar show not for plot surprises but for the pleasure of spending time with characters you know — has become one of the most common viewing patterns. For some platforms, rewatch hours make up the majority of total watch time.",
-      "It tells us something about the role television plays in people's lives. A new show is a commitment, a risk. A familiar show is a known quantity, a warm room you can walk into. In a media landscape that constantly demands attention to the new, the comfort rewatch is a form of rest.",
-      "Writers and showrunners are noticing. Some are building shows designed to reward rewatching — planting details that only land on a second pass, writing episodes that feel different once you know where the story goes. The rewatch isn't a side effect anymore. It's part of the design."
-    ],
-    "author": "Tom Wilson",
-    "date": "2026-08-18",
-    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "streaming",
-      "rewatching",
-      "viewing-habits"
-    ]
-  },
-  {
-    "id": "art-012",
-    "title": "The TV Soundtrack Renaissance Nobody Is Talking About",
-    "slug": "tv-soundtrack-renaissance",
-    "category": "tv-shows",
-    "excerpt": "From needle drops to original scores, television music has never been more ambitious.",
-    "body": [
-      "Television music used to be functional: a theme song, some library cues, maybe a licensed track for a key moment. No one talked about the score of a TV show the way they talked about a film score. That's changed.",
-      "This year's standout shows feature scores that rival any film composition. One drama built its entire sound around a custom-built instrument — a wall of tuned percussion that gives every scene a unique, otherworldly quality. Another used a string quartet recorded in a reverberant church, creating a sound that's intimate and enormous at the same time.",
-      "The needle drop has evolved too. Where shows once used popular songs as emotional shorthand, the best shows now use them as structural elements — a song that recurs across episodes, changing meaning each time it appears. A track that plays diegetically in one scene and returns as score in another.",
-      "Television has more time than film — more room to develop musical ideas, to let a motif evolve across hours rather than minutes. The composers who understand that are creating some of the most compelling music in any medium."
-    ],
-    "author": "Lisa Chang",
-    "date": "2026-07-30",
-    "image": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "music",
-      "score",
-      "needle-drops"
     ]
   },
   {

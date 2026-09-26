@@ -1,5 +1,41 @@
 [
   {
+    "id": "rel-tv-001",
+    "title": "The Last of Us — Season 2",
+    "category": "tv-shows",
+    "date": "2025-03-15",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "status": "confirmed",
+    "type": "HBO Original"
+  },
+  {
+    "id": "rel-tv-002",
+    "title": "Stranger Things — Season 5 (Final Season)",
+    "category": "tv-shows",
+    "date": "2025-07-04",
+    "image": "/images/tv/stranger-things-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Original"
+  },
+  {
+    "id": "rel-tv-003",
+    "title": "Severance — Season 2",
+    "category": "tv-shows",
+    "date": "2025-01-17",
+    "image": "/images/tv/severance-banner.jpg",
+    "status": "confirmed",
+    "type": "Apple TV+"
+  },
+  {
+    "id": "rel-tv-004",
+    "title": "Wednesday — Season 2",
+    "category": "tv-shows",
+    "date": "2025-10-31",
+    "image": "/images/tv/wednesday-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Original"
+  },
+  {
     "id": "rel-001",
     "title": "Demon Slayer: Infinity Castle — Movie 1",
     "category": "anime",
@@ -124,33 +160,6 @@
     "image": "/images/movies/dune-messiah.jpg",
     "status": "upcoming",
     "type": "Theatrical / IMAX 70mm"
-  },
-  {
-    "id": "rel-010",
-    "title": "The 12th Precinct — Season 4",
-    "category": "tv-shows",
-    "date": "2026-10-14",
-    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Series"
-  },
-  {
-    "id": "rel-011",
-    "title": "The Hollow University — Season 2",
-    "category": "tv-shows",
-    "date": "2026-11-28",
-    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
-    "type": "Series"
-  },
-  {
-    "id": "rel-012",
-    "title": "District 7 — Limited Series Finale",
-    "category": "tv-shows",
-    "date": "2026-12-08",
-    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Limited Series"
   },
   {
     "id": "rel-013",
