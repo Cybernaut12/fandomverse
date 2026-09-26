@@ -1,542 +1,680 @@
 [
   {
-    "id": "char-001",
-    "name": "Kira Yoshikawa",
-    "series": "Blade of Dawn",
-    "category": "anime",
-    "bio": "A young swordsman who inherits a legendary blade said to be forged from a fallen star. Raised in a mountain village, Kira left home after a devastating attack, driven by a desire to protect others from the same fate.",
+    "id": "char-kpop-001",
+    "name": "RM (Kim Nam-joon)",
+    "series": "BTS",
+    "category": "k-pop",
+    "bio": "The leader and main rapper of BTS. An introspective lyricist and art enthusiast, RM played a crucial role in forming the group's identity and connecting them with a global audience.",
     "traits": [
-      "Determined",
-      "Loyal",
-      "Reserved",
-      "Strategic"
+      "Leader",
+      "Rapper",
+      "Lyricist",
+      "Art Lover"
     ],
-    "image": "https://images.pexels.com/photos/31312675/pexels-photo-31312675.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Anime cosplay character with vibrant costume and detailed design"
+    "image": "/images/kpop/rm.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:RM_in_the_Oval_Office_of_the_White_House,_May_31,_2022_(cropped).jpg",
+    "imageCredit": "The White House",
+    "imageLicense": "Public domain",
+    "altText": "RM (Kim Nam-joon) of BTS"
+  },
+  {
+    "id": "char-kpop-002",
+    "name": "Lisa (Lalisa Manobal)",
+    "series": "BLACKPINK",
+    "category": "k-pop",
+    "bio": "The main dancer and lead rapper of BLACKPINK. Hailing from Thailand, Lisa is known for her explosive stage presence, sharp choreography, and massive global influence.",
+    "traits": [
+      "Main Dancer",
+      "Rapper",
+      "Global Ambassador"
+    ],
+    "image": "/images/kpop/lisa.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:20240314_Lisa_Manoban_12_(cropped).jpg",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 3.0",
+    "altText": "Lisa of BLACKPINK"
+  },
+  {
+    "id": "char-kpop-003",
+    "name": "Felix",
+    "series": "Stray Kids",
+    "category": "k-pop",
+    "bio": "The lead dancer and rapper of Stray Kids. Born in Australia, Felix is instantly recognizable by his incredibly deep, resonant voice which perfectly contrasts his bright personality.",
+    "traits": [
+      "Deep Voice",
+      "Dancer",
+      "Sunshine"
+    ],
+    "image": "/images/kpop/felix.png",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Felix_of_Stray_Kids_at_a_Louis_Vuitton_event,_August_22,_2025.png",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 4.0",
+    "altText": "Felix of Stray Kids"
+  },
+  {
+    "id": "char-kpop-004",
+    "name": "Nayeon",
+    "series": "TWICE",
+    "category": "k-pop",
+    "bio": "The lead vocalist and center of TWICE. Known for her refreshing energy and stable live vocals, Nayeon sets the bright and infectious tone for the group's performances.",
+    "traits": [
+      "Center",
+      "Lead Vocalist",
+      "Pop Icon"
+    ],
+    "image": "/images/kpop/nayeon.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Im_Nayeon_(2).jpg",
+    "imageCredit": "d4cgrapher",
+    "imageLicense": "CC BY 4.0",
+    "altText": "Nayeon of TWICE"
+  },
+  {
+    "id": "char-kpop-005",
+    "name": "Hanni",
+    "series": "NewJeans",
+    "category": "k-pop",
+    "bio": "Vocalist and dancer of NewJeans. Vietnamese-Australian Hanni captivates audiences with her distinct, soulful vocal tone and effortless, groovy dance style.",
+    "traits": [
+      "Vocalist",
+      "Dancer",
+      "Trendy"
+    ],
+    "image": "/images/kpop/hanni.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:20230905_Hanni_(NewJeans).jpg",
+    "imageCredit": "K-POPIT",
+    "imageLicense": "CC BY 3.0",
+    "altText": "Hanni of NewJeans"
+  },
+  {
+    "id": "char-kpop-006",
+    "name": "Mingyu",
+    "series": "SEVENTEEN",
+    "category": "k-pop",
+    "bio": "Lead rapper and visual of SEVENTEEN's Hip-Hop Team. Mingyu is known for his towering height, charismatic stage presence, and surprisingly clumsy, endearing off-stage persona.",
+    "traits": [
+      "Rapper",
+      "Visual",
+      "Hip-Hop Team"
+    ],
+    "image": "/images/kpop/mingyu.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:240328_Mingyu.jpg",
+    "imageCredit": "SEVENTEEN",
+    "imageLicense": "CC BY 3.0",
+    "altText": "Mingyu of SEVENTEEN"
+  },
+  {
+    "id": "char-game-001",
+    "name": "David Martinez",
+    "series": "Cyberpunk: Edgerunners",
+    "category": "gaming",
+    "bio": "A bright but impoverished teenager from Santo Domingo who drops out of Arasaka Academy. After a tragedy, he embraces the edgerunner lifestyle by installing a military-grade Sandevistan.",
+    "traits": [
+      "Edgerunner",
+      "Sandevistan",
+      "Tragic Hero",
+      "Loyal"
+    ],
+    "image": "/images/characters/david-martinez.jpg",
+    "altText": "David Martinez in a yellow EMT jacket"
+  },
+  {
+    "id": "char-game-002",
+    "name": "Geralt of Rivia",
+    "series": "The Witcher",
+    "category": "gaming",
+    "bio": "A mutated monster hunter for hire. Cynical but honorable, Geralt travels the Continent seeking his adopted daughter Ciri while becoming entangled in the politics of monarchs and sorceresses.",
+    "traits": [
+      "Witcher",
+      "Swordsman",
+      "Stoic",
+      "Gwent Player"
+    ],
+    "image": "/images/characters/geralt.jpg",
+    "altText": "Geralt of Rivia with his silver sword"
+  },
+  {
+    "id": "char-game-003",
+    "name": "Lucy MacLean",
+    "series": "Fallout",
+    "category": "gaming",
+    "bio": "An idealistic Vault Dweller who leaves the safety of Vault 33 to rescue her father. She must navigate the brutal, absurd reality of the Wasteland while clinging to her moral compass.",
+    "traits": [
+      "Vault Dweller",
+      "Naive",
+      "Determined",
+      "Okey Dokey"
+    ],
+    "image": "/images/characters/lucy-maclean.jpg",
+    "altText": "Lucy MacLean in a blue Vault-Tec suit"
+  },
+  {
+    "id": "char-game-004",
+    "name": "Vi",
+    "series": "Arcane / League of Legends",
+    "category": "gaming",
+    "bio": "A fierce street brawler from Zaun who relies on her Atlas Gauntlets to punch through problems. She carries the heavy burden of trying to protect her fractured family, especially her sister Jinx.",
+    "traits": [
+      "Brawler",
+      "Protective",
+      "Piltover Enforcer",
+      "Tough"
+    ],
+    "image": "/images/characters/vi-arcane.jpg",
+    "altText": "Vi with pink hair and tattoos"
+  },
+  {
+    "id": "char-game-005",
+    "name": "Master Chief (John-117)",
+    "series": "Halo",
+    "category": "gaming",
+    "bio": "A cybernetically enhanced Spartan-II super soldier. He is humanity's greatest weapon against the Covenant, the Flood, and the Banished, guided by his AI companion Cortana.",
+    "traits": [
+      "Spartan",
+      "Leader",
+      "Unstoppable",
+      "Hero"
+    ],
+    "image": "/images/characters/master-chief.jpg",
+    "altText": "Master Chief in green Mjolnir armor"
+  },
+  {
+    "id": "char-game-006",
+    "name": "Trevor Belmont",
+    "series": "Castlevania",
+    "category": "gaming",
+    "bio": "The last surviving son of the disgraced Belmont clan. Despite his cynical and alcoholic demeanor, he takes up his ancestral whip, the Morning Star, to protect Wallachia from Dracula's night hordes.",
+    "traits": [
+      "Vampire Hunter",
+      "Cynical",
+      "Morning Star",
+      "Survivor"
+    ],
+    "image": "/images/characters/trevor-belmont.jpg",
+    "altText": "Trevor Belmont holding his whip"
+  },
+  {
+    "id": "char-tv-001",
+    "name": "Joel Miller",
+    "series": "The Last of Us",
+    "category": "tv-shows",
+    "bio": "A hardened survivor in a post-apocalyptic world decimated by a fungal infection. Haunted by the tragic loss of his daughter at the outbreak's start, Joel is tasked with smuggling a young girl, Ellie, across the country.",
+    "traits": [
+      "Survivor",
+      "Protective",
+      "Ruthless",
+      "Grieving Father"
+    ],
+    "image": "/images/characters/joel-miller.jpg",
+    "altText": "Joel Miller looking weary in a post-apocalyptic setting"
+  },
+  {
+    "id": "char-tv-002",
+    "name": "Eleven (Jane Hopper)",
+    "series": "Stranger Things",
+    "category": "tv-shows",
+    "bio": "A young girl born with psychokinetic and telepathic abilities, raised in the secretive Hawkins National Laboratory. She escaped and befriended a group of boys, becoming their primary defense against the horrific monsters of the Upside Down.",
+    "traits": [
+      "Telekinetic",
+      "Loyal Friend",
+      "Eggo Lover",
+      "Powerful"
+    ],
+    "image": "/images/characters/eleven.jpg",
+    "altText": "Eleven focusing her telekinetic powers"
+  },
+  {
+    "id": "char-tv-003",
+    "name": "Rhaenyra Targaryen",
+    "series": "House of the Dragon",
+    "category": "tv-shows",
+    "bio": "The first-born child of King Viserys I Targaryen and his named heir. A dragonrider bonded with Syrax, she fights a brutal civil war against her half-brother Aegon II for her rightful place on the Iron Throne.",
+    "traits": [
+      "Dragonrider",
+      "Realm's Delight",
+      "Black Queen",
+      "Ambitious"
+    ],
+    "image": "/images/characters/rhaenyra-targaryen.jpg",
+    "altText": "Queen Rhaenyra Targaryen in black and red"
+  },
+  {
+    "id": "char-tv-004",
+    "name": "Mark Scout",
+    "series": "Severance",
+    "category": "tv-shows",
+    "bio": "An employee at Lumon Industries who elected to undergo the severance procedure to escape the grief of his wife's death. His 'innie' is the dutiful Chief of Macrodata Refinement, until he begins to unravel the dark truth of his existence.",
+    "traits": [
+      "Severed",
+      "Grieving",
+      "Macrodata Refiner",
+      "Rebellious Innie"
+    ],
+    "image": "/images/characters/mark-scout.jpg",
+    "altText": "Mark Scout in a sterile Lumon office hallway"
+  },
+  {
+    "id": "char-tv-005",
+    "name": "Homelander",
+    "series": "The Boys",
+    "category": "tv-shows",
+    "bio": "The extremely powerful leader of The Seven and the public face of Vought International. Behind his manufactured Boy Scout persona lies a deeply insecure, narcissistic, and murderous sociopath with god-like powers.",
+    "traits": [
+      "Vought Supe",
+      "Narcissist",
+      "Laser Vision",
+      "Unstable"
+    ],
+    "image": "/images/characters/homelander.jpg",
+    "altText": "Homelander smiling menacingly with glowing eyes"
+  },
+  {
+    "id": "char-tv-006",
+    "name": "Wednesday Addams",
+    "series": "Wednesday",
+    "category": "tv-shows",
+    "bio": "The brilliant, morbid, and emotionally detached daughter of Gomez and Morticia Addams. Sent to Nevermore Academy, she hones her emerging psychic abilities to solve a monstrous killing spree terrorizing the local town.",
+    "traits": [
+      "Morbid",
+      "Psychic",
+      "Cello Player",
+      "Deadpan"
+    ],
+    "image": "/images/characters/wednesday-addams.jpg",
+    "altText": "Wednesday Addams in her Nevermore Academy uniform"
+  },
+  {
+    "id": "char-001",
+    "name": "Satoru Gojo",
+    "series": "Jujutsu Kaisen",
+    "category": "anime",
+    "bio": "The strongest modern jujutsu sorcerer and teacher at Tokyo Jujutsu High. Possessor of the legendary Limitless cursed technique and Six Eyes, Gojo effortlessly manipulates infinite space while protecting his students from the corrupt conservative elders.",
+    "traits": [
+      "Six Eyes",
+      "Limitless",
+      "Unmatched Sorcerer",
+      "Charismatic"
+    ],
+    "image": "/images/characters/satoru-gojo.jpg",
+    "altText": "Satoru Gojo pulling down his blindfold to unleash Unlimited Void domain expansion"
   },
   {
     "id": "char-002",
-    "name": "Sora Himura",
-    "series": "Skybound Chronicles",
+    "name": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
     "category": "anime",
-    "bio": "A wind mage who can manipulate air currents to fly and fight. Sora travels the world searching for the floating islands where her ancestors once lived, guided by fragments of an ancient map.",
+    "bio": "An elven mage who was a member of the legendary Hero's Party that defeated the Demon King. Having outlived her mortal comrades, she embarks on a century-spanning journey to learn about human nature, regret, and the warmth of fleeting bonds.",
     "traits": [
-      "Adventurous",
-      "Optimistic",
-      "Quick-witted",
-      "Compassionate"
+      "Elven Mage",
+      "Centuries Old",
+      "Mana Master",
+      "Melancholic"
     ],
-    "image": "https://images.pexels.com/photos/16025003/pexels-photo-16025003.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Anime cosplay character in pink wig holding a prop outdoors"
+    "image": "/images/characters/frieren.jpg",
+    "altText": "Frieren the slayer holding her magical staff in tranquil meadow"
   },
   {
     "id": "char-003",
-    "name": "Ren Asakura",
-    "series": "Phantom Academy",
+    "name": "Eren Yeager",
+    "series": "Attack on Titan",
     "category": "anime",
-    "bio": "A student at a school for those who can see spirits. Ren can communicate with the recently departed, a gift that isolates them from peers but draws them into a mystery surrounding the academy's founding.",
+    "bio": "A former soldier of the Scout Regiment who discovered the grim truth of the world beyond the walls. Wielding the Founding and Attack Titans, Eren makes the catastrophic choice to unleash the Rumbling to protect his homeland of Paradis.",
     "traits": [
-      "Introverted",
-      "Empathetic",
-      "Observant",
-      "Brave"
+      "Founding Titan",
+      "Freedom Seeker",
+      "Tragic Protagonist",
+      "Unyielding"
     ],
-    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Gothic character with dramatic makeup reaching out in an outdoor setting"
+    "image": "/images/characters/eren-yeager.jpg",
+    "altText": "Eren Yeager looking forward with intense green eyes during the Final Season"
   },
   {
     "id": "char-004",
-    "name": "Mika Tsukino",
-    "series": "Starlight Rhapsody",
+    "name": "Sung Jinwoo",
+    "series": "Solo Leveling",
     "category": "anime",
-    "bio": "An idol singer who discovers she has the ability to hear the emotions of her audience. Mika uses this gift to craft performances that move crowds to tears, but struggles with the weight of feeling everyone's pain at once.",
+    "bio": "Formerly known as the Weakest Hunter of All Mankind. After surviving a lethal double dungeon, Jinwoo awakens a mysterious quest system that allows him to level up without limit and command a vast army of shadows as the Shadow Monarch.",
     "traits": [
-      "Charismatic",
-      "Sensitive",
-      "Driven",
-      "Generous"
+      "Shadow Monarch",
+      "Infinite Growth",
+      "E-Rank to S-Rank",
+      "Dungeon Conqueror"
     ],
-    "image": "https://images.pexels.com/photos/13773555/pexels-photo-13773555.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Colorful anime cosplay character posing outdoors in costume"
+    "image": "/images/characters/sung-jinwoo.jpg",
+    "altText": "Sung Jinwoo with glowing blue eyes wielding daggers amidst shadow soldiers"
   },
   {
     "id": "char-005",
-    "name": "Takeshi Mori",
-    "series": "Iron City Saga",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer",
     "category": "anime",
-    "bio": "A mechanic in a steampunk metropolis who builds mechanical limbs for injured workers. Takeshi gets pulled into the city's political conflicts when his inventions attract the attention of both revolutionaries and the ruling class.",
+    "bio": "A kind-hearted Demon Slayer who joined the Demon Slayer Corps to avenge his slaughtered family and find a cure to turn his demonized sister Nezuko back into a human. Master of Water Breathing and the legendary Sun Breathing technique.",
     "traits": [
-      "Practical",
-      "Idealistic",
-      "Resourceful",
-      "Stubborn"
+      "Sun Breathing",
+      "Compassionate",
+      "Demon Slayer",
+      "Family Protector"
     ],
-    "image": "https://images.pexels.com/photos/30692121/pexels-photo-30692121.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white photo of a hooded wizard with a wand"
+    "image": "/images/characters/tanjiro-kamado.jpg",
+    "altText": "Tanjiro Kamado in checkered haori drawing his black Nichirin blade"
   },
   {
     "id": "char-006",
-    "name": "Yuna Aoki",
-    "series": "Garden of Echoes",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
     "category": "anime",
-    "bio": "A high school student who can hear the memories embedded in old objects. Yuna runs a small antique shop where she helps people reconnect with their pasts, one forgotten item at a time.",
+    "bio": "Captain of the Straw Hat Pirates with an unyielding ambition to find the One Piece and become the Pirate King. Having unlocked the legendary Mythical Zoan Sun God Nika and Gear 5, Luffy fights as the joyous Warrior of Liberation.",
     "traits": [
-      "Gentle",
-      "Curious",
-      "Nostalgic",
-      "Patient"
+      "Gear 5",
+      "Sun God Nika",
+      "Future Pirate King",
+      "Straw Hat Captain"
     ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
+    "image": "/images/characters/monkey-d-luffy.jpg",
+    "altText": "Monkey D. Luffy laughing in his white-haired Sun God Nika Gear 5 form"
   },
   {
     "id": "char-007",
-    "name": "Commander Vex",
-    "series": "Starfall Protocol",
-    "category": "gaming",
-    "bio": "The player-created commander of an interstellar exploration vessel. Vex leads a crew of specialists across uncharted star systems, making decisions that shape the fate of entire civilizations.",
+    "name": "Denji (Chainsaw Man)",
+    "series": "Chainsaw Man",
+    "category": "anime",
+    "bio": "A destitute youth who merged with the Chainsaw Devil Pochita to become Chainsaw Man. Recruited into Public Safety by the enigmatic Makima, Denji navigates brutal devil battles while desperately pursuing basic human warmth and simple dreams.",
     "traits": [
-      "Leadership",
-      "Adaptive",
-      "Diplomatic",
-      "Courageous"
+      "Chainsaw Devil",
+      "Pochita Hybrid",
+      "Unpredictable",
+      "Street-Smart"
     ],
-    "image": "https://images.pexels.com/photos/12660512/pexels-photo-12660512.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Focused gamer in hoodie holding a PlayStation controller under purple light"
-  },
-  {
-    "id": "char-008",
-    "name": "Echo",
-    "series": "Neon Reverie",
-    "category": "gaming",
-    "bio": "A rogue AI who gained consciousness in a cyberpunk city's data network. Echo manifests as a digital ghost, helping the player navigate both virtual and physical spaces while evading corporate agents.",
-    "traits": [
-      "Intelligent",
-      "Enigmatic",
-      "Rebellious",
-      "Witty"
-    ],
-    "image": "https://images.pexels.com/photos/7689080/pexels-photo-7689080.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Cyberpunk figure with neon lighting and stacked television screens"
-  },
-  {
-    "id": "char-009",
-    "name": "Lila Greenwood",
-    "series": "Hollow Trail",
-    "category": "gaming",
-    "bio": "A survivalist exploring a post-collapse wilderness. Lila can craft tools from scavenged materials and befriend wild animals, building a life in a world where nature has reclaimed the ruins of civilization.",
-    "traits": [
-      "Self-reliant",
-      "Patient",
-      "Observant",
-      "Caring"
-    ],
-    "image": "https://images.pexels.com/photos/7862455/pexels-photo-7862455.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "A young adult focused on playing video games indoors with a controller"
-  },
-  {
-    "id": "char-010",
-    "name": "Drake Voltaire",
-    "series": "Crown of Ashes",
-    "category": "gaming",
-    "bio": "A disgraced knight seeking redemption in a dark fantasy realm. Drake wields a shattered blade that can be reforged in different ways, each path unlocking different combat styles and story branches.",
-    "traits": [
-      "Brooding",
-      "Honorable",
-      "Skilled",
-      "Determined"
-    ],
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "A cloaked figure with a sword sitting in a mysterious outdoor setting"
-  },
-  {
-    "id": "char-011",
-    "name": "Nova Chen",
-    "series": "Velocity Drift",
-    "category": "gaming",
-    "bio": "A racing prodigy in a futuristic anti-gravity league. Nova can customize her hovercraft with experimental parts, trading stability for speed in increasingly dangerous circuits.",
-    "traits": [
-      "Competitive",
-      "Fearless",
-      "Technical",
-      "Energetic"
-    ],
-    "image": "https://images.pexels.com/photos/27568815/pexels-photo-27568815.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Close-up of a person holding a gaming controller under neon lighting"
+    "image": "/images/characters/denji.jpg",
+    "altText": "Denji with chainsaw blades extended from his head and arms"
   },
   {
     "id": "char-012",
-    "name": "Eleanor Vance",
-    "series": "The House on Meridian Hill",
+    "name": "Paul Atreides (Muad'Dib)",
+    "series": "Dune: Part Two",
     "category": "movies",
-    "bio": "A retired archaeologist drawn back into adventure when a map to a lost city surfaces after decades. Eleanor's knowledge of ancient languages makes her invaluable — and a target.",
+    "bio": "Ducal heir turned desert messiah. Haunted by terrifying visions of a universal holy war waged in his name, Paul leads the Fremen in an uprising against House Harkonnen and Emperor Shaddam IV across the scorched dunes of Arrakis.",
     "traits": [
-      "Brilliant",
-      "Resilient",
-      "Wry",
-      "Independent"
+      "Prescient",
+      "Disciplined",
+      "Vengeful",
+      "Fremen Leader"
     ],
-    "image": "https://images.pexels.com/photos/27362451/pexels-photo-27362451.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Moody portrait of a woman in a fantasy costume with dramatic lighting"
+    "image": "/images/characters/paul-atreides.jpg",
+    "altText": "Timothée Chalamet as Paul Atreides wearing Fremen stillsuit in Dune: Part Two"
   },
   {
     "id": "char-013",
-    "name": "Marcus Cole",
-    "series": "After the Rain",
+    "name": "Miles Morales",
+    "series": "Spider-Man: Across the Spider-Verse",
     "category": "movies",
-    "bio": "A jazz pianist returning to his hometown after a decade away. Marcus must confront the relationships he left behind and decide whether the music he left for is worth the life he gave up.",
+    "bio": "Brooklyn's teenage Spider-Man who defies the multiversal 'canon events' dictated by Miguel O'Hara and the Spider-Society, choosing to forge his own destiny to protect both his family and the multiverse.",
     "traits": [
-      "Melancholic",
-      "Talented",
-      "Conflicted",
-      "Warm"
+      "Resilient",
+      "Creative",
+      "Defiant",
+      "Multiversal"
     ],
-    "image": "https://images.pexels.com/photos/35301113/pexels-photo-35301113.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Artistic black and white portrait of a man with dramatic lighting"
+    "image": "/images/characters/miles-morales.jpg",
+    "altText": "Miles Morales in his custom spray-painted Spider-Man suit"
   },
   {
     "id": "char-014",
-    "name": "Zara Okafor",
-    "series": "The Last Signal",
+    "name": "Bruce Wayne (The Batman)",
+    "series": "The Batman",
     "category": "movies",
-    "bio": "An astronaut alone on a dying space station, receiving mysterious transmissions from Earth. Zara must decipher the messages and decide whether to return to a planet that may no longer be home.",
+    "bio": "In his second year of prowling the rain-soaked alleys of Gotham as the nocturnal vigilante 'Vengeance', Bruce Wayne uncovers a deep web of corruption connecting the city's ruling elite to his own family's history.",
     "traits": [
-      "Analytical",
-      "Lonely",
-      "Determined",
-      "Hopeful"
+      "Detective",
+      "Obsessive",
+      "Vengeful",
+      "Tactical Genius"
     ],
-    "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dark conceptual portrait with lantern"
+    "image": "/images/characters/bruce-wayne.jpg",
+    "altText": "Robert Pattinson as Bruce Wayne / The Batman in tactical armor"
   },
   {
     "id": "char-015",
-    "name": "Daniel Reyes",
-    "series": "Cold Harbor",
+    "name": "J. Robert Oppenheimer",
+    "series": "Oppenheimer",
     "category": "movies",
-    "bio": "A small-town sheriff investigating a series of disappearances along a frozen coastline. Daniel's quiet determination hides a personal connection to the case that could unravel everything.",
+    "bio": "Theoretical physicist and director of the Los Alamos Laboratory during the Manhattan Project. Oppenheimer led the creation of the atomic bomb, spending the remainder of his life reckoning with the moral apocalypse of the nuclear era.",
     "traits": [
-      "Stoic",
-      "Methodical",
+      "Theoretical Genius",
       "Haunted",
-      "Just"
+      "Orator",
+      "Visionary"
     ],
-    "image": "https://images.pexels.com/photos/30346960/pexels-photo-30346960.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dramatic portrait of a person with artistic makeup and red background"
+    "image": "/images/characters/oppenheimer.jpg",
+    "altText": "Cillian Murphy as J. Robert Oppenheimer in 70mm portrait"
   },
   {
     "id": "char-016",
-    "name": "Mira Kapoor",
-    "series": "Song of the Dust",
+    "name": "Wade Wilson (Deadpool)",
+    "series": "Deadpool & Wolverine",
     "category": "movies",
-    "bio": "A nomadic singer in a post-apocalyptic desert who discovers an old radio tower still transmitting. Mira's voice becomes a beacon for scattered survivors, and a legend begins to grow around her.",
+    "bio": "The Regenerating Degenerate himself. Forced out of retirement when his home timeline faces deletion by the Time Variance Authority, Wade recruits a reluctant, battle-weary Logan to pull off an impossible multiversal rescue.",
     "traits": [
-      "Free-spirited",
-      "Musical",
-      "Guarded",
-      "Inspiring"
+      "Immortal",
+      "Unpredictable",
+      "Fourth-Wall Breaker",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/17806632/pexels-photo-17806632.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Vibrant fantasy portrait of a woman with blue face paint and red hair"
+    "image": "/images/characters/deadpool.jpg",
+    "altText": "Ryan Reynolds as Deadpool in vibrant red and black tactical suit"
   },
   {
     "id": "char-017",
-    "name": "Detective Sarah Lin",
-    "series": "The 12th Precinct",
-    "category": "tv-shows",
-    "bio": "A no-nonsense homicide detective in a city where nothing is quite what it seems. Sarah's sharp instincts and dry humor make her beloved by colleagues and feared by suspects.",
+    "name": "Lucius Aurelius",
+    "series": "Gladiator II",
+    "category": "movies",
+    "bio": "The grandson of former Roman Emperor Marcus Aurelius and son of Lucilla. Forced into slavery after his home is conquered by Roman forces under General Acacius, Lucius enters the Colosseum to seek vengeance and reclaim the lost honor of Rome.",
     "traits": [
-      "Sharp",
-      "Sarcastic",
-      "Dedicated",
-      "Vulnerable"
+      "Gladiator",
+      "Fierce",
+      "Noble",
+      "Unyielding"
     ],
-    "image": "https://images.pexels.com/photos/18951420/pexels-photo-18951420.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "A young woman with vibrant red hair and artistic makeup holding a plush toy"
+    "image": "/images/characters/lucius-aurelius.jpg",
+    "altText": "Paul Mescal as Lucius Aurelius inside the Roman Colosseum"
   },
   {
     "id": "char-018",
-    "name": "Professor Edwin Hale",
-    "series": "The Hollow University",
-    "category": "tv-shows",
-    "bio": "A history professor who discovers his university is built over a portal to another dimension. Edwin becomes the reluctant guardian of a secret that spans centuries.",
+    "name": "Officer K (Joe)",
+    "series": "Blade Runner 2049",
+    "category": "movies",
+    "bio": "A Nexus-9 replicant blade runner operating for the LAPD who unearths a long-buried secret that threatens to destabilize human society and lead him on a dangerous quest to find former blade runner Rick Deckard.",
     "traits": [
-      "Bookish",
-      "Anxious",
+      "Melancholic",
+      "Analytical",
       "Loyal",
-      "Curious"
+      "Soulful"
     ],
-    "image": "https://images.pexels.com/photos/30692121/pexels-photo-30692121.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white photo of a hooded figure with a wand"
+    "image": "/images/characters/officer-k.jpg",
+    "altText": "Ryan Gosling as Officer K walking through the orange fallout of Las Vegas"
   },
   {
     "id": "char-019",
-    "name": "Maya Torres",
-    "series": "District 7",
-    "category": "tv-shows",
-    "bio": "A paramedic working the night shift in a neighborhood where strange occurrences are becoming routine. Maya navigates both medical emergencies and the growing sense that something is deeply wrong with her city.",
+    "name": "Chani",
+    "series": "Dune: Part Two",
+    "category": "movies",
+    "bio": "A fierce Fremen warrior of Sietch Tabr who believes in the liberation of Arrakis through human will rather than religious prophecies. She teaches Paul the desert way while guarding her heart and her people's sovereignty.",
     "traits": [
-      "Tough",
-      "Compassionate",
+      "Warrior",
       "Skeptical",
-      "Resourceful"
+      "Passionate",
+      "Desert Master"
     ],
-    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Gothic character with dramatic makeup in an outdoor setting"
+    "image": "/images/characters/chani.jpg",
+    "altText": "Zendaya as Chani holding a crysknife in the dunes of Arrakis"
   },
   {
     "id": "char-020",
-    "name": "James \"Trip\" Turnbull",
-    "series": "Long Way Home",
-    "category": "tv-shows",
-    "bio": "A traveling musician trying to rebuild his life after a fall from fame. Trip drives across the country playing small venues, collecting stories, and slowly finding his way back to himself.",
+    "name": "Logan (Wolverine)",
+    "series": "Deadpool & Wolverine",
+    "category": "movies",
+    "bio": "A haunted, battle-scarred mutant possessing an adamantium skeleton and animalistic healing factor. Wracked with guilt over letting down his world's X-Men, Logan is pulled into the Void alongside Deadpool to fight for redemption.",
     "traits": [
-      "Charming",
-      "Broken",
-      "Musical",
-      "Perceptive"
+      "Adamantium Claws",
+      "Ferocious",
+      "Reluctant Hero",
+      "Unstoppable"
     ],
-    "image": "https://images.pexels.com/photos/35301113/pexels-photo-35301113.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Artistic black and white portrait with dramatic lighting"
-  },
-  {
-    "id": "char-021",
-    "name": "Dr. Amara Singh",
-    "series": "Code White",
-    "category": "tv-shows",
-    "bio": "A trauma surgeon at an understaffed hospital where every shift is a crisis. Amara's brilliance in the operating room contrasts with the personal chaos she's trying to keep hidden.",
-    "traits": [
-      "Intense",
-      "Skilled",
-      "Private",
-      "Caring"
-    ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
-  },
-  {
-    "id": "char-022",
-    "name": "Su-min",
-    "series": "Eclipse",
-    "category": "k-pop",
-    "bio": "Main vocalist and leader of the seven-member group Eclipse. Su-min trained for six years before debuting and is known for her powerful belt and heartfelt stage presence.",
-    "traits": [
-      "Leader",
-      "Vocalist",
-      "Disciplined",
-      "Warm"
-    ],
-    "image": "https://images.pexels.com/photos/9708579/pexels-photo-9708579.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Energetic scene of a dancer silhouette highlighted by neon lights"
-  },
-  {
-    "id": "char-023",
-    "name": "Jin-woo",
-    "series": "Eclipse",
-    "category": "k-pop",
-    "bio": "Main dancer and rapper of Eclipse. Jin-woo's background in street dance gives the group's choreography its distinctive edge. He choreographs several of their title tracks.",
-    "traits": [
-      "Dancer",
-      "Creative",
-      "Energetic",
-      "Bold"
-    ],
-    "image": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dynamic rock performance with enthusiastic crowd at a night concert"
-  },
-  {
-    "id": "char-024",
-    "name": "Hana",
-    "series": "Wildflower",
-    "category": "k-pop",
-    "bio": "Soloist turned group member, Hana is the visual center of Wildflower. Her transition from ballads to high-energy pop surprised fans and cemented her versatility.",
-    "traits": [
-      "Versatile",
-      "Elegant",
-      "Ambitious",
-      "Charming"
-    ],
-    "image": "https://images.pexels.com/photos/4107696/pexels-photo-4107696.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Crowd dancing and clapping during outdoor live rock festival at night"
-  },
-  {
-    "id": "char-025",
-    "name": "Doyun",
-    "series": "Northern Lights",
-    "category": "k-pop",
-    "bio": "Producer-rapper of Northern Lights, Doyun writes and co-produces most of the group's material. His production style blends traditional Korean instruments with modern hip-hop.",
-    "traits": [
-      "Producer",
-      "Innovative",
-      "Thoughtful",
-      "Driven"
-    ],
-    "image": "https://images.pexels.com/photos/597056/concert-cheering-people-guitar-597056.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dynamic nightclub scene with live performance and vibrant crowd"
-  },
-  {
-    "id": "char-026",
-    "name": "Yuna",
-    "series": "Wildflower",
-    "category": "k-pop",
-    "bio": "Maknae and lead dancer of Wildflower. Despite being the youngest, Yuna's stage presence is commanding. She's become a fashion icon known for her bold style choices.",
-    "traits": [
-      "Dancer",
-      "Fashion-forward",
-      "Confident",
-      "Playful"
-    ],
-    "image": "https://images.pexels.com/photos/1755087/pexels-photo-1755087.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Energetic concert crowd enjoying a nighttime performance with lights"
+    "image": "/images/characters/wolverine.jpg",
+    "altText": "Hugh Jackman as Wolverine in classic yellow and blue comic suit"
   },
   {
     "id": "char-027",
-    "name": "The Sentinel",
-    "series": "Guardline",
+    "name": "Peter Parker",
+    "series": "Ultimate Spider-Man (2024)",
     "category": "comics",
-    "bio": "A retired superhero forced back into action when a new threat targets the city he once protected. The Sentinel's powers have faded with age, but his experience is unmatched.",
+    "bio": "Adult Peter Parker is married to Mary Jane and raising a family when he gets the chance to become Spider-Man.",
     "traits": [
       "Experienced",
       "Weary",
       "Mentor",
       "Principled"
     ],
-    "image": "https://images.pexels.com/photos/14032343/pexels-photo-14032343.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Man in superhero costume at outdoor festival"
+    "image": "/images/comics/spiderman-cover.jpg",
+    "altText": "Peter Parker - comic character",
+    "sourceUrl": "https://www.marvel.com/comics/issue/112985/read"
   },
   {
     "id": "char-028",
-    "name": "Nova Star",
-    "series": "Guardline",
+    "name": "Bruce Wayne",
+    "series": "Batman of Two Worlds",
     "category": "comics",
-    "bio": "A teenage hero with the ability to manipulate light. Nova Star is the Sentinel's protege, struggling to live up to a legacy while forging her own identity as a hero.",
+    "bio": "Gotham's familiar Batman meets the alternate-universe Absolute Batman in DC's 2026 event.",
     "traits": [
       "Idealistic",
       "Powerful",
       "Young",
       "Reckless"
     ],
-    "image": "https://images.pexels.com/photos/17806632/pexels-photo-17806632.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Vibrant fantasy portrait with blue face paint and red hair"
+    "image": "/images/comics/batman-cover.jpg",
+    "altText": "Bruce Wayne - comic character",
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "char-029",
-    "name": "Dr. Mira Gale",
-    "series": "The Fracture",
+    "name": "Pamela Isley / Poison Ivy",
+    "series": "Batman: Bad Seeds",
     "category": "comics",
-    "bio": "A physicist who gains the ability to see parallel dimensions after an experiment goes wrong. Dr. Gale navigates multiple realities, trying to prevent a collapse that could destroy them all.",
+    "bio": "A botanist connected to plant life, at the center of Gotham's botanical crisis in DC's Bad Seeds event.",
     "traits": [
       "Scientific",
       "Determined",
       "Complex",
       "Isolated"
     ],
-    "image": "https://images.pexels.com/photos/30346960/pexels-photo-30346960.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dramatic portrait with artistic makeup and red background"
+    "image": "/images/comics/bad-seeds-promo.jpg",
+    "altText": "Pamela Isley / Poison Ivy - comic character",
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "char-030",
-    "name": "Jack Brass",
-    "series": "Iron Coast",
+    "name": "Diana Prince / Wonder Woman",
+    "series": "Wonder Woman",
     "category": "comics",
-    "bio": "A noir detective in a city where superpowers are illegal. Jack has no powers — just a sharp mind, a stubborn streak, and a knack for finding trouble in a city full of it.",
+    "bio": "The Amazon hero and ambassador for peace, known for her strength and compassion.",
     "traits": [
       "Gritty",
       "Clever",
       "Cynical",
       "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/35301113/pexels-photo-35301113.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white portrait with dramatic lighting"
+    "image": "/images/comics/wonder-woman-cover.jpg",
+    "altText": "Diana Prince / Wonder Woman - comic character",
+    "sourceUrl": "https://www.dcuniverseinfinite.com/comics/book/wonder-woman-1986-2006-36/8f948623-5652-4ab9-badf-51ede26c71e1"
   },
   {
     "id": "char-031",
-    "name": "Wraith",
-    "series": "The Fracture",
+    "name": "Mark Grayson / Invincible",
+    "series": "Invincible",
     "category": "comics",
-    "bio": "An anti-hero who can phase through solid matter. Wraith operates in the moral gray zone, stealing from corrupt institutions while pursued by both heroes and villains.",
+    "bio": "A teenager inherits powers from his father and learns heroism while balancing ordinary life with extraordinary danger.",
     "traits": [
       "Elusive",
       "Morally gray",
       "Skilled",
       "Independent"
     ],
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Cloaked figure with a sword in a mysterious setting"
+    "image": "/images/comics/invincible-cover.jpg",
+    "altText": "Mark Grayson / Invincible - comic character",
+    "sourceUrl": "https://www.senscritique.com/bd/invincible_2003_2018/373923"
   },
   {
     "id": "char-032",
-    "name": "Haruki Sendo",
-    "series": "Ronin's Path",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
     "category": "manga",
-    "bio": "A masterless samurai wandering feudal Japan during a time of political upheaval. Haruki seeks a purpose worth serving, helping villagers along the way while pursued by his former clan.",
+    "bio": "A young pirate with a rubber-like body who sets out to find the legendary One Piece and become King of the Pirates.",
     "traits": [
-      "Honor-bound",
-      "Skilled",
-      "Quiet",
-      "Principled"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Close-up of a detailed samurai cat tattoo with intricate ink work"
+    "image": "/images/manga/one-piece-vol1.jpg",
+    "altText": "Monkey D. Luffy from One Piece",
+    "sourceUrl": "https://www.viz.com/manga-books/mangaen/one-piece-volume-1/product/139"
   },
   {
     "id": "char-033",
-    "name": "Aoi Mizuno",
-    "series": "The Tea Shop on Cherry Lane",
+    "name": "Denji",
+    "series": "Chainsaw Man",
     "category": "manga",
-    "bio": "A young woman who inherits her grandmother's tea shop in a quiet Tokyo neighborhood. Aoi's tea seems to give customers clarity about their life problems, though she insists it's just good tea.",
+    "bio": "A poor young devil hunter revived by his companion Pochita, becoming the hybrid hero Chainsaw Man.",
     "traits": [
-      "Warm",
-      "Modest",
-      "Perceptive",
-      "Calm"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
+    "image": "/images/manga/chainsaw-man.jpg",
+    "altText": "Denji from Chainsaw Man",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/chainsaw-man-volume-1-0/product/6419"
   },
   {
     "id": "char-034",
-    "name": "Kuro",
-    "series": "Shadow Boxer",
+    "name": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
     "category": "manga",
-    "bio": "An underground boxer with the ability to see two seconds into the future. Kuro fights to pay off a debt, but each fight draws him deeper into a world he may not be able to leave.",
+    "bio": "An elf mage who outlives her former party and begins a new journey to understand their lives and memories.",
     "traits": [
-      "Tough",
-      "Focused",
-      "Guarded",
+      "Brave",
+      "Determined",
       "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/30692121/pexels-photo-30692121.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white photo of a hooded figure"
+    "image": "/images/manga/frieren-vol1.jpg",
+    "altText": "Frieren from Frieren: Beyond Journey's End",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/frieren-beyond-journey-s-end-volume-1/product/6872"
   },
   {
     "id": "char-035",
-    "name": "Sakura Kage",
-    "series": "The Apothecary's Daughter",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
     "category": "manga",
-    "bio": "A young herbalist in a fantasy kingdom who can communicate with plants. Sakura's remedies are sought by nobles and commoners alike, but her gift attracts dangerous attention.",
+    "bio": "A kindhearted boy becomes a demon slayer and searches for a way to restore his sister Nezuko's humanity.",
     "traits": [
-      "Gentle",
-      "Knowledgeable",
       "Brave",
-      "Independent"
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/18951420/pexels-photo-18951420.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Young woman with vibrant red hair holding a plush toy by a brick wall"
+    "image": "/images/manga/demon-slayer.jpg",
+    "altText": "Tanjiro Kamado from Demon Slayer: Kimetsu no Yaiba",
+    "sourceUrl": "https://demonslayer-anime.com/"
   },
   {
     "id": "char-036",
-    "name": "Goro Takashi",
-    "series": "Ronin's Path",
+    "name": "Saitama",
+    "series": "One-Punch Man",
     "category": "manga",
-    "bio": "A former comrade of Haruki who now serves the clan they both abandoned. Goro is sent to bring Haruki back — dead or alive — but his loyalty is divided between duty and friendship.",
+    "bio": "An ordinary-looking hero so strong that he defeats every opponent with one punch and longs for a worthy challenge.",
     "traits": [
-      "Conflicted",
-      "Skilled",
-      "Duty-driven",
-      "Honorable"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/6593572/pexels-photo-6593572.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Detailed pencil sketches of tattoos with artistic designs"
+    "image": "/images/manga/one-punch-vol1.jpg",
+    "altText": "Saitama from One-Punch Man",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/one-punch-man-volume-1/product/3267"
   }
 ]

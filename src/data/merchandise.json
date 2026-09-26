@@ -1,203 +1,163 @@
 [
   {
-    "id": "mch-001",
-    "name": "Blade of Dawn — Kira Figure",
-    "category": "anime",
-    "type": "figure",
-    "price": 45,
-    "priceRange": "$40–$50",
-    "image": "https://images.pexels.com/photos/16321210/pexels-photo-16321210.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A highly detailed 1/8 scale PVC figure of Kira Yoshikawa in mid-battle pose, with interchangeable sword parts."
-  },
-  {
-    "id": "mch-002",
-    "name": "Skybound Chronicles — Logo Tee",
-    "category": "anime",
-    "type": "t-shirt",
-    "price": 28,
-    "priceRange": "$25–$30",
-    "image": "https://images.pexels.com/photos/15258903/pexels-photo-15258903.png?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "Soft cotton t-shirt with the Skybound Chronicles emblem screen-printed on the front. Available in three colors."
-  },
-  {
-    "id": "mch-003",
-    "name": "Phantom Academy — Plush Mascot",
-    "category": "anime",
-    "type": "plushie",
-    "price": 22,
-    "priceRange": "$20–$25",
-    "image": "https://images.pexels.com/photos/691125/pexels-photo-691125.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A soft 20cm plush of the Phantom Academy ghost mascot. Surface washable. Suitable for ages 3 and up."
-  },
-  {
-    "id": "mch-004",
-    "name": "Starlight Rhapsody — Enamel Pin Set",
-    "category": "anime",
+    "id": "mch-kpop-001",
+    "name": "ARMY Bomb Ver. 4",
+    "category": "k-pop",
     "type": "accessory",
-    "price": 18,
-    "priceRange": "$15–$20",
-    "image": "https://images.pexels.com/photos/9560279/pexels-photo-9560279.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A set of four enamel pins featuring the Starlight Rhapsody characters in chibi style. Rubber pin backs included."
-  },
-  {
-    "id": "mch-005",
-    "name": "Starfall Protocol — Commander Hoodie",
-    "category": "gaming",
-    "type": "hoodie",
     "price": 55,
     "priceRange": "$50–$60",
-    "image": "https://images.pexels.com/photos/39569366/pexels-photo-39569366.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A heavyweight fleece hoodie with the Starfall Protocol mission patch embroidered on the chest. Unisex sizing."
+    "image": "/images/kpop/bts-banner.jpg",
+    "description": "The official lightstick for BTS, featuring Bluetooth sync for stadium concerts."
   },
   {
-    "id": "mch-006",
-    "name": "Neon Reverie — Echo Collectible",
+    "id": "mch-kpop-002",
+    "name": "Stray Kids Nachimbong",
+    "category": "k-pop",
+    "type": "accessory",
+    "price": 50,
+    "priceRange": "$45–$55",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "description": "The Stray Kids official lightstick featuring a spinning compass core."
+  },
+  {
+    "id": "mch-game-001",
+    "name": "David Martinez Edgerunner Jacket",
     "category": "gaming",
+    "type": "apparel",
+    "price": 120,
+    "priceRange": "$100–$150",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "description": "A high-quality replica of David's iconic yellow EMT jacket from Cyberpunk: Edgerunners with reflective strips."
+  },
+  {
+    "id": "mch-game-002",
+    "name": "Witcher Wolf School Medallion",
+    "category": "gaming",
+    "type": "accessory",
+    "price": 45,
+    "priceRange": "$40–$50",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "description": "Sterling silver replica of Geralt's Wolf School medallion, complete with heavy chain."
+  },
+  {
+    "id": "mch-tv-001",
+    "name": "The Last of Us — Fireflies Pendant Replica",
+    "category": "tv-shows",
     "type": "collectible",
     "price": 35,
     "priceRange": "$30–$40",
-    "image": "https://images.pexels.com/photos/9367709/pexels-photo-9367709.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A limited-edition translucent collectible figure of Echo with a light-up LED base. Numbered to 2,000 units."
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "description": "A meticulously crafted replica of the iconic Firefly pendant, cast in aged metal with a rugged leather cord."
   },
   {
-    "id": "mch-007",
-    "name": "Hollow Trail — Survival Tee",
-    "category": "gaming",
-    "type": "t-shirt",
-    "price": 26,
-    "priceRange": "$24–$28",
-    "image": "https://images.pexels.com/photos/8217483/pexels-photo-8217483.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A heather gray t-shirt with the Hollow Trail survival guide print on the back. Made from recycled cotton blend."
+    "id": "mch-tv-002",
+    "name": "Severance — Lumon Industries Welcome Kit",
+    "category": "tv-shows",
+    "type": "collectible",
+    "price": 45,
+    "priceRange": "$40–$50",
+    "image": "/images/tv/severance-banner.jpg",
+    "description": "Includes a Lumon tote bag, Kier Eagan handbook, Macrodata Refinement finger traps, and a blue employee lanyard."
   },
   {
-    "id": "mch-008",
-    "name": "Crown of Ashes — Keychain Set",
-    "category": "gaming",
+    "id": "mch-tv-003",
+    "name": "House of the Dragon — Syrax Dragon Scale Pin",
+    "category": "tv-shows",
     "type": "accessory",
-    "price": 14,
-    "priceRange": "$12–$16",
-    "image": "https://images.pexels.com/photos/5795420/pexels-photo-5795420.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A set of three metal keychains featuring the shattered blade reforged in different styles from the game."
+    "price": 18,
+    "priceRange": "$15–$25",
+    "image": "/images/characters/rhaenyra-targaryen.jpg",
+    "description": "Premium enamel pin modeled after the golden scales of Rhaenyra's dragon, Syrax. Official HBO merchandise."
+  },
+  {
+    "id": "mch-001",
+    "name": "One Piece — Straw Hat Crew Heavyweight Hoodie",
+    "category": "anime",
+    "type": "t-shirt",
+    "price": 45,
+    "priceRange": "$40–$50",
+    "image": "/images/merch/one-piece-hoodie.jpg",
+    "description": "Official licensed pullover hoodie featuring the embroidered Jolly Roger and classic Japanese calligraphy backprint."
+  },
+  {
+    "id": "mch-002",
+    "name": "Solo Leveling — Shadow Monarch Shadow Army Hoodie",
+    "category": "anime",
+    "type": "t-shirt",
+    "price": 48,
+    "priceRange": "$45–$55",
+    "image": "/images/merch/solo-leveling-hoodie.jpg",
+    "description": "Premium fleece hoodie with Sung Jinwoo's glowing purple monarch runes and high-density shadow soldier graphics."
+  },
+  {
+    "id": "mch-003",
+    "name": "Jujutsu Kaisen — Domain Expansion Ceramic Ramen Bowl",
+    "category": "anime",
+    "type": "collectible",
+    "price": 26,
+    "priceRange": "$22–$30",
+    "image": "/images/merch/jjk-ramen-bowl.jpg",
+    "description": "Authentic ceramic noodle bowl featuring Satoru Gojo's Unlimited Void seal with matching wooden chopsticks."
+  },
+  {
+    "id": "mch-004",
+    "name": "My Hero Academia — All Might Heroism Oversized Hoodie",
+    "category": "anime",
+    "type": "t-shirt",
+    "price": 42,
+    "priceRange": "$38–$48",
+    "image": "/images/merch/mha-all-might-hoodie.png",
+    "description": "Heavyweight yellow-and-blue hero tribute hoodie featuring All Might's signature smile and Plus Ultra lettering."
+  },
+  {
+    "id": "mch-005",
+    "name": "My Hero Academia — All Might Rubber Duck Collectible",
+    "category": "anime",
+    "type": "figure",
+    "price": 18,
+    "priceRange": "$15–$22",
+    "image": "/images/merch/mha-all-might-duck-figure.png",
+    "description": "TUBBZ limited-edition cosplaying duck figurine of the Symbol of Peace, packaged in a collector's mini-bathtub display."
   },
   {
     "id": "mch-009",
-    "name": "The House on Meridian Hill — Poster",
+    "name": "Dune: Part Two — Arrakis Fremen Tee",
     "category": "movies",
-    "type": "collectible",
-    "price": 20,
-    "priceRange": "$18–$22",
-    "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A 24x36 inch theatrical poster printed on heavyweight matte paper. Double-sided with alternate artwork on reverse."
+    "type": "t-shirt",
+    "price": 32,
+    "priceRange": "$28–$35",
+    "image": "/images/merch/dune-tee.jpg",
+    "description": "Official 100% heavyweight cotton tee featuring the iconic Dune desert sandworm and Shai-Hulud geometric sigil."
   },
   {
     "id": "mch-010",
-    "name": "After the Rain — Jazz Club Tee",
+    "name": "The Batman — Gotham City Vengeance Tee",
     "category": "movies",
     "type": "t-shirt",
     "price": 30,
-    "priceRange": "$28–$32",
-    "image": "https://images.pexels.com/photos/9558761/pexels-photo-9558761.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A vintage-style t-shirt with the fictional jazz club logo from the film printed in faded gold ink."
+    "priceRange": "$25–$35",
+    "image": "/images/merch/batman-tee.jpg",
+    "description": "Distressed vintage-wash graphic t-shirt featuring Robert Pattinson's Batmobile blueprints and emblem."
   },
   {
     "id": "mch-011",
-    "name": "The Last Signal — Collector's Figure",
+    "name": "The Batman — Collector's 1/6 Scale Figure",
     "category": "movies",
     "type": "figure",
-    "price": 50,
-    "priceRange": "$45–$55",
-    "image": "https://images.pexels.com/photos/15964921/pexels-photo-15964921.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A 1/6 scale figure of Zara Okafor in her space station suit, with removable helmet and detailed life-support backpack."
+    "price": 85,
+    "priceRange": "$80–$95",
+    "image": "/images/merch/batman-figure.jpg",
+    "description": "Articulated collectible figure with die-cast Batarangs, grapple gun, LED chest armor, and fabric wired cape."
   },
   {
     "id": "mch-012",
-    "name": "Song of the Dust — Soundtrack Vinyl",
+    "name": "Oppenheimer — 70mm Film Cell Collector Plaque",
     "category": "movies",
     "type": "collectible",
-    "price": 38,
-    "priceRange": "$35–$40",
+    "price": 65,
+    "priceRange": "$60–$75",
     "image": "https://images.pexels.com/photos/381651/pexels-photo-381651.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A limited pressing of the film's soundtrack on 180g vinyl, with gatefold sleeve and liner notes by the composer."
-  },
-  {
-    "id": "mch-013",
-    "name": "The 12th Precinct — Badge Replica",
-    "category": "tv-shows",
-    "type": "collectible",
-    "price": 25,
-    "priceRange": "$22–$28",
-    "image": "https://images.pexels.com/photos/5795416/pexels-photo-5795416.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A screen-accurate metal replica of the detective badge from the show, presented in a display case with stand."
-  },
-  {
-    "id": "mch-014",
-    "name": "The Hollow University — Logo Hoodie",
-    "category": "tv-shows",
-    "type": "hoodie",
-    "price": 52,
-    "priceRange": "$48–$55",
-    "image": "https://images.pexels.com/photos/7319172/pexels-photo-7319172.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A charcoal hoodie with the Hollow University crest in gold embroidery. Heavyweight cotton blend for cold evenings."
-  },
-  {
-    "id": "mch-015",
-    "name": "Long Way Home — Guitar Pick Necklace",
-    "category": "tv-shows",
-    "type": "accessory",
-    "price": 16,
-    "priceRange": "$14–$18",
-    "image": "https://images.pexels.com/photos/8217291/pexels-photo-8217291.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A necklace featuring a guitar pick pendant inspired by Trip's signature pick from the show. Stainless steel chain."
-  },
-  {
-    "id": "mch-016",
-    "name": "District 7 — Plush Companion",
-    "category": "tv-shows",
-    "type": "plushie",
-    "price": 24,
-    "priceRange": "$22–$26",
-    "image": "https://images.pexels.com/photos/9119278/pexels-photo-9119278.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A plush version of the mysterious cat that appears in every episode of District 7. Approximately 15cm tall."
-  },
-  {
-    "id": "mch-017",
-    "name": "Eclipse — Midnight Album (Photobook Ver.)",
-    "category": "k-pop",
-    "type": "collectible",
-    "price": 32,
-    "priceRange": "$30–$35",
-    "image": "https://images.pexels.com/photos/4271611/pexels-photo-4271611.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "The new album in photobook format, including a 120-page photobook, CD, random photocard, and foldout poster."
-  },
-  {
-    "id": "mch-018",
-    "name": "Wildflower — Light Stick Ver. 3",
-    "category": "k-pop",
-    "type": "accessory",
-    "price": 45,
-    "priceRange": "$40–$50",
-    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "The official Wildflower light stick, updated with Bluetooth-synced color changing and a new flower-bud design."
-  },
-  {
-    "id": "mch-019",
-    "name": "Northern Lights — Tour Hoodie",
-    "category": "k-pop",
-    "type": "hoodie",
-    "price": 58,
-    "priceRange": "$55–$60",
-    "image": "https://images.pexels.com/photos/39569366/pexels-photo-39569366.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "Official tour hoodie with the Northern Lights World Tour dates printed on the back. Oversized fit."
-  },
-  {
-    "id": "mch-020",
-    "name": "Eclipse — Mini Plush Keychain",
-    "category": "k-pop",
-    "type": "plushie",
-    "price": 15,
-    "priceRange": "$14–$16",
-    "image": "https://images.pexels.com/photos/29544211/pexels-photo-29544211.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A mini plush keychain of the Eclipse group mascot. Soft finish with a sturdy metal clip. Collect all seven."
+    "description": "Numbered museum-grade display containing an authentic 70mm physical film cell from Christopher Nolan's Trinity sequence."
   },
   {
     "id": "mch-021",

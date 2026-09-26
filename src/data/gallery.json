@@ -1,14 +1,329 @@
 [
-  { "url": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg", "alt": "Spider-Man: Brand New Day — movie poster", "kind": "Movies" },
-  { "url": "https://poster.gsc.com.my/2026/260430_ResidentEvil_big.jpg", "alt": "Resident Evil — movie poster", "kind": "Movies" },
-  { "url": "https://cdn.teater.co/imgs/toy-story-5-2026_600_880.webp", "alt": "Toy Story 5 — movie poster", "kind": "Movies" },
-  { "url": "https://image.tmdb.org/t/p/original/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg", "alt": "The Love Hypothesis — movie poster", "kind": "Movies" },
-  { "url": "https://d6fmx7z4dqmn1.cloudfront.net/absolute-wonder-woman-cover-1024x1575.webp", "alt": "Absolute Wonder Woman #1 — comic cover", "kind": "Comics" },
-  { "url": "https://media.mycomicshop.com/n_iv/600/7717213.jpg", "alt": "Absolute Batman #1 — comic cover", "kind": "Comics" },
-  { "url": "https://cdn.marvel.com/content/2x/ultsm2024001_fifthprinting.jpg", "alt": "Ultimate Spider-Man #1 — comic cover", "kind": "Comics" },
-  { "url": "https://comic-watch.com/wp-content/uploads/2025/04/ASM2025001_Preview-page-002-scaled.jpg", "alt": "The Amazing Spider-Man #1 — comic cover", "kind": "Comics" },
-  { "url": "https://image.tmdb.org/t/p/original/iTeBaE5d6wMz24dOqfmj8tTLOHj.jpg", "alt": "Silo season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://image.tmdb.org/t/p/original/cf1cmd1IVGVLw7VTzYp9GAUIlkQ.jpg", "alt": "Wednesday season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://pics.filmaffinity.com/the_last_of_us_season_2-822546434-large.jpg", "alt": "The Last of Us season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://fallout-wiki.com/images/b/b2/FOTVS2_affiche_Lucy_Novac.jpg", "alt": "Fallout season 2 — TV series poster", "kind": "TV Shows" }
+  {
+    "id": "gal-kpop-001",
+    "title": "BTS at the Grammys",
+    "category": "k-pop",
+    "image": "/images/kpop/bts-banner.jpg",
+    "tags": [
+      "bts",
+      "awards",
+      "red-carpet"
+    ]
+  },
+  {
+    "id": "gal-kpop-002",
+    "title": "BLACKPINK Pink Ocean",
+    "category": "k-pop",
+    "image": "/images/kpop/blackpink-banner.jpg",
+    "tags": [
+      "blackpink",
+      "concert",
+      "live"
+    ]
+  },
+  {
+    "id": "gal-kpop-003",
+    "title": "Stray Kids Maniac Tour",
+    "category": "k-pop",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "tags": [
+      "straykids",
+      "performance"
+    ]
+  },
+  {
+    "id": "gal-kpop-004",
+    "title": "NewJeans Ditto Concept",
+    "category": "k-pop",
+    "image": "/images/kpop/newjeans-banner.jpg",
+    "tags": [
+      "newjeans",
+      "y2k",
+      "concept"
+    ]
+  },
+  {
+    "id": "gal-kpop-005",
+    "title": "SEVENTEEN Carat Land",
+    "category": "k-pop",
+    "image": "/images/kpop/seventeen-banner.jpg",
+    "tags": [
+      "seventeen",
+      "fan-meeting"
+    ]
+  },
+  {
+    "id": "gal-kpop-006",
+    "title": "TWICE Formula of Love",
+    "category": "k-pop",
+    "image": "/images/kpop/twice-banner.jpg",
+    "tags": [
+      "twice",
+      "album",
+      "shoot"
+    ]
+  },
+  {
+    "id": "gal-game-001",
+    "title": "Night City Horizon",
+    "category": "gaming",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "tags": [
+      "cyberpunk",
+      "edgerunners",
+      "scenery"
+    ]
+  },
+  {
+    "id": "gal-game-002",
+    "title": "Geralt's Stand",
+    "category": "gaming",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "tags": [
+      "witcher",
+      "geralt",
+      "fantasy"
+    ]
+  },
+  {
+    "id": "gal-game-003",
+    "title": "Wasteland Wanderers",
+    "category": "gaming",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "tags": [
+      "fallout",
+      "post-apocalyptic"
+    ]
+  },
+  {
+    "id": "gal-game-004",
+    "title": "Piltover vs Zaun",
+    "category": "gaming",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "tags": [
+      "arcane",
+      "league",
+      "animation"
+    ]
+  },
+  {
+    "id": "gal-game-005",
+    "title": "The Spartan",
+    "category": "gaming",
+    "image": "/images/gaming/halo-banner.jpg",
+    "tags": [
+      "halo",
+      "master-chief",
+      "sci-fi"
+    ]
+  },
+  {
+    "id": "gal-game-006",
+    "title": "Belmont's Legacy",
+    "category": "gaming",
+    "image": "/images/gaming/castlevania-banner.jpg",
+    "tags": [
+      "castlevania",
+      "vampires",
+      "anime"
+    ]
+  },
+  {
+    "id": "gal-tv-001",
+    "title": "Joel and Ellie in the Ruins",
+    "category": "tv-shows",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "tags": [
+      "the-last-of-us",
+      "scenery",
+      "characters"
+    ]
+  },
+  {
+    "id": "gal-tv-002",
+    "title": "The Hawkins Crew",
+    "category": "tv-shows",
+    "image": "/images/tv/stranger-things-banner.jpg",
+    "tags": [
+      "stranger-things",
+      "upside-down",
+      "80s"
+    ]
+  },
+  {
+    "id": "gal-tv-003",
+    "title": "Dance of the Dragons",
+    "category": "tv-shows",
+    "image": "/images/tv/house-of-the-dragon-banner.jpg",
+    "tags": [
+      "house-of-the-dragon",
+      "targaryen",
+      "dragons"
+    ]
+  },
+  {
+    "id": "gal-tv-004",
+    "title": "Lumon Industries Macrodata Refinement",
+    "category": "tv-shows",
+    "image": "/images/tv/severance-banner.jpg",
+    "tags": [
+      "severance",
+      "lumon",
+      "office"
+    ]
+  },
+  {
+    "id": "gal-tv-005",
+    "title": "The Seven at Vought Tower",
+    "category": "tv-shows",
+    "image": "/images/tv/the-boys-banner.jpg",
+    "tags": [
+      "the-boys",
+      "vought",
+      "homelander"
+    ]
+  },
+  {
+    "id": "gal-tv-006",
+    "title": "Nevermore Academy at Night",
+    "category": "tv-shows",
+    "image": "/images/tv/wednesday-banner.jpg",
+    "tags": [
+      "wednesday",
+      "nevermore",
+      "addams-family"
+    ]
+  },
+  {
+    "id": "gal-comics-001",
+    "title": "Ultimate Spider-Man #1",
+    "category": "comics",
+    "image": "/images/comics/spiderman-cover.jpg"
+  },
+  {
+    "id": "gal-comics-002",
+    "title": "Batman of Two Worlds",
+    "category": "comics",
+    "image": "/images/comics/batman-cover.jpg"
+  },
+  {
+    "id": "gal-comics-003",
+    "title": "Batman: Bad Seeds",
+    "category": "comics",
+    "image": "/images/comics/bad-seeds-promo.jpg"
+  },
+  {
+    "id": "gal-comics-004",
+    "title": "Wonder Woman #36",
+    "category": "comics",
+    "image": "/images/comics/wonder-woman-cover.jpg"
+  },
+  {
+    "id": "gal-comics-005",
+    "title": "Invincible #1",
+    "category": "comics",
+    "image": "/images/comics/invincible-cover.jpg"
+  },
+  {
+    "id": "gal-manga-001",
+    "title": "One Piece, Vol. 1",
+    "category": "manga",
+    "image": "/images/manga/one-piece-vol1.jpg"
+  },
+  {
+    "id": "gal-manga-002",
+    "title": "Chainsaw Man, Vol. 1",
+    "category": "manga",
+    "image": "/images/manga/chainsaw-man.jpg"
+  },
+  {
+    "id": "gal-manga-003",
+    "title": "Frieren: Beyond Journey's End, Vol. 1",
+    "category": "manga",
+    "image": "/images/manga/frieren-vol1.jpg"
+  },
+  {
+    "id": "gal-manga-004",
+    "title": "Demon Slayer: Infinity Castle",
+    "category": "manga",
+    "image": "/images/manga/demon-slayer.jpg"
+  },
+  {
+    "id": "gal-manga-005",
+    "title": "One-Punch Man, Vol. 1",
+    "category": "manga",
+    "image": "/images/manga/one-punch-vol1.jpg"
+  },
+  {
+    "id": "gal-home-movie-001",
+    "title": "Spider-Man: Brand New Day",
+    "category": "movies",
+    "image": "/images/movies/spider-man-bnd.jpg"
+  },
+  {
+    "id": "gal-home-movie-002",
+    "title": "The Batman Part II",
+    "category": "movies",
+    "image": "/images/movies/the-batman-part-2.jpg"
+  },
+  {
+    "id": "gal-home-movie-003",
+    "title": "Dune: Messiah",
+    "category": "movies",
+    "image": "/images/movies/dune-messiah.jpg"
+  },
+  {
+    "id": "gal-home-movie-004",
+    "title": "Avengers: Doomsday",
+    "category": "movies",
+    "image": "/images/movies/avengers-doomsday.jpg"
+  },
+  {
+    "id": "gal-home-movie-005",
+    "title": "Avatar: Fire and Ash",
+    "category": "movies",
+    "image": "/images/movies/avatar-fire-and-ash.jpg"
+  },
+  {
+    "id": "gal-home-movie-006",
+    "title": "Oppenheimer",
+    "category": "movies",
+    "image": "/images/movies/oppenheimer-poster.jpg"
+  },
+  {
+    "id": "gal-home-anime-001",
+    "title": "One Piece",
+    "category": "anime",
+    "image": "/images/anime/one-piece-banner.jpg"
+  },
+  {
+    "id": "gal-home-anime-002",
+    "title": "Jujutsu Kaisen",
+    "category": "anime",
+    "image": "/images/anime/jjk-banner.jpg"
+  },
+  {
+    "id": "gal-home-anime-003",
+    "title": "Frieren: Beyond Journey's End",
+    "category": "anime",
+    "image": "/images/anime/frieren-banner.jpg"
+  },
+  {
+    "id": "gal-home-anime-004",
+    "title": "Demon Slayer",
+    "category": "anime",
+    "image": "/images/anime/demon-slayer-banner.jpg"
+  },
+  {
+    "id": "gal-home-anime-005",
+    "title": "Attack on Titan",
+    "category": "anime",
+    "image": "/images/anime/aot-banner.jpg"
+  },
+  {
+    "id": "gal-home-anime-006",
+    "title": "Chainsaw Man",
+    "category": "anime",
+    "image": "/images/anime/chainsaw-man-banner.jpg"
+  }
 ]

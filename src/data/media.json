@@ -1,272 +1,372 @@
 [
   {
-    "id": "med-001",
-    "title": "Blade of Dawn — Season 2 Official Trailer",
+    "id": "med-kpop-001",
+    "title": "BTS (방탄소년단) 'Dynamite' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/bts-banner.jpg",
+    "youtubeId": "gdZLi9oWNZg",
+    "duration": "3:43",
+    "description": "The record-breaking, Grammy-nominated disco-pop anthem that brought light during the pandemic."
+  },
+  {
+    "id": "med-kpop-002",
+    "title": "BLACKPINK - 'Pink Venom' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/blackpink-banner.jpg",
+    "youtubeId": "gQlMMD8auMs",
+    "duration": "3:13",
+    "description": "A fierce hip-hop track blending traditional Korean instruments with BLACKPINK's signature swagger."
+  },
+  {
+    "id": "med-kpop-003",
+    "title": "Stray Kids 'S-Class' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/straykids-banner.jpg",
+    "youtubeId": "JsOOis4bTrg",
+    "duration": "3:29",
+    "description": "A genre-blending masterpiece highlighting Stray Kids' unique identity as the most special of the odd ones."
+  },
+  {
+    "id": "med-kpop-004",
+    "title": "NewJeans (뉴진스) 'Super Shy' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/newjeans-banner.jpg",
+    "youtubeId": "ArmDp-zijuc",
+    "duration": "3:19",
+    "description": "A Jersey club-inspired summer hit featuring infectious choreography and a vibrant Y2K aesthetic."
+  },
+  {
+    "id": "med-kpop-005",
+    "title": "SEVENTEEN (세븐틴) 'Super' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/seventeen-banner.jpg",
+    "youtubeId": "-GQg25oP0S4",
+    "duration": "3:30",
+    "description": "An epic, high-energy performance track honoring the journey of SEVENTEEN and their massive crew."
+  },
+  {
+    "id": "med-kpop-006",
+    "title": "TWICE 'FANCY' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/twice-banner.jpg",
+    "youtubeId": "kOHB85vDuow",
+    "duration": "3:38",
+    "description": "The turning point of TWICE's discography, introducing a bold, synth-pop sound and sophisticated visuals."
+  },
+  {
+    "id": "med-game-001",
+    "title": "Cyberpunk: Edgerunners — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/cyberpunk-banner.jpg",
+    "youtubeId": "JtqIalvlzv0",
+    "duration": "2:13",
+    "description": "Welcome to Night City. David Martinez risks it all to become an edgerunner in this explosive anime from Studio Trigger."
+  },
+  {
+    "id": "med-game-002",
+    "title": "The Witcher — Season 1 Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/witcher-banner.jpg",
+    "youtubeId": "ndl1W4ltcmg",
+    "duration": "2:20",
+    "description": "Henry Cavill stars as Geralt of Rivia in the epic adaptation of the beloved fantasy franchise."
+  },
+  {
+    "id": "med-game-003",
+    "title": "Fallout — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/fallout-banner.jpg",
+    "youtubeId": "V-mugKDQRug",
+    "duration": "3:18",
+    "description": "Welcome to the Wasteland. Based on the legendary video game franchise, Amazon's Fallout series brings the apocalypse to life."
+  },
+  {
+    "id": "med-game-004",
+    "title": "Arcane — Official Trailer",
+    "category": "gaming",
+    "type": "trailer",
+    "thumbnail": "/images/gaming/arcane-banner.jpg",
+    "youtubeId": "fXmAurh012s",
+    "duration": "2:28",
+    "description": "Every legend has a beginning. Discover the origins of two iconic League champions in the stunning series Arcane."
+  },
+  {
+    "id": "med-tv-001",
+    "title": "The Last of Us — Season 2 Official Teaser",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/the-last-of-us-banner.jpg",
+    "youtubeId": "uLtkt8BonwM",
+    "duration": "2:04",
+    "description": "Joel and Ellie face the consequences of the hospital in Salt Lake City as a new threat emerges in Jackson."
+  },
+  {
+    "id": "med-tv-002",
+    "title": "House of the Dragon — Season 2 Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/house-of-the-dragon-banner.jpg",
+    "youtubeId": "fNwwt25mheo",
+    "duration": "2:31",
+    "description": "The Dance of the Dragons begins. Team Black and Team Green prepare to burn the realm for the Iron Throne."
+  },
+  {
+    "id": "med-tv-003",
+    "title": "Severance — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/severance-banner.jpg",
+    "youtubeId": "xQGToE_CuvA",
+    "duration": "2:20",
+    "description": "Your innie has been awake. Return to Lumon Industries for the critically acclaimed series."
+  },
+  {
+    "id": "med-tv-004",
+    "title": "The Boys — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/the-boys-banner.jpg",
+    "youtubeId": "M1bhOaLV4FU",
+    "duration": "2:24",
+    "description": "Never meet your heroes. The Boys is a fresh, irreverent take on what happens when superheroes abuse their powers."
+  },
+  {
+    "id": "med-tv-005",
+    "title": "Stranger Things 4 — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/stranger-things-banner.jpg",
+    "youtubeId": "yQEondeGvNw",
+    "duration": "3:16",
+    "description": "It's time. See you on the other side. The epic fourth season takes the Hawkins crew to their limits."
+  },
+  {
+    "id": "med-tv-006",
+    "title": "Wednesday — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/wednesday-banner.jpg",
+    "youtubeId": "Di310WS8zLk",
+    "duration": "2:25",
+    "description": "Jenna Ortega stars as Wednesday Addams in this new series from the mind of Tim Burton."
+  },
+  {
+    "id": "med-jjk-shibuya-trailer",
+    "title": "Jujutsu Kaisen — Shibuya Incident Official Trailer",
     "category": "anime",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/31002082/pexels-photo-31002082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:34",
-    "description": "The first full trailer for the highly anticipated second season, revealing new characters and a darker storyline."
+    "thumbnail": "/images/anime/jjk-banner.jpg",
+    "youtubeId": "v8bZVdTgXoY",
+    "duration": "2:15",
+    "description": "Curses and sorcerers clash in the heart of Tokyo as pseudo-Geto initiates the plan to seal Satoru Gojo."
   },
   {
-    "id": "med-002",
-    "title": "Studio Interview: The Making of Skybound Chronicles",
+    "id": "med-frieren-s2-trailer",
+    "title": "Frieren: Beyond Journey's End — Season 2 Teaser",
     "category": "anime",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/36942551/pexels-photo-36942551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "18:42",
-    "description": "A sit-down with the director and lead animator discussing the production process and creative decisions."
-  },
-  {
-    "id": "med-003",
-    "title": "Anime Music Podcast — Episode 47",
-    "category": "anime",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "52:10",
-    "description": "A deep dive into the evolution of anime soundtracks, featuring clips and commentary from music critics."
-  },
-  {
-    "id": "med-004",
-    "title": "Phantom Academy Opening Theme — Audio",
-    "category": "anime",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "4:12",
-    "description": "The full opening theme from Phantom Academy, composed and performed by the artist known as Nightwave."
-  },
-  {
-    "id": "med-005",
-    "title": "Starfall Protocol — Gameplay Reveal",
-    "category": "gaming",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "4:58",
-    "description": "Fifteen minutes of uncut gameplay from the upcoming space exploration RPG, showing combat and dialogue systems."
+    "thumbnail": "/images/anime/frieren-banner.jpg",
+    "youtubeId": "W0mVCx7XkY4",
+    "duration": "1:22",
+    "description": "The official announcement teaser for the second season of Madhouse's fantasy masterpiece."
   },
   {
-    "id": "med-006",
-    "title": "Developer Diary: Building Hollow Trail",
-    "category": "gaming",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "24:15",
-    "description": "The lead designer walks through the game's survival mechanics and shares stories from development."
+    "id": "med-aot-final-trailer",
+    "title": "Attack on Titan — The Final Chapters Trailer",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "/images/anime/aot-banner.jpg",
+    "youtubeId": "SlNpRThS9t8",
+    "duration": "2:05",
+    "description": "The Scout Regiment mounts their final desperate airborne assault against Eren Yeager's catastrophic Rumbling."
   },
   {
-    "id": "med-007",
-    "title": "Gaming Culture Podcast — The Indie Revolution",
-    "category": "gaming",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:08:30",
-    "description": "A discussion about how indie games are reshaping the industry, with guest appearances from three indie developers."
+    "id": "med-chainsaw-man-trailer",
+    "title": "Chainsaw Man — The Movie: Reze Arc Teaser",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "/images/anime/chainsaw-man-banner.jpg",
+    "youtubeId": "q15CRdE5Bv0",
+    "duration": "1:52",
+    "description": "Denji encounters the mysterious bomb hybrid Reze in the upcoming theatrical feature adaptation from MAPPA."
   },
   {
-    "id": "med-008",
-    "title": "Crown of Ashes — Soundtrack Preview",
-    "category": "gaming",
+    "id": "med-jjk-audio-specialz",
+    "title": "Jujutsu Kaisen — 'SPECIALZ' by King Gnu (Theme)",
+    "category": "anime",
     "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/5713095/pexels-photo-5713095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:45",
-    "description": "A preview of three tracks from the dark fantasy RPG's orchestral score, recorded with a live ensemble."
+    "thumbnail": "/images/anime/jjk-banner.jpg",
+    "duration": "3:58",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "The electrifying Shibuya Incident opening theme song performed by Japanese rock band King Gnu."
+  },
+  {
+    "id": "med-alita-battle-angel",
+    "title": "Alita: Battle Angel — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "/images/movies/alita-trailer.jpg",
+    "youtubeId": "w7pYhpJaJW8",
+    "duration": "2:35",
+    "description": "Set centuries in the future, the abandoned cyborg Alita is found in the scrapyard of Iron City by Dr. Ido. Produced by James Cameron and directed by Robert Rodriguez."
   },
   {
     "id": "med-009",
-    "title": "The House on Meridian Hill — Official Trailer",
+    "title": "Dune: Part Two — Official Main Trailer",
     "category": "movies",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:18",
-    "description": "The first trailer for the adventure film starring Eleanor Vance, promising a globe-spanning treasure hunt."
+    "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+    "youtubeId": "Way9Dexny3w",
+    "duration": "2:58",
+    "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family."
   },
   {
     "id": "med-010",
-    "title": "Director's Commentary: After the Rain",
+    "title": "Christopher Nolan & Cillian Murphy: The Making of Oppenheimer",
     "category": "movies",
     "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "31:20",
-    "description": "The director discusses the film's jazz-inflected score, the casting process, and the decision to shoot on film."
+    "thumbnail": "https://img.youtube.com/vi/uYPbbksJxIg/maxresdefault.jpg",
+    "youtubeId": "uYPbbksJxIg",
+    "duration": "14:20",
+    "description": "Director Christopher Nolan and Cillian Murphy discuss shooting in IMAX 70mm black-and-white and staging the Trinity test without CGI."
   },
   {
     "id": "med-011",
-    "title": "Cinema Podcast — The Mid-Budget Revival",
+    "title": "The Batman — Main Theme by Michael Giacchino",
     "category": "movies",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "47:55",
-    "description": "Film critics discuss the return of the mid-budget movie and what it means for the future of theatrical cinema."
+    "type": "audio",
+    "thumbnail": "https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+    "duration": "6:48",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+    "description": "The brooding, heavy-brass orchestral overture that defines Matt Reeves' neo-noir vision of Gotham City."
   },
   {
     "id": "med-012",
-    "title": "Song of the Dust — Theme Song (Audio)",
+    "title": "Spider-Man: Across the Spider-Verse — 'Am I Dreaming' Theme",
     "category": "movies",
     "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/11449473/pexels-photo-11449473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "5:22",
-    "description": "The haunting main theme from the post-apocalyptic drama, performed with acoustic guitar and vocals."
+    "thumbnail": "https://image.tmdb.org/t/p/w1280/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "duration": "4:16",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "description": "Metro Boomin, A$AP Rocky, and Roisee's stirring orchestral and hip-hop anthem from Across the Spider-Verse."
   },
   {
-    "id": "med-013",
-    "title": "The 12th Precinct — Season 4 Teaser",
-    "category": "tv-shows",
+    "id": "med-012b",
+    "title": "Gladiator II — Official Teaser Trailer",
+    "category": "movies",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:32",
-    "description": "A brief teaser for the new season of the acclaimed police drama, introducing a major new character."
+    "thumbnail": "https://img.youtube.com/vi/4rgYUipGJNo/maxresdefault.jpg",
+    "youtubeId": "4rgYUipGJNo",
+    "duration": "3:10",
+    "description": "Paul Mescal enters the arena as Lucius in Ridley Scott's long-awaited sequel to the Oscar-winning epic."
   },
   {
-    "id": "med-014",
-    "title": "Cast Interview: The Hollow University",
-    "category": "tv-shows",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "22:08",
-    "description": "The ensemble cast discusses their characters, on-set dynamics, and what to expect in the second season."
-  },
-  {
-    "id": "med-015",
-    "title": "TV Talk Podcast — The Limited Series Boom",
-    "category": "tv-shows",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "55:40",
-    "description": "An analysis of why limited series are becoming the dominant format for prestige television."
-  },
-  {
-    "id": "med-016",
-    "title": "Long Way Home — Theme (Audio)",
-    "category": "tv-shows",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/6892712/pexels-photo-6892712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:18",
-    "description": "The acoustic theme song from the road-trip drama, written and performed by the show's music supervisor."
-  },
-  {
-    "id": "med-017",
-    "title": "Eclipse — Comeback Trailer \"Midnight\"",
-    "category": "k-pop",
+    "id": "med-012c",
+    "title": "Deadpool & Wolverine — Official Teaser Trailer",
+    "category": "movies",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:15",
-    "description": "A cinematic comeback trailer teasing Eclipse's new album, featuring ethereal visuals and a haunting vocal snippet."
-  },
-  {
-    "id": "med-018",
-    "title": "Interview: Wildflower on Their Second Album",
-    "category": "k-pop",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "16:30",
-    "description": "The members of Wildflower discuss their creative process, musical growth, and the pressure of following a hit debut."
-  },
-  {
-    "id": "med-019",
-    "title": "K-Pop Fan Podcast — Choreography Breakdown",
-    "category": "k-pop",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/9708579/pexels-photo-9708579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "41:12",
-    "description": "A professional choreographer breaks down the year's most iconic K-pop dance routines, move by move."
-  },
-  {
-    "id": "med-020",
-    "title": "Northern Lights — Lead Single (Audio)",
-    "category": "k-pop",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/10933702/pexels-photo-10933702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:28",
-    "description": "The lead single from Northern Lights' new EP, blending traditional Korean instruments with modern hip-hop production."
+    "thumbnail": "https://img.youtube.com/vi/73_1biulkYk/maxresdefault.jpg",
+    "youtubeId": "73_1biulkYk",
+    "duration": "2:38",
+    "description": "Marvel Studios presents their most unexpected team-up as Wade Wilson pulls a reluctant Wolverine into the multiverse."
   },
   {
     "id": "med-021",
-    "title": "Guardline — Motion Comic Trailer",
+    "title": "Batman of Two Worlds - Official Trailer",
     "category": "comics",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:48",
-    "description": "A motion comic trailer for the new Guardline arc, with voice acting, sound effects, and animated panels."
+    "thumbnail": "/images/comics/video-batman-two-worlds.jpg",
+    "description": "Batman of Two Worlds - Official Trailer",
+    "youtubeId": "ftzsh6wmRrU",
+    "sourceUrl": "https://www.youtube.com/watch?v=ftzsh6wmRrU"
   },
   {
     "id": "med-022",
-    "title": "Artist Interview: The Fracture",
+    "title": "Batman: Bad Seeds - Official Trailer",
     "category": "comics",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "28:45",
-    "description": "The artist and writer of The Fracture discuss their creative partnership and the series' multiverse concept."
+    "type": "trailer",
+    "thumbnail": "/images/comics/video-bad-seeds.jpg",
+    "description": "Batman: Bad Seeds - Official Trailer",
+    "youtubeId": "vjeKeilIfSM",
+    "sourceUrl": "https://www.youtube.com/watch?v=vjeKeilIfSM"
   },
   {
     "id": "med-023",
-    "title": "Comics Craft Podcast — Lettering Special",
+    "title": "Ultimate Spider-Man (2024) - Official Trailer",
     "category": "comics",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "38:50",
-    "description": "A deep dive into the art of comic lettering with three professional letterers sharing their process and tips."
+    "type": "trailer",
+    "thumbnail": "/images/comics/video-ultimate-spider-man.jpg",
+    "description": "Ultimate Spider-Man (2024) - Official Trailer",
+    "youtubeId": "jKuLR5KCiY0",
+    "sourceUrl": "https://www.youtube.com/watch?v=jKuLR5KCiY0"
   },
   {
     "id": "med-024",
-    "title": "Iron Coast — Audio Drama Episode 1",
+    "title": "Batman of Two Worlds - Creator Interview",
     "category": "comics",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/5569970/pexels-photo-5569970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "22:00",
-    "description": "An audio drama adaptation of the noir comic series, with full cast narration and original sound design."
+    "type": "interview",
+    "thumbnail": "/images/comics/video-batman-interview.jpg",
+    "description": "Batman of Two Worlds - Creator Interview",
+    "youtubeId": "x7bKySdPkOY",
+    "sourceUrl": "https://www.youtube.com/watch?v=x7bKySdPkOY"
   },
   {
     "id": "med-025",
-    "title": "Ronin's Path — Anime Adaptation Announcement",
+    "title": "Demon Slayer: Infinity Castle - Official Trailer",
     "category": "manga",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "0:58",
-    "description": "A brief announcement trailer confirming the anime adaptation of the popular samurai manga, with a first look at character designs."
+    "thumbnail": "/images/manga/video-demon-slayer.jpg",
+    "description": "Demon Slayer: Infinity Castle - Official Trailer",
+    "youtubeId": "wyiZWYMilgk",
+    "sourceUrl": "https://www.youtube.com/watch?v=wyiZWYMilgk"
   },
   {
     "id": "med-026",
-    "title": "Mangaka Interview: The Tea Shop on Cherry Lane",
+    "title": "Tatsuki Fujimoto Draws Denji - Creator Sketch",
     "category": "manga",
     "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/15100360/pexels-photo-15100360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "19:33",
-    "description": "The creator discusses their slice-of-life manga, their inspirations, and the challenge of drawing food that makes readers hungry."
+    "thumbnail": "/images/manga/video-chainsaw-creator.jpg",
+    "description": "Tatsuki Fujimoto Draws Denji - Creator Sketch",
+    "youtubeId": "LKs8fK3FjHc",
+    "sourceUrl": "https://www.viz.com/blog/posts/mangaka-mania-21-lineup"
   },
   {
     "id": "med-027",
-    "title": "Manga Podcast — Weekly vs Monthly Serialization",
+    "title": "Wanted! Eiichiro Oda Before One Piece - Manga Trailer",
     "category": "manga",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "44:18",
-    "description": "A discussion about how publication schedules shape manga storytelling, with examples from popular series."
+    "type": "trailer",
+    "thumbnail": "/images/manga/video-onepiece-trailer.jpg",
+    "description": "Wanted! Eiichiro Oda Before One Piece - Manga Trailer",
+    "youtubeId": "3uaMeEcwvvU",
+    "sourceUrl": "https://www.youtube.com/watch?v=3uaMeEcwvvU"
   },
   {
     "id": "med-028",
-    "title": "Shadow Boxer — Theme Composition (Audio)",
+    "title": "Oda Sensei Draws Luffy",
     "category": "manga",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:54",
-    "description": "A fan-composed theme for the boxing manga, blending taiko drums with modern electronic production."
-  },
-  {
-    "id": "med-029",
-    "title": "Fan Animation: Blade of Dawn Fight Scene",
-    "category": "anime",
     "type": "fan-content",
-    "thumbnail": "https://images.pexels.com/photos/13773555/pexels-photo-13773555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:22",
-    "description": "A fan-made animation recreating the famous duel from Blade of Dawn in a stunning hand-drawn style."
+    "thumbnail": "/images/manga/video-onepiece-oda.jpg",
+    "description": "Oda Sensei Draws Luffy",
+    "youtubeId": "VKE7e9IgrhQ",
+    "sourceUrl": "https://www.viz.com/blog/posts/oda-sensei-draws-luffy"
   },
   {
     "id": "med-030",
-    "title": "Fan Film: Iron Coast — The Night Shift",
+    "title": "How to Draw Wonder Woman with Tom King",
     "category": "comics",
     "type": "fan-content",
-    "thumbnail": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "8:15",
-    "description": "A short fan film bringing the noir world of Iron Coast to life, shot in black and white on the streets of Chicago."
+    "thumbnail": "/images/comics/video-wonder-woman.jpg",
+    "description": "How to Draw Wonder Woman with Tom King",
+    "youtubeId": "Zc6hFsf4e08",
+    "sourceUrl": "https://www.youtube.com/watch?v=Zc6hFsf4e08"
   }
 ]

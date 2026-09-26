@@ -79,24 +79,82 @@ export function EventDetailPage() {
       <EventMediaSection key={event.id} event={event}/>
 
       {/* Related Events */}
-      {related.length > 0 && (<section className="fv-py-12 fv-bg-ink-800 border-top fv-border-ink-600">
+      {related.length > 0 && (
+        <section className="fv-py-12 fv-bg-ink-800 border-top fv-border-ink-600">
           <div className="container-wide">
-            <h2 className="fv-display-font fv-text-3xl fv-text-paper-50 fv-tracking-wide fv-mb-6">More {cat?.name} Events</h2>
-            <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-3 fv-gap-4">
-              {related.map((rel) => (<Link key={rel.id} to={`/event/${rel.id}`} className="fv-group position-relative rounded-4 overflow-hidden fv-aspect-16-10">
-                  <img src={rel.image} alt={rel.title} className="position-absolute fv-inset-0 w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
-                  <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-40 fv-to-transparent"/>
-                  <div className="position-absolute fv-bottom-0 fv-p-5">
-                    <span className="fv-text-xs fv-heading-font" style={{ color: cat?.accentColor }}>
-                      {new Date(rel.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
-                    </span>
-                    <h3 className="fv-display-font fv-text-xl fv-text-paper-50 fv-tracking-wide fv-mt-1 fv-clamp-2 fv-group-hover-text-brand-400 fv-transition-colors">{rel.title}</h3>
-                  </div>
-                  <ArrowUpRight className="position-absolute fv-top-3 fv-right-3 fv-w-5 fv-h-5 fv-text-paper-50 fv-opacity-0 fv-group-hover-opacity-100 fv-transition-all"/>
-                </Link>))}
+            <div className="d-flex align-items-center justify-content-between mb-6">
+              <div>
+                <span className="fv-text-xs fv-heading-font fv-uppercase fv-tracking-widest" style={{ color: cat?.accentColor }}>
+                  Companion Tour Dates
+                </span>
+                <h2 className="fv-display-font fv-text-3xl fv-text-paper-50 fv-tracking-wide mt-1 mb-0">
+                  More {cat?.name} Gatherings
+                </h2>
+              </div>
+              <Link to="/events" className="d-none d-sm-inline-flex align-items-center gap-1.5 fv-text-xs fv-heading-font text-light border border-secondary border-opacity-50 px-3 py-1.5 rounded-pill text-decoration-none">
+                <span>View Global Calendar</span>
+                <ArrowUpRight size={14} />
+              </Link>
+            </div>
+
+            <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-3 fv-gap-6">
+              {related.map((rel) => {
+                const d = new Date(`${rel.date}T00:00:00`);
+                return (
+                  <Link
+                    key={rel.id}
+                    to={`/event/${rel.id}`}
+                    className="fv-group position-relative rounded-4 overflow-hidden border border-secondary border-opacity-25 bg-dark d-flex flex-column text-decoration-none transition-all"
+                    style={{
+                      boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.5)',
+                    }}
+                  >
+                    <div className="position-relative overflow-hidden" style={{ height: '180px' }}>
+                      <img
+                        src={rel.image}
+                        alt={rel.title}
+                        className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105"
+                        loading="lazy"
+                      />
+                      <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent" />
+                      <div className="position-absolute fv-top-3 fv-left-3">
+                        <span
+                          className="badge rounded-pill px-2.5 py-1 text-9px fw-bold text-uppercase"
+                          style={{
+                            backgroundColor: 'rgba(11, 12, 16, 0.85)',
+                            color: cat?.accentColor || '#c9a227',
+                            border: `1px solid ${cat?.accentColor || '#c9a227'}50`,
+                            backdropFilter: 'blur(6px)',
+                          }}
+                        >
+                          {d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="fv-p-4 flex-fill d-flex flex-column justify-content-between">
+                      <div>
+                        <h3 className="fv-heading-font fv-text-lg fv-text-paper-50 fv-tracking-wide fv-clamp-1 fv-group-hover-text-brand-400 fv-transition-colors mb-1">
+                          {rel.title}
+                        </h3>
+                        <p className="d-flex align-items-center gap-1.5 fv-text-xs text-secondary mb-0">
+                          <MapPin size={12} className="text-danger flex-shrink-0" />
+                          <span className="text-truncate">{rel.location}</span>
+                        </p>
+                      </div>
+
+                      <div className="d-flex align-items-center justify-content-between mt-3 pt-3 border-top border-secondary border-opacity-25 fv-text-xs">
+                        <span className="text-light opacity-75">Tour Details</span>
+                        <ArrowUpRight size={15} style={{ color: cat?.accentColor }} />
+                      </div>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
-        </section>)}
+        </section>
+      )}
 
       {/* Related Articles */}
       {relatedArticles.length > 0 && (<section className="fv-py-12 fv-bg-ink-900 border-top fv-border-ink-600">

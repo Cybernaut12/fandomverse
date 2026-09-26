@@ -1,449 +1,794 @@
 [
   {
-    "id": "art-001",
-    "title": "The Studio That Redefined Action Animation",
-    "slug": "studio-that-redefined-action-animation",
-    "category": "anime",
-    "excerpt": "How a small team of animators turned a niche manga into a global phenomenon, frame by painstaking frame.",
+    "id": "art-kpop-001",
+    "title": "Global Phenomenon: How BTS Changed Pop Music Forever",
+    "slug": "bts-global-phenomenon",
+    "category": "k-pop",
+    "excerpt": "Looking back at the septet's meteoric rise from underdogs to Grammy-nominated superstars.",
     "body": [
-      "When the first episode aired, few could have predicted the cultural earthquake that followed. The studio, known until then for modest adaptations and reliable contract work, poured everything into this project — a story about warriors, loss, and the weight of inherited power.",
-      "What set the production apart wasn't just the budget. It was the decision to treat every episode like a short film. Action sequences were storyboarded with cinematic intent, with camera moves and pacing borrowed from live-action filmmaking. Animators were given room to inject personal style into key cuts, resulting in episodes that felt wildly different from the uniform look most TV anime settled for.",
-      "The result was a show that didn't just look good — it felt alive. Fans dissected frames on social media within hours of each episode going up. Clips circulated far beyond the usual anime circles, pulling in viewers who had never watched a serialized animated series before.",
-      "Years later, the ripple effects are still visible. Studios across the industry have raised their standards for action choreography. New productions cite the show as a benchmark. And the team behind it? They went on to found their own studio, taking the philosophy even further."
+      "In 2013, a little-known hip-hop group named Bangtan Sonyeondan debuted under a small agency.",
+      "Fast forward a decade, and BTS has conquered stadiums worldwide, spoken at the UN, and shattered Billboard records.",
+      "Their success stems from deeply personal lyricism, innovative production, and an unparalleled bond with their fandom, ARMY."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/kpop/bts-banner.jpg",
+    "tags": [
+      "bts",
+      "army",
+      "hybe"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-kpop-002",
+    "title": "Pink Venom: The Unstoppable Reign of BLACKPINK",
+    "slug": "blackpink-pink-venom-reign",
+    "category": "k-pop",
+    "excerpt": "Exploring the fashion, charisma, and record-breaking anthems of the biggest girl group in the world.",
+    "body": [
+      "When BLACKPINK debuted in 2016, they immediately redefined the 'girl crush' concept.",
+      "Since then, Jisoo, Jennie, Rosé, and Lisa have become global fashion icons and festival headliners, famously conquering Coachella.",
+      "Their fusion of fierce rap verses and EDM-pop choruses continues to dominate the charts globally."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/kpop/blackpink-banner.jpg",
+    "tags": [
+      "blackpink",
+      "blink",
+      "yg",
+      "coachella"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-kpop-003",
+    "title": "Noise Music Mastery: The Evolution of Stray Kids",
+    "slug": "stray-kids-noise-music-evolution",
+    "category": "k-pop",
+    "excerpt": "How 3RACHA's self-produced 'mala taste' music propelled Stray Kids to the top of Billboard.",
+    "body": [
+      "Stray Kids embraced the 'noise music' label and turned it into their greatest strength.",
+      "With tracks like 'God's Menu' and 'Maniac', the self-producing unit 3RACHA created a distinct, aggressive sonic identity.",
+      "Their explosive energy and intricate choreography make them one of the most exciting performers in the 4th generation."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "tags": [
+      "stray-kids",
+      "stay",
+      "jyp",
+      "3racha"
+    ]
+  },
+  {
+    "id": "art-kpop-004",
+    "title": "Y2K Revival: Why NewJeans is Everyone's Obsession",
+    "slug": "newjeans-y2k-obsession",
+    "category": "k-pop",
+    "excerpt": "Min Hee-jin's visionary direction and the group's R&B-infused sound took the industry by surprise.",
+    "body": [
+      "NewJeans debuted without warning in 2022, dropping the 'Attention' music video and immediately shifting the industry paradigm.",
+      "Their easy-listening R&B sound and authentic Y2K aesthetic felt like a breath of fresh air amidst high-concept lore.",
+      "From 'Hype Boy' to 'Ditto', they have consistently set trends and dominated domestic and global charts."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/kpop/newjeans-banner.jpg",
+    "tags": [
+      "newjeans",
+      "ador",
+      "y2k",
+      "bunnies"
+    ]
+  },
+  {
+    "id": "art-kpop-005",
+    "title": "The Theater of SEVENTEEN",
+    "slug": "seventeen-theater-synchronization",
+    "category": "k-pop",
+    "excerpt": "Thirteen members, three units, one incredibly synchronized team.",
+    "body": [
+      "Known for their knife-like synchronization and self-producing capabilities, SEVENTEEN operates like a well-oiled machine.",
+      "Woozi's production and Hoshi's choreography have maintained the group's distinct theatrical flair for nearly a decade.",
+      "Their journey to stadium tours is a testament to their resilience, humor, and unmatched stage presence."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/kpop/seventeen-banner.jpg",
+    "tags": [
+      "seventeen",
+      "carat",
+      "pledis"
+    ]
+  },
+  {
+    "id": "art-kpop-006",
+    "title": "Nation's Girl Group: The Everlasting Appeal of TWICE",
+    "slug": "twice-everlasting-appeal",
+    "category": "k-pop",
+    "excerpt": "From bubblegum pop to mature anthems, TWICE's musical journey mirrors their growth as artists.",
+    "body": [
+      "TWICE defined an entire era of K-Pop with viral points dances like 'Cheer Up' and 'TT'.",
+      "As they entered their seventh year and beyond, they successfully transitioned into more sophisticated concepts with 'Fancy' and 'Feel Special'.",
+      "Their consistent output and strong bond have solidified them as one of the best-selling girl groups of all time."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/kpop/twice-banner.jpg",
+    "tags": [
+      "twice",
+      "once",
+      "jyp"
+    ]
+  },
+  {
+    "id": "art-game-001",
+    "title": "Night City's Redemption: The Comeback of Cyberpunk 2077",
+    "slug": "cyberpunk-2077-comeback-edgerunners",
+    "category": "gaming",
+    "excerpt": "How CD Projekt Red fixed their ambitious RPG and how the anime Edgerunners brought players back to Night City.",
+    "body": [
+      "When Cyberpunk 2077 launched, it was plagued by performance issues and unfulfilled promises.",
+      "However, over several years, CD Projekt Red quietly patched the game, culminating in the massive Update 2.0 and the incredible Phantom Liberty expansion.",
+      "Coupled with the emotional gut-punch of Studio Trigger's Cyberpunk: Edgerunners, Night City finally became the thriving, dangerous metropolis fans always dreamed of.",
+      "It stands as one of the greatest redemption arcs in modern gaming history."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/gaming/cyberpunk-banner.jpg",
+    "tags": [
+      "cyberpunk-2077",
+      "cdpr",
+      "edgerunners",
+      "rpg"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-game-002",
+    "title": "The Continent's Lore: Why The Witcher 3 Remains the Gold Standard",
+    "slug": "witcher-3-gold-standard",
+    "category": "gaming",
+    "excerpt": "A decade later, we look at how Geralt's journey defined open-world storytelling and side-quest design.",
+    "body": [
+      "The Witcher 3: Wild Hunt didn't just set a bar for RPGs; it fundamentally changed how we view side content in video games.",
+      "From the tragic tale of the Bloody Baron to a simple monster contract that turns into a moral dilemma, the writing remains unparalleled.",
+      "With a successful live-action adaptation and next-gen updates keeping it fresh, Geralt's search for Ciri continues to draw in new players."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/gaming/witcher-banner.jpg",
+    "tags": [
+      "the-witcher",
+      "geralt",
+      "rpg",
+      "open-world"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-game-003",
+    "title": "Wasteland Survival Guide: The Enduring Appeal of Fallout",
+    "slug": "fallout-wasteland-appeal",
+    "category": "gaming",
+    "excerpt": "From isometric RPGs to a blockbuster TV series, exploring the retro-futuristic charm of the Fallout universe.",
+    "body": [
+      "War. War never changes. This iconic phrase has anchored the Fallout franchise since 1997.",
+      "The delicate balance of 1950s Americana, biting anti-capitalist satire, and bleak post-apocalyptic survival makes the Wasteland endlessly compelling.",
+      "With the smash-hit TV adaptation introducing millions to Vault-Tec's horrors, the series is experiencing a massive renaissance."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "tags": [
+      "fallout",
+      "bethesda",
+      "rpg",
+      "post-apocalyptic"
+    ]
+  },
+  {
+    "id": "art-game-004",
+    "title": "Animation Masterpiece: How Arcane Elevated League of Legends",
+    "slug": "arcane-league-of-legends-lore",
+    "category": "gaming",
+    "excerpt": "Riot Games and Fortiche Production delivered an emotional powerhouse that transcended its MOBA origins.",
+    "body": [
+      "Video game adaptations are famously tricky, but Arcane didn't just succeed—it set a new standard for animation.",
+      "By focusing on the tragic sibling dynamic between Vi and Jinx, the show made the massive, complex lore of Runeterra deeply intimate.",
+      "With stunning art direction and a gripping narrative, it appealed even to viewers who had never played a single match on Summoner's Rift."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "tags": [
+      "arcane",
+      "league-of-legends",
+      "animation",
+      "riot-games"
+    ]
+  },
+  {
+    "id": "art-game-005",
+    "title": "Discovering Hope: Master Chief and the Legacy of Halo",
+    "slug": "halo-master-chief-legacy",
+    "category": "gaming",
+    "excerpt": "Looking back at the Spartan who defined the Xbox ecosystem and revolutionized console shooters.",
+    "body": [
+      "When John-117 stepped out of his cryo-pod in 2001, he changed the gaming landscape forever.",
+      "Halo's blend of sweeping orchestral music, sandbox combat, and a compelling sci-fi universe created a phenomenon.",
+      "Despite the ups and downs of the franchise and its recent TV adaptation, the silhouette of the Master Chief remains a universal symbol of gaming."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/gaming/halo-banner.jpg",
+    "tags": [
+      "halo",
+      "master-chief",
+      "xbox",
+      "fps"
+    ]
+  },
+  {
+    "id": "art-game-006",
+    "title": "Whip and Cross: Castlevania's Gothic Resurgence",
+    "slug": "castlevania-gothic-resurgence",
+    "category": "gaming",
+    "excerpt": "How a Netflix animated series breathed new life into Konami's legendary vampire-hunting franchise.",
+    "body": [
+      "For years, the Castlevania franchise lay dormant. Then, a dark, mature animated series arrived on Netflix.",
+      "Following Trevor Belmont, Sypha Belnades, and Alucard as they face Dracula's wrath, the show perfectly captured the gothic horror tone of the games.",
+      "Its success proved there was a massive hunger for mature, faithful video game adaptations, paving the way for the current golden age we are in today."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/gaming/castlevania-banner.jpg",
+    "tags": [
+      "castlevania",
+      "konami",
+      "vampires",
+      "animation"
+    ]
+  },
+  {
+    "id": "art-tv-001",
+    "title": "The Emotional Toll of Cordyceps: Why The Last of Us Succeeded",
+    "slug": "the-last-of-us-hbo-adaptation-success",
+    "category": "tv-shows",
+    "excerpt": "How Craig Mazin and Neil Druckmann broke the video game adaptation curse by focusing on love, loss, and profound human connection.",
+    "body": [
+      "When HBO announced an adaptation of Naughty Dog's masterpiece The Last of Us, fans were cautiously optimistic. The history of video game adaptations was fraught with disappointment.",
+      "However, showrunners Craig Mazin (Chernobyl) and Neil Druckmann (creator of the game) recognized that the core of the story wasn't the infected or the apocalyptic setting, but the relationship between Joel and Ellie.",
+      "The standout episode 'Long, Long Time', featuring Nick Offerman and Murray Bartlett, expanded on a minor game element to create a beautiful, heartbreaking hour of television that encapsulated the show's theme of finding purpose in the end of the world.",
+      "With Season 2 approaching to tackle the controversial and emotionally devastating events of Part II, The Last of Us has cemented itself as prestige television."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "tags": [
+      "the-last-of-us",
+      "hbo",
+      "adaptation",
+      "pedro-pascal",
+      "bella-ramsey"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-tv-002",
+    "title": "Entering the Upside Down: The Phenomenon of Stranger Things",
+    "slug": "stranger-things-cultural-phenomenon",
+    "category": "tv-shows",
+    "excerpt": "As the Duffer Brothers prepare for the final season, we look back at how an 80s nostalgia trip became a defining show of the streaming era.",
+    "body": [
+      "Stranger Things began as a quiet summer release on Netflix in 2016, blending Spielberg-esque childhood adventure with Stephen King's small-town horror.",
+      "Through four seasons, the world of Hawkins has expanded exponentially. The introduction of Vecna in Season 4 elevated the stakes, while the viral resurgence of Kate Bush's 'Running Up That Hill' demonstrated the show's massive cultural grip.",
+      "The cast has grown up before our eyes, shifting the tone from Amblin innocence to teen slasher dread.",
+      "The upcoming fifth and final season promises an epic conclusion as Eleven and the Hawkins crew make their last stand against the Upside Down."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/tv/stranger-things-banner.jpg",
+    "tags": [
+      "stranger-things",
+      "netflix",
+      "80s-nostalgia",
+      "sci-fi",
+      "horror"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-tv-003",
+    "title": "Fire and Blood: Reclaiming the Throne with House of the Dragon",
+    "slug": "house-of-the-dragon-reclaiming-throne",
+    "category": "tv-shows",
+    "excerpt": "HBO's Game of Thrones prequel managed the impossible: winning back a fractured fandom with political intrigue and phenomenal dragon design.",
+    "body": [
+      "Following the divisive finale of Game of Thrones, the prospect of returning to Westeros was met with skepticism. House of the Dragon, focusing on the Targaryen civil war known as the Dance of the Dragons, quickly dispelled those doubts.",
+      "By narrowing its focus to a single, deeply dysfunctional family, the show reclaimed the intimate political backstabbing that made early Game of Thrones so compelling.",
+      "Emma D'Arcy and Olivia Cooke deliver powerhouse performances as former friends turned bitter rivals, while Matt Smith's volatile Daemon Targaryen is a magnetic presence.",
+      "With the dragons now taking to the skies in open war, the series has proven that the Song of Ice and Fire universe still has plenty of fire left."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/tv/house-of-the-dragon-banner.jpg",
+    "tags": [
+      "house-of-the-dragon",
+      "hbo",
+      "fantasy",
+      "targaryen",
+      "game-of-thrones"
+    ]
+  },
+  {
+    "id": "art-tv-004",
+    "title": "The Architecture of Alienation: The Genius of Severance",
+    "slug": "severance-apple-tv-genius",
+    "category": "tv-shows",
+    "excerpt": "Dan Erickson and Ben Stiller's workplace thriller is a hauntingly precise exploration of corporate culture and fragmented identity.",
+    "body": [
+      "Severance takes the concept of work-life balance to a literal, terrifying extreme. Employees at Lumon Industries undergo a procedure that severs their memories, creating an 'innie' who only works and an 'outie' who never experiences the office.",
+      "The show's production design is aggressively liminal—windowless white corridors, bizarrely archaic computers, and a pervading sense of controlled madness.",
+      "Adam Scott anchors the series with a dual performance of quiet desperation and awakening rebellion. The Season 1 finale is widely regarded as one of the most tense, masterfully paced hours of television in recent memory.",
+      "As fans eagerly await Season 2, Severance remains the crown jewel of Apple TV+'s sci-fi lineup."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/tv/severance-banner.jpg",
+    "tags": [
+      "severance",
+      "apple-tv",
+      "sci-fi",
+      "workplace",
+      "thriller"
+    ]
+  },
+  {
+    "id": "art-tv-005",
+    "title": "Satire with Teeth: The Unrelenting Brutality of The Boys",
+    "slug": "the-boys-superhero-satire",
+    "category": "tv-shows",
+    "excerpt": "Amazon's adaptation of Garth Ennis's comic continues to skewer celebrity worship, corporate power, and modern politics.",
+    "body": [
+      "In a media landscape saturated with earnest superheroes, The Boys acts as a venomous antidote. It asks a simple question: what if superheroes were actually entitled, corporate-sponsored sociopaths?",
+      "Antony Starr's Homelander is a terrifying villain for the modern age, wrapping narcissism and cruelty in a smiling, patriotic package.",
+      "Showrunner Eric Kripke consistently finds new ways to push boundaries with shocking gore and biting social commentary, making the show both wildly entertaining and deeply uncomfortable.",
+      "As the series builds toward its chaotic climax, The Boys proves that the superhero genre still has room for vicious, hilarious deconstruction."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/tv/the-boys-banner.jpg",
+    "tags": [
+      "the-boys",
+      "amazon",
+      "satire",
+      "superheroes",
+      "dark-comedy"
+    ]
+  },
+  {
+    "id": "art-tv-006",
+    "title": "Gothic Rebirth: Jenna Ortega's Captivating Wednesday",
+    "slug": "wednesday-netflix-gothic-rebirth",
+    "category": "tv-shows",
+    "excerpt": "Tim Burton and Jenna Ortega breathed new life into the Addams Family franchise with a murder mystery at Nevermore Academy.",
+    "body": [
+      "Wednesday Addams has been an iconic character for decades, but Jenna Ortega's deadpan, fiercely independent interpretation redefined her for a new generation.",
+      "The series blends macabre humor with a supernatural boarding school mystery, elevated by Tim Burton's signature visual style in his television directorial debut.",
+      "From the viral cello covers to the instantly iconic dance scene (choreographed by Ortega herself), the show became a massive cultural phenomenon.",
+      "As Season 2 moves production to Ireland and promises more horror elements, Wednesday remains one of Netflix's biggest global hits."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/tv/wednesday-banner.jpg",
+    "tags": [
+      "wednesday",
+      "netflix",
+      "addams-family",
+      "gothic",
+      "jenna-ortega"
+    ]
+  },
+  {
+    "id": "art-001",
+    "title": "MAPPA's Shonen Revolution: The Kinetic Brilliance of Jujutsu Kaisen",
+    "slug": "mappa-jujutsu-kaisen-kinetic-animation",
+    "category": "anime",
+    "excerpt": "How director Sunghoo Park and studio MAPPA pushed sakuga action animation to unprecedented heights during the Shibuya Incident arc.",
+    "body": [
+      "When Jujutsu Kaisen premiered, viewers were treated to an adrenaline-charged blend of martial arts choreography, visceral curse techniques, and cinematic camera physics that immediately redefined contemporary shonen combat.",
+      "Studio MAPPA assembled an all-star international lineup of key animators for the Shibuya Incident arc, using hand-drawn digital layouts that let camera angles swing 360 degrees around combatants like Satoru Gojo and Ryomen Sukuna without losing anatomical weight.",
+      "The result was not merely flashy effects, but a relentless narrative momentum that mirrored the catastrophic collapse of the Jujutsu society. Every punch and domain expansion carried existential weight, setting a high watermark for modern action direction in anime.",
+      "With Season 3: The Culling Game entering production, Jujutsu Kaisen stands as a testament to what happens when cutting-edge production pipelines give visionary animators the creative freedom to break traditional boundaries."
     ],
     "author": "Yuki Tanaka",
-    "date": "2026-09-15",
-    "image": "https://images.pexels.com/photos/36942551/pexels-photo-36942551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "2026-09-18",
+    "image": "/images/anime/jjk-banner.jpg",
     "tags": [
+      "jujutsu-kaisen",
+      "mappa",
       "animation",
-      "studio",
-      "action",
-      "production"
+      "sakuga",
+      "shonen"
     ],
     "featured": true
   },
   {
     "id": "art-002",
-    "title": "Why Slice-of-Life Anime Hits Different in 2026",
-    "slug": "slice-of-life-anime-2026",
+    "title": "The Weight of Eternity: Why Frieren: Beyond Journey's End Touched Millions",
+    "slug": "frieren-beyond-journeys-end-masterpiece",
     "category": "anime",
-    "excerpt": "In a year packed with spectacle, the quietest shows are finding the loudest audiences. Here's why.",
+    "excerpt": "Madhouse's philosophical fantasy proves that modern anime can captivate global audiences through quiet reflection and melancholic beauty.",
     "body": [
-      "There's a moment in the season's most talked-about slice-of-life series where two characters sit on a train platform, saying nothing. The camera holds on them for nearly thirty seconds. No music. No inner monologue. Just the sound of a departing train and wind through the platform shelter.",
-      "It's the kind of scene that would have been unthinkable a decade ago, when anime was chasing faster cuts and bigger set pieces. But audiences in 2026 are gravitating toward shows that breathe — series that let characters exist in ordinary moments without rushing to the next plot point.",
-      "The shift mirrors broader changes in how people consume media. After years of algorithmic feeds and nonstop stimulation, there's a growing appetite for stories that value stillness. Slice-of-life anime, with its emphasis on atmosphere and small emotional beats, fills that gap naturally.",
-      "Studios are taking notice. This season alone, six new slice-of-life titles have been announced, several from studios previously known only for action. The genre is no longer a niche — it's becoming the emotional counterweight to an overstimulated era."
+      "In a medium often dominated by hyperactive battle shonen and frantic pacing, Frieren: Beyond Journey's End arrived as a soothing, profound breath of fresh air. Directed by Keiichiro Saito at studio Madhouse, the series begins where most heroic fantasies end: with the Demon King already slain.",
+      "Centering on an immortal elf who outlives her mortal adventuring comrades, Frieren transforms the passage of time into an emotional pilgrimage. Episodes frequently linger on landscapes, silent train rides, and mundane folk magic, turning small human interactions into monumental revelations.",
+      "Coupled with Evan Call's Celtic orchestral soundtrack and breathtakingly fluid magical duel sequences, the series achieved the highest score in anime history on review aggregates.",
+      "Frieren proves that patience, emotional maturity, and deliberate stillness still have an enduring, irreplaceable home in global animation."
     ],
     "author": "Mika Sato",
-    "date": "2026-09-08",
-    "image": "https://images.pexels.com/photos/36942562/pexels-photo-36942562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "2026-09-10",
+    "image": "/images/anime/frieren-banner.jpg",
     "tags": [
-      "slice-of-life",
-      "trends",
-      "seasonal"
-    ]
-  },
-  {
-    "id": "art-003",
-    "title": "The Quiet Revolution in Anime Soundtrack Design",
-    "slug": "anime-soundtrack-revolution",
-    "category": "anime",
-    "excerpt": "Composers are blending orchestral traditions with folk instruments and electronic production — and it's changing how we hear anime.",
-    "body": [
-      "Ask anyone to hum an anime theme and they'll probably give you a high-energy J-rock opener. But the most interesting work in anime soundtracks right now isn't happening in the opening credits — it's in the underscore.",
-      "A new generation of composers is drawing from unexpected wells: traditional Okinawan folk scales, minimalism in the tradition of Pärt and Glass, even the modular synthesis techniques of Berlin techno. The result is music that doesn't just accompany the visuals but deepens them.",
-      "One standout this year is a score built almost entirely around a single folk instrument — a three-stringed lute whose sound most viewers have never consciously heard. The composer used it as a through-line, appearing in different arrangements across twelve episodes, evolving with the protagonist's journey.",
-      "It's a reminder that sound design in anime has come a long way from the days of generic synth pads and stock orchestral libraries. The medium is growing up, and its music is growing with it."
-    ],
-    "author": "Ren Kobayashi",
-    "date": "2026-08-22",
-    "image": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "music",
-      "soundtrack",
-      "composition"
-    ]
-  },
-  {
-    "id": "art-004",
-    "title": "The Indie Game That Took Six Years and Broke Every Rule",
-    "slug": "indie-game-six-years-broke-rules",
-    "category": "gaming",
-    "excerpt": "A one-person studio shipped a game that critics are calling the best of the decade. The story behind it is even wilder.",
-    "body": [
-      "When the first trailer dropped in 2020, it looked like a student project — rough textures, stiff animations, a UI that seemed placeholder. The developer, working alone from a small apartment, posted it to a forum with the note: \"Work in progress. Feedback welcome.\"",
-      "Six years later, that work in progress is a Game of the Year contender. The final product bears only a passing resemblance to that early trailer, but the DNA is the same: a world that reacts to the player in ways no other game does, systems layered on systems until the whole thing feels less like a game and more like a place.",
-      "What makes the story remarkable isn't just the solo development — it's the willingness to throw out conventions that every tutorial and every veteran developer would tell you are essential. There's no map. There's no quest log. There's no fast travel. The game trusts the player to find their own way, and rewards curiosity over efficiency.",
-      "In an industry increasingly dominated by live-service models and formulaic open worlds, the game's success feels like a quiet rebellion. It proves that there's still room for a single, uncompromising vision — even if it takes six years to deliver."
-    ],
-    "author": "Jordan Lee",
-    "date": "2026-09-18",
-    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "indie",
-      "development",
-      "game-of-the-year"
+      "frieren",
+      "madhouse",
+      "fantasy",
+      "philosophical",
+      "drama"
     ],
     "featured": true
   },
   {
-    "id": "art-005",
-    "title": "How Speedrunners Are Keeping a 20-Year-Old Game Alive",
-    "slug": "speedrunners-keeping-old-game-alive",
-    "category": "gaming",
-    "excerpt": "The community around one classic title has discovered more glitches in the last two years than in the previous eighteen. We talked to the runners pushing the limits.",
+    "id": "art-003",
+    "title": "The Symphony of the Rumbling: The Decade-Long Legacy of Attack on Titan",
+    "slug": "attack-on-titan-decade-long-legacy",
+    "category": "anime",
+    "excerpt": "Hajime Isayama and MAPPA's dark fantasy concluded its historic run, cementing Eren Yeager's descent as one of modern fiction's greatest tragedies.",
     "body": [
-      "There's a particular moment in any speedrun where the game stops looking like what the developers made and starts looking like something else entirely. A character clips through a wall. A cutscene skips by holding the right buttons during a loading screen. A boss dies in two seconds because of a memory manipulation trick discovered last Tuesday.",
-      "For the community around this twenty-year-old classic, those moments are the whole point. What started as a small group trading tips on a forum has grown into a organized scene with regular tournaments, documented strats, and a wiki that runs to thousands of pages.",
-      "The pace of discovery has actually accelerated in recent years, thanks to better tools for analysis and a growing community of runners who bring fresh eyes to old problems. \"We found more skips in 2025 than in the entire first decade,\" one runner told us. \"The game is still giving us new things to find.\"",
-      "It's a testament to how games can live beyond their release — not through remasters or re-releases, but through the communities that refuse to stop exploring them."
+      "From the moment the Colossal Titan first peered over Wall Maria in 2013, Attack on Titan evolved from a survival-horror spectacle into a searing geopolitical examination of nationalism, hatred, and the destructive cycle of war.",
+      "The final chapters brought Hajime Isayama's sprawling saga to a devastating, operatic conclusion. Eren Yeager's radical crusade to unleash the Rumbling forced his closest comrades into an agonizing moral crisis.",
+      "Hiroyuki Sawano and Kohta Yamamoto's thunderous orchestral score provided the emotional heartbeat for iconic final sequences, balancing monumental apocalyptic scale with intimate personal heartbreaks.",
+      "Attack on Titan finished its decade-long journey not as a conventional adventure, but as a towering anti-war monument that will be debated and studied for generations."
     ],
-    "author": "Alex Rivera",
-    "date": "2026-09-02",
-    "image": "https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "Kenji Sato",
+    "date": "2026-08-20",
+    "image": "/images/anime/aot-banner.jpg",
     "tags": [
-      "speedrun",
-      "retro",
-      "community"
+      "attack-on-titan",
+      "dark-fantasy",
+      "eren-yeager",
+      "legacy",
+      "anti-war"
+    ]
+  },
+  {
+    "id": "art-004",
+    "title": "Ufotable's Visual Alchemy: Crafting the Infinity Castle in Demon Slayer",
+    "slug": "demon-slayer-infinity-castle-trilogy-preview",
+    "category": "anime",
+    "excerpt": "With the upcoming theatrical trilogy, Ufotable merges 3D geometric architectures with 2D calligraphy sakuga on a scale never before seen in anime.",
+    "body": [
+      "Studio Ufotable has continually pushed the technical ceiling of digital anime production, and their upcoming Demon Slayer: Infinity Castle film trilogy promises their most audacious achievement yet.",
+      "By placing Tanjiro Kamado, the Hashira, and Muzan Kibutsuji inside a constantly shifting, M.C. Escher-esque labyrinth of folding wooden chambers and endless gravity-defying stairwells, the production combines procedural 3D architectural rendering with traditional hand-drawn watercolor brushstrokes.",
+      "The Infinity Castle arc represents the emotional and martial climax of Koyoharu Gotouge's bestselling manga, delivering brutal multi-phase showdowns against the Upper Rank demons.",
+      "Following the historic record-shattering box office of Mugen Train, this trilogy is positioned to make anime history once again across global IMAX and premium large-format screens."
+    ],
+    "author": "Hiroshi Vance",
+    "date": "2026-09-02",
+    "image": "/images/anime/demon-slayer-banner.jpg",
+    "tags": [
+      "demon-slayer",
+      "ufotable",
+      "infinity-castle",
+      "theatrical",
+      "imax"
+    ]
+  },
+  {
+    "id": "art-005",
+    "title": "Arise: How Solo Leveling Became Webtoon-to-Anime's First Global Megahit",
+    "slug": "solo-leveling-global-anime-phenomenon",
+    "category": "anime",
+    "excerpt": "Sung Jinwoo's rise from E-rank hunter to Shadow Monarch broke streaming servers worldwide with Hiroyuki Sawano's electrifying score.",
+    "body": [
+      "For years, adaptations of Korean manhwa struggled to find the same mainstream broadcast presence enjoyed by Japanese manga. Solo Leveling shattered that glass ceiling overnight.",
+      "Produced by A-1 Pictures with electrifying music by Hiroyuki Sawano, the anime adaptation of Chugong and the late DUBU's webtoon captured the exact power fantasy and visceral dungeon-crawling aesthetic that made the comic a 14-billion-view global phenomenon.",
+      "Sung Jinwoo's transformation from the 'Weakest Hunter of All Mankind' into a towering, glowing-eyed commander of the undead Shadow Army resonated with gaming and anime audiences alike.",
+      "With Season 2: Arise from the Shadow approaching, Solo Leveling has officially established Korean manhwa as a permanent pillar of modern global animation."
+    ],
+    "author": "Sarah Lin",
+    "date": "2026-09-14",
+    "image": "/images/solo-leveling-banner.jpg",
+    "tags": [
+      "solo-leveling",
+      "sung-jinwoo",
+      "webtoon",
+      "a1-pictures",
+      "action"
     ]
   },
   {
     "id": "art-006",
-    "title": "The Best Gaming Soundtracks You Probably Missed",
-    "slug": "best-gaming-soundtracks-missed",
-    "category": "gaming",
-    "excerpt": "Beyond the big-budget orchestral scores, there's a wave of game music that deserves your attention.",
+    "title": "The Gear 5 Awakening: How One Piece Shook Global Pop Culture",
+    "slug": "one-piece-gear-5-cultural-impact",
+    "category": "anime",
+    "excerpt": "Toei Animation channelled vintage 1930s rubberhose animation to deliver Monkey D. Luffy's warrior of liberation, the Sun God Nika.",
     "body": [
-      "Everyone knows the iconic themes — the sweeping orchestral scores that play during award ceremonies and end-of-year lists. But some of the most memorable game music of the past year came from games you might not have played.",
-      "There's the puzzle game whose entire score is performed on a single prepared piano, with every track corresponding to a game mechanic. There's the RPG that uses a live jazz quintet for its battle themes, shifting to solo cello for its most emotional scenes. And there's the indie platformer whose chiptune soundtrack was composed on original Game Boy hardware.",
-      "What connects these scores isn't genre or budget — it's intentionality. Each composer made a deliberate choice about what their game should sound like, and that choice shapes the experience as much as any visual or mechanic.",
-      "If you've been sleeping on game music beyond the headline titles, this is your wake-up call. The medium is producing some of the most adventurous composition happening anywhere right now."
+      "In an era where shonen power-ups had become synonymous with brooding rage, dark auras, and solemn stoicism, Eiichiro Oda and Toei Animation delivered the ultimate subversion: Joyboy and Gear 5.",
+      "Drawing inspiration from vintage Fleischer Studios and Merrie Melodies cartoon logic, Monkey D. Luffy's ultimate form fights with cartoon physics—skipping rope with dragons, bouncing lightning bolts, and laughing uncontrollably to the rhythmic 'Drums of Liberation.'",
+      "The broadcast of the Gear 5 transformation literally caused streaming server outages across three continents and illuminated billboard displays in Tokyo, New York's Times Square, and Paris.",
+      "As the Straw Hat crew sails toward Elbaf and the Final Saga, One Piece continues to prove why it remains the undisputed king of long-running serialized shonen."
     ],
-    "author": "Sam Chen",
-    "date": "2026-08-14",
-    "image": "https://images.pexels.com/photos/5713095/pexels-photo-5713095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "David Park",
+    "date": "2026-08-15",
+    "image": "/images/anime/one-piece-banner.jpg",
     "tags": [
-      "music",
-      "soundtrack",
-      "indie"
+      "one-piece",
+      "luffy",
+      "gear-5",
+      "toei-animation",
+      "shonen"
     ]
   },
   {
     "id": "art-007",
-    "title": "The Return of the Mid-Budget Movie",
-    "slug": "return-of-mid-budget-movie",
+    "title": "The Spice and the Sand: How Denis Villeneuve Mastered Dune: Part Two",
+    "slug": "dune-part-two-cinematic-masterpiece",
     "category": "movies",
-    "excerpt": "For years, the space between indie and blockbuster was a dead zone. Suddenly, it's the most exciting place in cinema.",
+    "excerpt": "From infrared desert cameras in Jordan to Hans Zimmer's otherworldly score, Denis Villeneuve transformed Frank Herbert's epic into cinema history.",
     "body": [
-      "In the blockbuster-or-nothing era of the 2010s, the mid-budget movie was declared dead. Studios either poured hundreds of millions into franchise tentpoles or spent almost nothing on micro-budget horror. The middle ground — the space where most of cinema history's best films lived — was paved over.",
-      "So it's remarkable that this year's most talked-about films sit squarely in that abandoned range. Budgets between fifteen and forty million. Original scripts. Named actors taking pay cuts to work with directors they admire. Stories that aren't based on existing IP.",
-      "The shift is driven by a combination of factors: streaming platforms realizing that algorithm-friendly content doesn't build lasting loyalty, theater chains desperate for product that isn't a superhero sequel, and audiences showing clear fatigue with the blockbuster treadmill.",
-      "It's too early to call it a renaissance. But for the first time in a long time, a filmmaker with a $25 million drama and a great script has a real path to the screen. That alone is worth celebrating."
+      "When the lights dimmed for Dune: Part Two, audiences were greeted not with a standard Hollywood sequel, but with an uncompromising, visceral monument of visual storytelling. Denis Villeneuve took the deliberate world-building of the 2021 film and ignited it into a sweeping, terrifying examination of religious fundamentalism, power, and destiny.",
+      "Cinematographer Greig Fraser utilized specialized infrared cameras to capture the blinding, desolate glare of the Arrakis sun across the dunes of Jordan and Abu Dhabi. The resulting imagery stripped away color in favor of stark, radiant white sands and obsidian shadows, giving the Fremen guerrilla campaign an almost tactile reality.",
+      "At the center of this triumph is Timothée Chalamet's metamorphosis from a grieving young prince into the chilling, prescient warlord Muad'Dib. Paired with Zendaya's grounded, skeptical Chani and Austin Butler's psychopathic Feyd-Rautha, the film avoids standard savior tropes to deliver a deeply unsettling cautionary tale.",
+      "With over $714 million at the global box office and near-unanimous critical acclaim, Dune: Part Two proved that audiences are hungry for auteur-driven, high-concept science fiction when handled with complete technical mastery and thematic ambition."
     ],
     "author": "Marcus Webb",
     "date": "2026-09-12",
-    "image": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/dune-banner.jpg",
     "tags": [
-      "industry",
-      "mid-budget",
-      "trends"
+      "dune",
+      "cinema",
+      "imax",
+      "denis-villeneuve",
+      "sci-fi"
     ],
     "featured": true
   },
   {
     "id": "art-008",
-    "title": "Cinematographers Are Bringing Film Back. Here's Why.",
-    "slug": "cinematographers-bringing-film-back",
+    "title": "Breaking the Canon: Inside the Groundbreaking Visuals of Across the Spider-Verse",
+    "slug": "across-the-spider-verse-visual-breakthrough",
     "category": "movies",
-    "excerpt": "A growing number of productions are shooting on actual film again. We asked three cinematographers what digital still can't match.",
+    "excerpt": "Six animation styles, 240 distinct characters, and a multiverse of color: how Sony Pictures Animation revolutionized comic book cinema.",
     "body": [
-      "When digital cameras overtook film in the early 2010s, it seemed like a one-way transition. Film stock was expensive, lab processing was disappearing, and the new sensors could match or exceed film's resolution. The industry moved on.",
-      "And yet, here we are in 2026, and film is back. Not as a nostalgic gimmick — as a deliberate creative choice. More than forty theatrical releases this year were shot at least partially on film, up from single digits a few years ago.",
-      "The reasons vary. Some cinematographers talk about the texture — the grain structure of film that digital simulation still can't perfectly replicate. Others point to the discipline that film imposes: you can't shoot endless takes, so the preparation has to be more rigorous, the performances more considered.",
-      "One cinematographer put it simply: \"Film has uncertainty. Digital is perfect, and perfect is boring.\" Whatever the reason, the resurgence is a reminder that technological progress and artistic value don't always move in the same direction."
+      "Spider-Man: Across the Spider-Verse pushed the boundaries of animated filmmaking further than any feature in modern memory. Rather than adopting a singular aesthetic, directors Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson constructed an entire visual language tailored to each dimension.",
+      "From the bleeding watercolor expressionism of Gwen Stacy's Earth-65—where backgrounds shift hue to reflect her inner emotional turbulence—to the retro-futuristic Syd Mead-inspired towers of Nueva York (Earth-928), every frame is packed with custom artistic flourishes and handcrafted line art.",
+      "The film required over 1,000 animators and revolutionized software pipelines to allow disparate styles—such as Daniel Kaluuya's punk-rock collage Spider-Punk (Hobie Brown)—to exist in the same frame without feeling disjointed.",
+      "Beyond the visual pyrotechnics, Across the Spider-Verse resonates because of Miles Morales' refusal to accept predetermined tragedy. By questioning the very concept of 'canon events', the film challenges decades of comic book storytelling and cements itself as a modern classic."
     ],
     "author": "Elena Rossi",
     "date": "2026-08-28",
-    "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/characters/miles-morales.jpg",
     "tags": [
-      "cinematography",
-      "film-stock",
-      "craft"
-    ]
-  },
-  {
-    "id": "art-009",
-    "title": "The Art of the Movie Trailer in the Age of Spoilers",
-    "slug": "art-of-movie-trailer-spoilers",
-    "category": "movies",
-    "excerpt": "How editors are learning to tease without revealing — and why the best trailers are the ones that show you almost nothing.",
-    "body": [
-      "The complaint is now a cliche: trailers give away the whole movie. Show the best jokes, the key plot turns, the final act twist — and by the time you sit down in the theater, there's nothing left to discover. But a counter-trend has emerged, led by a small group of trailer editors who've made an art of withholding.",
-      "The best recent trailers don't summarize the plot. They establish a mood, a texture, a question. They show you a character in a moment — not the moment that explains everything, but a moment that makes you curious. They use music and pacing not to hype but to unsettle.",
-      "It's harder than it looks. Studios want footage that will draw audiences, and the easiest way to do that is to show the most dramatic moments. The editors who push back against that instinct have to argue, frame by frame, that less is more.",
-      "When it works, the result is a trailer that stays with you — not because of what it showed, but because of what it didn't."
-    ],
-    "author": "David Park",
-    "date": "2026-08-05",
-    "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "trailers",
-      "editing",
-      "marketing"
-    ]
-  },
-  {
-    "id": "art-010",
-    "title": "The Golden Age of Limited Series",
-    "slug": "golden-age-limited-series",
-    "category": "tv-shows",
-    "excerpt": "The one-season story is becoming the dominant form of prestige television — and it's changing how writers think about structure.",
-    "body": [
-      "For a decade, the default ambition of any serious TV show was to run as long as possible. Five seasons, seven seasons, ten — the thinking was that longevity equaled significance. But the limited series has quietly overtaken the multi-season drama as the form where the best writing is happening.",
-      "The reasons are practical as much as creative. Audiences are more willing to commit to a story with a clear endpoint. Platforms like the marketing hook of a self-contained event. And writers, freed from the need to sustain a premise indefinitely, can build stories with actual shape — beginning, middle, end.",
-      "The best limited series this year feel like novels. Six to eight episodes, each one essential, no filler, no wheel-spinning. The form demands discipline: every scene has to earn its place because there's no next season to compensate for a weak episode.",
-      "It's also attracting talent that wouldn't have touched television a decade ago. Film directors, literary writers, theater actors — the limited series has become the prestige format, the place where you can tell a complete story with the resources and reach of television."
-    ],
-    "author": "Rachel Green",
-    "date": "2026-09-10",
-    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "limited-series",
-      "prestige-tv",
-      "writing"
-    ]
-  },
-  {
-    "id": "art-011",
-    "title": "How Streaming Changed the Way We Rewatch",
-    "slug": "streaming-changed-rewatching",
-    "category": "tv-shows",
-    "excerpt": "The comfort rewatch is now a defining viewing habit. What does it tell us about how audiences relate to television?",
-    "body": [
-      "There was a time when rewatching a show meant catching reruns in syndication, episodes out of order, edited for time. Streaming changed that. Now, the entire series is always there — and audiences are using that access in ways the industry didn't predict.",
-      "The comfort rewatch — returning to a familiar show not for plot surprises but for the pleasure of spending time with characters you know — has become one of the most common viewing patterns. For some platforms, rewatch hours make up the majority of total watch time.",
-      "It tells us something about the role television plays in people's lives. A new show is a commitment, a risk. A familiar show is a known quantity, a warm room you can walk into. In a media landscape that constantly demands attention to the new, the comfort rewatch is a form of rest.",
-      "Writers and showrunners are noticing. Some are building shows designed to reward rewatching — planting details that only land on a second pass, writing episodes that feel different once you know where the story goes. The rewatch isn't a side effect anymore. It's part of the design."
-    ],
-    "author": "Tom Wilson",
-    "date": "2026-08-18",
-    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "streaming",
-      "rewatching",
-      "viewing-habits"
-    ]
-  },
-  {
-    "id": "art-012",
-    "title": "The TV Soundtrack Renaissance Nobody Is Talking About",
-    "slug": "tv-soundtrack-renaissance",
-    "category": "tv-shows",
-    "excerpt": "From needle drops to original scores, television music has never been more ambitious.",
-    "body": [
-      "Television music used to be functional: a theme song, some library cues, maybe a licensed track for a key moment. No one talked about the score of a TV show the way they talked about a film score. That's changed.",
-      "This year's standout shows feature scores that rival any film composition. One drama built its entire sound around a custom-built instrument — a wall of tuned percussion that gives every scene a unique, otherworldly quality. Another used a string quartet recorded in a reverberant church, creating a sound that's intimate and enormous at the same time.",
-      "The needle drop has evolved too. Where shows once used popular songs as emotional shorthand, the best shows now use them as structural elements — a song that recurs across episodes, changing meaning each time it appears. A track that plays diegetically in one scene and returns as score in another.",
-      "Television has more time than film — more room to develop musical ideas, to let a motif evolve across hours rather than minutes. The composers who understand that are creating some of the most compelling music in any medium."
-    ],
-    "author": "Lisa Chang",
-    "date": "2026-07-30",
-    "image": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "music",
-      "score",
-      "needle-drops"
-    ]
-  },
-  {
-    "id": "art-013",
-    "title": "The Choreography That Broke the Internet",
-    "slug": "choreography-broke-internet",
-    "category": "k-pop",
-    "excerpt": "A 40-second dance challenge became the year's biggest cultural moment. We talked to the choreographer who created it.",
-    "body": [
-      "It started as a fan cam — a vertical video, ten seconds long, posted from a music show recording. By the end of the week, it had been viewed hundreds of millions of times. Within a month, the dance challenge had been attempted by everyone from professional dancers to world leaders.",
-      "The choreographer behind it has been working in K-pop for over a decade, creating routines for some of the industry's biggest groups. But nothing they'd done before prepared them for this. \"I knew the move was catchy,\" they told us. \"I didn't know it would become this.\"",
-      "What makes the choreography work isn't complexity — it's the opposite. The key move is simple enough that anyone can attempt it, but distinctive enough that it immediately reads as belonging to this song and this group. It's a balance that K-pop choreography has been refining for years.",
-      "The challenge has also opened a broader conversation about how dance functions in the age of short-form video. A great chorus used to be the hook; now, a great move might matter just as much. The industry is paying attention."
-    ],
-    "author": "Ji-ho Kim",
-    "date": "2026-09-16",
-    "image": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "choreography",
-      "dance",
-      "viral"
+      "spider-verse",
+      "animation",
+      "marvel",
+      "visual-effects",
+      "miles-morales"
     ],
     "featured": true
   },
   {
-    "id": "art-014",
-    "title": "How Fan Culture Shapes K-Pop Comebacks",
-    "slug": "fan-culture-shapes-comebacks",
-    "category": "k-pop",
-    "excerpt": "From streaming parties to fan-made merch, the relationship between groups and their fans has evolved into something unlike anything else in music.",
+    "id": "art-009",
+    "title": "Shadows, Rain, and Rage: The Neo-Noir Architecture of The Batman",
+    "slug": "the-batman-neo-noir-gotham",
+    "category": "movies",
+    "excerpt": "Matt Reeves and Greig Fraser stripped the superhero myth down to a rain-soaked 1970s detective thriller, redefining Gotham City.",
     "body": [
-      "In K-pop, a comeback isn't just a release — it's an event, coordinated between label, group, and fans with a precision that would impress a military strategist. Fan communities organize streaming goals, voting campaigns, and social media pushes that can shape chart positions in real time.",
-      "What's remarkable is how this relationship has formalized. Fan bases operate with structured teams, designated roles, and communication channels that can mobilize thousands of people within minutes. Labels have noticed — some now incorporate fan feedback into promotion strategies, timing teasers and content drops to align with fan activity patterns.",
-      "The line between audience and participant has blurred. Fans don't just consume the content — they create it: edits, covers, fan art, analysis videos that sometimes reach more viewers than the official content. The most engaged fan communities function almost as extensions of the promotional apparatus.",
-      "It raises questions about sustainability and boundaries, which the industry is still working through. But there's no question that the K-pop model — where the relationship between artist and fan is treated as the core product, not a byproduct — has reshaped what a music release can be."
+      "In a superhero landscape saturated with multiversal stakes and world-ending skybeams, Matt Reeves' The Batman dared to be something radically different: a grounded, psychological detective procedural steeped in the traditions of All the President's Men, Klute, and Se7en.",
+      "Robert Pattinson's Bruce Wayne is not an invincible playboy, but a nocturnal recluse still consumed by grief and early in his crusade. Operating from a gritty, rusted Batcave beneath Wayne Tower, his journey forces him to confront the realization that raw vengeance only breeds greater chaos.",
+      "Greig Fraser's Oscar-nominated cinematography combined custom anamorphic lenses with silhouetted orange flares, perpetual drizzle, and deep obsidian shadows to make Gotham feel like a living, decaying metropolis rather than a studio backdrop.",
+      "With The Batman Part II scheduled for 2026, the groundwork laid here remains one of the most distinctive, stylish interpretations of comic book lore ever brought to the silver screen."
     ],
-    "author": "Min-ji Park",
-    "date": "2026-09-01",
-    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "David Park",
+    "date": "2026-08-05",
+    "image": "/images/characters/bruce-wayne.jpg",
     "tags": [
-      "fan-culture",
-      "comeback",
-      "community"
+      "the-batman",
+      "dc",
+      "neo-noir",
+      "gotham",
+      "matt-reeves"
     ]
   },
   {
-    "id": "art-015",
-    "title": "The Producers Behind the Year's Biggest K-Pop Hits",
-    "slug": "producers-biggest-kpop-hits",
-    "category": "k-pop",
-    "excerpt": "A new wave of producers is reshaping the K-pop sound — blending global influences with the genre's distinctive energy.",
+    "id": "art-009b",
+    "title": "The Quantum Reckoning: Christopher Nolan and the Physical Terror of Oppenheimer",
+    "slug": "oppenheimer-christopher-nolan-70mm",
+    "category": "movies",
+    "excerpt": "Zero CGI, real magnesium explosions, and 11-mile IMAX film reels: inside the monumental craft behind Oppenheimer.",
     "body": [
-      "Ask a K-pop fan to name their favorite producer and you might be surprised by how quickly they answer. In an industry that used to keep its creative teams behind the scenes, producers have become names in their own right — credited, discussed, anticipated.",
-      "This year's biggest hits come from a diverse group of producers, several of whom came to K-pop from other genres — UK garage, Latin pop, American R&B. What they bring isn't just new sounds but new structural approaches: songs that break the verse-chorus-verse template, that build to unexpected drops, that reference genres K-pop hasn't traditionally touched.",
-      "The collaborations have gone global too. Producers from Stockholm, Seoul, and Los Angeles working on the same track, each bringing their regional sensibility. The result is a sound that's simultaneously more specific and more universal — unmistakably K-pop, but drawing from a wider palette than ever.",
-      "For a genre that has always thrived on synthesis, this new chapter feels like a natural evolution. K-pop has never been about purity. It's about taking the best parts of everything and making them move together."
+      "Christopher Nolan's Oppenheimer achieved what many deemed impossible: turning a three-hour biographical drama about theoretical physicists and bureaucratic hearings into a billion-dollar global cinematic event.",
+      "By steadfastly refusing to use computer-generated imagery for the Trinity test, Nolan and supervisor Andrew Jackson created miniature chemical reactions, forced-perspective magnesium bursts, and high-speed photography to evoke the cosmic horror of splitting the atom.",
+      "Cillian Murphy's haunting, hollowed-out portrayal of J. Robert Oppenheimer is anchored by Ludwig Göransson's relentless violin score and Hoyte van Hoytema's monumental IMAX 70mm large-format portraiture, which turned human faces into dramatic landscapes.",
+      "Sweeping seven Academy Awards including Best Picture and Best Director, Oppenheimer reaffirmed the cultural vitality of theatrical, adult-oriented cinematic storytelling."
     ],
-    "author": "Soo-young Lee",
-    "date": "2026-08-20",
-    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "Sarah Lin",
+    "date": "2026-07-18",
+    "image": "/images/movies/oppenheimer-banner.jpg",
     "tags": [
-      "producers",
-      "songwriting",
-      "collaboration"
+      "oppenheimer",
+      "christopher-nolan",
+      "imax-70mm",
+      "history",
+      "cinema"
+    ]
+  },
+  {
+    "id": "art-009c",
+    "title": "Colosseum Reborn: Ridley Scott and the Savage Grandeur of Gladiator II",
+    "slug": "gladiator-ii-ridley-scott-spectacle",
+    "category": "movies",
+    "excerpt": "Twenty-four years after the original Oscar triumph, Ridley Scott returns to ancient Rome with Paul Mescal and Denzel Washington.",
+    "body": [
+      "More than two decades after Russell Crowe's Maximus Decimus Meridius took his final breath on the sands of the Colosseum, director Ridley Scott returns to ancient Rome with Gladiator II.",
+      "Starring Paul Mescal as an adult Lucius Aurelius, the film picks up decades after the fall of Commodus, finding Rome under the tyrannical grip of dual emperors Caracalla and Geta. Captured in northern Africa, Lucius is forced into the arena under the ruthless tutelage of arms merchant Macrinus, played with electric ferocity by Denzel Washington.",
+      "Scott utilizes unprecedented scale, staging full naval battles inside a flooded Colosseum, vicious rhino gladiatorial combat, and massive Roman legions in siege warfare.",
+      "Gladiator II bridges visceral practical action with Shakespearean palace intrigue, proving that the sword-and-sandal historical epic still holds an unmatched power on the big screen."
+    ],
+    "author": "Julian Thorne",
+    "date": "2026-09-02",
+    "image": "/images/movies/gladiator-2-banner.jpg",
+    "tags": [
+      "gladiator",
+      "ridley-scott",
+      "ancient-rome",
+      "action",
+      "epic"
+    ]
+  },
+  {
+    "id": "art-009d",
+    "title": "Spider-Man: Brand New Day - The Clean Slate Era of Peter Parker",
+    "slug": "spider-man-brand-new-day-preview",
+    "category": "movies",
+    "excerpt": "Forgotten by the world and operating alone on the streets of New York, Tom Holland's Peter Parker enters his darkest, most grounded journey.",
+    "body": [
+      "Following the tragic climax of No Way Home, where Doctor Strange's spell erased Peter Parker from the memories of everyone he loves, the Marvel Cinematic Universe is preparing for a new, grounded era in Spider-Man: Brand New Day.",
+      "Stripped of Stark tech, Avengers support, and high-society billionaire alliances, Peter Parker is once again the street-level hero fans have yearned for: living in a cramped rundown Manhattan apartment, sewing his own suits, and listening to police scanners.",
+      "Directed by Destin Daniel Cretton, Brand New Day introduces new allies and gritty mob syndicates, setting Peter on a collision course with street-level crime that tests whether he can endure the cost of his solitary crusade.",
+      "Scheduled for release in 2026, Brand New Day marks a vital transition for the web-slinger, combining classic comic book roots with mature, character-driven storytelling."
+    ],
+    "author": "Yuki Tanaka",
+    "date": "2026-09-20",
+    "image": "/images/movies/spider-man-bnd.jpg",
+    "tags": [
+      "spider-man",
+      "mcu",
+      "tom-holland",
+      "marvel",
+      "blockbuster"
     ]
   },
   {
     "id": "art-016",
-    "title": "The Indie Comic That Started as a Webcomic and Became a Phenomenon",
+    "title": "Ultimate Spider-Man: Peter Parker Starts Over",
     "slug": "indie-comic-webcomic-phenomenon",
     "category": "comics",
-    "excerpt": "A free webcomic became the year's best-selling graphic novel. The creator still can't quite believe it.",
+    "excerpt": "Marvel's 2024 series follows an adult Peter Parker, married to Mary Jane and raising a family, who gets the chance to become Spider-Man.",
     "body": [
-      "It started as a side project — a few pages posted online every month, drawn in the creator's spare time between freelance illustration jobs. No publisher, no marketing, no plan beyond \"I want to tell this story.\"",
-      "Three years later, those pages have been collected into a graphic novel that debuted at the top of bestseller lists. The print run sold out in a week. A film adaptation is in development. And the creator is still updating the webcomic for free, posting new pages on the same schedule they always have.",
-      "What resonated with readers isn't easy to pin down. The art is distinctive — a style that doesn't look like anything else on the shelf — but it's the storytelling that kept people coming back. A story about identity and belonging, told with a specificity that makes the personal feel universal.",
-      "The success has also highlighted a shift in how comics reach audiences. Webcomics, once seen as a stepping stone to \"real\" publication, have become a legitimate endpoint. For creators who want to own their work and reach readers directly, the webcomic-to-print model offers a path that didn't exist a decade ago."
+      "Marvel's 2024 series follows an adult Peter Parker, married to Mary Jane and raising a family, who gets the chance to become Spider-Man."
     ],
     "author": "Chris Miller",
     "date": "2026-09-14",
-    "image": "https://images.pexels.com/photos/4142511/pexels-photo-4142511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/spiderman-cover.jpg",
     "tags": [
       "indie",
       "webcomic",
       "graphic-novel"
-    ]
+    ],
+    "sourceUrl": "https://www.marvel.com/comics/issue/112985/read"
   },
   {
     "id": "art-017",
-    "title": "Why Comic Lettering Matters More Than You Think",
+    "title": "Batman of Two Worlds Puts Two Gothams Side by Side",
     "slug": "comic-lettering-matters",
     "category": "comics",
-    "excerpt": "It's the invisible art of comics — the thing you only notice when it's wrong. We talked to three letterers about their craft.",
+    "excerpt": "DC's 2026 event brings the mainline Batman and Absolute Batman into a shared story.",
     "body": [
-      "If you've never thought about comic lettering, you're not alone. It's the element of comics that's designed to be transparent — to deliver the words without calling attention to itself. But the letterers who do it well are some of the most skilled craftspeople in the medium.",
-      "Good lettering is about more than readable fonts. It's about pacing — how a balloon's placement guides the reader's eye through the page. It's about character — how a villain's speech looks different from a hero's. It's about emphasis — how bold, italic, and size changes tell the reader how to \"hear\" the words.",
-      "\"The best lettering is lettering you don't notice,\" one letterer told us. \"If the reader is thinking about the balloon shapes, they're not in the story. My job is to disappear.\"",
-      "The craft has evolved with technology. Digital tools have made lettering more precise and flexible, but the fundamental decisions — where to place a balloon, how to shape a tail, when to use a burst balloon — remain matters of instinct and taste. It's a reminder that comics are a collaborative medium, and every credit on the page matters."
+      "DC's 2026 event brings the mainline Batman and Absolute Batman into a shared story."
     ],
     "author": "Nate Brooks",
     "date": "2026-08-25",
-    "image": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/batman-cover.jpg",
     "tags": [
       "lettering",
       "craft",
       "design"
-    ]
+    ],
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "art-018",
-    "title": "The Evolution of the Superhero Costume",
+    "title": "Batman: Bad Seeds Brings a Botanical Crisis to Gotham",
     "slug": "evolution-superhero-costume",
     "category": "comics",
-    "excerpt": "From spandex to tactical armor to something in between — how superhero design has reflected the times for eighty years.",
+    "excerpt": "DC's 2026 event puts Gotham in the middle of a citywide plant threat with Poison Ivy at its heart.",
     "body": [
-      "The superhero costume is one of the most recognizable design languages in popular culture. But it's never been static. The costume that worked in the 1940s wouldn't work today — not because it looks dated (though it does), but because it was designed for a different context.",
-      "Early costumes were about clarity: bold colors, simple shapes, silhouettes that read instantly even in cheap newsprint. As printing improved, costumes gained detail — musculature, texture, accessories that told you something about the character. The 90s brought pouches and shoulder pads, reflecting the era's aesthetic excess. The 2000s brought tactical reimagining — armor, straps, functional design that treated superheroes as people who might actually need protection.",
-      "The current era is something more fluid. Costumes are being designed with movement in mind — how they look in action, how they communicate character through posture and gesture. Some of the most interesting recent designs are deconstructions: costumes that reference the classic look while commenting on it, acknowledging that a character who's been around for sixty years has a relationship with their own visual identity.",
-      "The best costume designers understand that a superhero's outfit isn't just clothing — it's a statement about who the character is and what world they inhabit. The costume is the story before the story begins."
+      "DC's 2026 event puts Gotham in the middle of a citywide plant threat with Poison Ivy at its heart."
     ],
     "author": "Grace Liu",
     "date": "2026-08-08",
-    "image": "https://images.pexels.com/photos/14032343/pexels-photo-14032343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/bad-seeds-promo.jpg",
     "tags": [
       "design",
       "costume",
       "superhero"
-    ]
+    ],
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "art-019",
-    "title": "The Manga That Refuses to End (And Why That's Okay)",
-    "slug": "manga-refuses-to-end",
+    "title": "One Piece: Setting Sail with Luffy",
+    "slug": "one-piece-setting-sail-with-luffy",
     "category": "manga",
-    "excerpt": "Some series run for decades. We look at what keeps a long-running manga vital when most stories would have run out of steam.",
+    "excerpt": "Eiichiro Oda's pirate adventure begins with Monkey D. Luffy setting out to find the legendary One Piece and become King of the Pirates.",
     "body": [
-      "There's a particular kind of anxiety that sets in when a manga you love enters its tenth year. Will it overstay its welcome? Will the author run out of things to say? The history of manga is full of series that went on too long, diluting their legacy with years of diminishing returns.",
-      "But there are a handful of series that have been running for decades and are still producing some of their best work. How? The answer, it turns out, isn't about maintaining momentum — it's about evolving.",
-      "The best long-running manga don't try to sustain their original premise indefinitely. They let their characters age, their worlds change, their themes deepen. A series that started as a simple adventure becomes a meditation on responsibility. A comedy develops real emotional stakes. The story grows up with its readers.",
-      "It requires a particular kind of confidence from the author — the willingness to let the story become something different from what it started as, to risk alienating readers who loved the early version. But when it works, the result is something unique to manga: a story that has the scope of a life."
+      "As a child, Luffy is inspired by the pirate Shanks. After gaining a rubber-like body from a Devil Fruit, he sets out to sea to build a crew and pursue the title of King of the Pirates.",
+      "VIZ describes Volume 1 as the beginning of Luffy's adventure, introducing the East Blue journey and the promise of a vast, ongoing world."
     ],
     "author": "Kenji Mori",
     "date": "2026-09-11",
-    "image": "https://images.pexels.com/photos/6593563/pexels-photo-6593563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/one-piece-vol1.jpg",
     "tags": [
-      "long-running",
-      "serialization",
-      "craft"
+      "eiichiro-oda",
+      "one-piece",
+      "adventure"
     ],
-    "featured": true
+    "featured": true,
+    "sourceUrl": "https://www.viz.com/manga-books/mangaen/one-piece-volume-1/product/139"
   },
   {
     "id": "art-020",
-    "title": "The Ink That Tells the Story: Manga Art Techniques",
-    "slug": "manga-ink-art-techniques",
+    "title": "Chainsaw Man: Denji's Fight to Survive",
+    "slug": "chainsaw-man-denji-fight-to-survive",
     "category": "manga",
-    "excerpt": "Screentone, brushwork, panel layout — the tools that make manga a distinct visual language.",
+    "excerpt": "Tatsuki Fujimoto's story follows Denji, a young devil hunter whose bond with Pochita changes his life.",
     "body": [
-      "Manga is a black-and-white medium. That limitation has produced one of the most sophisticated visual languages in all of comics — a system of techniques built to convey everything that color does, using only ink on paper.",
-      "Screentone — the adhesive sheets of dot patterns that manga artists apply to create gradients, textures, and shading — is perhaps the most recognizable technique. Though many artists now work digitally, the aesthetic of screentone remains fundamental to how manga looks. The choice of dot pattern, its density, its placement — all carry meaning.",
-      "Brushwork is the other pillar. The way an artist handles ink — the thickness of lines, the energy of brush strokes, the contrast between detailed and spare areas — defines their style as clearly as a signature. Some artists work in a clean, precise line; others use brush and pen to create pages that feel almost painterly.",
-      "Panel layout is where it all comes together. Manga is famous for its adventurous page compositions — panels that bleed into each other, pages dominated by a single image, layouts that control pacing by controlling how the eye moves. It's a reminder that manga isn't just illustrated fiction. It's a medium with its own grammar."
+      "Denji hunts devils to pay off a crushing debt, with his pet devil Pochita as his closest companion. After betrayal, Pochita helps him return as Chainsaw Man.",
+      "VIZ identifies Tatsuki Fujimoto as the creator of the series and describes Denji's transformation as the turning point of Volume 1."
     ],
     "author": "Aoi Hashimoto",
     "date": "2026-08-22",
-    "image": "https://images.pexels.com/photos/15100360/pexels-photo-15100360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/chainsaw-man.jpg",
     "tags": [
-      "art",
-      "technique",
-      "screentone"
-    ]
+      "tatsuki-fujimoto",
+      "chainsaw-man",
+      "devil-hunter"
+    ],
+    "sourceUrl": "https://www.viz.com/manga-books/manga/chainsaw-man-volume-1-0/product/6419"
   },
   {
     "id": "art-021",
-    "title": "Weekly serialization vs Monthly: How Publishing Shapes Story",
-    "slug": "weekly-vs-monthly-manga",
+    "title": "Frieren: The Journey After the Demon King's Defeat",
+    "slug": "frieren-journey-after-demon-kings-defeat",
     "category": "manga",
-    "excerpt": "The pace at which a manga is published changes everything about how its story is told.",
+    "excerpt": "Kanehito Yamada and Tsukasa Abe follow an elf mage who outlives her old companions and begins to understand the people she left behind.",
     "body": [
-      "A weekly manga author draws about twenty pages every seven days. A monthly author draws about forty pages every thirty days. The difference in page count is significant — but the difference in storytelling approach is even more profound.",
-      "Weekly serialization rewards momentum. Each chapter needs a hook — a cliffhanger, a reveal, a moment that brings the reader back next week. The pace is relentless, and it shapes the kind of stories that work: action-driven, plot-forward, with characters and conflicts that can sustain constant movement. There's little room for quiet chapters or slow development.",
-      "Monthly serialization allows for a different rhythm. With more pages per chapter and more time between them, authors can build scenes that breathe. A monthly chapter might spend its entire length on a single conversation, a single fight, a single moment of introspection — and it can do so without feeling slow, because the reader knows the next installment is a month away, not a week.",
-      "Neither format is inherently better. Some stories need the urgency of weekly publication; others need the space of monthly. But understanding the difference helps explain why two manga, both excellent, can feel so fundamentally different in their pacing and structure."
+      "Decades after her party defeats the Demon King, Frieren attends the funeral of one of her companions and confronts how differently time passes for her.",
+      "She sets out to fulfill her friends' last wishes. The journey becomes a chance to understand the short lives and bonds she once took for granted."
     ],
     "author": "Ryo Saito",
     "date": "2026-07-25",
-    "image": "https://images.pexels.com/photos/1707581/pexels-photo-1707581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/frieren-vol1.jpg",
     "tags": [
-      "serialization",
-      "publishing",
-      "structure"
-    ]
+      "frieren",
+      "fantasy",
+      "adventure"
+    ],
+    "sourceUrl": "https://www.viz.com/manga-books/manga/frieren-beyond-journey-s-end-volume-1/product/6872"
   }
 ]

@@ -15,6 +15,7 @@ import { useState as useStateReact } from 'react';
 import { MerchandiseDetailsDialog } from '@/components/MerchandiseDetailsDialog';
 import { BookmarkButton } from '@/components/ui/BookmarkButton';
 import { MediaPlayButton } from '@/components/media/MediaPlayback';
+import { EventCategorySection } from '@/components/category/EventCategorySection';
 import './CategoryPage.css';
 const typeIcons = {
     trailer: <Play className="fv-w-4 fv-h-4"/>,
@@ -186,35 +187,9 @@ export function CategoryPage() {
       {(contentTypeFilter === 'all' || contentTypeFilter === 'gallery') && galleryImages.length > 0 && (<GalleryCategorySection images={galleryImages} cat={cat}/>)}
 
       {/* Events */}
-      {showContentType('events') && evts.length > 0 && (<section className="section-padding">
-          <div className="container-wide">
-            <SectionHeader title="Events" subtitle={`Gatherings and happenings in ${cat.name}`}/>
-            <div className="fv-space-y-3">
-              {evts.map((event) => {
-                const d = new Date(event.date);
-                return (<Link key={event.id} to={`/event/${event.id}`} className="fv-group d-flex flex-column fv-sm-flex-row fv-gap-4 fv-bg-ink-800 fv-hover-bg-ink-700 rounded-3 fv-p-4 border fv-border-ink-600 fv-hover-border-ink-500 fv-transition-all">
-                    <img src={event.image} alt={event.title} className="w-100 fv-sm-w-32 fv-h-32 fv-sm-h-24 rounded-2 object-fit-cover flex-shrink-0" loading="lazy"/>
-                    <div className="flex-fill ">
-                      <div className="d-flex align-items-center gap-2 fv-mb-1">
-                        <span className="fv-text-xs fv-heading-font" style={{ color: cat.accentColor }}>
-                          {d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                        </span>
-                      </div>
-                      <h3 className="fv-heading-font fv-text-lg fv-font-semibold fv-text-paper-50 fv-group-hover-text-brand-400 fv-transition-colors fv-clamp-1">
-                        {event.title}
-                      </h3>
-                      <p className="fv-text-sm fv-text-paper-300 fv-mt-1 d-flex align-items-center fv-gap-1-5">
-                        <MapPin className="fv-w-3-5 fv-h-3-5 flex-shrink-0"/>
-                        <span className="fv-clamp-1">{event.location}</span>
-                      </p>
-                      <p className="fv-text-xs fv-text-paper-300-60 fv-mt-1 fv-clamp-2">{event.description}</p>
-                    </div>
-                    <ArrowUpRight className="fv-w-5 fv-h-5 fv-text-paper-300-30 fv-group-hover-text-brand-400 fv-transition-all flex-shrink-0 fv-self-center"/>
-                  </Link>);
-            })}
-            </div>
-          </div>
-        </section>)}
+      {showContentType('events') && evts.length > 0 && (
+        <EventCategorySection evts={evts} cat={cat} />
+      )}
 
       {/* Releases */}
       {showContentType('releases') && rels.length > 0 && (<section className="section-padding fv-bg-ink-800">

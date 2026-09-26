@@ -1,138 +1,174 @@
 [
   {
-    "id": "rel-001",
-    "title": "Blade of Dawn — Season 2",
-    "category": "anime",
-    "date": "2026-10-12",
-    "image": "https://images.pexels.com/photos/31312675/pexels-photo-31312675.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "id": "rel-kpop-001",
+    "title": "BTS — New Group Comeback",
+    "category": "k-pop",
+    "date": "2025-10-15",
+    "image": "/images/kpop/bts-banner.jpg",
+    "status": "rumored",
+    "type": "Studio Album"
+  },
+  {
+    "id": "rel-kpop-002",
+    "title": "NewJeans — EP 3",
+    "category": "k-pop",
+    "date": "2024-07-20",
+    "image": "/images/kpop/newjeans-banner.jpg",
     "status": "confirmed",
-    "type": "TV Series"
+    "type": "Mini Album"
+  },
+  {
+    "id": "rel-game-001",
+    "title": "Arcane — Season 2",
+    "category": "gaming",
+    "date": "2024-11-09",
+    "image": "/images/gaming/arcane-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Series"
+  },
+  {
+    "id": "rel-game-002",
+    "title": "Fallout — Season 2",
+    "category": "gaming",
+    "date": "2025-08-15",
+    "image": "/images/gaming/fallout-banner.jpg",
+    "status": "confirmed",
+    "type": "Prime Video"
+  },
+  {
+    "id": "rel-tv-001",
+    "title": "The Last of Us — Season 2",
+    "category": "tv-shows",
+    "date": "2025-03-15",
+    "image": "/images/tv/the-last-of-us-banner.jpg",
+    "status": "confirmed",
+    "type": "HBO Original"
+  },
+  {
+    "id": "rel-tv-002",
+    "title": "Stranger Things — Season 5 (Final Season)",
+    "category": "tv-shows",
+    "date": "2025-07-04",
+    "image": "/images/tv/stranger-things-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Original"
+  },
+  {
+    "id": "rel-tv-003",
+    "title": "Severance — Season 2",
+    "category": "tv-shows",
+    "date": "2025-01-17",
+    "image": "/images/tv/severance-banner.jpg",
+    "status": "confirmed",
+    "type": "Apple TV+"
+  },
+  {
+    "id": "rel-tv-004",
+    "title": "Wednesday — Season 2",
+    "category": "tv-shows",
+    "date": "2025-10-31",
+    "image": "/images/tv/wednesday-banner.jpg",
+    "status": "confirmed",
+    "type": "Netflix Original"
+  },
+  {
+    "id": "rel-001",
+    "title": "Demon Slayer: Infinity Castle — Movie 1",
+    "category": "anime",
+    "date": "2025-10-10",
+    "image": "/images/anime/demon-slayer-banner.jpg",
+    "status": "confirmed",
+    "type": "Theatrical / IMAX"
   },
   {
     "id": "rel-002",
-    "title": "Phantom Academy — Film Adaptation",
+    "title": "Chainsaw Man: The Movie — Reze Arc",
     "category": "anime",
-    "date": "2026-11-20",
-    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2025-11-20",
+    "image": "/images/anime/chainsaw-man-banner.jpg",
     "status": "confirmed",
-    "type": "Film"
+    "type": "Theatrical"
   },
   {
     "id": "rel-003",
-    "title": "Iron City Saga — New Arc",
+    "title": "Jujutsu Kaisen — Season 3: The Culling Game",
     "category": "anime",
-    "date": "2026-12-01",
-    "image": "https://images.pexels.com/photos/16075337/pexels-photo-16075337.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
+    "date": "2026-04-12",
+    "image": "/images/anime/jjk-banner.jpg",
+    "status": "confirmed",
     "type": "TV Series"
   },
   {
     "id": "rel-004",
-    "title": "Starfall Protocol",
-    "category": "gaming",
-    "date": "2026-10-25",
-    "image": "https://images.pexels.com/photos/34543044/pexels-photo-34543044.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "title": "Frieren: Beyond Journey's End — Season 2",
+    "category": "anime",
+    "date": "2026-07-05",
+    "image": "/images/anime/frieren-banner.jpg",
     "status": "confirmed",
-    "type": "RPG"
+    "type": "TV Series"
   },
   {
     "id": "rel-005",
-    "title": "Crown of Ashes — DLC: The Hollow King",
-    "category": "gaming",
-    "date": "2026-11-15",
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "title": "Solo Leveling — Season 2: Arise from the Shadow",
+    "category": "anime",
+    "date": "2025-12-01",
+    "image": "/images/solo-leveling-banner.jpg",
     "status": "confirmed",
-    "type": "DLC"
+    "type": "TV Series"
   },
   {
     "id": "rel-006",
-    "title": "Neon Reverie 2",
-    "category": "gaming",
-    "date": "2027-01-10",
-    "image": "https://images.pexels.com/photos/7689080/pexels-photo-7689080.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "rumored",
-    "type": "Action"
+    "title": "One Piece — Elbaf Arc",
+    "category": "anime",
+    "date": "2026-01-18",
+    "image": "/images/anime/one-piece-banner.jpg",
+    "status": "confirmed",
+    "type": "TV Series"
   },
   {
     "id": "rel-007",
-    "title": "The House on Meridian Hill",
+    "title": "The Batman Part II",
     "category": "movies",
-    "date": "2026-10-03",
-    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2026-10-02",
+    "image": "/images/movies/the-batman-part-2.jpg",
     "status": "confirmed",
-    "type": "Theatrical"
+    "type": "Theatrical / IMAX"
   },
   {
     "id": "rel-008",
-    "title": "After the Rain",
+    "title": "Spider-Man: Brand New Day",
     "category": "movies",
-    "date": "2026-11-08",
-    "image": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2026-07-24",
+    "image": "/images/movies/spider-man-bnd.jpg",
     "status": "confirmed",
-    "type": "Theatrical"
+    "type": "Theatrical / IMAX 3D"
   },
   {
     "id": "rel-009",
-    "title": "The Last Signal",
+    "title": "Avatar: Fire and Ash",
     "category": "movies",
-    "date": "2026-12-19",
-    "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2025-12-19",
+    "image": "/images/movies/avatar-fire-and-ash.jpg",
+    "status": "confirmed",
+    "type": "Theatrical / 3D HFR"
+  },
+  {
+    "id": "rel-009b",
+    "title": "Avengers: Doomsday",
+    "category": "movies",
+    "date": "2026-05-01",
+    "image": "/images/movies/avengers-doomsday.jpg",
+    "status": "confirmed",
+    "type": "Theatrical / IMAX"
+  },
+  {
+    "id": "rel-009c",
+    "title": "Dune: Messiah",
+    "category": "movies",
+    "date": "2026-12-18",
+    "image": "/images/movies/dune-messiah.jpg",
     "status": "upcoming",
-    "type": "Streaming"
-  },
-  {
-    "id": "rel-010",
-    "title": "The 12th Precinct — Season 4",
-    "category": "tv-shows",
-    "date": "2026-10-14",
-    "image": "https://images.pexels.com/photos/5202925/pexels-photo-5202925.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Series"
-  },
-  {
-    "id": "rel-011",
-    "title": "The Hollow University — Season 2",
-    "category": "tv-shows",
-    "date": "2026-11-28",
-    "image": "https://images.pexels.com/photos/704555/pexels-photo-704555.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
-    "type": "Series"
-  },
-  {
-    "id": "rel-012",
-    "title": "District 7 — Limited Series Finale",
-    "category": "tv-shows",
-    "date": "2026-12-08",
-    "image": "https://images.pexels.com/photos/9681642/pexels-photo-9681642.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Limited Series"
-  },
-  {
-    "id": "rel-013",
-    "title": "Eclipse — Midnight (Full Album)",
-    "category": "k-pop",
-    "date": "2026-10-07",
-    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Album"
-  },
-  {
-    "id": "rel-014",
-    "title": "Wildflower — Single \"Bloom\"",
-    "category": "k-pop",
-    "date": "2026-10-30",
-    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Single"
-  },
-  {
-    "id": "rel-015",
-    "title": "Northern Lights — Mini Album",
-    "category": "k-pop",
-    "date": "2026-11-22",
-    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
-    "type": "EP"
+    "type": "Theatrical / IMAX 70mm"
   },
   {
     "id": "rel-016",

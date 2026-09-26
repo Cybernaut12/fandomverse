@@ -3,13 +3,13 @@ import { Headphones, Pause, Play, X } from 'lucide-react';
 import './EventMediaSection.css';
 
 const trailers = [
-  { id: 'arcane-s2-trailer', title: 'Arcane — Season 2 Official Trailer', category: 'Anime', duration: '2:34', youtubeId: 'vP4fMvKz3-s', source: 'Netflix' },
-  { id: 'dune-prophecy-trailer', title: 'Dune: Prophecy — Official Teaser', category: 'Sci-Fi', duration: '1:58', youtubeId: 'FyK0B6RZo0Q', source: 'Max' },
-  { id: 'frieren-s2-trailer', title: 'Frieren: Beyond Journey’s End — Announcement Trailer', category: 'Anime', duration: '1:22', youtubeId: 'W0mVCx7XkY4', source: 'Crunchyroll' },
+  { id: 'arcane-s2-trailer', title: 'Arcane — Season 2 Official Trailer', category: 'Anime', duration: '2:34', youtubeId: 'ysqiEC6bLUI', source: 'Netflix' },
+  { id: 'dune-prophecy-trailer', title: 'Dune: Prophecy — Official Teaser', category: 'Sci-Fi', duration: '1:58', youtubeId: 'EEoQAoEGLhw', source: 'Max' },
+  { id: 'frieren-s2-trailer', title: 'Frieren: Beyond Journey’s End — Announcement Trailer', category: 'Anime', duration: '1:22', youtubeId: 'DknvOzqQCTo', source: 'TOHO animation' },
   { id: 'dune-2-trailer', title: 'Dune: Part Two — Official Trailer', category: 'Sci-Fi', duration: '3:12', youtubeId: 'Way9Dexny3w', source: 'Warner Bros.' },
   { id: 'spider-verse-trailer', title: 'Across the Spider-Verse — Trailer', category: 'Animation', duration: '2:46', youtubeId: 'cqGjhVJWtEg', source: 'Sony Pictures' },
   { id: 'aot-final-trailer', title: 'Attack on Titan — Final Chapters Trailer', category: 'Anime', duration: '2:05', youtubeId: 'SlNpRThS9t8', source: 'Crunchyroll' },
-  { id: 'vinland-s2-trailer', title: 'Vinland Saga — Season 2 Official Trailer', category: 'Anime', duration: '2:18', youtubeId: 'i0m2aO0nYPg', source: 'Netflix' },
+  { id: 'vinland-s2-trailer', title: 'Vinland Saga — Season 2 Official Trailer', category: 'Anime', duration: '2:18', youtubeId: 'v1tiMdOaF7k', source: 'Twin Engine' },
   { id: 'gta-6-trailer', title: 'Grand Theft Auto VI — Trailer 1', category: 'Games', duration: '1:31', youtubeId: 'QdBZY2fkU-0', source: 'Rockstar Games' },
   { id: 'elden-dlc-trailer', title: 'Elden Ring: Shadow of the Erdtree', category: 'Games', duration: '3:05', youtubeId: 'qLZenOn7WUo', source: 'FromSoftware' },
 ];

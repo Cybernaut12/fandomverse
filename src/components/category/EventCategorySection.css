@@ -1,0 +1,283 @@
+/* Holographic Stage Deck for Category Page Events */
+.cat-stage-section {
+  position: relative;
+  background: radial-gradient(circle at 50% 0%, rgba(var(--cat-rgb, 201, 162, 39), 0.08) 0%, transparent 65%), #0c0d15;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.cat-stage-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* Wide Panoramic Stage Card */
+.stage-deck-card {
+  position: relative;
+  border-radius: 1.5rem;
+  background: rgba(18, 19, 28, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 992px) {
+  .stage-deck-card {
+    flex-direction: row;
+    min-height: 250px;
+  }
+}
+
+.stage-deck-card:hover {
+  transform: translateY(-5px) scale(1.005);
+  border-color: var(--cat-accent, #c9a227);
+  box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.9), 0 0 35px rgba(var(--cat-rgb, 201, 162, 39), 0.25);
+}
+
+/* Media Banner Side */
+.stage-deck-media {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+@media (min-width: 992px) {
+  .stage-deck-media {
+    width: 380px;
+    height: auto;
+  }
+}
+
+.stage-deck-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.stage-deck-card:hover .stage-deck-img {
+  transform: scale(1.08);
+}
+
+.stage-deck-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(12, 13, 21, 0.2) 0%, rgba(18, 19, 28, 0.95) 100%);
+}
+
+@media (min-width: 992px) {
+  .stage-deck-overlay {
+    background: linear-gradient(90deg, rgba(12, 13, 21, 0.1) 0%, rgba(18, 19, 28, 0.95) 100%);
+  }
+}
+
+/* Floating Stage Beacon */
+.stage-deck-beacon {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  background: rgba(11, 12, 16, 0.85);
+  border: 1px solid var(--cat-accent, #c9a227);
+  backdrop-filter: blur(8px);
+  color: #ffffff;
+  font-size: 0.725rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.stage-beacon-glow {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--cat-accent, #c9a227);
+  box-shadow: 0 0 10px var(--cat-accent, #c9a227);
+  animation: pulse-beacon 1.8s infinite;
+}
+
+@keyframes pulse-beacon {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.3); }
+}
+
+/* Middle Content Area */
+.stage-deck-content {
+  flex: 1;
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 0;
+}
+
+.stage-deck-title {
+  font-family: var(--font-display, inherit);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+  margin: 0.25rem 0 0.5rem 0;
+  transition: color 0.2s ease;
+}
+
+.stage-deck-card:hover .stage-deck-title {
+  color: var(--cat-accent, #ffd166);
+}
+
+.stage-deck-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #a1a1aa;
+}
+
+.stage-deck-desc {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  line-height: 1.5;
+  margin-top: 0.6rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Experience Tags Chips */
+.stage-experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.stage-exp-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 0.5rem;
+  font-size: 0.725rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #d4d4d8;
+}
+
+/* Right Action Hub */
+.stage-deck-action-hub {
+  padding: 1.5rem 1.75rem;
+  background: rgba(14, 15, 22, 0.7);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-shrink: 0;
+}
+
+@media (min-width: 992px) {
+  .stage-deck-action-hub {
+    width: 230px;
+    border-top: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.06);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.stage-date-display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media (min-width: 992px) {
+  .stage-date-display {
+    align-items: center;
+  }
+}
+
+.stage-date-day {
+  font-family: var(--font-display, inherit);
+  font-size: 2.25rem;
+  line-height: 1;
+  font-weight: 900;
+  color: var(--cat-accent, #c9a227);
+}
+
+.stage-date-month-year {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a1a1aa;
+  letter-spacing: 0.08em;
+  margin-top: 0.2rem;
+}
+
+.stage-rsvp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.65rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.825rem;
+  font-weight: 700;
+  background: var(--cat-accent, #c9a227);
+  color: #0b0c10;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.stage-rsvp-btn:hover {
+  filter: brightness(1.15);
+  box-shadow: 0 6px 20px rgba(var(--cat-rgb, 201, 162, 39), 0.4);
+  transform: translateY(-2px);
+}
+
+.stage-remind-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #a1a1aa;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.stage-remind-toggle:hover {
+  color: #ffffff;
+}
+
+.stage-remind-toggle.active {
+  color: #ff5a68;
+}

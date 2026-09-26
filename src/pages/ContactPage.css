@@ -1,0 +1,16 @@
+.contact-map-full-width {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 0;
+}
+
+.contact-map-frame {
+  width: 100%;
+  height: clamp(22rem, 40vw, 32rem);
+}
+
+@media (max-width: 575.98px) {
+  .contact-map-frame {
+    height: 22rem;
+  }
+}

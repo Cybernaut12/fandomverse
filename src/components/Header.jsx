@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Search, Bookmark, ShoppingBag, Menu, X, UserCircle, ChevronDown } from 'lucide-react';
+import { Search, Bookmark, ShoppingBag, Menu, X, ChevronDown } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 export function Header({ onSearchOpen }) {
     const [scrolled, setScrolled] = useState(false);
@@ -39,12 +39,13 @@ export function Header({ onSearchOpen }) {
           <div className="d-flex align-items-center justify-content-between header-height">
             {/* Logo */}
             <Link to="/" className="d-flex align-items-center fv-flex-shrink-0 fv-group">
-              <img src="/fandomverse-logo.svg" alt="FandomVerse" className="brand-logo" width="432" height="76" />
+              <img src="/fandomverse-logo-lockup.svg" alt="FandomVerse" className="brand-logo" width="240" height="43" />
             </Link>
 
             {/* Desktop nav */}
-            <nav className="d-none d-lg-flex align-items-center fv-gap-1 fv-overflow-visible" aria-label="Main navigation">
+            <nav className="desktop-header-nav align-items-center fv-gap-1 fv-overflow-visible" aria-label="Main navigation">
               <Link to="/" className={navLinkClass(isActive('/'))}>Home<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
+              <Link to="/about" className={navLinkClass(isActive('/about'))}>About Us<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/about') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
               <div className="position-relative" onMouseEnter={() => setExploreOpen(true)} onMouseLeave={() => setExploreOpen(false)}>
                 <button type="button" onClick={() => setExploreOpen(!exploreOpen)} className={`${navLinkClass(isExploreActive)} d-inline-flex align-items-center border-0 fv-bg-transparent`} aria-expanded={exploreOpen}>
                   Explore <ChevronDown size={14} className={`fv-ms-1 fv-transition-transform ${exploreOpen ? 'fv-rotate-180' : ''}`} />
@@ -57,29 +58,27 @@ export function Header({ onSearchOpen }) {
                 </div>)}
               </div>
               <Link to="/articles" className={navLinkClass(isActive('/articles'))}>Articles<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/articles') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
-              <Link to="/#events" className={navLinkClass(false)}>Events<span className="position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator fv-scale-x-0"/></Link>
-              <Link to="/about" className={navLinkClass(isActive('/about'))}>About Us<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/about') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
+              <Link to="/events" className={navLinkClass(false)}>Events<span className="position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator fv-scale-x-0"/></Link>
             </nav>
 
             {/* Right actions */}
-            <div className="d-flex align-items-center gap-2 fv-flex-shrink-0">
-              <button onClick={onSearchOpen} className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors rounded-2 fv-hover-bg-ink-700" aria-label="Open search">
+            <div className="d-flex align-items-center gap-2 fv-flex-shrink-0 header-actions">
+              <button onClick={onSearchOpen} className="header-search-action fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors rounded-2 fv-hover-bg-ink-700" aria-label="Open search">
                 <Search className="fv-w-5 fv-h-5"/>
               </button>
-              <Link to="/bookmarks" className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded d-none d-xl-block" aria-label="View bookmarks">
+              <Link to="/bookmarks" className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded header-icon-action header-wide-action" aria-label="View bookmarks">
                 <Bookmark className="fv-w-5 fv-h-5"/>
               </Link>
-              <button onClick={openCart} className="position-relative fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded d-none d-xl-block" aria-label={`Open cart (${totalItems} items)`}>
+              <button onClick={openCart} className="position-relative fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded header-icon-action header-wide-action" aria-label={`Open cart (${totalItems} items)`}>
                 <ShoppingBag className="fv-w-5 fv-h-5"/>
                 {totalItems > 0 && (<span className="position-absolute fv-top-0-5 fv-right-0-5 fv-bg-brand-500 fv-text-ink-900 fv-text-10px fv-font-bold rounded-pill fv-w-4 fv-h-4 d-flex align-items-center justify-content-center">
                     {totalItems}
                   </span>)}
               </button>
-              <Link to="/login" className="d-none d-sm-block fv-px-3 fv-py-2 small fv-heading-font fw-medium fv-text-ink-900 fv-bg-brand-500 fv-hover-bg-brand-400 fv-rounded fv-transition-colors">
+              <Link to="/login" className="header-login-action fv-px-3 fv-py-2 small fv-heading-font fw-medium fv-text-ink-900 fv-bg-brand-500 fv-hover-bg-brand-400 fv-rounded fv-transition-colors">
                 Login
               </Link>
-              <Link to="/login" className="d-sm-none fv-text-paper-200 fv-hover-text-brand-400 fv-p-2" aria-label="Login"><UserCircle size={20} /></Link>
-              <button type="button" onClick={() => setMobileOpen(!mobileOpen)} className="d-inline-flex d-lg-none fv-p-2 fv-text-paper-200 fv-hover-text-paper-50 fv-transition-colors" aria-label="Toggle menu" aria-expanded={mobileOpen}>
+                            <button type="button" onClick={() => setMobileOpen(!mobileOpen)} className="header-menu-action d-inline-flex d-lg-none fv-p-2 fv-text-paper-200 fv-hover-text-paper-50 fv-transition-colors" aria-label="Toggle menu" aria-expanded={mobileOpen}>
                 {mobileOpen ? <X className="fv-w-5 fv-h-5"/> : <Menu className="fv-w-5 fv-h-5"/>}
               </button>
             </div>
@@ -88,9 +87,10 @@ export function Header({ onSearchOpen }) {
       </header>
 
       {/* Mobile menu */}
-      {mobileOpen && (<div className="position-fixed fv-inset-0 fv-z-40 fv-lg-hidden fv-bg-ink-900-95 fv-backdrop-blur-md fv-pt-16 fv-animate-fade-in" onClick={() => setMobileOpen(false)}>
+      {mobileOpen && (<div className="position-fixed fv-inset-0 fv-z-40 mobile-menu-overlay fv-bg-ink-900-95 fv-backdrop-blur-md fv-pt-16 fv-animate-fade-in" onClick={() => setMobileOpen(false)}>
           <nav className="container-wide fv-py-6 d-flex flex-column fv-gap-1" aria-label="Mobile navigation" onClick={(e) => e.stopPropagation()}>
             <Link to="/" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Home</Link>
+            <Link to="/about" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/about') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>About Us</Link>
             <button type="button" onClick={() => setExploreOpen(!exploreOpen)} className="d-flex align-items-center justify-content-between fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 border-0 fv-bg-transparent fv-text-paper-200 fv-hover-text-paper-50">
               Explore <ChevronDown size={18} className={exploreOpen ? 'fv-rotate-180' : ''} />
             </button>
@@ -98,8 +98,8 @@ export function Header({ onSearchOpen }) {
               {exploreLinks.map((link) => (<Link key={link.path} to={link.path} className="fv-px-4 fv-py-2 fv-heading-font fv-text-paper-200 fv-hover-text-brand-400">{link.label}</Link>))}
             </div>)}
             <Link to="/articles" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/articles') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Articles</Link>
-            <Link to="/#events" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800`}>Events</Link>
-            <Link to="/about" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/about') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>About Us</Link>
+            <Link to="/events" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800`}>Events</Link>
+
             <Link to="/contact" className="fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium fv-text-paper-200 fv-hover-text-paper-50 rounded-3">
               Contact
             </Link>
@@ -110,3 +110,4 @@ export function Header({ onSearchOpen }) {
         </div>)}
     </>);
 }
+
