@@ -524,152 +524,157 @@
   },
   {
     "id": "char-027",
-    "name": "The Sentinel",
-    "series": "Guardline",
+    "name": "Peter Parker",
+    "series": "Ultimate Spider-Man (2024)",
     "category": "comics",
-    "bio": "A retired superhero forced back into action when a new threat targets the city he once protected. The Sentinel's powers have faded with age, but his experience is unmatched.",
+    "bio": "Adult Peter Parker is married to Mary Jane and raising a family when he gets the chance to become Spider-Man.",
     "traits": [
       "Experienced",
       "Weary",
       "Mentor",
       "Principled"
     ],
-    "image": "https://images.pexels.com/photos/14032343/pexels-photo-14032343.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Man in superhero costume at outdoor festival"
+    "image": "/images/comics/spiderman-cover.jpg",
+    "altText": "Peter Parker - comic character",
+    "sourceUrl": "https://www.marvel.com/comics/issue/112985/read"
   },
   {
     "id": "char-028",
-    "name": "Nova Star",
-    "series": "Guardline",
+    "name": "Bruce Wayne",
+    "series": "Batman of Two Worlds",
     "category": "comics",
-    "bio": "A teenage hero with the ability to manipulate light. Nova Star is the Sentinel's protege, struggling to live up to a legacy while forging her own identity as a hero.",
+    "bio": "Gotham's familiar Batman meets the alternate-universe Absolute Batman in DC's 2026 event.",
     "traits": [
       "Idealistic",
       "Powerful",
       "Young",
       "Reckless"
     ],
-    "image": "https://images.pexels.com/photos/17806632/pexels-photo-17806632.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Vibrant fantasy portrait with blue face paint and red hair"
+    "image": "/images/comics/batman-cover.jpg",
+    "altText": "Bruce Wayne - comic character",
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "char-029",
-    "name": "Dr. Mira Gale",
-    "series": "The Fracture",
+    "name": "Pamela Isley / Poison Ivy",
+    "series": "Batman: Bad Seeds",
     "category": "comics",
-    "bio": "A physicist who gains the ability to see parallel dimensions after an experiment goes wrong. Dr. Gale navigates multiple realities, trying to prevent a collapse that could destroy them all.",
+    "bio": "A botanist connected to plant life, at the center of Gotham's botanical crisis in DC's Bad Seeds event.",
     "traits": [
       "Scientific",
       "Determined",
       "Complex",
       "Isolated"
     ],
-    "image": "https://images.pexels.com/photos/30346960/pexels-photo-30346960.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dramatic portrait with artistic makeup and red background"
+    "image": "/images/comics/bad-seeds-promo.jpg",
+    "altText": "Pamela Isley / Poison Ivy - comic character",
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "char-030",
-    "name": "Jack Brass",
-    "series": "Iron Coast",
+    "name": "Diana Prince / Wonder Woman",
+    "series": "Wonder Woman",
     "category": "comics",
-    "bio": "A noir detective in a city where superpowers are illegal. Jack has no powers — just a sharp mind, a stubborn streak, and a knack for finding trouble in a city full of it.",
+    "bio": "The Amazon hero and ambassador for peace, known for her strength and compassion.",
     "traits": [
       "Gritty",
       "Clever",
       "Cynical",
       "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/35301113/pexels-photo-35301113.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white portrait with dramatic lighting"
+    "image": "/images/comics/wonder-woman-cover.jpg",
+    "altText": "Diana Prince / Wonder Woman - comic character",
+    "sourceUrl": "https://www.dcuniverseinfinite.com/comics/book/wonder-woman-1986-2006-36/8f948623-5652-4ab9-badf-51ede26c71e1"
   },
   {
     "id": "char-031",
-    "name": "Wraith",
-    "series": "The Fracture",
+    "name": "Mark Grayson / Invincible",
+    "series": "Invincible",
     "category": "comics",
-    "bio": "An anti-hero who can phase through solid matter. Wraith operates in the moral gray zone, stealing from corrupt institutions while pursued by both heroes and villains.",
+    "bio": "A teenager inherits powers from his father and learns heroism while balancing ordinary life with extraordinary danger.",
     "traits": [
       "Elusive",
       "Morally gray",
       "Skilled",
       "Independent"
     ],
-    "image": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Cloaked figure with a sword in a mysterious setting"
+    "image": "/images/comics/invincible-cover.jpg",
+    "altText": "Mark Grayson / Invincible - comic character",
+    "sourceUrl": "https://www.senscritique.com/bd/invincible_2003_2018/373923"
   },
   {
     "id": "char-032",
-    "name": "Haruki Sendo",
-    "series": "Ronin's Path",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
     "category": "manga",
-    "bio": "A masterless samurai wandering feudal Japan during a time of political upheaval. Haruki seeks a purpose worth serving, helping villagers along the way while pursued by his former clan.",
+    "bio": "A young pirate with a rubber-like body who sets out to find the legendary One Piece and become King of the Pirates.",
     "traits": [
-      "Honor-bound",
-      "Skilled",
-      "Quiet",
-      "Principled"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Close-up of a detailed samurai cat tattoo with intricate ink work"
+    "image": "/images/manga/one-piece-vol1.jpg",
+    "altText": "Monkey D. Luffy from One Piece",
+    "sourceUrl": "https://www.viz.com/manga-books/mangaen/one-piece-volume-1/product/139"
   },
   {
     "id": "char-033",
-    "name": "Aoi Mizuno",
-    "series": "The Tea Shop on Cherry Lane",
+    "name": "Denji",
+    "series": "Chainsaw Man",
     "category": "manga",
-    "bio": "A young woman who inherits her grandmother's tea shop in a quiet Tokyo neighborhood. Aoi's tea seems to give customers clarity about their life problems, though she insists it's just good tea.",
+    "bio": "A poor young devil hunter revived by his companion Pochita, becoming the hybrid hero Chainsaw Man.",
     "traits": [
-      "Warm",
-      "Modest",
-      "Perceptive",
-      "Calm"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
+    "image": "/images/manga/chainsaw-man.jpg",
+    "altText": "Denji from Chainsaw Man",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/chainsaw-man-volume-1-0/product/6419"
   },
   {
     "id": "char-034",
-    "name": "Kuro",
-    "series": "Shadow Boxer",
+    "name": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
     "category": "manga",
-    "bio": "An underground boxer with the ability to see two seconds into the future. Kuro fights to pay off a debt, but each fight draws him deeper into a world he may not be able to leave.",
+    "bio": "An elf mage who outlives her former party and begins a new journey to understand their lives and memories.",
     "traits": [
-      "Tough",
-      "Focused",
-      "Guarded",
+      "Brave",
+      "Determined",
       "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/30692121/pexels-photo-30692121.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white photo of a hooded figure"
+    "image": "/images/manga/frieren-vol1.jpg",
+    "altText": "Frieren from Frieren: Beyond Journey's End",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/frieren-beyond-journey-s-end-volume-1/product/6872"
   },
   {
     "id": "char-035",
-    "name": "Sakura Kage",
-    "series": "The Apothecary's Daughter",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer: Kimetsu no Yaiba",
     "category": "manga",
-    "bio": "A young herbalist in a fantasy kingdom who can communicate with plants. Sakura's remedies are sought by nobles and commoners alike, but her gift attracts dangerous attention.",
+    "bio": "A kindhearted boy becomes a demon slayer and searches for a way to restore his sister Nezuko's humanity.",
     "traits": [
-      "Gentle",
-      "Knowledgeable",
       "Brave",
-      "Independent"
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/18951420/pexels-photo-18951420.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Young woman with vibrant red hair holding a plush toy by a brick wall"
+    "image": "/images/manga/demon-slayer.jpg",
+    "altText": "Tanjiro Kamado from Demon Slayer: Kimetsu no Yaiba",
+    "sourceUrl": "https://demonslayer-anime.com/"
   },
   {
     "id": "char-036",
-    "name": "Goro Takashi",
-    "series": "Ronin's Path",
+    "name": "Saitama",
+    "series": "One-Punch Man",
     "category": "manga",
-    "bio": "A former comrade of Haruki who now serves the clan they both abandoned. Goro is sent to bring Haruki back — dead or alive — but his loyalty is divided between duty and friendship.",
+    "bio": "An ordinary-looking hero so strong that he defeats every opponent with one punch and longs for a worthy challenge.",
     "traits": [
-      "Conflicted",
-      "Skilled",
-      "Duty-driven",
-      "Honorable"
+      "Brave",
+      "Determined",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/6593572/pexels-photo-6593572.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Detailed pencil sketches of tattoos with artistic designs"
+    "image": "/images/manga/one-punch-vol1.jpg",
+    "altText": "Saitama from One-Punch Man",
+    "sourceUrl": "https://www.viz.com/manga-books/manga/one-punch-man-volume-1/product/3267"
   }
 ]

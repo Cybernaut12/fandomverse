@@ -675,129 +675,120 @@
   },
   {
     "id": "art-016",
-    "title": "The Indie Comic That Started as a Webcomic and Became a Phenomenon",
+    "title": "Ultimate Spider-Man: Peter Parker Starts Over",
     "slug": "indie-comic-webcomic-phenomenon",
     "category": "comics",
-    "excerpt": "A free webcomic became the year's best-selling graphic novel. The creator still can't quite believe it.",
+    "excerpt": "Marvel's 2024 series follows an adult Peter Parker, married to Mary Jane and raising a family, who gets the chance to become Spider-Man.",
     "body": [
-      "It started as a side project — a few pages posted online every month, drawn in the creator's spare time between freelance illustration jobs. No publisher, no marketing, no plan beyond \"I want to tell this story.\"",
-      "Three years later, those pages have been collected into a graphic novel that debuted at the top of bestseller lists. The print run sold out in a week. A film adaptation is in development. And the creator is still updating the webcomic for free, posting new pages on the same schedule they always have.",
-      "What resonated with readers isn't easy to pin down. The art is distinctive — a style that doesn't look like anything else on the shelf — but it's the storytelling that kept people coming back. A story about identity and belonging, told with a specificity that makes the personal feel universal.",
-      "The success has also highlighted a shift in how comics reach audiences. Webcomics, once seen as a stepping stone to \"real\" publication, have become a legitimate endpoint. For creators who want to own their work and reach readers directly, the webcomic-to-print model offers a path that didn't exist a decade ago."
+      "Marvel's 2024 series follows an adult Peter Parker, married to Mary Jane and raising a family, who gets the chance to become Spider-Man."
     ],
     "author": "Chris Miller",
     "date": "2026-09-14",
-    "image": "https://images.pexels.com/photos/4142511/pexels-photo-4142511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/spiderman-cover.jpg",
     "tags": [
       "indie",
       "webcomic",
       "graphic-novel"
-    ]
+    ],
+    "sourceUrl": "https://www.marvel.com/comics/issue/112985/read"
   },
   {
     "id": "art-017",
-    "title": "Why Comic Lettering Matters More Than You Think",
+    "title": "Batman of Two Worlds Puts Two Gothams Side by Side",
     "slug": "comic-lettering-matters",
     "category": "comics",
-    "excerpt": "It's the invisible art of comics — the thing you only notice when it's wrong. We talked to three letterers about their craft.",
+    "excerpt": "DC's 2026 event brings the mainline Batman and Absolute Batman into a shared story.",
     "body": [
-      "If you've never thought about comic lettering, you're not alone. It's the element of comics that's designed to be transparent — to deliver the words without calling attention to itself. But the letterers who do it well are some of the most skilled craftspeople in the medium.",
-      "Good lettering is about more than readable fonts. It's about pacing — how a balloon's placement guides the reader's eye through the page. It's about character — how a villain's speech looks different from a hero's. It's about emphasis — how bold, italic, and size changes tell the reader how to \"hear\" the words.",
-      "\"The best lettering is lettering you don't notice,\" one letterer told us. \"If the reader is thinking about the balloon shapes, they're not in the story. My job is to disappear.\"",
-      "The craft has evolved with technology. Digital tools have made lettering more precise and flexible, but the fundamental decisions — where to place a balloon, how to shape a tail, when to use a burst balloon — remain matters of instinct and taste. It's a reminder that comics are a collaborative medium, and every credit on the page matters."
+      "DC's 2026 event brings the mainline Batman and Absolute Batman into a shared story."
     ],
     "author": "Nate Brooks",
     "date": "2026-08-25",
-    "image": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/batman-cover.jpg",
     "tags": [
       "lettering",
       "craft",
       "design"
-    ]
+    ],
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "art-018",
-    "title": "The Evolution of the Superhero Costume",
+    "title": "Batman: Bad Seeds Brings a Botanical Crisis to Gotham",
     "slug": "evolution-superhero-costume",
     "category": "comics",
-    "excerpt": "From spandex to tactical armor to something in between — how superhero design has reflected the times for eighty years.",
+    "excerpt": "DC's 2026 event puts Gotham in the middle of a citywide plant threat with Poison Ivy at its heart.",
     "body": [
-      "The superhero costume is one of the most recognizable design languages in popular culture. But it's never been static. The costume that worked in the 1940s wouldn't work today — not because it looks dated (though it does), but because it was designed for a different context.",
-      "Early costumes were about clarity: bold colors, simple shapes, silhouettes that read instantly even in cheap newsprint. As printing improved, costumes gained detail — musculature, texture, accessories that told you something about the character. The 90s brought pouches and shoulder pads, reflecting the era's aesthetic excess. The 2000s brought tactical reimagining — armor, straps, functional design that treated superheroes as people who might actually need protection.",
-      "The current era is something more fluid. Costumes are being designed with movement in mind — how they look in action, how they communicate character through posture and gesture. Some of the most interesting recent designs are deconstructions: costumes that reference the classic look while commenting on it, acknowledging that a character who's been around for sixty years has a relationship with their own visual identity.",
-      "The best costume designers understand that a superhero's outfit isn't just clothing — it's a statement about who the character is and what world they inhabit. The costume is the story before the story begins."
+      "DC's 2026 event puts Gotham in the middle of a citywide plant threat with Poison Ivy at its heart."
     ],
     "author": "Grace Liu",
     "date": "2026-08-08",
-    "image": "https://images.pexels.com/photos/14032343/pexels-photo-14032343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/comics/bad-seeds-promo.jpg",
     "tags": [
       "design",
       "costume",
       "superhero"
-    ]
+    ],
+    "sourceUrl": "https://www.dc.com/blog/2026-02-19/dc-delivers-big-news-to-retailers-at-comics-pro-2026"
   },
   {
     "id": "art-019",
-    "title": "The Manga That Refuses to End (And Why That's Okay)",
-    "slug": "manga-refuses-to-end",
+    "title": "One Piece: Setting Sail with Luffy",
+    "slug": "one-piece-setting-sail-with-luffy",
     "category": "manga",
-    "excerpt": "Some series run for decades. We look at what keeps a long-running manga vital when most stories would have run out of steam.",
+    "excerpt": "Eiichiro Oda's pirate adventure begins with Monkey D. Luffy setting out to find the legendary One Piece and become King of the Pirates.",
     "body": [
-      "There's a particular kind of anxiety that sets in when a manga you love enters its tenth year. Will it overstay its welcome? Will the author run out of things to say? The history of manga is full of series that went on too long, diluting their legacy with years of diminishing returns.",
-      "But there are a handful of series that have been running for decades and are still producing some of their best work. How? The answer, it turns out, isn't about maintaining momentum — it's about evolving.",
-      "The best long-running manga don't try to sustain their original premise indefinitely. They let their characters age, their worlds change, their themes deepen. A series that started as a simple adventure becomes a meditation on responsibility. A comedy develops real emotional stakes. The story grows up with its readers.",
-      "It requires a particular kind of confidence from the author — the willingness to let the story become something different from what it started as, to risk alienating readers who loved the early version. But when it works, the result is something unique to manga: a story that has the scope of a life."
+      "As a child, Luffy is inspired by the pirate Shanks. After gaining a rubber-like body from a Devil Fruit, he sets out to sea to build a crew and pursue the title of King of the Pirates.",
+      "VIZ describes Volume 1 as the beginning of Luffy's adventure, introducing the East Blue journey and the promise of a vast, ongoing world."
     ],
     "author": "Kenji Mori",
     "date": "2026-09-11",
-    "image": "https://images.pexels.com/photos/6593563/pexels-photo-6593563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/one-piece-vol1.jpg",
     "tags": [
-      "long-running",
-      "serialization",
-      "craft"
+      "eiichiro-oda",
+      "one-piece",
+      "adventure"
     ],
-    "featured": true
+    "featured": true,
+    "sourceUrl": "https://www.viz.com/manga-books/mangaen/one-piece-volume-1/product/139"
   },
   {
     "id": "art-020",
-    "title": "The Ink That Tells the Story: Manga Art Techniques",
-    "slug": "manga-ink-art-techniques",
+    "title": "Chainsaw Man: Denji's Fight to Survive",
+    "slug": "chainsaw-man-denji-fight-to-survive",
     "category": "manga",
-    "excerpt": "Screentone, brushwork, panel layout — the tools that make manga a distinct visual language.",
+    "excerpt": "Tatsuki Fujimoto's story follows Denji, a young devil hunter whose bond with Pochita changes his life.",
     "body": [
-      "Manga is a black-and-white medium. That limitation has produced one of the most sophisticated visual languages in all of comics — a system of techniques built to convey everything that color does, using only ink on paper.",
-      "Screentone — the adhesive sheets of dot patterns that manga artists apply to create gradients, textures, and shading — is perhaps the most recognizable technique. Though many artists now work digitally, the aesthetic of screentone remains fundamental to how manga looks. The choice of dot pattern, its density, its placement — all carry meaning.",
-      "Brushwork is the other pillar. The way an artist handles ink — the thickness of lines, the energy of brush strokes, the contrast between detailed and spare areas — defines their style as clearly as a signature. Some artists work in a clean, precise line; others use brush and pen to create pages that feel almost painterly.",
-      "Panel layout is where it all comes together. Manga is famous for its adventurous page compositions — panels that bleed into each other, pages dominated by a single image, layouts that control pacing by controlling how the eye moves. It's a reminder that manga isn't just illustrated fiction. It's a medium with its own grammar."
+      "Denji hunts devils to pay off a crushing debt, with his pet devil Pochita as his closest companion. After betrayal, Pochita helps him return as Chainsaw Man.",
+      "VIZ identifies Tatsuki Fujimoto as the creator of the series and describes Denji's transformation as the turning point of Volume 1."
     ],
     "author": "Aoi Hashimoto",
     "date": "2026-08-22",
-    "image": "https://images.pexels.com/photos/15100360/pexels-photo-15100360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/chainsaw-man.jpg",
     "tags": [
-      "art",
-      "technique",
-      "screentone"
-    ]
+      "tatsuki-fujimoto",
+      "chainsaw-man",
+      "devil-hunter"
+    ],
+    "sourceUrl": "https://www.viz.com/manga-books/manga/chainsaw-man-volume-1-0/product/6419"
   },
   {
     "id": "art-021",
-    "title": "Weekly serialization vs Monthly: How Publishing Shapes Story",
-    "slug": "weekly-vs-monthly-manga",
+    "title": "Frieren: The Journey After the Demon King's Defeat",
+    "slug": "frieren-journey-after-demon-kings-defeat",
     "category": "manga",
-    "excerpt": "The pace at which a manga is published changes everything about how its story is told.",
+    "excerpt": "Kanehito Yamada and Tsukasa Abe follow an elf mage who outlives her old companions and begins to understand the people she left behind.",
     "body": [
-      "A weekly manga author draws about twenty pages every seven days. A monthly author draws about forty pages every thirty days. The difference in page count is significant — but the difference in storytelling approach is even more profound.",
-      "Weekly serialization rewards momentum. Each chapter needs a hook — a cliffhanger, a reveal, a moment that brings the reader back next week. The pace is relentless, and it shapes the kind of stories that work: action-driven, plot-forward, with characters and conflicts that can sustain constant movement. There's little room for quiet chapters or slow development.",
-      "Monthly serialization allows for a different rhythm. With more pages per chapter and more time between them, authors can build scenes that breathe. A monthly chapter might spend its entire length on a single conversation, a single fight, a single moment of introspection — and it can do so without feeling slow, because the reader knows the next installment is a month away, not a week.",
-      "Neither format is inherently better. Some stories need the urgency of weekly publication; others need the space of monthly. But understanding the difference helps explain why two manga, both excellent, can feel so fundamentally different in their pacing and structure."
+      "Decades after her party defeats the Demon King, Frieren attends the funeral of one of her companions and confronts how differently time passes for her.",
+      "She sets out to fulfill her friends' last wishes. The journey becomes a chance to understand the short lives and bonds she once took for granted."
     ],
     "author": "Ryo Saito",
     "date": "2026-07-25",
-    "image": "https://images.pexels.com/photos/1707581/pexels-photo-1707581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/manga/frieren-vol1.jpg",
     "tags": [
-      "serialization",
-      "publishing",
-      "structure"
-    ]
+      "frieren",
+      "fantasy",
+      "adventure"
+    ],
+    "sourceUrl": "https://www.viz.com/manga-books/manga/frieren-beyond-journey-s-end-volume-1/product/6872"
   }
 ]

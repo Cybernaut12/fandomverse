@@ -1,89 +1,158 @@
-import { Link } from 'react-router-dom';
-import { Compass, Heart, Users, Globe, Sparkles } from 'lucide-react';
-import { categories } from '@/data/categories';
+import './AboutPage.css';
+
 export function AboutPage() {
-    return (<div className="min-vh-100 fv-bg-ink-900 fv-pt-16">
-      {/* Hero */}
-      <section className="position-relative fv-h-40vh fv-min-h-300px d-flex align-items-end overflow-hidden">
-        <img src="https://images.pexels.com/photos/33327474/pexels-photo-33327474.png?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=2" alt="Collection of anime figurines and collectibles" className="position-absolute fv-inset-0 w-100 h-100 object-fit-cover" fetchPriority="high"/>
-        <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-70 fv-to-ink-900-30"/>
-        <div className="position-relative container-wide fv-pb-10 fv-z-10">
-          <p className="fv-text-sm fv-heading-font fv-uppercase fv-tracking-widest fv-text-brand-400 fv-mb-2">About</p>
-          <h1 className="fv-display-font fv-text-5xl fv-md-text-6xl fv-lg-text-7xl fv-text-paper-50 fv-tracking-wide fv-leading-none fv-text-shadow-lg">
-            What is FandomVerse?
+  return (
+    <main className="fv-bg-ink-900 about-page">
+      <section className="about-overview">
+        <div className="container-narrow about-narrow">
+          {/* Title */}
+          <h1
+            className="fv-display-font fv-text-4xl fv-md-text-5xl fv-text-paper-50 fv-tracking-wide text-center fv-mb-10 about-title"
+          >
+            Platform Overview
           </h1>
+
+          {/* Body text */}
+          <p
+            className="fv-text-paper-200 fv-text-lg fv-body-font text-justify fv-mt-8 about-intro-copy"
+          >
+            FandomVerse was built for people who know what it feels like to fall in love with a
+            story  whether that's an anime you couldn't stop watching, a game you lost sleep over,
+            or a K-Pop group that somehow became a core part of your identity. We get it, because
+            we're fans too. That's exactly why we created a place where all of that lives together,
+            side by side. No more jumping between a dozen tabs just to keep up. FandomVerse brings
+            anime, gaming, movies, TV shows, K-Pop, comics, and manga into one warm, welcoming
+            space  with articles worth reading, galleries worth exploring, events worth knowing
+            about, and a community worth being part of.
+          </p>
         </div>
       </section>
 
-      {/* Content */}
-      <section className="fv-py-12 fv-md-py-16">
-        <div className="container-narrow">
-          <div className="prose prose-invert fv-max-w-none">
-            <p className="fv-text-paper-100 fv-text-lg fv-leading-relaxed fv-body-font" style={{ lineHeight: 1.8 }}>
-              If you love anime, you probably also have opinions about at least three other things —
-              a game you sank a hundred hours into, a TV show you rewatch every year, a K-Pop fv-group
-              whose choreography you've tried to learn in your bedroom. Fandoms don't live in isolation.
-              They overlap, they cross-pollinate, and the people who care about them are the same people.
-            </p>
-            <p className="fv-text-paper-100 fv-text-lg fv-leading-relaxed fv-body-font fv-mt-4" style={{ lineHeight: 1.8 }}>
-              FandomVerse exists because finding all of that in one place shouldn't be hard.
-              Entertainment content is scattered across dozens of sites — news here, trailers there,
-              merchandise somewhere else entirely. We wanted to build something that feels less like
-              a content aggregator and more like a magazine you actually want to read.
-            </p>
-          </div>
+      {/* Mission & Vision */}
+      <section className="about-pillars">
+        <div className="container-narrow about-narrow">
+          <div className="row g-4 g-lg-5">
 
-          {/* Values */}
-          <div className="fv-grid fv-grid-cols-1 fv-md-grid-cols-2 fv-gap-6 fv-mt-12">
-            {[
-            { icon: <Heart className="fv-w-6 fv-h-6 fv-text-brand-400"/>, title: 'Built by fans, for fans', text: 'Every article, character profile, and event listing is written with genuine enthusiasm. We cover what we actually care about.' },
-            { icon: <Globe className="fv-w-6 fv-h-6 fv-text-brand-400"/>, title: 'Seven fandoms, one place', text: 'Anime, gaming, movies, TV shows, K-Pop, comics, and manga — all under one roof, each with its own identity but sharing the same space.' },
-            { icon: <Users className="fv-w-6 fv-h-6 fv-text-brand-400"/>, title: 'Community first', text: 'Bookmarks, personal notes, a helpful guide, and content that respects your time. No accounts required, no data collected.' },
-            { icon: <Sparkles className="fv-w-6 fv-h-6 fv-text-brand-400"/>, title: 'Visual storytelling', text: 'We believe design matters. Large imagery, editorial layouts, and typography that makes reading feel good.' },
-        ].map((value) => (<div key={value.title} className="fv-bg-ink-800 rounded-3 fv-p-6 border fv-border-ink-600">
-                <div className="fv-mb-3">{value.icon}</div>
-                <h3 className="fv-heading-font fv-text-lg fv-font-semibold fv-text-paper-50 fv-mb-2">{value.title}</h3>
-                <p className="fv-text-sm fv-text-paper-300 fv-leading-relaxed">{value.text}</p>
-              </div>))}
-          </div>
-
-          {/* Categories */}
-          <div className="fv-mt-12">
-            <h2 className="fv-display-font fv-text-3xl fv-text-paper-50 fv-tracking-wide fv-mb-6">The Seven Worlds</h2>
-            <div className="fv-grid fv-grid-cols-1 fv-sm-grid-cols-2 fv-lg-grid-cols-4 fv-gap-3">
-              {categories.map((cat) => (<Link key={cat.slug} to={`/category/${cat.slug}`} className="fv-group d-flex align-items-center fv-gap-3 fv-bg-ink-800 fv-hover-bg-ink-700 rounded-3 fv-p-4 border fv-border-ink-600 fv-hover-border-ink-500 fv-transition-all">
-                  <span className="fv-w-3 fv-h-3 rounded-pill flex-shrink-0" style={{ backgroundColor: cat.accentColor }}/>
-                  <div className="">
-                    <h3 className="fv-heading-font fv-text-sm fv-font-medium fv-text-paper-50 fv-group-hover-text-brand-400 fv-transition-colors">{cat.name}</h3>
-                    <p className="fv-text-xs fv-text-paper-300-60 fv-clamp-1">{cat.tagline}</p>
-                  </div>
-                </Link>))}
+            {/* Our Mission */}
+            <div className="col-12 col-md-6 about-pillar-column">
+              <h2 className="fv-display-font fv-text-3xl fv-md-text-4xl fv-tracking-wide fv-mb-5 about-section-title">
+                Our Mission
+              </h2>
+              <p className="fv-text-paper-200 fv-text-base fv-body-font text-justify about-copy">
+                Our mission is simple  give every fan a place they actually want to come back to.
+                We want FandomVerse to feel less like a website and more like a home for the things
+                you're passionate about. We're here to make sure you never miss a release, never
+                lose track of an event, and always have something worth reading. We believe that
+                fan culture deserves real, thoughtful coverage  not just clickbait and hot takes.
+                So everything we build, every article we write, and every feature we add comes from
+                a genuine love for the fandoms we cover. Our goal is to keep that spirit alive,
+                and to make FandomVerse a space where your passion is always welcome.
+              </p>
             </div>
-          </div>
 
-          {/* What you can do */}
-          <div className="fv-mt-12 fv-bg-ink-800 rounded-3 fv-p-6 fv-md-p-8 border fv-border-ink-600">
-            <h2 className="fv-display-font fv-text-3xl fv-text-paper-50 fv-tracking-wide fv-mb-4">What You Can Do Here</h2>
-            <ul className="fv-space-y-2 fv-text-paper-200">
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Read articles written like real entertainment coverage, not press releases</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Explore character profiles with traits, bios, and related content</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Watch trailers, interviews, and fan content across all seven fandoms</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Browse galleries with a full-screen lightbox viewer</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Track upcoming releases with a visual calendar</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Discover events — conventions, festivals, tours, and premieres</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Browse merchandise and keep a cart of items you're interested in</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Bookmark anything and add personal notes for this session</li>
-              <li className="d-flex align-items-start gap-2"><span className="fv-text-brand-400 fv-mt-1">•</span> Search across all content with filters and sorting</li>
-            </ul>
-          </div>
+            {/* Our Vision */}
+            <div className="col-12 col-md-6 about-pillar-column">
+              <h2 className="fv-display-font fv-text-3xl fv-md-text-4xl fv-tracking-wide fv-mb-5 about-section-title">
+                Our Vision
+              </h2>
+              <p className="fv-text-paper-200 fv-text-base fv-body-font text-justify about-copy">
+                We envision FandomVerse as the go-to destination for pop culture fans around the
+                world  a platform where anime lovers, gamers, K-Pop stans, comic readers, and
+                movie enthusiasts all feel equally at home. We want to break down the walls between
+                fandoms and show that the things we love are more connected than we think. In the
+                future, we see a place where discovering something new feels exciting rather than
+                overwhelming, where communities grow naturally, and where being a fan isn't just
+                something you do alone in your room it's something you share. That's the world
+                FandomVerse is working toward, one fandom at a time.
+              </p>
+            </div>
 
-          <div className="fv-mt-8 text-center">
-            <Link to="/" className="d-inline-flex align-items-center gap-2 fv-px-6 fv-py-3 fv-bg-brand-500 fv-hover-bg-brand-400 fv-text-ink-900 fv-heading-font fv-font-semibold rounded-3 fv-transition-colors">
-              <Compass className="fv-w-5 fv-h-5"/>
-              Start Exploring
-            </Link>
           </div>
         </div>
       </section>
-    </div>);
+
+      {/* Meet Our Team */}
+      <section className="about-team-section">
+        <div className="container-wide about-wide">
+
+          {/* Section heading */}
+          <h2
+            className="fv-display-font fv-text-4xl fv-md-text-5xl fv-text-paper-50 fv-tracking-wide text-center about-title about-team-heading"
+          >
+            Meet Our Team
+          </h2>
+
+          {/* Team cards */}
+          <div className="row justify-content-center g-4 g-xl-5 about-team-grid">
+            {[
+              {
+                name: 'Victor Olamilekan Ajisola',
+                role: 'Web Developer',
+                desc: 'Specializes in frontend architecture and user experience for FandomVerse.',
+                avatar: 'https://ui-avatars.com/api/?name=Victor+Ajisola&background=1c2333&color=ffffff&size=160&bold=true&font-size=0.4',
+              },
+              {
+                name: 'Oladipo Taiwo',
+                role: 'Web Developer',
+                desc: 'I build modern, responsive web experiences with clean UI and practical problem-solving in mind.',
+                avatar: '/oladipo.jpg',
+                avatarPosition: 'center top',
+              },
+              {
+                name: 'Ogunmuyiwa Ireoluwa',
+                role: 'Web Developer',
+                desc: 'Responsible for UI enhancements, performance optimisation, and maintaining code quality.',
+                avatar: 'https://ui-avatars.com/api/?name=Ogunmuyiwa+Ireoluwa&background=1c2333&color=ffffff&size=160&bold=true&font-size=0.4',
+              },
+              {
+                name: 'Stacey Ifeanyichukwu',
+                role: 'UI/UX Designer',
+                desc: 'Crafts intuitive and visually engaging interfaces that keep FandomVerse fans coming back for more.',
+                avatar: 'https://ui-avatars.com/api/?name=Stacey+Ifeanyichukwu&background=1c2333&color=ffffff&size=160&bold=true&font-size=0.4',
+              },
+              {
+                name: 'Oluwagbebemi Ososanya',
+                role: 'Content Strategist',
+                desc: 'Drives the content vision for FandomVerse, ensuring every article and feature resonates with fans.',
+                avatar: 'https://ui-avatars.com/api/?name=Oluwagbebemi+Ososanya&background=1c2333&color=ffffff&size=160&bold=true&font-size=0.4',
+              },
+            ].map((member) => (
+              <div key={member.name} className="col-12 col-sm-6 col-lg-4 d-flex justify-content-center">
+                <div
+                  className="text-center rounded-4 fv-bg-ink-800 border fv-border-ink-600 w-100 about-team-card"
+                >
+                  {/* Avatar */}
+                  <div className="d-flex justify-content-center fv-mb-5">
+                    <img
+                      className="about-avatar"
+                      src={member.avatar}
+                      alt={member.name}
+                    />
+                  </div>
+
+                  {/* Name */}
+                  <h3
+                    className="fv-heading-font fv-text-xl fv-font-semibold fv-mb-1 about-member-name"
+                  >
+                    {member.name}
+                  </h3>
+
+                  {/* Role */}
+                  <p className="fv-text-sm fv-text-brand-400 fv-heading-font fv-mb-3 about-member-role">
+                    {member.role}
+                  </p>
+
+                  {/* Description */}
+                  <p className="fv-text-paper-300 fv-text-sm fv-body-font about-member-bio">
+                    {member.desc}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+        </div>
+      </section>
+    </main>
+  );
 }

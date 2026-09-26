@@ -281,83 +281,92 @@
   },
   {
     "id": "med-021",
-    "title": "Guardline — Motion Comic Trailer",
+    "title": "Batman of Two Worlds - Official Trailer",
     "category": "comics",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/7809123/pexels-photo-7809123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:48",
-    "description": "A motion comic trailer for the new Guardline arc, with voice acting, sound effects, and animated panels."
+    "thumbnail": "/images/comics/video-batman-two-worlds.jpg",
+    "description": "Batman of Two Worlds - Official Trailer",
+    "youtubeId": "ftzsh6wmRrU",
+    "sourceUrl": "https://www.youtube.com/watch?v=ftzsh6wmRrU"
   },
   {
     "id": "med-022",
-    "title": "Artist Interview: The Fracture",
+    "title": "Batman: Bad Seeds - Official Trailer",
     "category": "comics",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/33495060/pexels-photo-33495060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "28:45",
-    "description": "The artist and writer of The Fracture discuss their creative partnership and the series' multiverse concept."
+    "type": "trailer",
+    "thumbnail": "/images/comics/video-bad-seeds.jpg",
+    "description": "Batman: Bad Seeds - Official Trailer",
+    "youtubeId": "vjeKeilIfSM",
+    "sourceUrl": "https://www.youtube.com/watch?v=vjeKeilIfSM"
   },
   {
     "id": "med-023",
-    "title": "Comics Craft Podcast — Lettering Special",
+    "title": "Ultimate Spider-Man (2024) - Official Trailer",
     "category": "comics",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "38:50",
-    "description": "A deep dive into the art of comic lettering with three professional letterers sharing their process and tips."
+    "type": "trailer",
+    "thumbnail": "/images/comics/video-ultimate-spider-man.jpg",
+    "description": "Ultimate Spider-Man (2024) - Official Trailer",
+    "youtubeId": "jKuLR5KCiY0",
+    "sourceUrl": "https://www.youtube.com/watch?v=jKuLR5KCiY0"
   },
   {
     "id": "med-024",
-    "title": "Iron Coast — Audio Drama Episode 1",
+    "title": "Batman of Two Worlds - Creator Interview",
     "category": "comics",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/5569970/pexels-photo-5569970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "22:00",
-    "description": "An audio drama adaptation of the noir comic series, with full cast narration and original sound design."
+    "type": "interview",
+    "thumbnail": "/images/comics/video-batman-interview.jpg",
+    "description": "Batman of Two Worlds - Creator Interview",
+    "youtubeId": "x7bKySdPkOY",
+    "sourceUrl": "https://www.youtube.com/watch?v=x7bKySdPkOY"
   },
   {
     "id": "med-025",
-    "title": "Ronin's Path — Anime Adaptation Announcement",
+    "title": "Demon Slayer: Infinity Castle - Official Trailer",
     "category": "manga",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/6593478/pexels-photo-6593478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "0:58",
-    "description": "A brief announcement trailer confirming the anime adaptation of the popular samurai manga, with a first look at character designs."
+    "thumbnail": "/images/manga/video-demon-slayer.jpg",
+    "description": "Demon Slayer: Infinity Castle - Official Trailer",
+    "youtubeId": "wyiZWYMilgk",
+    "sourceUrl": "https://www.youtube.com/watch?v=wyiZWYMilgk"
   },
   {
     "id": "med-026",
-    "title": "Mangaka Interview: The Tea Shop on Cherry Lane",
+    "title": "Tatsuki Fujimoto Draws Denji - Creator Sketch",
     "category": "manga",
     "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/15100360/pexels-photo-15100360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "19:33",
-    "description": "The creator discusses their slice-of-life manga, their inspirations, and the challenge of drawing food that makes readers hungry."
+    "thumbnail": "/images/manga/video-chainsaw-creator.jpg",
+    "description": "Tatsuki Fujimoto Draws Denji - Creator Sketch",
+    "youtubeId": "LKs8fK3FjHc",
+    "sourceUrl": "https://www.viz.com/blog/posts/mangaka-mania-21-lineup"
   },
   {
     "id": "med-027",
-    "title": "Manga Podcast — Weekly vs Monthly Serialization",
+    "title": "Wanted! Eiichiro Oda Before One Piece - Manga Trailer",
     "category": "manga",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/6892700/pexels-photo-6892700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "44:18",
-    "description": "A discussion about how publication schedules shape manga storytelling, with examples from popular series."
+    "type": "trailer",
+    "thumbnail": "/images/manga/video-onepiece-trailer.jpg",
+    "description": "Wanted! Eiichiro Oda Before One Piece - Manga Trailer",
+    "youtubeId": "3uaMeEcwvvU",
+    "sourceUrl": "https://www.youtube.com/watch?v=3uaMeEcwvvU"
   },
   {
     "id": "med-028",
-    "title": "Shadow Boxer — Theme Composition (Audio)",
+    "title": "Oda Sensei Draws Luffy",
     "category": "manga",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:54",
-    "description": "A fan-composed theme for the boxing manga, blending taiko drums with modern electronic production."
+    "type": "fan-content",
+    "thumbnail": "/images/manga/video-onepiece-oda.jpg",
+    "description": "Oda Sensei Draws Luffy",
+    "youtubeId": "VKE7e9IgrhQ",
+    "sourceUrl": "https://www.viz.com/blog/posts/oda-sensei-draws-luffy"
   },
   {
     "id": "med-030",
-    "title": "Fan Film: Iron Coast — The Night Shift",
+    "title": "How to Draw Wonder Woman with Tom King",
     "category": "comics",
     "type": "fan-content",
-    "thumbnail": "https://images.pexels.com/photos/38386519/pexels-photo-38386519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "8:15",
-    "description": "A short fan film bringing the noir world of Iron Coast to life, shot in black and white on the streets of Chicago."
+    "thumbnail": "/images/comics/video-wonder-woman.jpg",
+    "description": "How to Draw Wonder Woman with Tom King",
+    "youtubeId": "Zc6hFsf4e08",
+    "sourceUrl": "https://www.youtube.com/watch?v=Zc6hFsf4e08"
   }
 ]

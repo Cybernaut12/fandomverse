@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send, Clock } from 'lucide-react';
+import './ContactPage.css';
 export function ContactPage() {
     const [sent, setSent] = useState(false);
     const [form, setForm] = useState({ name: '', email: '', subject: '', message: '' });
-    const [mapQuery, setMapQuery] = useState(null);
-    const [locationStatus, setLocationStatus] = useState('Your location is not accessed unless you choose Use my location.');
+    const siteMapAddress = 'MODUPE HOUSE, Oyo Rd, 200211 Mokola Rd, adjacent Alafia Hospital, Ibadan, Oyo';
+    const [mapQuery, setMapQuery] = useState(siteMapAddress);
+    const [showingVisitorLocation, setShowingVisitorLocation] = useState(false);
+    const [locationStatus, setLocationStatus] = useState('Map showing Aptech Ibadan 2, Ibadan, Oyo.');
     const locateVisitor = () => {
         if (!navigator.geolocation) {
             setLocationStatus('Your browser does not support location access.');
@@ -14,6 +17,7 @@ export function ContactPage() {
         navigator.geolocation.getCurrentPosition(({ coords }) => {
             const point = `${coords.latitude},${coords.longitude}`;
             setMapQuery(point);
+            setShowingVisitorLocation(true);
             setLocationStatus(`Map centered on your location (${coords.latitude.toFixed(4)}, ${coords.longitude.toFixed(4)}).`);
         }, (error) => {
             setLocationStatus(error.code === error.PERMISSION_DENIED
@@ -70,7 +74,7 @@ export function ContactPage() {
                   <MapPin className="fv-w-5 fv-h-5 fv-text-brand-400 flex-shrink-0 fv-mt-0-5"/>
                   <div>
                     <p className="fv-text-xs fv-heading-font fv-uppercase fv-tracking-wider fv-text-paper-300-60">Location</p>
-                    <p className="fv-text-paper-100">221B Fandom Street, Suite 42<br />Los Angeles, CA 90013</p>
+                    <p className="fv-text-paper-100">Aptech Ibadan 2<br />MODUPE HOUSE, Oyo Rd, 200211 Mokola Rd, adjacent Alafia Hospital, Ibadan, Oyo</p>
                   </div>
                 </div>
                 <div className="d-flex align-items-start fv-gap-3 fv-bg-ink-800 rounded-3 fv-p-4 border fv-border-ink-600">
@@ -82,33 +86,6 @@ export function ContactPage() {
                 </div>
               </div>
 
-              <div className="fv-mt-6 rounded-3 overflow-hidden border fv-border-ink-600 fv-bg-ink-800">
-                <div className="contact-map-frame position-relative fv-aspect-16-9">
-                  {mapQuery ? (
-                    <>
-                      <iframe title="Google Map centered on your location" src={`https://maps.google.com/maps?q=${encodeURIComponent(mapQuery)}&z=14&output=embed`} className="w-100 h-100 border-0" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade" />
-                      <div className="position-absolute fv-bottom-3 fv-left-3 fv-bg-ink-900-80 fv-backdrop-blur-sm rounded-2 fv-px-3 fv-py-2">
-                        <p className="fv-text-xs fv-text-paper-200 fv-heading-font d-flex align-items-center fv-gap-1">
-                          <MapPin className="fv-w-3-5 fv-h-3-5 fv-text-brand-400"/>
-                          Your location
-                        </p>
-                      </div>
-                    </>
-                  ) : (
-                    <div className="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center fv-p-4 fv-bg-ink-700">
-                      <MapPin className="fv-w-8 fv-h-8 fv-text-brand-400 fv-mb-3" />
-                      <p className="fv-heading-font fv-text-paper-100">Map location not selected</p>
-                      <p className="fv-mt-1 fv-text-xs fv-text-paper-300-60">Choose “Use my location” to center Google Maps on your device.</p>
-                    </div>
-                  )}
-                </div>
-                <div className="fv-p-3">
-                  <button type="button" onClick={locateVisitor} className="d-inline-flex align-items-center fv-gap-2 fv-px-3 fv-py-2 rounded-3 fv-bg-brand-500 fv-hover-bg-brand-400 fv-text-ink-900 fv-heading-font fv-text-sm fv-font-semibold">
-                    <MapPin className="fv-w-4 fv-h-4" /> Use my location
-                  </button>
-                  <p className="fv-mt-2 fv-text-xs fv-text-paper-300-60" role="status" aria-live="polite">{locationStatus}</p>
-                </div>
-              </div>
             </div>
 
             {/* Form */}
@@ -154,6 +131,34 @@ export function ContactPage() {
                 </p>
               </form>
             </div>
+              <div className="contact-map-full-width rounded-3 overflow-hidden border fv-border-ink-600 fv-bg-ink-800">
+                <div className="contact-map-frame position-relative">
+                  {mapQuery ? (
+                    <>
+                      <iframe title={showingVisitorLocation ? "Google Map centered on your location" : "Google Map showing Aptech Ibadan 2, Ibadan, Oyo"} src={`https://maps.google.com/maps?q=${encodeURIComponent(mapQuery)}&z=14&output=embed`} className="w-100 h-100 border-0" loading="lazy" allowFullScreen referrerPolicy="no-referrer-when-downgrade" />
+                      <div className="position-absolute fv-bottom-3 fv-left-3 fv-bg-ink-900-80 fv-backdrop-blur-sm rounded-2 fv-px-3 fv-py-2">
+                        <p className="fv-text-xs fv-text-paper-200 fv-heading-font d-flex align-items-center fv-gap-1">
+                          <MapPin className="fv-w-3-5 fv-h-3-5 fv-text-brand-400"/>
+                          {showingVisitorLocation ? "Your location" : "Aptech Ibadan 2"}
+                        </p>
+                      </div>
+                    </>
+                  ) : (
+                    <div className="w-100 h-100 d-flex flex-column align-items-center justify-content-center text-center fv-p-4 fv-bg-ink-700">
+                      <MapPin className="fv-w-8 fv-h-8 fv-text-brand-400 fv-mb-3" />
+                      <p className="fv-heading-font fv-text-paper-100">Map location not selected</p>
+                      <p className="fv-mt-1 fv-text-xs fv-text-paper-300-60">Choose “Use my location” to center Google Maps on your device.</p>
+                    </div>
+                  )}
+                </div>
+                <div className="fv-p-3">
+                  <button type="button" onClick={locateVisitor} className="d-inline-flex align-items-center fv-gap-2 fv-px-3 fv-py-2 rounded-3 fv-bg-brand-500 fv-hover-bg-brand-400 fv-text-ink-900 fv-heading-font fv-text-sm fv-font-semibold">
+                    <MapPin className="fv-w-4 fv-h-4" /> Use my location
+                  </button>
+                  <p className="fv-mt-2 fv-text-xs fv-text-paper-300-60" role="status" aria-live="polite">{locationStatus}</p>
+                </div>
+              </div>
+
           </div>
         </div>
       </section>

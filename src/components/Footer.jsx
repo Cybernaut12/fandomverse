@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Twitter, Instagram, Youtube, Github } from 'lucide-react';
 import { categories } from '@/data/categories';
 import { useVisitorCounter, formatVisitors } from '@/hooks/useVisitorCounter';
@@ -12,7 +12,7 @@ export function Footer() {
           {/* Brand */}
           <div className="col-12 col-md-6 col-lg-3">
             <Link to="/" className="d-flex align-items-center gap-2 fv-mb-4">
-              <img src="/fandomverse-logo.svg" alt="FandomVerse" className="brand-logo footer-brand-logo" width="432" height="76" />
+              <img src="/fandomverse-logo-lockup.svg" alt="FandomVerse" className="brand-logo footer-brand-logo" width="210" height="37" />
             </Link>
             <p className="fv-text-sm fv-text-paper-300 fv-leading-relaxed fv-max-w-xs">
               One universe, every fandom. We bring scattered entertainment content together
@@ -89,7 +89,7 @@ export function Footer() {
 
         <div className="fv-mt-5 fv-pt-4 border-top fv-border-ink-600 d-flex flex-column flex-sm-row align-items-center justify-content-between fv-gap-3">
           <p className="fv-text-xs fv-text-paper-300-50">
-            © {now.getFullYear()} FandomVerse. A fan-made project for demonstration purposes.
+            Â© {now.getFullYear()} FandomVerse. A fan-made project for demonstration purposes.
           </p>
           <p className="fv-text-xs fv-text-paper-300-40">
             All images via Pexels. Content is fictional and created for this project.
@@ -98,3 +98,4 @@ export function Footer() {
       </div>
     </footer>);
 }
+
