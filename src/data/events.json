@@ -55,29 +55,29 @@
   },
   {
     "id": "evt-007",
-    "title": "International Film Festival 2026",
+    "title": "Venice International Film Festival 2026",
     "category": "movies",
     "date": "2026-09-28",
-    "location": "Grauman's area, Los Angeles, USA",
-    "description": "A ten-day festival showcasing independent and international cinema, with competition categories for narrative features, documentaries, and short films.",
+    "location": "Palazzo del Cinema, Venice Lido, Italy",
+    "description": "The world's oldest film festival celebrates master directors and premieres, featuring an exclusive Denis Villeneuve and Christopher Nolan 70mm retrospective showcase.",
     "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "evt-008",
-    "title": " Horror Cinema Weekend",
+    "title": "San Diego Comic-Con: Hall H Movie Showcase",
     "category": "movies",
     "date": "2026-10-31",
-    "location": "Tiffany Theatre, London, UK",
-    "description": "A 48-hour marathon of horror cinema, from classic Universal monsters to modern psychological thrillers. Costumes encouraged. Midnight screenings included.",
+    "location": "San Diego Convention Center, California, USA",
+    "description": "Marvel Studios and DC Studios take over Hall H with exclusive cast appearances, sneak-peek footage for Spider-Man: Brand New Day, and The Batman Part II reveals.",
     "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "evt-009",
-    "title": "Cinematography Summit",
+    "title": "IMAX 70mm Global Film Retrospective",
     "category": "movies",
     "date": "2026-11-18",
-    "location": "Lincoln Center, New York, USA",
-    "description": "An industry gathering focused on the craft of cinematography, with masterclasses from award-winning directors of photography and hands-on equipment demos.",
+    "location": "BFI IMAX London & Lincoln Square NYC",
+    "description": "Special one-week-only 15-perf 70mm screenings of Dune: Part Two, Oppenheimer, and Interstellar on the world's largest screens with cinematographer Q&As.",
     "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {

@@ -73,39 +73,63 @@
   },
   {
     "id": "med-009",
-    "title": "The House on Meridian Hill — Official Trailer",
+    "title": "Dune: Part Two — Official Main Trailer",
     "category": "movies",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:18",
-    "description": "The first trailer for the adventure film starring Eleanor Vance, promising a globe-spanning treasure hunt."
+    "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+    "youtubeId": "Way9Dexny3w",
+    "duration": "2:58",
+    "description": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family."
   },
   {
     "id": "med-010",
-    "title": "Director's Commentary: After the Rain",
+    "title": "Christopher Nolan & Cillian Murphy: The Making of Oppenheimer",
     "category": "movies",
     "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "31:20",
-    "description": "The director discusses the film's jazz-inflected score, the casting process, and the decision to shoot on film."
+    "thumbnail": "https://img.youtube.com/vi/uYPbbksJxIg/maxresdefault.jpg",
+    "youtubeId": "uYPbbksJxIg",
+    "duration": "14:20",
+    "description": "Director Christopher Nolan and Cillian Murphy discuss shooting in IMAX 70mm black-and-white and staging the Trinity test without CGI."
   },
   {
     "id": "med-011",
-    "title": "Cinema Podcast — The Mid-Budget Revival",
+    "title": "The Batman — Main Theme by Michael Giacchino",
     "category": "movies",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/13984365/pexels-photo-13984365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "47:55",
-    "description": "Film critics discuss the return of the mid-budget movie and what it means for the future of theatrical cinema."
+    "type": "audio",
+    "thumbnail": "https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
+    "duration": "6:48",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+    "description": "The brooding, heavy-brass orchestral overture that defines Matt Reeves' neo-noir vision of Gotham City."
   },
   {
     "id": "med-012",
-    "title": "Song of the Dust — Theme Song (Audio)",
+    "title": "Spider-Man: Across the Spider-Verse — 'Am I Dreaming' Theme",
     "category": "movies",
     "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/11449473/pexels-photo-11449473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "5:22",
-    "description": "The haunting main theme from the post-apocalyptic drama, performed with acoustic guitar and vocals."
+    "thumbnail": "https://image.tmdb.org/t/p/w1280/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+    "duration": "4:16",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "description": "Metro Boomin, A$AP Rocky, and Roisee's stirring orchestral and hip-hop anthem from Across the Spider-Verse."
+  },
+  {
+    "id": "med-012b",
+    "title": "Gladiator II — Official Teaser Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/4rgYUipGJNo/maxresdefault.jpg",
+    "youtubeId": "4rgYUipGJNo",
+    "duration": "3:10",
+    "description": "Paul Mescal enters the arena as Lucius in Ridley Scott's long-awaited sequel to the Oscar-winning epic."
+  },
+  {
+    "id": "med-012c",
+    "title": "Deadpool & Wolverine — Official Teaser Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/73_1biulkYk/maxresdefault.jpg",
+    "youtubeId": "73_1biulkYk",
+    "duration": "2:38",
+    "description": "Marvel Studios presents their most unexpected team-up as Wade Wilson pulls a reluctant Wolverine into the multiverse."
   },
   {
     "id": "med-013",

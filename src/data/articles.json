@@ -130,66 +130,142 @@
   },
   {
     "id": "art-007",
-    "title": "The Return of the Mid-Budget Movie",
-    "slug": "return-of-mid-budget-movie",
+    "title": "The Spice and the Sand: How Denis Villeneuve Mastered Dune: Part Two",
+    "slug": "dune-part-two-cinematic-masterpiece",
     "category": "movies",
-    "excerpt": "For years, the space between indie and blockbuster was a dead zone. Suddenly, it's the most exciting place in cinema.",
+    "excerpt": "From infrared desert cameras in Jordan to Hans Zimmer's otherworldly score, Denis Villeneuve transformed Frank Herbert's epic into cinema history.",
     "body": [
-      "In the blockbuster-or-nothing era of the 2010s, the mid-budget movie was declared dead. Studios either poured hundreds of millions into franchise tentpoles or spent almost nothing on micro-budget horror. The middle ground — the space where most of cinema history's best films lived — was paved over.",
-      "So it's remarkable that this year's most talked-about films sit squarely in that abandoned range. Budgets between fifteen and forty million. Original scripts. Named actors taking pay cuts to work with directors they admire. Stories that aren't based on existing IP.",
-      "The shift is driven by a combination of factors: streaming platforms realizing that algorithm-friendly content doesn't build lasting loyalty, theater chains desperate for product that isn't a superhero sequel, and audiences showing clear fatigue with the blockbuster treadmill.",
-      "It's too early to call it a renaissance. But for the first time in a long time, a filmmaker with a $25 million drama and a great script has a real path to the screen. That alone is worth celebrating."
+      "When the lights dimmed for Dune: Part Two, audiences were greeted not with a standard Hollywood sequel, but with an uncompromising, visceral monument of visual storytelling. Denis Villeneuve took the deliberate world-building of the 2021 film and ignited it into a sweeping, terrifying examination of religious fundamentalism, power, and destiny.",
+      "Cinematographer Greig Fraser utilized specialized infrared cameras to capture the blinding, desolate glare of the Arrakis sun across the dunes of Jordan and Abu Dhabi. The resulting imagery stripped away color in favor of stark, radiant white sands and obsidian shadows, giving the Fremen guerrilla campaign an almost tactile reality.",
+      "At the center of this triumph is Timothée Chalamet's metamorphosis from a grieving young prince into the chilling, prescient warlord Muad'Dib. Paired with Zendaya's grounded, skeptical Chani and Austin Butler's psychopathic Feyd-Rautha, the film avoids standard savior tropes to deliver a deeply unsettling cautionary tale.",
+      "With over $714 million at the global box office and near-unanimous critical acclaim, Dune: Part Two proved that audiences are hungry for auteur-driven, high-concept science fiction when handled with complete technical mastery and thematic ambition."
     ],
     "author": "Marcus Webb",
     "date": "2026-09-12",
-    "image": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "/images/dune-banner.jpg",
     "tags": [
-      "industry",
-      "mid-budget",
-      "trends"
+      "dune",
+      "cinema",
+      "imax",
+      "denis-villeneuve",
+      "sci-fi"
     ],
     "featured": true
   },
   {
     "id": "art-008",
-    "title": "Cinematographers Are Bringing Film Back. Here's Why.",
-    "slug": "cinematographers-bringing-film-back",
+    "title": "Breaking the Canon: Inside the Groundbreaking Visuals of Across the Spider-Verse",
+    "slug": "across-the-spider-verse-visual-breakthrough",
     "category": "movies",
-    "excerpt": "A growing number of productions are shooting on actual film again. We asked three cinematographers what digital still can't match.",
+    "excerpt": "Six animation styles, 240 distinct characters, and a multiverse of color: how Sony Pictures Animation revolutionized comic book cinema.",
     "body": [
-      "When digital cameras overtook film in the early 2010s, it seemed like a one-way transition. Film stock was expensive, lab processing was disappearing, and the new sensors could match or exceed film's resolution. The industry moved on.",
-      "And yet, here we are in 2026, and film is back. Not as a nostalgic gimmick — as a deliberate creative choice. More than forty theatrical releases this year were shot at least partially on film, up from single digits a few years ago.",
-      "The reasons vary. Some cinematographers talk about the texture — the grain structure of film that digital simulation still can't perfectly replicate. Others point to the discipline that film imposes: you can't shoot endless takes, so the preparation has to be more rigorous, the performances more considered.",
-      "One cinematographer put it simply: \"Film has uncertainty. Digital is perfect, and perfect is boring.\" Whatever the reason, the resurgence is a reminder that technological progress and artistic value don't always move in the same direction."
+      "Spider-Man: Across the Spider-Verse pushed the boundaries of animated filmmaking further than any feature in modern memory. Rather than adopting a singular aesthetic, directors Joaquim Dos Santos, Kemp Powers, and Justin K. Thompson constructed an entire visual language tailored to each dimension.",
+      "From the bleeding watercolor expressionism of Gwen Stacy's Earth-65—where backgrounds shift hue to reflect her inner emotional turbulence—to the retro-futuristic Syd Mead-inspired towers of Nueva York (Earth-928), every frame is packed with custom artistic flourishes and handcrafted line art.",
+      "The film required over 1,000 animators and revolutionized software pipelines to allow disparate styles—such as Daniel Kaluuya's punk-rock collage Spider-Punk (Hobie Brown)—to exist in the same frame without feeling disjointed.",
+      "Beyond the visual pyrotechnics, Across the Spider-Verse resonates because of Miles Morales' refusal to accept predetermined tragedy. By questioning the very concept of 'canon events', the film challenges decades of comic book storytelling and cements itself as a modern classic."
     ],
     "author": "Elena Rossi",
     "date": "2026-08-28",
-    "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "https://image.tmdb.org/t/p/w1280/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
     "tags": [
-      "cinematography",
-      "film-stock",
-      "craft"
-    ]
+      "spider-verse",
+      "animation",
+      "marvel",
+      "visual-effects",
+      "miles-morales"
+    ],
+    "featured": true
   },
   {
     "id": "art-009",
-    "title": "The Art of the Movie Trailer in the Age of Spoilers",
-    "slug": "art-of-movie-trailer-spoilers",
+    "title": "Shadows, Rain, and Rage: The Neo-Noir Architecture of The Batman",
+    "slug": "the-batman-neo-noir-gotham",
     "category": "movies",
-    "excerpt": "How editors are learning to tease without revealing — and why the best trailers are the ones that show you almost nothing.",
+    "excerpt": "Matt Reeves and Greig Fraser stripped the superhero myth down to a rain-soaked 1970s detective thriller, redefining Gotham City.",
     "body": [
-      "The complaint is now a cliche: trailers give away the whole movie. Show the best jokes, the key plot turns, the final act twist — and by the time you sit down in the theater, there's nothing left to discover. But a counter-trend has emerged, led by a small group of trailer editors who've made an art of withholding.",
-      "The best recent trailers don't summarize the plot. They establish a mood, a texture, a question. They show you a character in a moment — not the moment that explains everything, but a moment that makes you curious. They use music and pacing not to hype but to unsettle.",
-      "It's harder than it looks. Studios want footage that will draw audiences, and the easiest way to do that is to show the most dramatic moments. The editors who push back against that instinct have to argue, frame by frame, that less is more.",
-      "When it works, the result is a trailer that stays with you — not because of what it showed, but because of what it didn't."
+      "In a superhero landscape saturated with multiversal stakes and world-ending skybeams, Matt Reeves' The Batman dared to be something radically different: a grounded, psychological detective procedural steeped in the traditions of All the President's Men, Klute, and Se7en.",
+      "Robert Pattinson's Bruce Wayne is not an invincible playboy, but a nocturnal recluse still consumed by grief and early in his crusade. Operating from a gritty, rusted Batcave beneath Wayne Tower, his journey forces him to confront the realization that raw vengeance only breeds greater chaos.",
+      "Greig Fraser's Oscar-nominated cinematography combined custom anamorphic lenses with silhouetted orange flares, perpetual drizzle, and deep obsidian shadows to make Gotham feel like a living, decaying metropolis rather than a studio backdrop.",
+      "With The Batman Part II scheduled for 2026, the groundwork laid here remains one of the most distinctive, stylish interpretations of comic book lore ever brought to the silver screen."
     ],
     "author": "David Park",
     "date": "2026-08-05",
-    "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "image": "https://image.tmdb.org/t/p/w1280/rvtdN5XkWAfGX6xDuPL6yYS2seK.jpg",
     "tags": [
-      "trailers",
-      "editing",
-      "marketing"
+      "the-batman",
+      "dc",
+      "neo-noir",
+      "gotham",
+      "matt-reeves"
+    ]
+  },
+  {
+    "id": "art-009b",
+    "title": "The Quantum Reckoning: Christopher Nolan and the Physical Terror of Oppenheimer",
+    "slug": "oppenheimer-christopher-nolan-70mm",
+    "category": "movies",
+    "excerpt": "Zero CGI, real magnesium explosions, and 11-mile IMAX film reels: inside the monumental craft behind Oppenheimer.",
+    "body": [
+      "Christopher Nolan's Oppenheimer achieved what many deemed impossible: turning a three-hour biographical drama about theoretical physicists and bureaucratic hearings into a billion-dollar global cinematic event.",
+      "By steadfastly refusing to use computer-generated imagery for the Trinity test, Nolan and supervisor Andrew Jackson created miniature chemical reactions, forced-perspective magnesium bursts, and high-speed photography to evoke the cosmic horror of splitting the atom.",
+      "Cillian Murphy's haunting, hollowed-out portrayal of J. Robert Oppenheimer is anchored by Ludwig Göransson's relentless violin score and Hoyte van Hoytema's monumental IMAX 70mm large-format portraiture, which turned human faces into dramatic landscapes.",
+      "Sweeping seven Academy Awards including Best Picture and Best Director, Oppenheimer reaffirmed the cultural vitality of theatrical, adult-oriented cinematic storytelling."
+    ],
+    "author": "Sarah Lin",
+    "date": "2026-07-18",
+    "image": "https://image.tmdb.org/t/p/w1280/nb3xI8XI3Es4vm99ghiA5Arr1tX.jpg",
+    "tags": [
+      "oppenheimer",
+      "christopher-nolan",
+      "imax-70mm",
+      "history",
+      "cinema"
+    ]
+  },
+  {
+    "id": "art-009c",
+    "title": "Colosseum Reborn: Ridley Scott and the Savage Grandeur of Gladiator II",
+    "slug": "gladiator-ii-ridley-scott-spectacle",
+    "category": "movies",
+    "excerpt": "Twenty-four years after the original Oscar triumph, Ridley Scott returns to ancient Rome with Paul Mescal and Denzel Washington.",
+    "body": [
+      "More than two decades after Russell Crowe's Maximus Decimus Meridius took his final breath on the sands of the Colosseum, director Ridley Scott returns to ancient Rome with Gladiator II.",
+      "Starring Paul Mescal as an adult Lucius Aurelius, the film picks up decades after the fall of Commodus, finding Rome under the tyrannical grip of dual emperors Caracalla and Geta. Captured in northern Africa, Lucius is forced into the arena under the ruthless tutelage of arms merchant Macrinus, played with electric ferocity by Denzel Washington.",
+      "Scott utilizes unprecedented scale, staging full naval battles inside a flooded Colosseum, vicious rhino gladiatorial combat, and massive Roman legions in siege warfare.",
+      "Gladiator II bridges visceral practical action with Shakespearean palace intrigue, proving that the sword-and-sandal historical epic still holds an unmatched power on the big screen."
+    ],
+    "author": "Julian Thorne",
+    "date": "2026-09-02",
+    "image": "https://image.tmdb.org/t/p/w1280/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "tags": [
+      "gladiator",
+      "ridley-scott",
+      "ancient-rome",
+      "action",
+      "epic"
+    ]
+  },
+  {
+    "id": "art-009d",
+    "title": "Spider-Man: Brand New Day - The Clean Slate Era of Peter Parker",
+    "slug": "spider-man-brand-new-day-preview",
+    "category": "movies",
+    "excerpt": "Forgotten by the world and operating alone on the streets of New York, Tom Holland's Peter Parker enters his darkest, most grounded journey.",
+    "body": [
+      "Following the tragic climax of No Way Home, where Doctor Strange's spell erased Peter Parker from the memories of everyone he loves, the Marvel Cinematic Universe is preparing for a new, grounded era in Spider-Man: Brand New Day.",
+      "Stripped of Stark tech, Avengers support, and high-society billionaire alliances, Peter Parker is once again the street-level hero fans have yearned for: living in a cramped rundown Manhattan apartment, sewing his own suits, and listening to police scanners.",
+      "Directed by Destin Daniel Cretton, Brand New Day introduces new allies and gritty mob syndicates, setting Peter on a collision course with street-level crime that tests whether he can endure the cost of his solitary crusade.",
+      "Scheduled for release in 2026, Brand New Day marks a vital transition for the web-slinger, combining classic comic book roots with mature, character-driven storytelling."
+    ],
+    "author": "Yuki Tanaka",
+    "date": "2026-09-20",
+    "image": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg",
+    "tags": [
+      "spider-man",
+      "mcu",
+      "tom-holland",
+      "marvel",
+      "blockbuster"
     ]
   },
   {

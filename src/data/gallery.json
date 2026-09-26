@@ -1,14 +1,62 @@
 [
-  { "url": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg", "alt": "Spider-Man: Brand New Day — movie poster", "kind": "Movies" },
-  { "url": "https://poster.gsc.com.my/2026/260430_ResidentEvil_big.jpg", "alt": "Resident Evil — movie poster", "kind": "Movies" },
-  { "url": "https://cdn.teater.co/imgs/toy-story-5-2026_600_880.webp", "alt": "Toy Story 5 — movie poster", "kind": "Movies" },
-  { "url": "https://image.tmdb.org/t/p/original/mSeGcWakOmhPd1n0QcinqIIUu1B.jpg", "alt": "The Love Hypothesis — movie poster", "kind": "Movies" },
-  { "url": "https://d6fmx7z4dqmn1.cloudfront.net/absolute-wonder-woman-cover-1024x1575.webp", "alt": "Absolute Wonder Woman #1 — comic cover", "kind": "Comics" },
-  { "url": "https://media.mycomicshop.com/n_iv/600/7717213.jpg", "alt": "Absolute Batman #1 — comic cover", "kind": "Comics" },
-  { "url": "https://cdn.marvel.com/content/2x/ultsm2024001_fifthprinting.jpg", "alt": "Ultimate Spider-Man #1 — comic cover", "kind": "Comics" },
-  { "url": "https://comic-watch.com/wp-content/uploads/2025/04/ASM2025001_Preview-page-002-scaled.jpg", "alt": "The Amazing Spider-Man #1 — comic cover", "kind": "Comics" },
-  { "url": "https://image.tmdb.org/t/p/original/iTeBaE5d6wMz24dOqfmj8tTLOHj.jpg", "alt": "Silo season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://image.tmdb.org/t/p/original/cf1cmd1IVGVLw7VTzYp9GAUIlkQ.jpg", "alt": "Wednesday season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://pics.filmaffinity.com/the_last_of_us_season_2-822546434-large.jpg", "alt": "The Last of Us season 2 — TV series poster", "kind": "TV Shows" },
-  { "url": "https://fallout-wiki.com/images/b/b2/FOTVS2_affiche_Lucy_Novac.jpg", "alt": "Fallout season 2 — TV series poster", "kind": "TV Shows" }
+  {
+    "url": "/images/dune-cover.jpg",
+    "alt": "Dune: Part Two — IMAX One-Sheet Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "alt": "Spider-Man: Across the Spider-Verse — Theatrical Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "alt": "The Batman — Silhouette Red/Black Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/ptpr0kGAckfWYmEsRBUTJ1vmUM.jpg",
+    "alt": "Oppenheimer — 70mm Large Format Key Art",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "alt": "Deadpool & Wolverine — Best Friends Teaser Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "alt": "Gladiator II — Colosseum Arena Teaser",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg",
+    "alt": "Spider-Man: Brand New Day — First Look Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "https://d6fmx7z4dqmn1.cloudfront.net/absolute-wonder-woman-cover-1024x1575.webp",
+    "alt": "Absolute Wonder Woman #1 — comic cover",
+    "kind": "Comics"
+  },
+  {
+    "url": "https://media.mycomicshop.com/n_iv/600/7717213.jpg",
+    "alt": "Absolute Batman #1 — comic cover",
+    "kind": "Comics"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/iTeBaE5d6wMz24dOqfmj8tTLOHj.jpg",
+    "alt": "Silo season 2 — TV series poster",
+    "kind": "TV Shows"
+  },
+  {
+    "url": "https://image.tmdb.org/t/p/original/cf1cmd1IVGVLw7VTzYp9GAUIlkQ.jpg",
+    "alt": "Wednesday season 2 — TV series poster",
+    "kind": "TV Shows"
+  },
+  {
+    "url": "https://pics.filmaffinity.com/the_last_of_us_season_2-822546434-large.jpg",
+    "alt": "The Last of Us season 2 — TV series poster",
+    "kind": "TV Shows"
+  }
 ]

@@ -81,43 +81,43 @@
   },
   {
     "id": "mch-009",
-    "name": "The House on Meridian Hill — Poster",
+    "name": "Dune: Part Two — Arrakis Fremen Tee",
     "category": "movies",
-    "type": "collectible",
-    "price": 20,
-    "priceRange": "$18–$22",
-    "image": "https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A 24x36 inch theatrical poster printed on heavyweight matte paper. Double-sided with alternate artwork on reverse."
+    "type": "t-shirt",
+    "price": 32,
+    "priceRange": "$28–$35",
+    "image": "/images/merch/dune-tee.jpg",
+    "description": "Official 100% heavyweight cotton tee featuring the iconic Dune desert sandworm and Shai-Hulud geometric sigil."
   },
   {
     "id": "mch-010",
-    "name": "After the Rain — Jazz Club Tee",
+    "name": "The Batman — Gotham City Vengeance Tee",
     "category": "movies",
     "type": "t-shirt",
     "price": 30,
-    "priceRange": "$28–$32",
-    "image": "https://images.pexels.com/photos/9558761/pexels-photo-9558761.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A vintage-style t-shirt with the fictional jazz club logo from the film printed in faded gold ink."
+    "priceRange": "$25–$35",
+    "image": "/images/merch/batman-tee.jpg",
+    "description": "Distressed vintage-wash graphic t-shirt featuring Robert Pattinson's Batmobile blueprints and emblem."
   },
   {
     "id": "mch-011",
-    "name": "The Last Signal — Collector's Figure",
+    "name": "The Batman — Collector's 1/6 Scale Figure",
     "category": "movies",
     "type": "figure",
-    "price": 50,
-    "priceRange": "$45–$55",
-    "image": "https://images.pexels.com/photos/15964921/pexels-photo-15964921.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A 1/6 scale figure of Zara Okafor in her space station suit, with removable helmet and detailed life-support backpack."
+    "price": 85,
+    "priceRange": "$80–$95",
+    "image": "/images/merch/batman-figure.jpg",
+    "description": "Articulated collectible figure with die-cast Batarangs, grapple gun, LED chest armor, and fabric wired cape."
   },
   {
     "id": "mch-012",
-    "name": "Song of the Dust — Soundtrack Vinyl",
+    "name": "Oppenheimer — 70mm Film Cell Collector Plaque",
     "category": "movies",
     "type": "collectible",
-    "price": 38,
-    "priceRange": "$35–$40",
+    "price": 65,
+    "priceRange": "$60–$75",
     "image": "https://images.pexels.com/photos/381651/pexels-photo-381651.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A limited pressing of the film's soundtrack on 180g vinyl, with gatefold sleeve and liner notes by the composer."
+    "description": "Numbered museum-grade display containing an authentic 70mm physical film cell from Christopher Nolan's Trinity sequence."
   },
   {
     "id": "mch-013",

@@ -1,5 +1,65 @@
 [
   {
+    "id": "app-trailer-dune-2",
+    "title": "Dune: Part Two — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
+    "youtubeId": "Way9Dexny3w",
+    "duration": "3:12",
+    "source": "Warner Bros.",
+    "release": "March 1, 2024",
+    "description": "The official trailer for Denis Villeneuve's Dune: Part Two starring Timothée Chalamet and Zendaya."
+  },
+  {
+    "id": "app-trailer-spider-verse",
+    "title": "Spider-Man: Across the Spider-Verse — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg",
+    "youtubeId": "cqGjhVJWtEg",
+    "duration": "2:46",
+    "source": "Sony Pictures",
+    "release": "June 2, 2023",
+    "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its existence."
+  },
+  {
+    "id": "app-trailer-the-batman",
+    "title": "The Batman — Main Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/mqqft2x_Aa4/maxresdefault.jpg",
+    "youtubeId": "mqqft2x_Aa4",
+    "duration": "2:38",
+    "source": "Warner Bros.",
+    "release": "March 4, 2022",
+    "description": "Robert Pattinson stars as the nocturnal vigilante detective in Matt Reeves' neo-noir vision of Gotham City."
+  },
+  {
+    "id": "app-trailer-deadpool-wolverine",
+    "title": "Deadpool & Wolverine — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/73_1biulkYk/maxresdefault.jpg",
+    "youtubeId": "73_1biulkYk",
+    "duration": "2:38",
+    "source": "Marvel Studios",
+    "release": "July 26, 2024",
+    "description": "Ryan Reynolds and Hugh Jackman unite in the record-shattering Marvel Cinematic Universe blockbuster."
+  },
+  {
+    "id": "app-trailer-gladiator-2",
+    "title": "Gladiator II — Official Trailer",
+    "category": "movies",
+    "type": "trailer",
+    "thumbnail": "https://img.youtube.com/vi/4rgYUipGJNo/maxresdefault.jpg",
+    "youtubeId": "4rgYUipGJNo",
+    "duration": "3:10",
+    "source": "Paramount Pictures",
+    "release": "November 22, 2024",
+    "description": "Paul Mescal stars as Lucius Aurelius inside the Colosseum in Ridley Scott's continuation of the ancient Rome saga."
+  },
+  {
     "id": "app-trailer-arcane-s2",
     "title": "Arcane — Season 2 Official Trailer",
     "category": "tv-shows",
@@ -12,20 +72,8 @@
     "description": "The official trailer for Arcane season two, from the League of Legends universe."
   },
   {
-    "id": "app-trailer-dune-prophecy",
-    "title": "Dune: Prophecy — Official Teaser",
-    "category": "tv-shows",
-    "type": "trailer",
-    "thumbnail": "https://img.youtube.com/vi/FyK0B6RZo0Q/maxresdefault.jpg",
-    "youtubeId": "FyK0B6RZo0Q",
-    "duration": "1:58",
-    "source": "Max",
-    "release": "November 17, 2024",
-    "description": "The official teaser for the Dune prequel series."
-  },
-  {
     "id": "app-trailer-frieren-s2",
-    "title": "Frieren: Beyond Journey’s End — Season 2 Announcement",
+    "title": "Frieren: Beyond Journey's End — Season 2 Announcement",
     "category": "anime",
     "type": "trailer",
     "thumbnail": "https://img.youtube.com/vi/W0mVCx7XkY4/maxresdefault.jpg",
@@ -33,55 +81,7 @@
     "duration": "1:22",
     "source": "Crunchyroll",
     "release": "January 2025",
-    "description": "The announcement trailer for the next season of Frieren: Beyond Journey’s End."
-  },
-  {
-    "id": "app-trailer-dune-2",
-    "title": "Dune: Part Two — Official Trailer",
-    "category": "movies",
-    "type": "trailer",
-    "thumbnail": "https://img.youtube.com/vi/Way9Dexny3w/maxresdefault.jpg",
-    "youtubeId": "Way9Dexny3w",
-    "duration": "3:12",
-    "source": "Warner Bros.",
-    "release": "March 1, 2024",
-    "description": "The official trailer for Denis Villeneuve’s Dune: Part Two."
-  },
-  {
-    "id": "app-trailer-spider-verse",
-    "title": "Spider-Man: Across the Spider-Verse — Official Trailer",
-    "category": "movies",
-    "type": "trailer",
-    "thumbnail": "https://img.youtube.com/vi/cqGjhVJWtEg/maxresdefault.jpg",
-    "youtubeId": "cqGjhVJWtEg",
-    "duration": "2:46",
-    "source": "Sony Pictures",
-    "release": "June 2, 2023",
-    "description": "The official trailer for the animated Spider-Man feature."
-  },
-  {
-    "id": "app-trailer-aot-final",
-    "title": "Attack on Titan — The Final Chapters Trailer",
-    "category": "anime",
-    "type": "trailer",
-    "thumbnail": "https://img.youtube.com/vi/SlNpRThS9t8/maxresdefault.jpg",
-    "youtubeId": "SlNpRThS9t8",
-    "duration": "2:05",
-    "source": "Crunchyroll",
-    "release": "November 4, 2023",
-    "description": "The trailer for the concluding chapters of Attack on Titan."
-  },
-  {
-    "id": "app-trailer-vinland-s2",
-    "title": "Vinland Saga — Season 2 Official Trailer",
-    "category": "anime",
-    "type": "trailer",
-    "thumbnail": "https://img.youtube.com/vi/i0m2aO0nYPg/maxresdefault.jpg",
-    "youtubeId": "i0m2aO0nYPg",
-    "duration": "2:18",
-    "source": "Netflix",
-    "release": "January 9, 2023",
-    "description": "The official trailer for Vinland Saga season two."
+    "description": "The announcement trailer for the next season of Frieren: Beyond Journey's End."
   },
   {
     "id": "app-trailer-gta-6",

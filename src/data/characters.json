@@ -166,78 +166,138 @@
   },
   {
     "id": "char-012",
-    "name": "Eleanor Vance",
-    "series": "The House on Meridian Hill",
+    "name": "Paul Atreides (Muad'Dib)",
+    "series": "Dune: Part Two",
     "category": "movies",
-    "bio": "A retired archaeologist drawn back into adventure when a map to a lost city surfaces after decades. Eleanor's knowledge of ancient languages makes her invaluable — and a target.",
+    "bio": "Ducal heir turned desert messiah. Haunted by terrifying visions of a universal holy war waged in his name, Paul leads the Fremen in an uprising against House Harkonnen and Emperor Shaddam IV across the scorched dunes of Arrakis.",
     "traits": [
-      "Brilliant",
-      "Resilient",
-      "Wry",
-      "Independent"
+      "Prescient",
+      "Disciplined",
+      "Vengeful",
+      "Fremen Leader"
     ],
-    "image": "https://images.pexels.com/photos/27362451/pexels-photo-27362451.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Moody portrait of a woman in a fantasy costume with dramatic lighting"
+    "image": "https://image.tmdb.org/t/p/w800/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
+    "altText": "Timothée Chalamet as Paul Atreides wearing Fremen stillsuit in Dune: Part Two"
   },
   {
     "id": "char-013",
-    "name": "Marcus Cole",
-    "series": "After the Rain",
+    "name": "Miles Morales",
+    "series": "Spider-Man: Across the Spider-Verse",
     "category": "movies",
-    "bio": "A jazz pianist returning to his hometown after a decade away. Marcus must confront the relationships he left behind and decide whether the music he left for is worth the life he gave up.",
+    "bio": "Brooklyn's teenage Spider-Man who defies the multiversal 'canon events' dictated by Miguel O'Hara and the Spider-Society, choosing to forge his own destiny to protect both his family and the multiverse.",
     "traits": [
-      "Melancholic",
-      "Talented",
-      "Conflicted",
-      "Warm"
+      "Resilient",
+      "Creative",
+      "Defiant",
+      "Multiversal"
     ],
-    "image": "https://images.pexels.com/photos/35301113/pexels-photo-35301113.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Artistic black and white portrait of a man with dramatic lighting"
+    "image": "https://image.tmdb.org/t/p/w800/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+    "altText": "Miles Morales in his custom spray-painted Spider-Man suit"
   },
   {
     "id": "char-014",
-    "name": "Zara Okafor",
-    "series": "The Last Signal",
+    "name": "Bruce Wayne (The Batman)",
+    "series": "The Batman",
     "category": "movies",
-    "bio": "An astronaut alone on a dying space station, receiving mysterious transmissions from Earth. Zara must decipher the messages and decide whether to return to a planet that may no longer be home.",
+    "bio": "In his second year of prowling the rain-soaked alleys of Gotham as the nocturnal vigilante 'Vengeance', Bruce Wayne uncovers a deep web of corruption connecting the city's ruling elite to his own family's history.",
     "traits": [
-      "Analytical",
-      "Lonely",
-      "Determined",
-      "Hopeful"
+      "Detective",
+      "Obsessive",
+      "Vengeful",
+      "Tactical Genius"
     ],
-    "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dark conceptual portrait with lantern"
+    "image": "https://image.tmdb.org/t/p/w800/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+    "altText": "Robert Pattinson as Bruce Wayne / The Batman in tactical armor"
   },
   {
     "id": "char-015",
-    "name": "Daniel Reyes",
-    "series": "Cold Harbor",
+    "name": "J. Robert Oppenheimer",
+    "series": "Oppenheimer",
     "category": "movies",
-    "bio": "A small-town sheriff investigating a series of disappearances along a frozen coastline. Daniel's quiet determination hides a personal connection to the case that could unravel everything.",
+    "bio": "Theoretical physicist and director of the Los Alamos Laboratory during the Manhattan Project. Oppenheimer led the creation of the atomic bomb, spending the remainder of his life reckoning with the moral apocalypse of the nuclear era.",
     "traits": [
-      "Stoic",
-      "Methodical",
+      "Theoretical Genius",
       "Haunted",
-      "Just"
+      "Orator",
+      "Visionary"
     ],
-    "image": "https://images.pexels.com/photos/30346960/pexels-photo-30346960.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dramatic portrait of a person with artistic makeup and red background"
+    "image": "https://image.tmdb.org/t/p/w800/ptpr0kGAckfWYmEsRBUTJ1vmUM.jpg",
+    "altText": "Cillian Murphy as J. Robert Oppenheimer in 70mm portrait"
   },
   {
     "id": "char-016",
-    "name": "Mira Kapoor",
-    "series": "Song of the Dust",
+    "name": "Wade Wilson (Deadpool)",
+    "series": "Deadpool & Wolverine",
     "category": "movies",
-    "bio": "A nomadic singer in a post-apocalyptic desert who discovers an old radio tower still transmitting. Mira's voice becomes a beacon for scattered survivors, and a legend begins to grow around her.",
+    "bio": "The Regenerating Degenerate himself. Forced out of retirement when his home timeline faces deletion by the Time Variance Authority, Wade recruits a reluctant, battle-weary Logan to pull off an impossible multiversal rescue.",
     "traits": [
-      "Free-spirited",
-      "Musical",
-      "Guarded",
-      "Inspiring"
+      "Immortal",
+      "Unpredictable",
+      "Fourth-Wall Breaker",
+      "Loyal"
     ],
-    "image": "https://images.pexels.com/photos/17806632/pexels-photo-17806632.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Vibrant fantasy portrait of a woman with blue face paint and red hair"
+    "image": "https://image.tmdb.org/t/p/w800/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "altText": "Ryan Reynolds as Deadpool in vibrant red and black tactical suit"
+  },
+  {
+    "id": "char-017",
+    "name": "Lucius Aurelius",
+    "series": "Gladiator II",
+    "category": "movies",
+    "bio": "The grandson of former Roman Emperor Marcus Aurelius and son of Lucilla. Forced into slavery after his home is conquered by Roman forces under General Acacius, Lucius enters the Colosseum to seek vengeance and reclaim the lost honor of Rome.",
+    "traits": [
+      "Gladiator",
+      "Fierce",
+      "Noble",
+      "Unyielding"
+    ],
+    "image": "https://image.tmdb.org/t/p/w800/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
+    "altText": "Paul Mescal as Lucius Aurelius inside the Roman Colosseum"
+  },
+  {
+    "id": "char-018",
+    "name": "Officer K (Joe)",
+    "series": "Blade Runner 2049",
+    "category": "movies",
+    "bio": "A Nexus-9 replicant blade runner operating for the LAPD who unearths a long-buried secret that threatens to destabilize human society and lead him on a dangerous quest to find former blade runner Rick Deckard.",
+    "traits": [
+      "Melancholic",
+      "Analytical",
+      "Loyal",
+      "Soulful"
+    ],
+    "image": "https://image.tmdb.org/t/p/w800/8hW21XU7K225p3X8xZ0q9P0b11.jpg",
+    "altText": "Ryan Gosling as Officer K walking through the orange fallout of Las Vegas"
+  },
+  {
+    "id": "char-019",
+    "name": "Chani",
+    "series": "Dune: Part Two",
+    "category": "movies",
+    "bio": "A fierce Fremen warrior of Sietch Tabr who believes in the liberation of Arrakis through human will rather than religious prophecies. She teaches Paul the desert way while guarding her heart and her people's sovereignty.",
+    "traits": [
+      "Warrior",
+      "Skeptical",
+      "Passionate",
+      "Desert Master"
+    ],
+    "image": "https://image.tmdb.org/t/p/w800/5v6Wn22b9C6A2Z2c9B1b11.jpg",
+    "altText": "Zendaya as Chani holding a crysknife in the dunes of Arrakis"
+  },
+  {
+    "id": "char-020",
+    "name": "Logan (Wolverine)",
+    "series": "Deadpool & Wolverine",
+    "category": "movies",
+    "bio": "A haunted, battle-scarred mutant possessing an adamantium skeleton and animalistic healing factor. Wracked with guilt over letting down his world's X-Men, Logan is pulled into the Void alongside Deadpool to fight for redemption.",
+    "traits": [
+      "Adamantium Claws",
+      "Ferocious",
+      "Reluctant Hero",
+      "Unstoppable"
+    ],
+    "image": "https://image.tmdb.org/t/p/w800/kZJ1pB9P5k4QZ5c2Z8f8C6A2Z2c.jpg",
+    "altText": "Hugh Jackman as Wolverine in classic yellow and blue comic suit"
   },
   {
     "id": "char-017",

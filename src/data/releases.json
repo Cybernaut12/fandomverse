@@ -55,30 +55,39 @@
   },
   {
     "id": "rel-007",
-    "title": "The House on Meridian Hill",
+    "title": "The Batman Part II",
     "category": "movies",
-    "date": "2026-10-03",
-    "image": "https://images.pexels.com/photos/1790556/pexels-photo-1790556.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2026-10-02",
+    "image": "https://image.tmdb.org/t/p/w800/74xTEgt7R36Fpooo50r9T25onhq.jpg",
     "status": "confirmed",
-    "type": "Theatrical"
+    "type": "Theatrical / IMAX"
   },
   {
     "id": "rel-008",
-    "title": "After the Rain",
+    "title": "Spider-Man: Brand New Day",
     "category": "movies",
-    "date": "2026-11-08",
-    "image": "https://images.pexels.com/photos/7991266/pexels-photo-7991266.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2026-07-24",
+    "image": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg",
     "status": "confirmed",
-    "type": "Theatrical"
+    "type": "Theatrical / IMAX"
   },
   {
     "id": "rel-009",
-    "title": "The Last Signal",
+    "title": "Avatar: Fire and Ash",
     "category": "movies",
-    "date": "2026-12-19",
+    "date": "2025-12-19",
     "image": "https://images.pexels.com/photos/39662445/pexels-photo-39662445.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
     "status": "upcoming",
-    "type": "Streaming"
+    "type": "Theatrical / 3D HFR"
+  },
+  {
+    "id": "rel-009b",
+    "title": "Avengers: Doomsday",
+    "category": "movies",
+    "date": "2026-05-01",
+    "image": "https://image.tmdb.org/t/p/w800/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+    "status": "upcoming",
+    "type": "Theatrical / IMAX"
   },
   {
     "id": "rel-010",
