@@ -35,7 +35,7 @@ export function MerchandiseSection() {
             const isAdded = addedIds.has(item.id);
             return (<div key={item.id} className="fv-group fv-bg-ink-800 rounded-3 overflow-hidden border fv-border-ink-600 fv-hover-border-ink-500 fv-transition-all">
                 <div className="position-relative fv-aspect-square overflow-hidden fv-bg-ink-700">
-                  <img src={item.image} alt={item.name} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/merch/one-piece-hoodie.jpg'; }}/>
+                  <img src={item.image} alt={item.name} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-110" loading="lazy"/>
                   <span className="position-absolute fv-top-2 fv-left-2 fv-text-10px fv-px-2 fv-py-0-5 rounded-pill fv-heading-font fv-uppercase fv-tracking-wider fv-backdrop-blur-sm" style={{
                     color: cat?.accentColor,
                     backgroundColor: 'rgba(10,10,15,0.7)',

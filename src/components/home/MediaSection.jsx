@@ -62,7 +62,7 @@ export function MediaSection() {
 }
 function MediaCard({ item, large }) {
     return (<div className={`fv-group position-relative rounded-4 overflow-hidden fv-cursor-pointer ${large ? 'fv-lg-col-span-2 fv-lg-row-span-2 fv-aspect-video fv-lg-aspect-16-10' : 'fv-aspect-video'}`}>
-      <img src={item.thumbnail} alt={item.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/anime/jjk-banner.jpg'; }}/>
+      <img src={item.thumbnail} alt={item.title} className="w-100 h-100 object-fit-cover fv-transition-transform fv-duration-700 fv-group-hover-scale-105" loading="lazy"/>
       <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-30 fv-to-transparent"/>
 
       <MediaPlayButton item={item}/>

@@ -21,23 +21,43 @@
   },
   {
     "id": "med-tv-003",
-    "title": "Severance — Season 2 Date Announcement",
+    "title": "Severance — Official Trailer",
     "category": "tv-shows",
     "type": "trailer",
     "thumbnail": "/images/tv/severance-banner.jpg",
-    "youtubeId": "xK_X_GZfXkQ",
-    "duration": "1:45",
-    "description": "Your innie has been awake. Return to Lumon Industries for the highly anticipated second season."
+    "youtubeId": "xQGToE_CuvA",
+    "duration": "2:20",
+    "description": "Your innie has been awake. Return to Lumon Industries for the critically acclaimed series."
   },
   {
     "id": "med-tv-004",
-    "title": "The Boys — Season 4 Official Trailer",
+    "title": "The Boys — Official Trailer",
     "category": "tv-shows",
     "type": "trailer",
     "thumbnail": "/images/tv/the-boys-banner.jpg",
-    "youtubeId": "EzFXHvNko9w",
-    "duration": "2:18",
-    "description": "The world is on the brink. Victoria Neuman is closer to the Oval Office, and Homelander is consolidating his power."
+    "youtubeId": "M1bhOaLV4FU",
+    "duration": "2:24",
+    "description": "Never meet your heroes. The Boys is a fresh, irreverent take on what happens when superheroes abuse their powers."
+  },
+  {
+    "id": "med-tv-005",
+    "title": "Stranger Things 4 — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/stranger-things-banner.jpg",
+    "youtubeId": "yQEondeGvNw",
+    "duration": "3:16",
+    "description": "It's time. See you on the other side. The epic fourth season takes the Hawkins crew to their limits."
+  },
+  {
+    "id": "med-tv-006",
+    "title": "Wednesday — Official Trailer",
+    "category": "tv-shows",
+    "type": "trailer",
+    "thumbnail": "/images/tv/wednesday-banner.jpg",
+    "youtubeId": "Di310WS8zLk",
+    "duration": "2:25",
+    "description": "Jenna Ortega stars as Wednesday Addams in this new series from the mind of Tim Burton."
   },
   {
     "id": "med-jjk-shibuya-trailer",
