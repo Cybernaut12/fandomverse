@@ -1,5 +1,65 @@
 [
   {
+    "id": "med-kpop-001",
+    "title": "BTS (방탄소년단) 'Dynamite' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/bts-banner.jpg",
+    "youtubeId": "gdZLi9oWNZg",
+    "duration": "3:43",
+    "description": "The record-breaking, Grammy-nominated disco-pop anthem that brought light during the pandemic."
+  },
+  {
+    "id": "med-kpop-002",
+    "title": "BLACKPINK - 'Pink Venom' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/blackpink-banner.jpg",
+    "youtubeId": "gQlMMD8auMs",
+    "duration": "3:13",
+    "description": "A fierce hip-hop track blending traditional Korean instruments with BLACKPINK's signature swagger."
+  },
+  {
+    "id": "med-kpop-003",
+    "title": "Stray Kids 'S-Class' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/straykids-banner.jpg",
+    "youtubeId": "JsOOis4bTrg",
+    "duration": "3:29",
+    "description": "A genre-blending masterpiece highlighting Stray Kids' unique identity as the most special of the odd ones."
+  },
+  {
+    "id": "med-kpop-004",
+    "title": "NewJeans (뉴진스) 'Super Shy' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/newjeans-banner.jpg",
+    "youtubeId": "ArmDp-zijuc",
+    "duration": "3:19",
+    "description": "A Jersey club-inspired summer hit featuring infectious choreography and a vibrant Y2K aesthetic."
+  },
+  {
+    "id": "med-kpop-005",
+    "title": "SEVENTEEN (세븐틴) 'Super' Official MV",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/seventeen-banner.jpg",
+    "youtubeId": "-GQg25oP0S4",
+    "duration": "3:30",
+    "description": "An epic, high-energy performance track honoring the journey of SEVENTEEN and their massive crew."
+  },
+  {
+    "id": "med-kpop-006",
+    "title": "TWICE 'FANCY' M/V",
+    "category": "k-pop",
+    "type": "trailer",
+    "thumbnail": "/images/kpop/twice-banner.jpg",
+    "youtubeId": "kOHB85vDuow",
+    "duration": "3:38",
+    "description": "The turning point of TWICE's discography, introducing a bold, synth-pop sound and sophisticated visuals."
+  },
+  {
     "id": "med-game-001",
     "title": "Cyberpunk: Edgerunners — Official Trailer",
     "category": "gaming",
@@ -218,42 +278,6 @@
     "youtubeId": "73_1biulkYk",
     "duration": "2:38",
     "description": "Marvel Studios presents their most unexpected team-up as Wade Wilson pulls a reluctant Wolverine into the multiverse."
-  },
-  {
-    "id": "med-017",
-    "title": "Eclipse — Comeback Trailer \"Midnight\"",
-    "category": "k-pop",
-    "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:15",
-    "description": "A cinematic comeback trailer teasing Eclipse's new album, featuring ethereal visuals and a haunting vocal snippet."
-  },
-  {
-    "id": "med-018",
-    "title": "Interview: Wildflower on Their Second Album",
-    "category": "k-pop",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "16:30",
-    "description": "The members of Wildflower discuss their creative process, musical growth, and the pressure of following a hit debut."
-  },
-  {
-    "id": "med-019",
-    "title": "K-Pop Fan Podcast — Choreography Breakdown",
-    "category": "k-pop",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/9708579/pexels-photo-9708579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "41:12",
-    "description": "A professional choreographer breaks down the year's most iconic K-pop dance routines, move by move."
-  },
-  {
-    "id": "med-020",
-    "title": "Northern Lights — Lead Single (Audio)",
-    "category": "k-pop",
-    "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/10933702/pexels-photo-10933702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "3:28",
-    "description": "The lead single from Northern Lights' new EP, blending traditional Korean instruments with modern hip-hop production."
   },
   {
     "id": "med-021",

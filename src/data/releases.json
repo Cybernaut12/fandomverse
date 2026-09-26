@@ -1,5 +1,23 @@
 [
   {
+    "id": "rel-kpop-001",
+    "title": "BTS — New Group Comeback",
+    "category": "k-pop",
+    "date": "2025-10-15",
+    "image": "/images/kpop/bts-banner.jpg",
+    "status": "rumored",
+    "type": "Studio Album"
+  },
+  {
+    "id": "rel-kpop-002",
+    "title": "NewJeans — EP 3",
+    "category": "k-pop",
+    "date": "2024-07-20",
+    "image": "/images/kpop/newjeans-banner.jpg",
+    "status": "confirmed",
+    "type": "Mini Album"
+  },
+  {
     "id": "rel-game-001",
     "title": "Arcane — Season 2",
     "category": "gaming",
@@ -151,33 +169,6 @@
     "image": "/images/movies/dune-messiah.jpg",
     "status": "upcoming",
     "type": "Theatrical / IMAX 70mm"
-  },
-  {
-    "id": "rel-013",
-    "title": "Eclipse — Midnight (Full Album)",
-    "category": "k-pop",
-    "date": "2026-10-07",
-    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Album"
-  },
-  {
-    "id": "rel-014",
-    "title": "Wildflower — Single \"Bloom\"",
-    "category": "k-pop",
-    "date": "2026-10-30",
-    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "confirmed",
-    "type": "Single"
-  },
-  {
-    "id": "rel-015",
-    "title": "Northern Lights — Mini Album",
-    "category": "k-pop",
-    "date": "2026-11-22",
-    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
-    "type": "EP"
   },
   {
     "id": "rel-016",

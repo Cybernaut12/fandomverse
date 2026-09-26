@@ -1,5 +1,90 @@
 [
   {
+    "id": "char-kpop-001",
+    "name": "RM (Kim Nam-joon)",
+    "series": "BTS",
+    "category": "k-pop",
+    "bio": "The leader and main rapper of BTS. An introspective lyricist and art enthusiast, RM played a crucial role in forming the group's identity and connecting them with a global audience.",
+    "traits": [
+      "Leader",
+      "Rapper",
+      "Lyricist",
+      "Art Lover"
+    ],
+    "image": "/images/characters/rm.jpg",
+    "altText": "RM (Kim Nam-joon) of BTS"
+  },
+  {
+    "id": "char-kpop-002",
+    "name": "Lisa (Lalisa Manobal)",
+    "series": "BLACKPINK",
+    "category": "k-pop",
+    "bio": "The main dancer and lead rapper of BLACKPINK. Hailing from Thailand, Lisa is known for her explosive stage presence, sharp choreography, and massive global influence.",
+    "traits": [
+      "Main Dancer",
+      "Rapper",
+      "Global Ambassador"
+    ],
+    "image": "/images/characters/lisa.jpg",
+    "altText": "Lisa of BLACKPINK"
+  },
+  {
+    "id": "char-kpop-003",
+    "name": "Felix",
+    "series": "Stray Kids",
+    "category": "k-pop",
+    "bio": "The lead dancer and rapper of Stray Kids. Born in Australia, Felix is instantly recognizable by his incredibly deep, resonant voice which perfectly contrasts his bright personality.",
+    "traits": [
+      "Deep Voice",
+      "Dancer",
+      "Sunshine"
+    ],
+    "image": "/images/characters/felix.jpg",
+    "altText": "Felix of Stray Kids"
+  },
+  {
+    "id": "char-kpop-004",
+    "name": "Nayeon",
+    "series": "TWICE",
+    "category": "k-pop",
+    "bio": "The lead vocalist and center of TWICE. Known for her refreshing energy and stable live vocals, Nayeon sets the bright and infectious tone for the group's performances.",
+    "traits": [
+      "Center",
+      "Lead Vocalist",
+      "Pop Icon"
+    ],
+    "image": "/images/characters/nayeon.jpg",
+    "altText": "Nayeon of TWICE"
+  },
+  {
+    "id": "char-kpop-005",
+    "name": "Hanni",
+    "series": "NewJeans",
+    "category": "k-pop",
+    "bio": "Vocalist and dancer of NewJeans. Vietnamese-Australian Hanni captivates audiences with her distinct, soulful vocal tone and effortless, groovy dance style.",
+    "traits": [
+      "Vocalist",
+      "Dancer",
+      "Trendy"
+    ],
+    "image": "/images/characters/hanni.jpg",
+    "altText": "Hanni of NewJeans"
+  },
+  {
+    "id": "char-kpop-006",
+    "name": "Mingyu",
+    "series": "SEVENTEEN",
+    "category": "k-pop",
+    "bio": "Lead rapper and visual of SEVENTEEN's Hip-Hop Team. Mingyu is known for his towering height, charismatic stage presence, and surprisingly clumsy, endearing off-stage persona.",
+    "traits": [
+      "Rapper",
+      "Visual",
+      "Hip-Hop Team"
+    ],
+    "image": "/images/characters/mingyu.jpg",
+    "altText": "Mingyu of SEVENTEEN"
+  },
+  {
     "id": "char-game-001",
     "name": "David Martinez",
     "series": "Cyberpunk: Edgerunners",
@@ -418,81 +503,6 @@
     ],
     "image": "/images/characters/wolverine.jpg",
     "altText": "Hugh Jackman as Wolverine in classic yellow and blue comic suit"
-  },
-  {
-    "id": "char-022",
-    "name": "Su-min",
-    "series": "Eclipse",
-    "category": "k-pop",
-    "bio": "Main vocalist and leader of the seven-member group Eclipse. Su-min trained for six years before debuting and is known for her powerful belt and heartfelt stage presence.",
-    "traits": [
-      "Leader",
-      "Vocalist",
-      "Disciplined",
-      "Warm"
-    ],
-    "image": "https://images.pexels.com/photos/9708579/pexels-photo-9708579.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Energetic scene of a dancer silhouette highlighted by neon lights"
-  },
-  {
-    "id": "char-023",
-    "name": "Jin-woo",
-    "series": "Eclipse",
-    "category": "k-pop",
-    "bio": "Main dancer and rapper of Eclipse. Jin-woo's background in street dance gives the group's choreography its distinctive edge. He choreographs several of their title tracks.",
-    "traits": [
-      "Dancer",
-      "Creative",
-      "Energetic",
-      "Bold"
-    ],
-    "image": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dynamic rock performance with enthusiastic crowd at a night concert"
-  },
-  {
-    "id": "char-024",
-    "name": "Hana",
-    "series": "Wildflower",
-    "category": "k-pop",
-    "bio": "Soloist turned group member, Hana is the visual center of Wildflower. Her transition from ballads to high-energy pop surprised fans and cemented her versatility.",
-    "traits": [
-      "Versatile",
-      "Elegant",
-      "Ambitious",
-      "Charming"
-    ],
-    "image": "https://images.pexels.com/photos/4107696/pexels-photo-4107696.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Crowd dancing and clapping during outdoor live rock festival at night"
-  },
-  {
-    "id": "char-025",
-    "name": "Doyun",
-    "series": "Northern Lights",
-    "category": "k-pop",
-    "bio": "Producer-rapper of Northern Lights, Doyun writes and co-produces most of the group's material. His production style blends traditional Korean instruments with modern hip-hop.",
-    "traits": [
-      "Producer",
-      "Innovative",
-      "Thoughtful",
-      "Driven"
-    ],
-    "image": "https://images.pexels.com/photos/597056/concert-cheering-people-guitar-597056.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Dynamic nightclub scene with live performance and vibrant crowd"
-  },
-  {
-    "id": "char-026",
-    "name": "Yuna",
-    "series": "Wildflower",
-    "category": "k-pop",
-    "bio": "Maknae and lead dancer of Wildflower. Despite being the youngest, Yuna's stage presence is commanding. She's become a fashion icon known for her bold style choices.",
-    "traits": [
-      "Dancer",
-      "Fashion-forward",
-      "Confident",
-      "Playful"
-    ],
-    "image": "https://images.pexels.com/photos/1755087/pexels-photo-1755087.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Energetic concert crowd enjoying a nighttime performance with lights"
   },
   {
     "id": "char-027",

@@ -1,5 +1,25 @@
 [
   {
+    "id": "mch-kpop-001",
+    "name": "ARMY Bomb Ver. 4",
+    "category": "k-pop",
+    "type": "accessory",
+    "price": 55,
+    "priceRange": "$50–$60",
+    "image": "/images/kpop/bts-banner.jpg",
+    "description": "The official lightstick for BTS, featuring Bluetooth sync for stadium concerts."
+  },
+  {
+    "id": "mch-kpop-002",
+    "name": "Stray Kids Nachimbong",
+    "category": "k-pop",
+    "type": "accessory",
+    "price": 50,
+    "priceRange": "$45–$55",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "description": "The Stray Kids official lightstick featuring a spinning compass core."
+  },
+  {
     "id": "mch-game-001",
     "name": "David Martinez Edgerunner Jacket",
     "category": "gaming",
@@ -138,46 +158,6 @@
     "priceRange": "$60–$75",
     "image": "https://images.pexels.com/photos/381651/pexels-photo-381651.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
     "description": "Numbered museum-grade display containing an authentic 70mm physical film cell from Christopher Nolan's Trinity sequence."
-  },
-  {
-    "id": "mch-017",
-    "name": "Eclipse — Midnight Album (Photobook Ver.)",
-    "category": "k-pop",
-    "type": "collectible",
-    "price": 32,
-    "priceRange": "$30–$35",
-    "image": "https://images.pexels.com/photos/4271611/pexels-photo-4271611.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "The new album in photobook format, including a 120-page photobook, CD, random photocard, and foldout poster."
-  },
-  {
-    "id": "mch-018",
-    "name": "Wildflower — Light Stick Ver. 3",
-    "category": "k-pop",
-    "type": "accessory",
-    "price": 45,
-    "priceRange": "$40–$50",
-    "image": "https://images.pexels.com/photos/9072202/pexels-photo-9072202.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "The official Wildflower light stick, updated with Bluetooth-synced color changing and a new flower-bud design."
-  },
-  {
-    "id": "mch-019",
-    "name": "Northern Lights — Tour Hoodie",
-    "category": "k-pop",
-    "type": "hoodie",
-    "price": 58,
-    "priceRange": "$55–$60",
-    "image": "https://images.pexels.com/photos/39569366/pexels-photo-39569366.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "Official tour hoodie with the Northern Lights World Tour dates printed on the back. Oversized fit."
-  },
-  {
-    "id": "mch-020",
-    "name": "Eclipse — Mini Plush Keychain",
-    "category": "k-pop",
-    "type": "plushie",
-    "price": 15,
-    "priceRange": "$14–$16",
-    "image": "https://images.pexels.com/photos/29544211/pexels-photo-29544211.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A mini plush keychain of the Eclipse group mascot. Soft finish with a sturdy metal clip. Collect all seven."
   },
   {
     "id": "mch-021",

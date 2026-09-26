@@ -1,5 +1,130 @@
 [
   {
+    "id": "art-kpop-001",
+    "title": "Global Phenomenon: How BTS Changed Pop Music Forever",
+    "slug": "bts-global-phenomenon",
+    "category": "k-pop",
+    "excerpt": "Looking back at the septet's meteoric rise from underdogs to Grammy-nominated superstars.",
+    "body": [
+      "In 2013, a little-known hip-hop group named Bangtan Sonyeondan debuted under a small agency.",
+      "Fast forward a decade, and BTS has conquered stadiums worldwide, spoken at the UN, and shattered Billboard records.",
+      "Their success stems from deeply personal lyricism, innovative production, and an unparalleled bond with their fandom, ARMY."
+    ],
+    "author": "Elena Rodriguez",
+    "date": "2026-09-12",
+    "image": "/images/kpop/bts-banner.jpg",
+    "tags": [
+      "bts",
+      "army",
+      "hybe"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-kpop-002",
+    "title": "Pink Venom: The Unstoppable Reign of BLACKPINK",
+    "slug": "blackpink-pink-venom-reign",
+    "category": "k-pop",
+    "excerpt": "Exploring the fashion, charisma, and record-breaking anthems of the biggest girl group in the world.",
+    "body": [
+      "When BLACKPINK debuted in 2016, they immediately redefined the 'girl crush' concept.",
+      "Since then, Jisoo, Jennie, Rosé, and Lisa have become global fashion icons and festival headliners, famously conquering Coachella.",
+      "Their fusion of fierce rap verses and EDM-pop choruses continues to dominate the charts globally."
+    ],
+    "author": "Marcus Chen",
+    "date": "2026-08-25",
+    "image": "/images/kpop/blackpink-banner.jpg",
+    "tags": [
+      "blackpink",
+      "blink",
+      "yg",
+      "coachella"
+    ],
+    "featured": true
+  },
+  {
+    "id": "art-kpop-003",
+    "title": "Noise Music Mastery: The Evolution of Stray Kids",
+    "slug": "stray-kids-noise-music-evolution",
+    "category": "k-pop",
+    "excerpt": "How 3RACHA's self-produced 'mala taste' music propelled Stray Kids to the top of Billboard.",
+    "body": [
+      "Stray Kids embraced the 'noise music' label and turned it into their greatest strength.",
+      "With tracks like 'God's Menu' and 'Maniac', the self-producing unit 3RACHA created a distinct, aggressive sonic identity.",
+      "Their explosive energy and intricate choreography make them one of the most exciting performers in the 4th generation."
+    ],
+    "author": "Sarah Jenkins",
+    "date": "2026-09-05",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "tags": [
+      "stray-kids",
+      "stay",
+      "jyp",
+      "3racha"
+    ]
+  },
+  {
+    "id": "art-kpop-004",
+    "title": "Y2K Revival: Why NewJeans is Everyone's Obsession",
+    "slug": "newjeans-y2k-obsession",
+    "category": "k-pop",
+    "excerpt": "Min Hee-jin's visionary direction and the group's R&B-infused sound took the industry by surprise.",
+    "body": [
+      "NewJeans debuted without warning in 2022, dropping the 'Attention' music video and immediately shifting the industry paradigm.",
+      "Their easy-listening R&B sound and authentic Y2K aesthetic felt like a breath of fresh air amidst high-concept lore.",
+      "From 'Hype Boy' to 'Ditto', they have consistently set trends and dominated domestic and global charts."
+    ],
+    "author": "David Vance",
+    "date": "2026-09-20",
+    "image": "/images/kpop/newjeans-banner.jpg",
+    "tags": [
+      "newjeans",
+      "ador",
+      "y2k",
+      "bunnies"
+    ]
+  },
+  {
+    "id": "art-kpop-005",
+    "title": "The Theater of SEVENTEEN",
+    "slug": "seventeen-theater-synchronization",
+    "category": "k-pop",
+    "excerpt": "Thirteen members, three units, one incredibly synchronized team.",
+    "body": [
+      "Known for their knife-like synchronization and self-producing capabilities, SEVENTEEN operates like a well-oiled machine.",
+      "Woozi's production and Hoshi's choreography have maintained the group's distinct theatrical flair for nearly a decade.",
+      "Their journey to stadium tours is a testament to their resilience, humor, and unmatched stage presence."
+    ],
+    "author": "Jason Miller",
+    "date": "2026-08-30",
+    "image": "/images/kpop/seventeen-banner.jpg",
+    "tags": [
+      "seventeen",
+      "carat",
+      "pledis"
+    ]
+  },
+  {
+    "id": "art-kpop-006",
+    "title": "Nation's Girl Group: The Everlasting Appeal of TWICE",
+    "slug": "twice-everlasting-appeal",
+    "category": "k-pop",
+    "excerpt": "From bubblegum pop to mature anthems, TWICE's musical journey mirrors their growth as artists.",
+    "body": [
+      "TWICE defined an entire era of K-Pop with viral points dances like 'Cheer Up' and 'TT'.",
+      "As they entered their seventh year and beyond, they successfully transitioned into more sophisticated concepts with 'Fancy' and 'Feel Special'.",
+      "Their consistent output and strong bond have solidified them as one of the best-selling girl groups of all time."
+    ],
+    "author": "Chloe Adams",
+    "date": "2026-09-18",
+    "image": "/images/kpop/twice-banner.jpg",
+    "tags": [
+      "twice",
+      "once",
+      "jyp"
+    ]
+  },
+  {
     "id": "art-game-001",
     "title": "Night City's Redemption: The Comeback of Cyberpunk 2077",
     "slug": "cyberpunk-2077-comeback-edgerunners",
@@ -546,70 +671,6 @@
       "tom-holland",
       "marvel",
       "blockbuster"
-    ]
-  },
-  {
-    "id": "art-013",
-    "title": "The Choreography That Broke the Internet",
-    "slug": "choreography-broke-internet",
-    "category": "k-pop",
-    "excerpt": "A 40-second dance challenge became the year's biggest cultural moment. We talked to the choreographer who created it.",
-    "body": [
-      "It started as a fan cam — a vertical video, ten seconds long, posted from a music show recording. By the end of the week, it had been viewed hundreds of millions of times. Within a month, the dance challenge had been attempted by everyone from professional dancers to world leaders.",
-      "The choreographer behind it has been working in K-pop for over a decade, creating routines for some of the industry's biggest groups. But nothing they'd done before prepared them for this. \"I knew the move was catchy,\" they told us. \"I didn't know it would become this.\"",
-      "What makes the choreography work isn't complexity — it's the opposite. The key move is simple enough that anyone can attempt it, but distinctive enough that it immediately reads as belonging to this song and this group. It's a balance that K-pop choreography has been refining for years.",
-      "The challenge has also opened a broader conversation about how dance functions in the age of short-form video. A great chorus used to be the hook; now, a great move might matter just as much. The industry is paying attention."
-    ],
-    "author": "Ji-ho Kim",
-    "date": "2026-09-16",
-    "image": "https://images.pexels.com/photos/11995853/pexels-photo-11995853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "choreography",
-      "dance",
-      "viral"
-    ],
-    "featured": true
-  },
-  {
-    "id": "art-014",
-    "title": "How Fan Culture Shapes K-Pop Comebacks",
-    "slug": "fan-culture-shapes-comebacks",
-    "category": "k-pop",
-    "excerpt": "From streaming parties to fan-made merch, the relationship between groups and their fans has evolved into something unlike anything else in music.",
-    "body": [
-      "In K-pop, a comeback isn't just a release — it's an event, coordinated between label, group, and fans with a precision that would impress a military strategist. Fan communities organize streaming goals, voting campaigns, and social media pushes that can shape chart positions in real time.",
-      "What's remarkable is how this relationship has formalized. Fan bases operate with structured teams, designated roles, and communication channels that can mobilize thousands of people within minutes. Labels have noticed — some now incorporate fan feedback into promotion strategies, timing teasers and content drops to align with fan activity patterns.",
-      "The line between audience and participant has blurred. Fans don't just consume the content — they create it: edits, covers, fan art, analysis videos that sometimes reach more viewers than the official content. The most engaged fan communities function almost as extensions of the promotional apparatus.",
-      "It raises questions about sustainability and boundaries, which the industry is still working through. But there's no question that the K-pop model — where the relationship between artist and fan is treated as the core product, not a byproduct — has reshaped what a music release can be."
-    ],
-    "author": "Min-ji Park",
-    "date": "2026-09-01",
-    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "fan-culture",
-      "comeback",
-      "community"
-    ]
-  },
-  {
-    "id": "art-015",
-    "title": "The Producers Behind the Year's Biggest K-Pop Hits",
-    "slug": "producers-biggest-kpop-hits",
-    "category": "k-pop",
-    "excerpt": "A new wave of producers is reshaping the K-pop sound — blending global influences with the genre's distinctive energy.",
-    "body": [
-      "Ask a K-pop fan to name their favorite producer and you might be surprised by how quickly they answer. In an industry that used to keep its creative teams behind the scenes, producers have become names in their own right — credited, discussed, anticipated.",
-      "This year's biggest hits come from a diverse group of producers, several of whom came to K-pop from other genres — UK garage, Latin pop, American R&B. What they bring isn't just new sounds but new structural approaches: songs that break the verse-chorus-verse template, that build to unexpected drops, that reference genres K-pop hasn't traditionally touched.",
-      "The collaborations have gone global too. Producers from Stockholm, Seoul, and Los Angeles working on the same track, each bringing their regional sensibility. The result is a sound that's simultaneously more specific and more universal — unmistakably K-pop, but drawing from a wider palette than ever.",
-      "For a genre that has always thrived on synthesis, this new chapter feels like a natural evolution. K-pop has never been about purity. It's about taking the best parts of everything and making them move together."
-    ],
-    "author": "Soo-young Lee",
-    "date": "2026-08-20",
-    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "tags": [
-      "producers",
-      "songwriting",
-      "collaboration"
     ]
   },
   {

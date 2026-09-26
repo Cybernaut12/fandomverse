@@ -1,5 +1,14 @@
 [
   {
+    "id": "evt-kpop-001",
+    "title": "BLACKPINK WORLD TOUR: FINAL",
+    "category": "k-pop",
+    "date": "2026-11-20",
+    "location": "Seoul, South Korea",
+    "description": "The grand finale of BLACKPINK's record-breaking global stadium tour.",
+    "image": "/images/kpop/blackpink-banner.jpg"
+  },
+  {
     "id": "evt-game-001",
     "title": "Night City Wire: Live Event",
     "category": "gaming",
@@ -79,33 +88,6 @@
     "location": "BFI IMAX London & Lincoln Square NYC",
     "description": "Special one-week-only 15-perf 70mm screenings of Dune: Part Two, Oppenheimer, and Interstellar on the world's largest screens with cinematographer Q&As.",
     "image": "https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-013",
-    "title": "K-Pop World Festival",
-    "category": "k-pop",
-    "date": "2026-10-29",
-    "location": "Gocheok Sky Dome, Seoul, South Korea",
-    "description": "The annual celebration of K-pop's global reach, featuring performances from top groups, fan team competitions, and a showcase of international cover dance teams.",
-    "image": "https://images.pexels.com/photos/34598092/pexels-photo-34598092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-014",
-    "title": "Eclipse World Tour — Seoul",
-    "category": "k-pop",
-    "date": "2026-11-15",
-    "location": "Jamsil Olympic Stadium, Seoul, South Korea",
-    "description": "Eclipse performs their first stadium show in their hometown, closing the Asian leg of their world tour with a specially extended setlist and guest appearances.",
-    "image": "https://images.pexels.com/photos/4218024/pexels-photo-4218024.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-  },
-  {
-    "id": "evt-015",
-    "title": "K-Pop Con Fan Convention",
-    "category": "k-pop",
-    "date": "2026-12-10",
-    "location": "COEX, Seoul, South Korea",
-    "description": "A fan convention with merch booths, photo opportunities, dance workshops, and panels with industry professionals discussing the future of K-pop.",
-    "image": "https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": "evt-016",

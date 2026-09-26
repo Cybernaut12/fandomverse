@@ -1,5 +1,69 @@
 [
   {
+    "id": "gal-kpop-001",
+    "title": "BTS at the Grammys",
+    "category": "k-pop",
+    "image": "/images/kpop/bts-banner.jpg",
+    "tags": [
+      "bts",
+      "awards",
+      "red-carpet"
+    ]
+  },
+  {
+    "id": "gal-kpop-002",
+    "title": "BLACKPINK Pink Ocean",
+    "category": "k-pop",
+    "image": "/images/kpop/blackpink-banner.jpg",
+    "tags": [
+      "blackpink",
+      "concert",
+      "live"
+    ]
+  },
+  {
+    "id": "gal-kpop-003",
+    "title": "Stray Kids Maniac Tour",
+    "category": "k-pop",
+    "image": "/images/kpop/straykids-banner.jpg",
+    "tags": [
+      "straykids",
+      "performance"
+    ]
+  },
+  {
+    "id": "gal-kpop-004",
+    "title": "NewJeans Ditto Concept",
+    "category": "k-pop",
+    "image": "/images/kpop/newjeans-banner.jpg",
+    "tags": [
+      "newjeans",
+      "y2k",
+      "concept"
+    ]
+  },
+  {
+    "id": "gal-kpop-005",
+    "title": "SEVENTEEN Carat Land",
+    "category": "k-pop",
+    "image": "/images/kpop/seventeen-banner.jpg",
+    "tags": [
+      "seventeen",
+      "fan-meeting"
+    ]
+  },
+  {
+    "id": "gal-kpop-006",
+    "title": "TWICE Formula of Love",
+    "category": "k-pop",
+    "image": "/images/kpop/twice-banner.jpg",
+    "tags": [
+      "twice",
+      "album",
+      "shoot"
+    ]
+  },
+  {
     "id": "gal-game-001",
     "title": "Night City Horizon",
     "category": "gaming",
