@@ -45,7 +45,7 @@ export function EventsSection() {
 
                   {/* Content */}
                   <div className="flex-fill fv-bg-ink-800 fv-group-hover-bg-ink-700 rounded-3 fv-p-4 border fv-border-ink-600 fv-group-hover-border-ink-500 fv-transition-all d-flex flex-column fv-sm-flex-row fv-gap-4">
-                    <img src={event.image} alt={event.title} className="w-100 fv-sm-w-32 fv-h-32 fv-sm-h-24 rounded-2 object-fit-cover flex-shrink-0" loading="lazy"/>
+                    <img src={event.image} alt={event.title} className="w-100 fv-sm-w-32 fv-h-32 fv-sm-h-24 rounded-2 object-fit-cover flex-shrink-0" loading="lazy" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/anime/jjk-banner.jpg'; }}/>
                     <div className="flex-fill ">
                       <div className="d-flex align-items-center gap-2 fv-mb-1-5">
                         <CategoryBadge category={event.category}/>

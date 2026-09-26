@@ -26,7 +26,7 @@ export function CharacterDetailPage() {
       <section className="position-relative d-flex flex-column fv-md-flex-row fv-min-h-60vh">
         {/* Image */}
         <div className="position-relative fv-md-w-2-5 fv-h-40vh fv-md-h-auto overflow-hidden">
-          <img src={character.image} alt={character.altText} onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/dune-cover.jpg'; }} className="w-100 h-100 object-fit-cover" fetchPriority="high"/>
+          <img src={character.image} alt={character.altText} className="w-100 h-100 object-fit-cover" fetchPriority="high" onError={(e) => { e.currentTarget.onerror = null; e.currentTarget.src = '/images/characters/satoru-gojo.jpg'; }}/>
           <div className="position-absolute fv-inset-0 fv-bg-gradient-to-r fv-from-transparent fv-to-ink-900-60 fv-md-to-ink-900"/>
           <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900-60 fv-to-transparent fv-md-hidden"/>
         </div>

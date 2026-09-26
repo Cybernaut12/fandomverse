@@ -1,43 +1,53 @@
 [
   {
     "id": "mch-001",
-    "name": "Blade of Dawn — Kira Figure",
+    "name": "One Piece — Straw Hat Crew Heavyweight Hoodie",
     "category": "anime",
-    "type": "figure",
+    "type": "t-shirt",
     "price": 45,
     "priceRange": "$40–$50",
-    "image": "https://images.pexels.com/photos/16321210/pexels-photo-16321210.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A highly detailed 1/8 scale PVC figure of Kira Yoshikawa in mid-battle pose, with interchangeable sword parts."
+    "image": "/images/merch/one-piece-hoodie.jpg",
+    "description": "Official licensed pullover hoodie featuring the embroidered Jolly Roger and classic Japanese calligraphy backprint."
   },
   {
     "id": "mch-002",
-    "name": "Skybound Chronicles — Logo Tee",
+    "name": "Solo Leveling — Shadow Monarch Shadow Army Hoodie",
     "category": "anime",
     "type": "t-shirt",
-    "price": 28,
-    "priceRange": "$25–$30",
-    "image": "https://images.pexels.com/photos/15258903/pexels-photo-15258903.png?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "Soft cotton t-shirt with the Skybound Chronicles emblem screen-printed on the front. Available in three colors."
+    "price": 48,
+    "priceRange": "$45–$55",
+    "image": "/images/merch/solo-leveling-hoodie.jpg",
+    "description": "Premium fleece hoodie with Sung Jinwoo's glowing purple monarch runes and high-density shadow soldier graphics."
   },
   {
     "id": "mch-003",
-    "name": "Phantom Academy — Plush Mascot",
+    "name": "Jujutsu Kaisen — Domain Expansion Ceramic Ramen Bowl",
     "category": "anime",
-    "type": "plushie",
-    "price": 22,
-    "priceRange": "$20–$25",
-    "image": "https://images.pexels.com/photos/691125/pexels-photo-691125.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A soft 20cm plush of the Phantom Academy ghost mascot. Surface washable. Suitable for ages 3 and up."
+    "type": "collectible",
+    "price": 26,
+    "priceRange": "$22–$30",
+    "image": "/images/merch/jjk-ramen-bowl.jpg",
+    "description": "Authentic ceramic noodle bowl featuring Satoru Gojo's Unlimited Void seal with matching wooden chopsticks."
   },
   {
     "id": "mch-004",
-    "name": "Starlight Rhapsody — Enamel Pin Set",
+    "name": "My Hero Academia — All Might Heroism Oversized Hoodie",
     "category": "anime",
-    "type": "accessory",
+    "type": "t-shirt",
+    "price": 42,
+    "priceRange": "$38–$48",
+    "image": "/images/merch/mha-all-might-hoodie.png",
+    "description": "Heavyweight yellow-and-blue hero tribute hoodie featuring All Might's signature smile and Plus Ultra lettering."
+  },
+  {
+    "id": "mch-005",
+    "name": "My Hero Academia — All Might Rubber Duck Collectible",
+    "category": "anime",
+    "type": "figure",
     "price": 18,
-    "priceRange": "$15–$20",
-    "image": "https://images.pexels.com/photos/9560279/pexels-photo-9560279.jpeg?auto=compress&cs=tinysrgb&w=800&h=800&dpr=2",
-    "description": "A set of four enamel pins featuring the Starlight Rhapsody characters in chibi style. Rubber pin backs included."
+    "priceRange": "$15–$22",
+    "image": "/images/merch/mha-all-might-duck-figure.png",
+    "description": "TUBBZ limited-edition cosplaying duck figurine of the Symbol of Peace, packaged in a collector's mini-bathtub display."
   },
   {
     "id": "mch-005",

@@ -5,24 +5,14 @@
     "kind": "Movies"
   },
   {
-    "url": "/images/characters/miles-morales.jpg",
-    "alt": "Spider-Man: Across the Spider-Verse — Theatrical Poster",
-    "kind": "Movies"
+    "url": "/images/anime/jjk-banner.jpg",
+    "alt": "Jujutsu Kaisen — Shibuya Incident Theatrical Art",
+    "kind": "Anime"
   },
   {
-    "url": "/images/characters/bruce-wayne.jpg",
-    "alt": "The Batman — Silhouette Red/Black Poster",
-    "kind": "Movies"
-  },
-  {
-    "url": "/images/movies/oppenheimer-poster.jpg",
-    "alt": "Oppenheimer — 70mm Large Format Key Art",
-    "kind": "Movies"
-  },
-  {
-    "url": "/images/characters/deadpool.jpg",
-    "alt": "Deadpool & Wolverine — Best Friends Teaser Poster",
-    "kind": "Movies"
+    "url": "/images/characters/frieren.jpg",
+    "alt": "Frieren: Beyond Journey's End — Key Visual",
+    "kind": "Anime"
   },
   {
     "url": "/images/movies/gladiator-2-banner.jpg",
@@ -30,33 +20,63 @@
     "kind": "Movies"
   },
   {
-    "url": "https://www.sonypictures.com/sites/default/files/title-key-art/spidermanbrandnewday_onesheet_1400x2100_tt.jpg",
-    "alt": "Spider-Man: Brand New Day — First Look Poster",
+    "url": "/images/characters/miles-morales.jpg",
+    "alt": "Spider-Man: Across the Spider-Verse — Theatrical Poster",
     "kind": "Movies"
   },
   {
-    "url": "https://d6fmx7z4dqmn1.cloudfront.net/absolute-wonder-woman-cover-1024x1575.webp",
-    "alt": "Absolute Wonder Woman #1 — comic cover",
-    "kind": "Comics"
+    "url": "/images/characters/sung-jinwoo.jpg",
+    "alt": "Solo Leveling — Sung Jinwoo Shadow Monarch",
+    "kind": "Anime"
   },
   {
-    "url": "https://media.mycomicshop.com/n_iv/600/7717213.jpg",
-    "alt": "Absolute Batman #1 — comic cover",
-    "kind": "Comics"
+    "url": "/images/characters/bruce-wayne.jpg",
+    "alt": "The Batman — Silhouette Red/Black Poster",
+    "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/iTeBaE5d6wMz24dOqfmj8tTLOHj.jpg",
-    "alt": "Silo season 2 — TV series poster",
-    "kind": "TV Shows"
+    "url": "/images/anime/aot-banner.jpg",
+    "alt": "Attack on Titan — The Final Season Key Art",
+    "kind": "Anime"
   },
   {
-    "url": "https://image.tmdb.org/t/p/original/cf1cmd1IVGVLw7VTzYp9GAUIlkQ.jpg",
-    "alt": "Wednesday season 2 — TV series poster",
-    "kind": "TV Shows"
+    "url": "/images/movies/oppenheimer-poster.jpg",
+    "alt": "Oppenheimer — 70mm Large Format Key Art",
+    "kind": "Movies"
   },
   {
-    "url": "https://image.tmdb.org/t/p/w780/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
-    "alt": "Arcane season 2 — TV series poster",
-    "kind": "TV Shows"
+    "url": "/images/anime/demon-slayer-banner.jpg",
+    "alt": "Demon Slayer — Infinity Castle Trilogy Key Visual",
+    "kind": "Anime"
+  },
+  {
+    "url": "/images/anime/one-piece-banner.jpg",
+    "alt": "One Piece — Gear 5 Sun God Nika Awakens",
+    "kind": "Anime"
+  },
+  {
+    "url": "/images/characters/deadpool.jpg",
+    "alt": "Deadpool & Wolverine — Best Friends Teaser Poster",
+    "kind": "Movies"
+  },
+  {
+    "url": "/images/anime/chainsaw-man-banner.jpg",
+    "alt": "Chainsaw Man — The Movie: Reze Arc Key Art",
+    "kind": "Anime"
+  },
+  {
+    "url": "/images/characters/tanjiro-kamado.jpg",
+    "alt": "Demon Slayer — Tanjiro Kamado Sun Breathing",
+    "kind": "Anime"
+  },
+  {
+    "url": "/images/characters/monkey-d-luffy.jpg",
+    "alt": "One Piece — Monkey D. Luffy",
+    "kind": "Anime"
+  },
+  {
+    "url": "/images/movies/alita-trailer.jpg",
+    "alt": "Alita: Battle Angel — Motorball Cinematic Art",
+    "kind": "Movies"
   }
 ]

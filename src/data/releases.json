@@ -1,29 +1,56 @@
 [
   {
     "id": "rel-001",
-    "title": "Blade of Dawn — Season 2",
+    "title": "Demon Slayer: Infinity Castle — Movie 1",
     "category": "anime",
-    "date": "2026-10-12",
-    "image": "https://images.pexels.com/photos/31312675/pexels-photo-31312675.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2025-10-10",
+    "image": "/images/anime/demon-slayer-banner.jpg",
+    "status": "confirmed",
+    "type": "Theatrical / IMAX"
+  },
+  {
+    "id": "rel-002",
+    "title": "Chainsaw Man: The Movie — Reze Arc",
+    "category": "anime",
+    "date": "2025-11-20",
+    "image": "/images/anime/chainsaw-man-banner.jpg",
+    "status": "confirmed",
+    "type": "Theatrical"
+  },
+  {
+    "id": "rel-003",
+    "title": "Jujutsu Kaisen — Season 3: The Culling Game",
+    "category": "anime",
+    "date": "2026-04-12",
+    "image": "/images/anime/jjk-banner.jpg",
     "status": "confirmed",
     "type": "TV Series"
   },
   {
-    "id": "rel-002",
-    "title": "Phantom Academy — Film Adaptation",
+    "id": "rel-004",
+    "title": "Frieren: Beyond Journey's End — Season 2",
     "category": "anime",
-    "date": "2026-11-20",
-    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
+    "date": "2026-07-05",
+    "image": "/images/anime/frieren-banner.jpg",
     "status": "confirmed",
-    "type": "Film"
+    "type": "TV Series"
   },
   {
-    "id": "rel-003",
-    "title": "Iron City Saga — New Arc",
+    "id": "rel-005",
+    "title": "Solo Leveling — Season 2: Arise from the Shadow",
     "category": "anime",
-    "date": "2026-12-01",
-    "image": "https://images.pexels.com/photos/16075337/pexels-photo-16075337.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2",
-    "status": "upcoming",
+    "date": "2025-12-01",
+    "image": "/images/solo-leveling-banner.jpg",
+    "status": "confirmed",
+    "type": "TV Series"
+  },
+  {
+    "id": "rel-006",
+    "title": "One Piece — Elbaf Arc",
+    "category": "anime",
+    "date": "2026-01-18",
+    "image": "/images/anime/one-piece-banner.jpg",
+    "status": "confirmed",
     "type": "TV Series"
   },
   {

@@ -1,30 +1,30 @@
 [
   {
     "id": "evt-001",
-    "title": "Tokyo Anime Expo 2026",
+    "title": "AnimeJapan 2026",
     "category": "anime",
-    "date": "2026-10-15",
+    "date": "2026-03-21",
     "location": "Tokyo Big Sight, Tokyo, Japan",
-    "description": "The largest anime convention in Asia returns with studio booths, exclusive merchandise, cosplay contests, and premiere screenings of upcoming seasonal titles.",
-    "image": "https://images.pexels.com/photos/36398813/pexels-photo-36398813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "description": "The world's largest anime festival featuring official studio stage announcements, voice cast appearances, and premier showcases from MAPPA, Ufotable, and Toei Animation.",
+    "image": "/images/anime/jjk-banner.jpg"
   },
   {
     "id": "evt-002",
-    "title": "Akihabara Culture Festival",
+    "title": "Jump Festa 2026",
     "category": "anime",
-    "date": "2026-11-03",
-    "location": "Akihabara, Tokyo, Japan",
-    "description": "A neighborhood-wide celebration of anime, manga, and gaming culture with street performances, pop-up cafes, and live drawing sessions by guest artists.",
-    "image": "https://images.pexels.com/photos/33249534/pexels-photo-33249534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "date": "2026-12-19",
+    "location": "Makuhari Messe, Chiba, Japan",
+    "description": "Shueisha's flagship manga and anime exhibition celebrating Weekly Shonen Jump franchises with exclusive trailers for Jujutsu Kaisen, One Piece, and Chainsaw Man.",
+    "image": "/images/anime/one-piece-banner.jpg"
   },
   {
     "id": "evt-003",
-    "title": "Anime Boston Fall Showcase",
+    "title": "Crunchyroll Anime Awards 2026",
     "category": "anime",
-    "date": "2026-10-22",
-    "location": "Hynes Convention Center, Boston, USA",
-    "description": "A fan-run convention featuring industry guests, panels on animation production, a massive artists' alley, and screenings of fan-submitted AMVs.",
-    "image": "https://images.pexels.com/photos/33327474/pexels-photo-33327474.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "date": "2026-03-02",
+    "location": "Grand Prince Hotel New Takanawa, Tokyo, Japan",
+    "description": "The annual global celebration of excellence in anime, recognizing best animation, director, score, and Anime of the Year with live orchestra performances.",
+    "image": "/images/anime/frieren-banner.jpg"
   },
   {
     "id": "evt-004",

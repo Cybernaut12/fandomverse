@@ -1,93 +1,108 @@
 [
   {
     "id": "char-001",
-    "name": "Kira Yoshikawa",
-    "series": "Blade of Dawn",
+    "name": "Satoru Gojo",
+    "series": "Jujutsu Kaisen",
     "category": "anime",
-    "bio": "A young swordsman who inherits a legendary blade said to be forged from a fallen star. Raised in a mountain village, Kira left home after a devastating attack, driven by a desire to protect others from the same fate.",
+    "bio": "The strongest modern jujutsu sorcerer and teacher at Tokyo Jujutsu High. Possessor of the legendary Limitless cursed technique and Six Eyes, Gojo effortlessly manipulates infinite space while protecting his students from the corrupt conservative elders.",
     "traits": [
-      "Determined",
-      "Loyal",
-      "Reserved",
-      "Strategic"
+      "Six Eyes",
+      "Limitless",
+      "Unmatched Sorcerer",
+      "Charismatic"
     ],
-    "image": "https://images.pexels.com/photos/31312675/pexels-photo-31312675.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Anime cosplay character with vibrant costume and detailed design"
+    "image": "/images/characters/satoru-gojo.jpg",
+    "altText": "Satoru Gojo pulling down his blindfold to unleash Unlimited Void domain expansion"
   },
   {
     "id": "char-002",
-    "name": "Sora Himura",
-    "series": "Skybound Chronicles",
+    "name": "Frieren",
+    "series": "Frieren: Beyond Journey's End",
     "category": "anime",
-    "bio": "A wind mage who can manipulate air currents to fly and fight. Sora travels the world searching for the floating islands where her ancestors once lived, guided by fragments of an ancient map.",
+    "bio": "An elven mage who was a member of the legendary Hero's Party that defeated the Demon King. Having outlived her mortal comrades, she embarks on a century-spanning journey to learn about human nature, regret, and the warmth of fleeting bonds.",
     "traits": [
-      "Adventurous",
-      "Optimistic",
-      "Quick-witted",
-      "Compassionate"
+      "Elven Mage",
+      "Centuries Old",
+      "Mana Master",
+      "Melancholic"
     ],
-    "image": "https://images.pexels.com/photos/16025003/pexels-photo-16025003.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Anime cosplay character in pink wig holding a prop outdoors"
+    "image": "/images/characters/frieren.jpg",
+    "altText": "Frieren the slayer holding her magical staff in tranquil meadow"
   },
   {
     "id": "char-003",
-    "name": "Ren Asakura",
-    "series": "Phantom Academy",
+    "name": "Eren Yeager",
+    "series": "Attack on Titan",
     "category": "anime",
-    "bio": "A student at a school for those who can see spirits. Ren can communicate with the recently departed, a gift that isolates them from peers but draws them into a mystery surrounding the academy's founding.",
+    "bio": "A former soldier of the Scout Regiment who discovered the grim truth of the world beyond the walls. Wielding the Founding and Attack Titans, Eren makes the catastrophic choice to unleash the Rumbling to protect his homeland of Paradis.",
     "traits": [
-      "Introverted",
-      "Empathetic",
-      "Observant",
-      "Brave"
+      "Founding Titan",
+      "Freedom Seeker",
+      "Tragic Protagonist",
+      "Unyielding"
     ],
-    "image": "https://images.pexels.com/photos/28881923/pexels-photo-28881923.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Gothic character with dramatic makeup reaching out in an outdoor setting"
+    "image": "/images/characters/eren-yeager.jpg",
+    "altText": "Eren Yeager looking forward with intense green eyes during the Final Season"
   },
   {
     "id": "char-004",
-    "name": "Mika Tsukino",
-    "series": "Starlight Rhapsody",
+    "name": "Sung Jinwoo",
+    "series": "Solo Leveling",
     "category": "anime",
-    "bio": "An idol singer who discovers she has the ability to hear the emotions of her audience. Mika uses this gift to craft performances that move crowds to tears, but struggles with the weight of feeling everyone's pain at once.",
+    "bio": "Formerly known as the Weakest Hunter of All Mankind. After surviving a lethal double dungeon, Jinwoo awakens a mysterious quest system that allows him to level up without limit and command a vast army of shadows as the Shadow Monarch.",
     "traits": [
-      "Charismatic",
-      "Sensitive",
-      "Driven",
-      "Generous"
+      "Shadow Monarch",
+      "Infinite Growth",
+      "E-Rank to S-Rank",
+      "Dungeon Conqueror"
     ],
-    "image": "https://images.pexels.com/photos/13773555/pexels-photo-13773555.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Colorful anime cosplay character posing outdoors in costume"
+    "image": "/images/characters/sung-jinwoo.jpg",
+    "altText": "Sung Jinwoo with glowing blue eyes wielding daggers amidst shadow soldiers"
   },
   {
     "id": "char-005",
-    "name": "Takeshi Mori",
-    "series": "Iron City Saga",
+    "name": "Tanjiro Kamado",
+    "series": "Demon Slayer",
     "category": "anime",
-    "bio": "A mechanic in a steampunk metropolis who builds mechanical limbs for injured workers. Takeshi gets pulled into the city's political conflicts when his inventions attract the attention of both revolutionaries and the ruling class.",
+    "bio": "A kind-hearted Demon Slayer who joined the Demon Slayer Corps to avenge his slaughtered family and find a cure to turn his demonized sister Nezuko back into a human. Master of Water Breathing and the legendary Sun Breathing technique.",
     "traits": [
-      "Practical",
-      "Idealistic",
-      "Resourceful",
-      "Stubborn"
+      "Sun Breathing",
+      "Compassionate",
+      "Demon Slayer",
+      "Family Protector"
     ],
-    "image": "https://images.pexels.com/photos/30692121/pexels-photo-30692121.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Black and white photo of a hooded wizard with a wand"
+    "image": "/images/characters/tanjiro-kamado.jpg",
+    "altText": "Tanjiro Kamado in checkered haori drawing his black Nichirin blade"
   },
   {
     "id": "char-006",
-    "name": "Yuna Aoki",
-    "series": "Garden of Echoes",
+    "name": "Monkey D. Luffy",
+    "series": "One Piece",
     "category": "anime",
-    "bio": "A high school student who can hear the memories embedded in old objects. Yuna runs a small antique shop where she helps people reconnect with their pasts, one forgotten item at a time.",
+    "bio": "Captain of the Straw Hat Pirates with an unyielding ambition to find the One Piece and become the Pirate King. Having unlocked the legendary Mythical Zoan Sun God Nika and Gear 5, Luffy fights as the joyous Warrior of Liberation.",
     "traits": [
-      "Gentle",
-      "Curious",
-      "Nostalgic",
-      "Patient"
+      "Gear 5",
+      "Sun God Nika",
+      "Future Pirate King",
+      "Straw Hat Captain"
     ],
-    "image": "https://images.pexels.com/photos/13201652/pexels-photo-13201652.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&dpr=2",
-    "altText": "Portrait of a woman in elaborate cosplay in monochrome"
+    "image": "/images/characters/monkey-d-luffy.jpg",
+    "altText": "Monkey D. Luffy laughing in his white-haired Sun God Nika Gear 5 form"
+  },
+  {
+    "id": "char-007",
+    "name": "Denji (Chainsaw Man)",
+    "series": "Chainsaw Man",
+    "category": "anime",
+    "bio": "A destitute youth who merged with the Chainsaw Devil Pochita to become Chainsaw Man. Recruited into Public Safety by the enigmatic Makima, Denji navigates brutal devil battles while desperately pursuing basic human warmth and simple dreams.",
+    "traits": [
+      "Chainsaw Devil",
+      "Pochita Hybrid",
+      "Unpredictable",
+      "Street-Smart"
+    ],
+    "image": "/images/characters/denji.jpg",
+    "altText": "Denji with chainsaw blades extended from his head and arms"
   },
   {
     "id": "char-007",

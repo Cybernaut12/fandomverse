@@ -43,7 +43,7 @@ export function Header({ onSearchOpen }) {
             </Link>
 
             {/* Desktop nav */}
-            <nav className="d-none d-lg-flex align-items-center fv-gap-1 fv-overflow-visible" aria-label="Main navigation">
+            <nav className="d-none d-xl-flex align-items-center fv-gap-1 fv-overflow-visible" aria-label="Main navigation">
               <Link to="/" className={navLinkClass(isActive('/'))}>Home<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
               <div className="position-relative" onMouseEnter={() => setExploreOpen(true)} onMouseLeave={() => setExploreOpen(false)}>
                 <button type="button" onClick={() => setExploreOpen(!exploreOpen)} className={`${navLinkClass(isExploreActive)} d-inline-flex align-items-center border-0 fv-bg-transparent`} aria-expanded={exploreOpen}>
@@ -66,10 +66,10 @@ export function Header({ onSearchOpen }) {
               <button onClick={onSearchOpen} className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors rounded-2 fv-hover-bg-ink-700" aria-label="Open search">
                 <Search className="fv-w-5 fv-h-5"/>
               </button>
-              <Link to="/bookmarks" className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded d-none d-xl-block" aria-label="View bookmarks">
+              <Link to="/bookmarks" className="fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded header-icon-action" aria-label="View bookmarks">
                 <Bookmark className="fv-w-5 fv-h-5"/>
               </Link>
-              <button onClick={openCart} className="position-relative fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded d-none d-xl-block" aria-label={`Open cart (${totalItems} items)`}>
+              <button onClick={openCart} className="position-relative fv-p-2 fv-text-paper-200 fv-hover-text-brand-400 fv-transition-colors fv-rounded header-icon-action" aria-label={`Open cart (${totalItems} items)`}>
                 <ShoppingBag className="fv-w-5 fv-h-5"/>
                 {totalItems > 0 && (<span className="position-absolute fv-top-0-5 fv-right-0-5 fv-bg-brand-500 fv-text-ink-900 fv-text-10px fv-font-bold rounded-pill fv-w-4 fv-h-4 d-flex align-items-center justify-content-center">
                     {totalItems}
@@ -79,7 +79,7 @@ export function Header({ onSearchOpen }) {
                 Login
               </Link>
               <UserCircle className="d-sm-none fv-text-paper-200" size={16} aria-hidden="true" />
-              <button type="button" onClick={() => setMobileOpen(!mobileOpen)} className="d-inline-flex d-lg-none fv-p-2 fv-text-paper-200 fv-hover-text-paper-50 fv-transition-colors" aria-label="Toggle menu" aria-expanded={mobileOpen}>
+              <button type="button" onClick={() => setMobileOpen(!mobileOpen)} className="d-inline-flex d-xl-none fv-p-2 fv-text-paper-200 fv-hover-text-paper-50 fv-transition-colors" aria-label="Toggle menu" aria-expanded={mobileOpen}>
                 {mobileOpen ? <X className="fv-w-5 fv-h-5"/> : <Menu className="fv-w-5 fv-h-5"/>}
               </button>
             </div>
@@ -88,7 +88,7 @@ export function Header({ onSearchOpen }) {
       </header>
 
       {/* Mobile menu */}
-      {mobileOpen && (<div className="position-fixed fv-inset-0 fv-z-40 fv-lg-hidden fv-bg-ink-900-95 fv-backdrop-blur-md fv-pt-16 fv-animate-fade-in" onClick={() => setMobileOpen(false)}>
+      {mobileOpen && (<div className="position-fixed fv-inset-0 fv-z-40 mobile-menu-overlay fv-bg-ink-900-95 fv-backdrop-blur-md fv-pt-16 fv-animate-fade-in" onClick={() => setMobileOpen(false)}>
           <nav className="container-wide fv-py-6 d-flex flex-column fv-gap-1" aria-label="Mobile navigation" onClick={(e) => e.stopPropagation()}>
             <Link to="/" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Home</Link>
             <button type="button" onClick={() => setExploreOpen(!exploreOpen)} className="d-flex align-items-center justify-content-between fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 border-0 fv-bg-transparent fv-text-paper-200 fv-hover-text-paper-50">

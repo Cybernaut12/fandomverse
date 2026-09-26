@@ -1,39 +1,63 @@
 [
   {
-    "id": "med-001",
-    "title": "Blade of Dawn — Season 2 Official Trailer",
+    "id": "med-jjk-shibuya-trailer",
+    "title": "Jujutsu Kaisen — Shibuya Incident Official Trailer",
     "category": "anime",
     "type": "trailer",
-    "thumbnail": "https://images.pexels.com/photos/31002082/pexels-photo-31002082.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "2:34",
-    "description": "The first full trailer for the highly anticipated second season, revealing new characters and a darker storyline."
+    "thumbnail": "/images/anime/jjk-banner.jpg",
+    "youtubeId": "v8bZVdTgXoY",
+    "duration": "2:15",
+    "description": "Curses and sorcerers clash in the heart of Tokyo as pseudo-Geto initiates the plan to seal Satoru Gojo."
   },
   {
-    "id": "med-002",
-    "title": "Studio Interview: The Making of Skybound Chronicles",
+    "id": "med-frieren-s2-trailer",
+    "title": "Frieren: Beyond Journey's End — Season 2 Teaser",
     "category": "anime",
-    "type": "interview",
-    "thumbnail": "https://images.pexels.com/photos/36942551/pexels-photo-36942551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "18:42",
-    "description": "A sit-down with the director and lead animator discussing the production process and creative decisions."
+    "type": "trailer",
+    "thumbnail": "/images/anime/frieren-banner.jpg",
+    "youtubeId": "W0mVCx7XkY4",
+    "duration": "1:22",
+    "description": "The official announcement teaser for the second season of Madhouse's fantasy masterpiece."
   },
   {
-    "id": "med-003",
-    "title": "Anime Music Podcast — Episode 47",
+    "id": "med-aot-final-trailer",
+    "title": "Attack on Titan — The Final Chapters Trailer",
     "category": "anime",
-    "type": "podcast",
-    "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "52:10",
-    "description": "A deep dive into the evolution of anime soundtracks, featuring clips and commentary from music critics."
+    "type": "trailer",
+    "thumbnail": "/images/anime/aot-banner.jpg",
+    "youtubeId": "SlNpRThS9t8",
+    "duration": "2:05",
+    "description": "The Scout Regiment mounts their final desperate airborne assault against Eren Yeager's catastrophic Rumbling."
   },
   {
-    "id": "med-004",
-    "title": "Phantom Academy Opening Theme — Audio",
+    "id": "med-chainsaw-man-trailer",
+    "title": "Chainsaw Man — The Movie: Reze Arc Teaser",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "/images/anime/chainsaw-man-banner.jpg",
+    "youtubeId": "q15CRdE5Bv0",
+    "duration": "1:52",
+    "description": "Denji encounters the mysterious bomb hybrid Reze in the upcoming theatrical feature adaptation from MAPPA."
+  },
+  {
+    "id": "med-one-piece-egghead-trailer",
+    "title": "One Piece — Egghead Arc & Future Island Climax Trailer",
+    "category": "anime",
+    "type": "trailer",
+    "thumbnail": "/images/anime/one-piece-banner.jpg",
+    "youtubeId": "l_98K4_6UQ0",
+    "duration": "1:48",
+    "description": "Dr. Vegapunk's futuristic island reveals the world's deepest secrets as the Five Elders mobilize an unprecedented Buster Call."
+  },
+  {
+    "id": "med-jjk-audio-specialz",
+    "title": "Jujutsu Kaisen — 'SPECIALZ' by King Gnu (Theme)",
     "category": "anime",
     "type": "audio",
-    "thumbnail": "https://images.pexels.com/photos/18486641/pexels-photo-18486641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "4:12",
-    "description": "The full opening theme from Phantom Academy, composed and performed by the artist known as Nightwave."
+    "thumbnail": "/images/anime/jjk-banner.jpg",
+    "duration": "3:58",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "description": "The electrifying Shibuya Incident opening theme song performed by Japanese rock band King Gnu."
   },
   {
     "id": "med-005",
@@ -284,15 +308,6 @@
     "thumbnail": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "duration": "2:54",
     "description": "A fan-composed theme for the boxing manga, blending taiko drums with modern electronic production."
-  },
-  {
-    "id": "med-029",
-    "title": "Fan Animation: Blade of Dawn Fight Scene",
-    "category": "anime",
-    "type": "fan-content",
-    "thumbnail": "https://images.pexels.com/photos/13773555/pexels-photo-13773555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "duration": "1:22",
-    "description": "A fan-made animation recreating the famous duel from Blade of Dawn in a stunning hand-drawn style."
   },
   {
     "id": "med-030",

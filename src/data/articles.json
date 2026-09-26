@@ -1,67 +1,142 @@
 [
   {
     "id": "art-001",
-    "title": "The Studio That Redefined Action Animation",
-    "slug": "studio-that-redefined-action-animation",
+    "title": "MAPPA's Shonen Revolution: The Kinetic Brilliance of Jujutsu Kaisen",
+    "slug": "mappa-jujutsu-kaisen-kinetic-animation",
     "category": "anime",
-    "excerpt": "How a small team of animators turned a niche manga into a global phenomenon, frame by painstaking frame.",
+    "excerpt": "How director Sunghoo Park and studio MAPPA pushed sakuga action animation to unprecedented heights during the Shibuya Incident arc.",
     "body": [
-      "When the first episode aired, few could have predicted the cultural earthquake that followed. The studio, known until then for modest adaptations and reliable contract work, poured everything into this project — a story about warriors, loss, and the weight of inherited power.",
-      "What set the production apart wasn't just the budget. It was the decision to treat every episode like a short film. Action sequences were storyboarded with cinematic intent, with camera moves and pacing borrowed from live-action filmmaking. Animators were given room to inject personal style into key cuts, resulting in episodes that felt wildly different from the uniform look most TV anime settled for.",
-      "The result was a show that didn't just look good — it felt alive. Fans dissected frames on social media within hours of each episode going up. Clips circulated far beyond the usual anime circles, pulling in viewers who had never watched a serialized animated series before.",
-      "Years later, the ripple effects are still visible. Studios across the industry have raised their standards for action choreography. New productions cite the show as a benchmark. And the team behind it? They went on to found their own studio, taking the philosophy even further."
+      "When Jujutsu Kaisen premiered, viewers were treated to an adrenaline-charged blend of martial arts choreography, visceral curse techniques, and cinematic camera physics that immediately redefined contemporary shonen combat.",
+      "Studio MAPPA assembled an all-star international lineup of key animators for the Shibuya Incident arc, using hand-drawn digital layouts that let camera angles swing 360 degrees around combatants like Satoru Gojo and Ryomen Sukuna without losing anatomical weight.",
+      "The result was not merely flashy effects, but a relentless narrative momentum that mirrored the catastrophic collapse of the Jujutsu society. Every punch and domain expansion carried existential weight, setting a high watermark for modern action direction in anime.",
+      "With Season 3: The Culling Game entering production, Jujutsu Kaisen stands as a testament to what happens when cutting-edge production pipelines give visionary animators the creative freedom to break traditional boundaries."
     ],
     "author": "Yuki Tanaka",
-    "date": "2026-09-15",
-    "image": "https://images.pexels.com/photos/36942551/pexels-photo-36942551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "2026-09-18",
+    "image": "/images/anime/jjk-banner.jpg",
     "tags": [
+      "jujutsu-kaisen",
+      "mappa",
       "animation",
-      "studio",
-      "action",
-      "production"
+      "sakuga",
+      "shonen"
     ],
     "featured": true
   },
   {
     "id": "art-002",
-    "title": "Why Slice-of-Life Anime Hits Different in 2026",
-    "slug": "slice-of-life-anime-2026",
+    "title": "The Weight of Eternity: Why Frieren: Beyond Journey's End Touched Millions",
+    "slug": "frieren-beyond-journeys-end-masterpiece",
     "category": "anime",
-    "excerpt": "In a year packed with spectacle, the quietest shows are finding the loudest audiences. Here's why.",
+    "excerpt": "Madhouse's philosophical fantasy proves that modern anime can captivate global audiences through quiet reflection and melancholic beauty.",
     "body": [
-      "There's a moment in the season's most talked-about slice-of-life series where two characters sit on a train platform, saying nothing. The camera holds on them for nearly thirty seconds. No music. No inner monologue. Just the sound of a departing train and wind through the platform shelter.",
-      "It's the kind of scene that would have been unthinkable a decade ago, when anime was chasing faster cuts and bigger set pieces. But audiences in 2026 are gravitating toward shows that breathe — series that let characters exist in ordinary moments without rushing to the next plot point.",
-      "The shift mirrors broader changes in how people consume media. After years of algorithmic feeds and nonstop stimulation, there's a growing appetite for stories that value stillness. Slice-of-life anime, with its emphasis on atmosphere and small emotional beats, fills that gap naturally.",
-      "Studios are taking notice. This season alone, six new slice-of-life titles have been announced, several from studios previously known only for action. The genre is no longer a niche — it's becoming the emotional counterweight to an overstimulated era."
+      "In a medium often dominated by hyperactive battle shonen and frantic pacing, Frieren: Beyond Journey's End arrived as a soothing, profound breath of fresh air. Directed by Keiichiro Saito at studio Madhouse, the series begins where most heroic fantasies end: with the Demon King already slain.",
+      "Centering on an immortal elf who outlives her mortal adventuring comrades, Frieren transforms the passage of time into an emotional pilgrimage. Episodes frequently linger on landscapes, silent train rides, and mundane folk magic, turning small human interactions into monumental revelations.",
+      "Coupled with Evan Call's Celtic orchestral soundtrack and breathtakingly fluid magical duel sequences, the series achieved the highest score in anime history on review aggregates.",
+      "Frieren proves that patience, emotional maturity, and deliberate stillness still have an enduring, irreplaceable home in global animation."
     ],
     "author": "Mika Sato",
-    "date": "2026-09-08",
-    "image": "https://images.pexels.com/photos/36942562/pexels-photo-36942562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "date": "2026-09-10",
+    "image": "/images/anime/frieren-banner.jpg",
     "tags": [
-      "slice-of-life",
-      "trends",
-      "seasonal"
-    ]
+      "frieren",
+      "madhouse",
+      "fantasy",
+      "philosophical",
+      "drama"
+    ],
+    "featured": true
   },
   {
     "id": "art-003",
-    "title": "The Quiet Revolution in Anime Soundtrack Design",
-    "slug": "anime-soundtrack-revolution",
+    "title": "The Symphony of the Rumbling: The Decade-Long Legacy of Attack on Titan",
+    "slug": "attack-on-titan-decade-long-legacy",
     "category": "anime",
-    "excerpt": "Composers are blending orchestral traditions with folk instruments and electronic production — and it's changing how we hear anime.",
+    "excerpt": "Hajime Isayama and MAPPA's dark fantasy concluded its historic run, cementing Eren Yeager's descent as one of modern fiction's greatest tragedies.",
     "body": [
-      "Ask anyone to hum an anime theme and they'll probably give you a high-energy J-rock opener. But the most interesting work in anime soundtracks right now isn't happening in the opening credits — it's in the underscore.",
-      "A new generation of composers is drawing from unexpected wells: traditional Okinawan folk scales, minimalism in the tradition of Pärt and Glass, even the modular synthesis techniques of Berlin techno. The result is music that doesn't just accompany the visuals but deepens them.",
-      "One standout this year is a score built almost entirely around a single folk instrument — a three-stringed lute whose sound most viewers have never consciously heard. The composer used it as a through-line, appearing in different arrangements across twelve episodes, evolving with the protagonist's journey.",
-      "It's a reminder that sound design in anime has come a long way from the days of generic synth pads and stock orchestral libraries. The medium is growing up, and its music is growing with it."
+      "From the moment the Colossal Titan first peered over Wall Maria in 2013, Attack on Titan evolved from a survival-horror spectacle into a searing geopolitical examination of nationalism, hatred, and the destructive cycle of war.",
+      "The final chapters brought Hajime Isayama's sprawling saga to a devastating, operatic conclusion. Eren Yeager's radical crusade to unleash the Rumbling forced his closest comrades into an agonizing moral crisis.",
+      "Hiroyuki Sawano and Kohta Yamamoto's thunderous orchestral score provided the emotional heartbeat for iconic final sequences, balancing monumental apocalyptic scale with intimate personal heartbreaks.",
+      "Attack on Titan finished its decade-long journey not as a conventional adventure, but as a towering anti-war monument that will be debated and studied for generations."
     ],
-    "author": "Ren Kobayashi",
-    "date": "2026-08-22",
-    "image": "https://images.pexels.com/photos/3587475/pexels-photo-3587475.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "author": "Kenji Sato",
+    "date": "2026-08-20",
+    "image": "/images/anime/aot-banner.jpg",
     "tags": [
-      "music",
-      "soundtrack",
-      "composition"
+      "attack-on-titan",
+      "dark-fantasy",
+      "eren-yeager",
+      "legacy",
+      "anti-war"
+    ]
+  },
+  {
+    "id": "art-004",
+    "title": "Ufotable's Visual Alchemy: Crafting the Infinity Castle in Demon Slayer",
+    "slug": "demon-slayer-infinity-castle-trilogy-preview",
+    "category": "anime",
+    "excerpt": "With the upcoming theatrical trilogy, Ufotable merges 3D geometric architectures with 2D calligraphy sakuga on a scale never before seen in anime.",
+    "body": [
+      "Studio Ufotable has continually pushed the technical ceiling of digital anime production, and their upcoming Demon Slayer: Infinity Castle film trilogy promises their most audacious achievement yet.",
+      "By placing Tanjiro Kamado, the Hashira, and Muzan Kibutsuji inside a constantly shifting, M.C. Escher-esque labyrinth of folding wooden chambers and endless gravity-defying stairwells, the production combines procedural 3D architectural rendering with traditional hand-drawn watercolor brushstrokes.",
+      "The Infinity Castle arc represents the emotional and martial climax of Koyoharu Gotouge's bestselling manga, delivering brutal multi-phase showdowns against the Upper Rank demons.",
+      "Following the historic record-shattering box office of Mugen Train, this trilogy is positioned to make anime history once again across global IMAX and premium large-format screens."
+    ],
+    "author": "Hiroshi Vance",
+    "date": "2026-09-02",
+    "image": "/images/anime/demon-slayer-banner.jpg",
+    "tags": [
+      "demon-slayer",
+      "ufotable",
+      "infinity-castle",
+      "theatrical",
+      "imax"
+    ]
+  },
+  {
+    "id": "art-005",
+    "title": "Arise: How Solo Leveling Became Webtoon-to-Anime's First Global Megahit",
+    "slug": "solo-leveling-global-anime-phenomenon",
+    "category": "anime",
+    "excerpt": "Sung Jinwoo's rise from E-rank hunter to Shadow Monarch broke streaming servers worldwide with Hiroyuki Sawano's electrifying score.",
+    "body": [
+      "For years, adaptations of Korean manhwa struggled to find the same mainstream broadcast presence enjoyed by Japanese manga. Solo Leveling shattered that glass ceiling overnight.",
+      "Produced by A-1 Pictures with electrifying music by Hiroyuki Sawano, the anime adaptation of Chugong and the late DUBU's webtoon captured the exact power fantasy and visceral dungeon-crawling aesthetic that made the comic a 14-billion-view global phenomenon.",
+      "Sung Jinwoo's transformation from the 'Weakest Hunter of All Mankind' into a towering, glowing-eyed commander of the undead Shadow Army resonated with gaming and anime audiences alike.",
+      "With Season 2: Arise from the Shadow approaching, Solo Leveling has officially established Korean manhwa as a permanent pillar of modern global animation."
+    ],
+    "author": "Sarah Lin",
+    "date": "2026-09-14",
+    "image": "/images/solo-leveling-banner.jpg",
+    "tags": [
+      "solo-leveling",
+      "sung-jinwoo",
+      "webtoon",
+      "a1-pictures",
+      "action"
+    ]
+  },
+  {
+    "id": "art-006",
+    "title": "The Gear 5 Awakening: How One Piece Shook Global Pop Culture",
+    "slug": "one-piece-gear-5-cultural-impact",
+    "category": "anime",
+    "excerpt": "Toei Animation channelled vintage 1930s rubberhose animation to deliver Monkey D. Luffy's warrior of liberation, the Sun God Nika.",
+    "body": [
+      "In an era where shonen power-ups had become synonymous with brooding rage, dark auras, and solemn stoicism, Eiichiro Oda and Toei Animation delivered the ultimate subversion: Joyboy and Gear 5.",
+      "Drawing inspiration from vintage Fleischer Studios and Merrie Melodies cartoon logic, Monkey D. Luffy's ultimate form fights with cartoon physics—skipping rope with dragons, bouncing lightning bolts, and laughing uncontrollably to the rhythmic 'Drums of Liberation.'",
+      "The broadcast of the Gear 5 transformation literally caused streaming server outages across three continents and illuminated billboard displays in Tokyo, New York's Times Square, and Paris.",
+      "As the Straw Hat crew sails toward Elbaf and the Final Saga, One Piece continues to prove why it remains the undisputed king of long-running serialized shonen."
+    ],
+    "author": "David Park",
+    "date": "2026-08-15",
+    "image": "/images/anime/one-piece-banner.jpg",
+    "tags": [
+      "one-piece",
+      "luffy",
+      "gear-5",
+      "toei-animation",
+      "shonen"
     ]
   },
   {
