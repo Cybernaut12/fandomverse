@@ -1,16 +1,16 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+﻿import { useEffect, useMemo, useRef, useState } from 'react';
 import { Headphones, Pause, Play, X } from 'lucide-react';
 import './EventMediaSection.css';
 
 const trailers = [
-  { id: 'arcane-s2-trailer', title: 'Arcane — Season 2 Official Trailer', category: 'Anime', duration: '2:34', youtubeId: 'ysqiEC6bLUI', source: 'Netflix' },
-  { id: 'dune-prophecy-trailer', title: 'Dune: Prophecy — Official Teaser', category: 'Sci-Fi', duration: '1:58', youtubeId: 'EEoQAoEGLhw', source: 'Max' },
-  { id: 'frieren-s2-trailer', title: 'Frieren: Beyond Journey’s End — Announcement Trailer', category: 'Anime', duration: '1:22', youtubeId: 'DknvOzqQCTo', source: 'TOHO animation' },
-  { id: 'dune-2-trailer', title: 'Dune: Part Two — Official Trailer', category: 'Sci-Fi', duration: '3:12', youtubeId: 'Way9Dexny3w', source: 'Warner Bros.' },
-  { id: 'spider-verse-trailer', title: 'Across the Spider-Verse — Trailer', category: 'Animation', duration: '2:46', youtubeId: 'cqGjhVJWtEg', source: 'Sony Pictures' },
-  { id: 'aot-final-trailer', title: 'Attack on Titan — Final Chapters Trailer', category: 'Anime', duration: '2:05', youtubeId: 'SlNpRThS9t8', source: 'Crunchyroll' },
-  { id: 'vinland-s2-trailer', title: 'Vinland Saga — Season 2 Official Trailer', category: 'Anime', duration: '2:18', youtubeId: 'v1tiMdOaF7k', source: 'Twin Engine' },
-  { id: 'gta-6-trailer', title: 'Grand Theft Auto VI — Trailer 1', category: 'Games', duration: '1:31', youtubeId: 'QdBZY2fkU-0', source: 'Rockstar Games' },
+  { id: 'spider-man-bnd-trailer', title: 'Spider-Man: Brand New Day — Official Trailer', category: 'Movies', duration: '2:34', youtubeId: 'tLeBDumanoc', source: 'Marvel Entertainment' },
+  { id: 'dune-prophecy-trailer', title: 'Dune: Prophecy â€” Official Teaser', category: 'Sci-Fi', duration: '1:58', youtubeId: 'EEoQAoEGLhw', source: 'Max' },
+  { id: 'frieren-s2-trailer', title: 'Frieren: Beyond Journeyâ€™s End â€” Announcement Trailer', category: 'Anime', duration: '1:22', youtubeId: 'DknvOzqQCTo', source: 'TOHO animation' },
+  { id: 'dune-2-trailer', title: 'Dune: Part Two â€” Official Trailer', category: 'Sci-Fi', duration: '3:12', youtubeId: 'Way9Dexny3w', source: 'Warner Bros.' },
+  { id: 'spider-verse-trailer', title: 'Across the Spider-Verse â€” Trailer', category: 'Animation', duration: '2:46', youtubeId: 'cqGjhVJWtEg', source: 'Sony Pictures' },
+  { id: 'aot-final-trailer', title: 'Attack on Titan â€” Final Chapters Trailer', category: 'Anime', duration: '2:05', youtubeId: 'SlNpRThS9t8', source: 'Crunchyroll' },
+  { id: 'vinland-s2-trailer', title: 'Vinland Saga â€” Season 2 Official Trailer', category: 'Anime', duration: '2:18', youtubeId: 'v1tiMdOaF7k', source: 'Twin Engine' },
+  { id: 'gta-6-trailer', title: 'Grand Theft Auto VI â€” Trailer 1', category: 'Games', duration: '1:31', youtubeId: 'QdBZY2fkU-0', source: 'Rockstar Games' },
   { id: 'elden-dlc-trailer', title: 'Elden Ring: Shadow of the Erdtree', category: 'Games', duration: '3:05', youtubeId: 'qLZenOn7WUo', source: 'FromSoftware' },
 ];
 
@@ -22,8 +22,8 @@ const audioSessions = [
 ];
 
 const audioPreview = 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3';
-const trailerCategories = ['All', 'Anime', 'Sci-Fi', 'Animation', 'Games'];
-const initialTrailerCategory = (eventCategory) => ({ anime: 'Anime', gaming: 'Games', movies: 'Sci-Fi' }[eventCategory] || 'All');
+const trailerCategories = ['All', 'Anime', 'Sci-Fi', 'Animation', 'Movies', 'Games'];
+const initialTrailerCategory = (eventCategory) => ({ anime: 'Anime', gaming: 'Games', movies: 'Movies' }[eventCategory] || 'All');
 
 export function EventMediaSection({ event }) {
   const [activeTab, setActiveTab] = useState('videos');
@@ -104,7 +104,7 @@ export function EventMediaSection({ event }) {
                     <span className="event-trailer-duration">{featuredTrailer.duration}</span>
                   </span>
                   <span className="event-trailer-feature-copy">
-                    <span className="fv-text-xs fv-heading-font fv-uppercase fv-tracking-wider fv-text-brand-400">{featuredTrailer.source} · {featuredTrailer.category}</span>
+                    <span className="fv-text-xs fv-heading-font fv-uppercase fv-tracking-wider fv-text-brand-400">{featuredTrailer.source} Â· {featuredTrailer.category}</span>
                     <span className="event-trailer-title">{featuredTrailer.title}</span>
                     <span className="fv-text-sm fv-text-paper-300">Play trailer</span>
                   </span>
@@ -120,7 +120,7 @@ export function EventMediaSection({ event }) {
                         </span>
                         <span className="event-trailer-card-copy">
                           <span className="event-trailer-title">{trailer.title}</span>
-                          <span className="fv-text-xs fv-text-paper-300">{trailer.source} · {trailer.category}</span>
+                          <span className="fv-text-xs fv-text-paper-300">{trailer.source} Â· {trailer.category}</span>
                         </span>
                       </button>
                     ))}
@@ -139,7 +139,7 @@ export function EventMediaSection({ event }) {
                   <span className="event-audio-icon"><Headphones size={18}/></span>
                   <span className="event-audio-info">
                     <span className="event-trailer-title">{session.title}</span>
-                    <span className="fv-text-xs fv-text-paper-300">{session.host} · {session.duration} · {session.tag}</span>
+                    <span className="fv-text-xs fv-text-paper-300">{session.host} Â· {session.duration} Â· {session.tag}</span>
                   </span>
                   <button type="button" className={`event-audio-play ${isPlaying ? 'playing' : ''}`} onClick={() => toggleAudio(session.id)} aria-label={`${isPlaying ? 'Pause' : 'Play'} ${session.title}`} title={`${isPlaying ? 'Pause' : 'Play'} audio preview`}>
                     {isPlaying ? <Pause size={17} fill="currentColor"/> : <Play size={17} fill="currentColor"/>}
@@ -147,7 +147,7 @@ export function EventMediaSection({ event }) {
                 </div>
               );
             })}
-            <p className="fv-text-xs fv-text-paper-300 fv-mt-3">Audio buttons play a shared demo preview track, matching the source app’s sample player.</p>
+            <p className="fv-text-xs fv-text-paper-300 fv-mt-3">Audio buttons play a shared demo preview track, matching the source appâ€™s sample player.</p>
           </div>
         )}
       </div>
@@ -161,7 +161,7 @@ export function EventMediaSection({ event }) {
             </div>
             <div className="event-video-caption">
               <h3>{activeTrailer.title}</h3>
-              <p>{activeTrailer.source} · {activeTrailer.category} · {activeTrailer.duration}</p>
+              <p>{activeTrailer.source} Â· {activeTrailer.category} Â· {activeTrailer.duration}</p>
             </div>
           </div>
         </div>

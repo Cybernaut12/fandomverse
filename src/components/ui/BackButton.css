@@ -1,0 +1,47 @@
+﻿.site-back-button {
+  position: fixed;
+  z-index: 39;
+  left: clamp(16px, calc((100vw - 1320px) / 2), 32px);
+  bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px solid rgba(232, 168, 124, .58);
+  border-radius: 999px;
+  background: rgba(17, 18, 25, .92);
+  color: #e8a87c;
+  font: 600 14px/1 'Plus Jakarta Sans', system-ui, sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: background-color .18s ease, border-color .18s ease, color .18s ease, transform .18s ease;
+}
+
+.site-back-button:hover:not(:disabled) {
+  transform: translateY(-2px);
+  border-color: #e8a87c;
+  background: #e8a87c;
+  color: #0a0a0f;
+}
+
+.site-back-button:focus-visible {
+  outline: 2px solid #fefef9;
+  outline-offset: 3px;
+}
+
+.site-back-button:disabled {
+  cursor: default;
+  opacity: .55;
+}
+
+@media (max-width: 480px) {
+  .site-back-button {
+    left: 14px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    min-height: 42px;
+    padding-inline: 14px;
+  }
+}
