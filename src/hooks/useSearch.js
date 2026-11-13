@@ -88,7 +88,7 @@ export function useSearch() {
                             type: 'media',
                             category: m.category,
                             image: m.thumbnail,
-                            url: `/media/${m.id}`,
+                            url: `/category/${m.category}`,
                             description: `${m.type} — ${m.description}`,
                         });
                     }

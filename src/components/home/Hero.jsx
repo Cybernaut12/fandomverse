@@ -76,7 +76,7 @@ export function Hero() {
               <Link to="/#featured" className="d-inline-flex align-items-center gap-2 fv-bg-brand-300 fv-text-ink-900 fv-px-3 fv-py-1-5 fv-md-px-4 fv-md-py-2-5 fv-text-10px fv-md-text-xs fv-heading-font fv-font-semibold fv-rounded-sm fv-hover-bg-brand-200 fv-transition-colors">
                 Explore Now <ArrowRight className="fv-w-3-5 fv-h-3-5" />
               </Link>
-              <Link to={featured.link} className="d-inline-flex align-items-center gap-2 fv-text-paper-100 fv-text-xs fv-heading-font fv-hover-text-brand-300 fv-transition-colors">
+              <Link to="/#trailers" className="d-inline-flex align-items-center gap-2 fv-text-paper-100 fv-text-xs fv-heading-font fv-hover-text-brand-300 fv-transition-colors">
                 <span className="fv-w-7 fv-h-7 rounded-pill border fv-border-paper-100-70 d-flex align-items-center justify-content-center"><Play className="fv-w-3 fv-h-3 fv-fill-current" /></span>
                 Watch Trailer
               </Link>

@@ -11,7 +11,6 @@ import { SectionHeader } from '@/components/ui/SectionHeader';
 import { Lightbox } from '@/components/Lightbox';
 import { Plus, Check, Play, Headphones, Mic, Users, Video, ArrowUpRight, MapPin } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
-import { useState as useStateReact } from 'react';
 import { MerchandiseDetailsDialog } from '@/components/MerchandiseDetailsDialog';
 import { BookmarkButton } from '@/components/ui/BookmarkButton';
 import { MediaPlayButton } from '@/components/media/MediaPlayback';
@@ -108,7 +107,7 @@ export function CategoryPage() {
         <div className="container-wide">
           <div className="category-latest-toolbar">
             <h2 className="fv-display-font fv-text-4xl fv-md-text-5xl fv-lg-text-6xl fv-text-paper-50 fv-tracking-wide fv-leading-none">
-              Latest Articles
+              {contentTypeFilter === 'all' ? 'Latest Stories & Features' : contentTypeFilter === 'articles' ? 'Latest Articles' : `Explore ${cat.name}`}
             </h2>
             <div className="category-content-controls" role="group" aria-label="Filter category content">
               <div className="category-content-control-group">
@@ -276,7 +275,7 @@ function MediaCategorySection({ media, cat }) {
     </section>);
 }
 function GalleryCategorySection({ images, cat }) {
-    const [lightboxIndex, setLightboxIndex] = useStateReact(null);
+    const [lightboxIndex, setLightboxIndex] = useState(null);
     return (<section className="section-padding fv-bg-ink-800">
       <div className="container-wide">
         <SectionHeader title="Gallery" subtitle={`A visual tour of ${cat.name}`}/>
@@ -292,8 +291,8 @@ function GalleryCategorySection({ images, cat }) {
 }
 function MerchCategorySection({ merch, cat }) {
     const { addItem } = useCart();
-    const [addedIds, setAddedIds] = useStateReact(new Set());
-    const [selectedProduct, setSelectedProduct] = useStateReact(null);
+    const [addedIds, setAddedIds] = useState(new Set());
+    const [selectedProduct, setSelectedProduct] = useState(null);
     const handleAdd = (id) => {
         const item = merch.find((m) => m.id === id);
         if (item) {

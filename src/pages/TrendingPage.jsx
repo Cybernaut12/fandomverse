@@ -8,7 +8,7 @@ export function TrendingPage() {
   return (
     <section className="min-vh-100 fv-bg-ink-900 fv-pt-20">
       <div className="container-wide fv-py-10 fv-md-py-14">
-        <Link to="/#featured" className="fv-mb-7 d-inline-flex align-items-center gap-2 fv-text-sm fv-text-paper-300 fv-transition-colors fv-hover-text-paper-50">
+        <Link to="/" className="fv-mb-7 d-inline-flex align-items-center gap-2 fv-text-sm fv-text-paper-300 fv-transition-colors fv-hover-text-paper-50">
           <ArrowLeft className="fv-h-4 fv-w-4" /> Back to home
         </Link>
         <div className="fv-mb-8">

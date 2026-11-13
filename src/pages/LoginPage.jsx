@@ -44,7 +44,7 @@ export function LoginPage() {
                 <div className="position-relative">
                   <Lock className="position-absolute fv-left-3 fv-top-1-2 fv-translate-y-1-2 fv-w-4 fv-h-4 fv-text-paper-300-40"/>
                   <input id="login-password" type={showPassword ? 'text' : 'password'} required className="w-100 fv-bg-ink-700 fv-text-paper-100 rounded-3 fv-pl-10 fv-pr-10 fv-py-2-5 border fv-border-ink-600 fv-outline-none fv-focus-border-brand-400 fv-transition-colors" placeholder="••••••••"/>
-                  <button type="button" onClick={() => setShowPassword(!showPassword)} className="position-absolute fv-right-3 fv-top-1-2 fv-translate-y-1-2 fv-text-paper-300-40 fv-hover-text-paper-200 fv-transition-colors" aria-label={showPassword ? 'Hide password' : 'Show password'}>
+                  <button type="button" onClick={() => setShowPassword(!showPassword)} className="position-absolute fv-right-3 fv-top-1-2 fv-translate-y-1-2 border-0 fv-bg-transparent fv-text-paper-300-40 fv-hover-text-paper-200 fv-transition-colors" aria-label={showPassword ? 'Hide password' : 'Show password'}>
                     {showPassword ? <EyeOff className="fv-w-4 fv-h-4"/> : <Eye className="fv-w-4 fv-h-4"/>}
                   </button>
                 </div>

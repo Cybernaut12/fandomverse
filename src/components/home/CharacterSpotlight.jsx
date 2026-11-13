@@ -9,7 +9,7 @@ export function CharacterSpotlight() {
     const filtered = characters.filter((c) => c.category === activeCategory).slice(0, 5);
     return (<section className="section-padding fv-bg-ink-800">
       <div className="container-wide">
-        <SectionHeader title="Character Spotlight" subtitle="The faces behind the stories — heroes, villains, and everyone in between." link="/category/anime" linkLabel="Explore all characters"/>
+        <SectionHeader title="Character Spotlight" subtitle="The faces behind the stories — heroes, villains, and everyone in between." link={`/category/${activeCategory}`} linkLabel={`Explore all ${categories.find((c) => c.slug === activeCategory)?.name || ''} characters`}/>
 
         {/* Category tabs */}
         <div className="d-flex flex-wrap gap-2 fv-mb-8">

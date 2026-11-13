@@ -2,17 +2,15 @@ import { createContext, useContext, useState, useCallback, useEffect } from 'rea
 const BookmarkContext = createContext(undefined);
 const STORAGE_KEY = 'fandomverse_bookmarks';
 export function BookmarkProvider({ children }) {
-    const [bookmarks, setBookmarks] = useState([]);
-    useEffect(() => {
+    const [bookmarks, setBookmarks] = useState(() => {
         try {
             const stored = localStorage.getItem(STORAGE_KEY);
-            if (stored)
-                setBookmarks(JSON.parse(stored));
+            return stored ? JSON.parse(stored) : [];
         }
         catch {
-            // ignore
+            return [];
         }
-    }, []);
+    });
     useEffect(() => {
         try {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(bookmarks));

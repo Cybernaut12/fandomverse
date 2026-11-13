@@ -2,18 +2,16 @@ import { createContext, useContext, useState, useCallback, useEffect } from 'rea
 const CartContext = createContext(undefined);
 const STORAGE_KEY = 'fandomverse_cart';
 export function CartProvider({ children }) {
-    const [items, setItems] = useState([]);
-    const [isOpen, setIsOpen] = useState(false);
-    useEffect(() => {
+    const [items, setItems] = useState(() => {
         try {
             const stored = localStorage.getItem(STORAGE_KEY);
-            if (stored)
-                setItems(JSON.parse(stored));
+            return stored ? JSON.parse(stored) : [];
         }
         catch {
-            // ignore
+            return [];
         }
-    }, []);
+    });
+    const [isOpen, setIsOpen] = useState(false);
     useEffect(() => {
         try {
             localStorage.setItem(STORAGE_KEY, JSON.stringify(items));

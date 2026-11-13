@@ -89,7 +89,7 @@ export function Footer() {
 
         <div className="fv-mt-5 fv-pt-4 border-top fv-border-ink-600 d-flex flex-column flex-sm-row align-items-center justify-content-between fv-gap-3">
           <p className="fv-text-xs fv-text-paper-300-50">
-            Â© {now.getFullYear()} FandomVerse. A fan-made project for demonstration purposes.
+            © {now.getFullYear()} FandomVerse. A fan-made project for demonstration purposes.
           </p>
           <p className="fv-text-xs fv-text-paper-300-40">
             All images via Pexels. Content is fictional and created for this project.

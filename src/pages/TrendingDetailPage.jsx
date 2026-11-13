@@ -12,7 +12,7 @@ export function TrendingDetailPage() {
       <div className="min-vh-100 d-flex align-items-center justify-content-center fv-bg-ink-900 fv-pt-20">
         <div className="text-center">
           <p className="fv-text-paper-300 fv-mb-4">Trending item not found.</p>
-          <Link to="/#featured" className="fv-text-brand-400 fv-hover-text-brand-300">Back to trending</Link>
+          <Link to="/trending" className="fv-text-brand-400 fv-hover-text-brand-300">Back to trending</Link>
         </div>
       </div>
     );
@@ -26,7 +26,7 @@ export function TrendingDetailPage() {
         <TrendingArtwork key={item.id} item={item} loading="eager" className="position-absolute fv-inset-0 h-100 w-100 object-fit-cover" />
         <div className="position-absolute fv-inset-0 fv-bg-gradient-to-t fv-from-ink-900 fv-via-ink-900-70 fv-to-ink-900-30" />
         <div className="position-relative fv-z-10 container-wide fv-pb-12">
-          <Link to="/#featured" className="d-inline-flex align-items-center gap-2 fv-text-sm fv-text-paper-300 fv-hover-text-paper-50 fv-mb-4 fv-transition-colors">
+          <Link to="/trending" className="d-inline-flex align-items-center gap-2 fv-text-sm fv-text-paper-300 fv-hover-text-paper-50 fv-mb-4 fv-transition-colors">
             <ArrowLeft className="fv-h-4 fv-w-4" /> Back to trending
           </Link>
           <div className="fv-mb-4 d-flex align-items-center fv-gap-3">

@@ -58,7 +58,7 @@ export function Header({ onSearchOpen }) {
                 </div>)}
               </div>
               <Link to="/articles" className={navLinkClass(isActive('/articles'))}>Articles<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/articles') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
-              <Link to="/events" className={navLinkClass(false)}>Events<span className="position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator fv-scale-x-0"/></Link>
+              <Link to="/events" className={navLinkClass(isActive('/events'))}>Events<span className={`position-absolute fv-bottom-0 fv-start-0 fv-end-0 fv-bg-brand-400 fv-transition-transform fv-duration-200 nav-link-indicator ${isActive('/events') ? 'fv-scale-x-100' : 'fv-scale-x-0'}`}/></Link>
             </nav>
 
             {/* Right actions */}
@@ -98,7 +98,22 @@ export function Header({ onSearchOpen }) {
               {exploreLinks.map((link) => (<Link key={link.path} to={link.path} className="fv-px-4 fv-py-2 fv-heading-font fv-text-paper-200 fv-hover-text-brand-400">{link.label}</Link>))}
             </div>)}
             <Link to="/articles" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/articles') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Articles</Link>
-            <Link to="/events" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800`}>Events</Link>
+            <Link to="/events" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors ${isActive('/events') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>Events</Link>
+            <Link to="/bookmarks" className={`fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 fv-transition-colors d-flex align-items-center justify-content-between ${isActive('/bookmarks') ? 'fv-text-brand-400 fv-bg-ink-700' : 'fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800'}`}>
+              <span>Bookmarks</span>
+              <Bookmark className="fv-w-5 fv-h-5" />
+            </Link>
+            <button type="button" onClick={() => { setMobileOpen(false); openCart(); }} className="d-flex align-items-center justify-content-between fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium rounded-3 border-0 fv-bg-transparent fv-text-paper-200 fv-hover-text-paper-50 fv-hover-bg-ink-800 w-100 text-start">
+              <span>Cart {totalItems > 0 && `(${totalItems})`}</span>
+              <div className="position-relative">
+                <ShoppingBag className="fv-w-5 fv-h-5" />
+                {totalItems > 0 && (
+                  <span className="position-absolute fv-top-0-5 fv-right-0-5 fv-bg-brand-500 fv-text-ink-900 fv-text-10px fv-font-bold rounded-pill fv-w-4 fv-h-4 d-flex align-items-center justify-content-center">
+                    {totalItems}
+                  </span>
+                )}
+              </div>
+            </button>
 
             <Link to="/contact" className="fv-px-4 fv-py-3 fv-text-lg fv-heading-font fv-font-medium fv-text-paper-200 fv-hover-text-paper-50 rounded-3">
               Contact

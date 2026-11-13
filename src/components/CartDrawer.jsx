@@ -74,7 +74,7 @@ export function CartDrawer() {
                 </span>
               </div>
               <p className="fv-text-xs fv-text-paper-300-50">
-                This is a browse-only cart. No checkout or payment — just a way to track items you\'re interested in.
+                This is a browse-only cart. No checkout or payment — just a way to track items you're interested in.
               </p>
               <button onClick={clearCart} className="w-100 fv-py-2-5 rounded-3 border fv-border-ink-500 fv-text-paper-300 fv-hover-text-paper-50 fv-hover-border-ink-400 fv-transition-colors fv-text-sm fv-heading-font">
                 Clear cart

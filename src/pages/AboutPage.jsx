@@ -13,7 +13,7 @@ export function AboutPage() {
       name: 'Oladipo Taiwo',
       role: 'Web Developer',
       desc: 'I build modern, responsive web experiences with clean UI and practical problem-solving in mind.',
-      avatar: '/oladipo.jpg',
+      avatar: '/images/team/oladipo.jpg',
       avatarPosition: 'center top',
     },
     {

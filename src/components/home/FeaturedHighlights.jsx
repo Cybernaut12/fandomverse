@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, MapPin, Star, Compass, Sparkles } from 'lucide-react';
 import './FeaturedHighlights.css';
@@ -34,7 +34,7 @@ export function FeaturedHighlights() {
       category: 'gaming',
       categoryLabel: 'Gaming',
       description: 'Guided by Empyrean Miquella, Tarnished step into the Land of Shadow to unravel the dark history of Queen Marika and conquer colossal demi-gods.',
-      image: '/images/elden-ring-banner.jpg',
+      image: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg',
       fallbackImage: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/library_hero.jpg',
       stats: {
         label1: 'Scope',
@@ -128,13 +128,13 @@ export function FeaturedHighlights() {
   const [activeIndex, setActiveIndex] = useState(2);
   const total = featuredCards.length;
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setActiveIndex((prev) => (prev + 1) % total);
-  };
+  }, [total]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setActiveIndex((prev) => (prev - 1 + total) % total);
-  };
+  }, [total]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -144,7 +144,7 @@ export function FeaturedHighlights() {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, []);
+  }, [nextSlide, prevSlide]);
 
   const handleCardClick = (idx, card) => {
     if (idx !== activeIndex) {
